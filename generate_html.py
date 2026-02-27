@@ -268,7 +268,6 @@ html_template = """<!DOCTYPE html>
             <div class="nav-section">Core</div>
             <div class="nav-item" data-target="conquest" style="color: var(--primary-variant); font-weight: bold;">🔥 4-Month Conquest Plan</div>
             <div class="nav-item" data-target="syllabus">Syllabus Master</div>
-            <div class="nav-item" data-target="paper1">Paper I Aptitude</div>
             <div class="nav-section">Anthropology Units</div>
             <div class="nav-item" data-target="unit_1">Unit 1 (Detailed Notes)</div>
             <div class="nav-item" data-target="unit_2">Unit 2</div>
@@ -281,7 +280,6 @@ html_template = """<!DOCTYPE html>
             <div class="nav-item" data-target="unit_9">Unit 9</div>
             <div class="nav-item" data-target="unit_10">Unit 10</div>
             <div class="nav-section">Shortcuts</div>
-            <div class="nav-item" data-target="practice">Practice Questions</div>
             <div class="nav-item" data-target="cheatsheets">Cheat Sheets</div>
         </div>
     </div>
@@ -507,16 +505,16 @@ html_template = """<!DOCTYPE html>
                         <div class="home-card" onclick="loadContent('unit_10')">
                             <h3>Unit 10</h3><p>Research Methods</p>
                         </div>
-                        <div class="home-card" onclick="loadContent('practice')">
-                            <h3>Practice Data</h3><p>Generated mock questions</p>
-                        </div>
                         <div class="home-card" onclick="loadContent('cheatsheets')">
                             <h3>Cheat Sheets</h3><p>Quick reference for vital topics</p>
                         </div>
                     </div>
                 `;
-            } else if (target === 'practice') {
-                html = '<h1>Practice Questions</h1><pre>' + mockData + '</pre>';
+            } else if (target === 'syllabus') {
+                html = '<div class="syllabus-master-container" style="animation: fadeIn 0.3s ease-out;">';
+                if(dbContent['Syllabus_Master.md']) html += parseMarkdown(dbContent['Syllabus_Master.md']);
+                else html += '<i>Syllabus_Master.md not found in the database.</i>';
+                html += '</div>';
             } else if (target === 'cheatsheets') {
                 html = '<h1>Cheat Sheets</h1>';
                 if(dbContent['Research_Methodology_CheatSheet.md']) html += parseMarkdown(dbContent['Research_Methodology_CheatSheet.md']);
