@@ -162,6 +162,62 @@ html_template = """<!DOCTYPE html>
             background: rgba(139,58,30,0.1);
         }
 
+        /* PDF Supplementary Content Styling */
+        .pdf-supplementary-content {
+            background: var(--bg-elevated);
+            padding: 25px;
+            border-left: 4px solid var(--primary);
+            margin: 30px 0;
+            border-radius: 6px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+        }
+        .pdf-supplementary-content h3 {
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 0;
+            border-bottom: 1px dashed var(--border);
+            padding-bottom: 10px;
+        }
+        .pdf-supplementary-content h4 {
+            font-family: var(--font-headings);
+            color: var(--primary-variant);
+            font-size: 1.25rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .pdf-supplementary-content p {
+            font-family: 'Source Serif 4', Georgia, serif; /* Enforce textbook serif */
+            color: var(--text-main);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .pdf-highlight {
+            font-weight: 700;
+            color: var(--text-main);
+            background: linear-gradient(120deg, rgba(200,146,42,0.15) 0%, rgba(200,146,42,0.15) 100%);
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+        .light-theme .pdf-highlight {
+            background: linear-gradient(120deg, rgba(139,58,30,0.1) 0%, rgba(139,58,30,0.1) 100%);
+        }
+        .pdf-keyword {
+            font-weight: bold;
+            color: var(--secondary);
+        }
+        .pdf-context-highlight {
+            background: rgba(200,146,42,0.1);
+            border-radius: 4px;
+            padding: 2px 4px;
+            box-shadow: -2px 0 0 var(--secondary);
+            display: inline;
+            line-height: 1.9;
+        }
+
         .highlight-definition {
             font-family: var(--font-headings);
             font-style: italic;
@@ -365,6 +421,70 @@ html_template = """<!DOCTYPE html>
                 let btn = `<button class="btn-mark-studied" onclick="markStudied(this)">Mark as Studied</button>`;
                 return `<h${level}>${title} ${btn}</h${level}>`;
             });
+
+            // Target the PDF Supplementary Content specifically injected by extract_refined.py
+            html = html.replace(/<div style='background: rgba\\(187, 134, 252, 0\\.05\\);[^>]*>/g, '<div class="pdf-supplementary-content">');
+            
+            // Aggressive Trimming & Auto-Highlighting Logic
+            let tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            
+            // Define core high-yield Anthropology terminology
+            const keywords = ['theory', 'evolution', 'kinship', 'society', 'culture', 'fossil', 'hominin', 'primate', 'archaeology', 'palaeolithic', 'lineage', 'genetics', 'methodology', 'ethnography', 'functionalism', 'structuralism', 'caste', 'tribe', 'marriage', 'family', 'descent', 'mutation', 'adaptation'];
+            const keywordRegex = new RegExp(`\\\\b(${keywords.join('|')})\\\\b`, 'gi');
+            
+            let pdfSections = tempDiv.querySelectorAll('.pdf-supplementary-content');
+            pdfSections.forEach(section => {
+                let pTags = Array.from(section.querySelectorAll('p'));
+                pTags.forEach(p => {
+                    let text = p.innerHTML;
+                    
+                    // Trimming Logic: If it's a long paragraph but lacks BOTH keywords and scholarly names, delete it!
+                    let capsRegex = /\\b([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)\\b/g;
+                    let hasCaps = capsRegex.test(text);
+                    let hasKeyword = keywordRegex.test(text);
+                    
+                    if (!hasCaps && !hasKeyword && text.split(' ').length > 15) {
+                        p.remove();
+                        return; // skip further processing
+                    }
+                    
+                    // Contextual Sentence Highlighting Logic
+                    // Split paragraph into sentences (basic regex: period followed by space or end of string)
+                    let sentences = text.match(/[^.!?]+[.!?]+(?:\\s+|$)|[^.!?]+$/g) || [text];
+                    let processedSentences = [];
+                    
+                    sentences.forEach(sentence => {
+                        let isHighlighted = false;
+                        let processedSentence = sentence;
+                        
+                        // If sentence contains a keyword, mark it for contextual highlighting
+                        if (keywordRegex.test(sentence)) {
+                            isHighlighted = true;
+                            // Still bold the specific keywords within the highlighted sentence
+                            processedSentence = processedSentence.replace(keywordRegex, function(match) {
+                                if(match.includes('span') || match.includes('class')) return match; 
+                                return '<strong class="pdf-keyword">' + match + '</strong>';
+                            });
+                        }
+                        
+                        // Always highlight capitalized phrases (Scholars/Theories) regardless
+                        if (capsRegex.test(processedSentence)) {
+                            processedSentence = processedSentence.replace(capsRegex, '<span class="pdf-highlight">$1</span>');
+                        }
+                        
+                        // Wrap the entire sentence if it contained a keyword
+                        if (isHighlighted) {
+                            processedSentence = `<span class="pdf-context-highlight">${processedSentence.trim()}</span> `;
+                        }
+                        
+                        processedSentences.push(processedSentence);
+                    });
+                    
+                    p.innerHTML = processedSentences.join(' ');
+                });
+            });
+            html = tempDiv.innerHTML;
 
             return html;
         }
