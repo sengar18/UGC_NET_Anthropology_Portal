@@ -1,0 +1,214 @@
+--- PAGE 0 ---
+MANI-002
+PHYSICAL
+ANTHROPOLOGY
+PRIMATE STUDY
+UNIT 1
+Living Primates 5
+UNIT 2
+Primate Behaviour 24
+UNIT 3
+Phylogeny of Living Primates and Primate Anatomy 42
+Block
+3
+Indira Gandhi
+National Open University
+School of Social Sciences
+
+--- PAGE 1 ---
+Programme Coordinator: Dr. Rashmi Sinha, SOSS, IGNOU, New Delhi
+Course Coordinator: Dr. Rashmi Sinha, SOSS, IGNOU, New Delhi
+Blocks Preparation Team
+Print Production
+Mr. Manjit Singh
+Section Officer (Pub.), SOSS, IGNOU, New Delhi
+August, 201 1
+ Indira Gandhi National Open University , 201 1
+ISBN-978-81-266-5547-2
+All rights reserved. No par t of this work may be r eproduced in any form, by mimeograph or any other
+means, without permission in writing fr om the Indira Gandhi National Open University .
+Further information on Indira Gandhi National Open University courses may be obtained fr om the
+University's office at Maidan Gar hi. New Delhi-1 10 068.
+Printed and published on behalf of the Indira Gandhi National Open University , New Delhi by the
+Director, School of Social Sciences.
+Laser Typeset by : Tessa Media & Computers, C-206, A.F.E.-II, Okhla, New Delhi
+Printed at :
+Content Editor Language Editor
+Professor V. Rami Reddy
+Retired, Department of Anthropology
+S V University, Tirupati
+Mrs. Narinder Jit Kaur
+Retired, Associate Professor in English
+Government Mohindra College, Patiala
+Unit Writers
+Professor P. K. Seth  (Unit 1 & 2)
+Retired, Deptt. of  Anthropology,
+University of Delhi, Delhi
+Professor R. P. Srivastava (Unit 3 )
+Retired, Deptt. of Anthropology
+University of Lucknow, Lucknow.
+Expert Committee
+Professor I. J. S. Bansal
+Retired, Department of Human Biology
+Punjabi University
+Patiala
+Professor K. K. Misra
+Director
+Indira Gandhi Rashtriya Manav
+Sangrahalaya, Bhopal
+Professor Ranjana Ray
+Retired, Department of Anthropology,
+Calcutta University
+Kolkata
+Professor P. Chengal Reddy
+Retired, Department of Anthropology
+S V University,  Tirupati
+Professor  R. K. Pathak
+Department of Anthropology
+Panjab University
+Chandigarh
+Professor A. K. Kapoor
+Department of Anthropology
+University of Delhi, Delhi
+Professor V.K.Srivastava
+Principal, Hindu College
+University of Delhi, Delhi
+Professor Sudhakar Rao
+Department of Anthropology
+University of Hyderabad, Hyderabad
+Professor S.Channa
+Department of Anthropology
+University of Delhi, Delhi
+Professor P. Vijay Prakash
+Department of Anthropology
+Andhra University
+Visakhapatnam
+Dr. Nita Mathur
+Associate Professor
+Faculty of Sociology
+School of Social Sciences
+Indira Gandhi National Open University
+Maidan Garhi, New Delhi
+Dr. S. M. Patnaik
+Associate Professor
+Department of Anthropology
+University of Delhi, Delhi
+Dr. Manoj Kumar Singh
+Assistant Professor
+Department of Anthropology
+University of Delhi, Delhi
+Faculty of Anthropology
+SOSS, IGNOU
+Dr. Rashmi Sinha, Reader
+Dr. Mitoo Das, Assistant Professor
+Dr. Rukshana Zaman, Assistant Professor
+Dr. P Venkatramana, Assistant Professor
+Dr. K. Anil Kumar, Assistant Professor
+Authors are responsible for the academic content of this course as far as the copy right issues are concerned.
+Cover Design
+ Dr. Mitoo Das
+Asstt. Professor, Anthropology,  SOSS, IGNOU
+
+--- PAGE 2 ---
+BLOCK 3 PRIMATE STUDY
+Introduction
+Man is primate of the primates with a unique place in the animal kingdom due to
+most distinguishable primate characteristics. He and the non-human primates of
+apes and monkeys descended from a common ancestor. The non-human primates
+particularly the apes are our close relatives. Primates as multi-cellular animals
+are mammals with a rather generalised anatomy . Two categories can be
+distinguished among the primates: prosimians or lower monkeys (tree-shrews,
+lemurs, lorises and tarsiers), anthoropoids or higher primates (New World or
+platyrrhine monkeys, Old World or Catarrhine monkeys and man). There are
+many characteristics which are common to both the groups of primates. Humans
+are closely related to great apes as shown by anatomical- molecular-behavioural
+evidences inspite of many typical characteristics in which they differ from each
+other. The ancestral or basal primate stock separated from the common eutherian
+stock, emer ged as an independent order and evolved as prosimians during
+Palaeocene of 70-60 myr BP, as cuboids and pongids of Oligocene of 40-20 myr
+BP, and as protohominids during Pliocene of 12-4 myr BP. Squirrel-like, simple
+prosimian primates made their first appearance, followed by their adaptive
+radiation till the Oligocene time when the New World monkey and the anthropoid
+apes came to the scene. The predominance of the latter continued during the
+Miocene epoch. During the Miocene and Pliocene epochs the Pliopithicus-
+Proconsul-Dryopithecus-Ramapithicus groups made remarkable progress in the
+Old World. Of all the classifications of primates, the one by G G Simpson seems
+to be most convincing.
+The human behaviour including that of the extinct hominids can be best
+understood and interpreted from the studies of non-human primates in their natural
+setting. This has to be gauged from the findings of field investigations among
+the non-human primates on their activity pattern, social or ganisation, mating
+patterns, reproduction, parental care, territoriality , communication, life span,
+dominance and aggression, communication, social behaviour, sexual behaviour,
+and so on. These behavioural aspects have been examined among such non-
+human primates as rhesus monkeys, baboons, presbytis, and great apes. The
+rhesus monkey helped in the discovery of Rh factor, which has been found to be
+hereditary in Homo sapiens. The great apes have been found to be similar to
+humans in anatomical, physiological and behavioural traits.
+In the construction of primate phylogenies including those of hominids, the
+biological sciences of palaeontology , comparative anatomy and morphology
+played a significant role. These methods have been found to be inadequate in the
+matter of convincing interpretation of the phylogenies. Recent advances in modern
+genetics revealed the development of important techniques and approaches of
+signal importance in understanding the relationships between the great apes and
+man. Among these can be mentioned the immunological technique, molecular
+approaches, DNA hybridisation, mobile DNA elements approach, and human-
+chimpanzee-gorilla tricnotomy . Morris Goodman’ s 1960s analysis revealed
+greater similarity between African apes and man than between Asian apes and
+humans. Sarich and Wilson through their molecular approach in 1971 found that
+man; gorilla and chimpanzee shared a common ancestor about five million years
+
+--- PAGE 3 ---
+4
+Primate Study ago. Yunish and Prakash, Mai and kluge all in 1983 and Schwar in 1984 found
+biomolecular similarities between man and African apes. DNA hybridisation,
+mobile DNA elements approach and man-gorilla-chimpanzee trichotomy also
+support the above findings. The process of hominisation is supported by details
+of comparative anatomy of man and apes in the context of skull, spine, pectoral
+girdle, pelvic girdle, and lower limbs. The block on Primate Study will facilitate
+in understanding Man better.
+
+--- PAGE 4 ---
+5
+Living Primates
+UNIT 1 LIVING PRIMATES
+Contents
+1.1 Introduction
+1.2 Definition
+1.3 Characteristics
+1.4 Evolutionary Trends
+1.5 Classification
+1.6 Distribution
+1.7 Adaptation
+1.8 Summary
+1.9 Glossary
+References
+Suggested Reading
+Sample Questions
+Learning Objectives
+We consider ourselves as the highest among all beings. But we hardly know
+about ourselves. Once you have studied, this unit you will be able to understand
+the
+/head2right distribution of MAN including non-human primates (our closest relatives);
+/head2right characteristics of MAN including non-human primates;
+/head2right classification of MAN including non-human primates; and
+/head2right evolution of MAN including non-human primates.
+1.1 INTRODUCTION
+That modern MAN, Homo sapiens sapiens, is a primate and a close cousin of
+monkeys and apes cannot be denied. Yet, few people understand the relationship
+between them. Neither man nor the non-human primates can be defined on the
+basis of one or two features. They can be best defined on the basis of the general
+pattern displayed by them or by the complexes of their characteristics. So, what
+do we mean by the term primate (as this term also includes human beings)?
+Unless we know this, it would be difficult for us to proceed with our discussion
+on living primates, “our close relatives”.
+Carl von Linnaeus, a Swedish botanist, chose the term ‘primate’(meaning first
+or the highest amongst all), for the specific order Primates of Animal Kingdom,
+Class Mammalia, including humans and the nonhuman primates, i.e., lemurs,
+tree-shrews, lorises, aye-ayes, pottos, bush babies, tarsiers, monkeys and apes.
+From a little shrew like ancestor, these animals are dominating this kingdom.
+The evolutionary story of the primates – beginning from the prosimians at
+one end of the spectrum to the highly complex man at the other end – is
+now revealed in an ever new and fascinating manner.
+ὖE
+
