@@ -188,6 +188,12 @@
 
           const [timeRemaining, setTimeRemaining] = useState(10800); // 3 hours default
 
+          // --- AI TEXTBOOK AUDITOR STATES ---
+          const [isAuditorOpen, setIsAuditorOpen] = useState(false);
+          const [userDoubt, setUserDoubt] = useState('');
+          const [auditResponse, setAuditResponse] = useState('');
+          const [isAuditing, setIsAuditing] = useState(false);
+
           // --- DATABASE ABSTRACTORS ---
           const currentDatabase = useMemo(() => {
             if (window.pyqDatabase && window.pyqDatabase[activeDatabaseKey]) {
@@ -346,6 +352,35 @@
               }));
             }
           }, [activeQuestion]);
+
+          // --- AI AUDITOR HANDLER ---
+          const handleAuditRequest = async () => {
+            if (!userDoubt.trim()) return;
+            setIsAuditing(true);
+            setAuditResponse('');
+            try {
+              const res = await fetch('http://localhost:8001/api/audit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  question: activeQuestion.question,
+                  options: activeQuestion.options,
+                  correct_answer: activeQuestion.answer,
+                  user_doubt: userDoubt
+                })
+              });
+              const data = await res.json();
+              if (data.status === 'success') {
+                setAuditResponse(data.audit_report);
+              } else {
+                setAuditResponse("Error: " + (data.message || "Failed to audit the question."));
+              }
+            } catch (err) {
+              setAuditResponse("Failed to connect to local brain server. Please make sure the backend 'brain_server.py' is running on port 8001 (run 'python brain_server.py' in a separate terminal)!");
+            } finally {
+              setIsAuditing(false);
+            }
+          };
 
           // --- ENGINE HANDLERS ---
           const handleOptionClick = useCallback((qId, optionIdx) => {
@@ -978,6 +1013,20 @@
                               <span className="text-[11px] font-medium text-slate-600 dark:text-slate-400">{activeQuestion.trend}</span>
                             </div>
                           </div>
+
+                          <div className="pt-3.5 border-t border-slate-150 dark:border-slate-800 flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+                            <span className="text-[9px] text-slate-400 dark:text-slate-500 font-semibold">Have doubts about this fact? Cross-check with your local textbook library in real-time.</span>
+                            <button
+                              onClick={() => {
+                                setIsAuditorOpen(true);
+                                setAuditResponse('');
+                                setUserDoubt('');
+                              }}
+                              className="px-3.5 py-2 self-end sm:self-auto bg-brand-50 hover:bg-brand-100 dark:bg-brand-950/40 dark:hover:bg-brand-900/50 border border-brand-200 dark:border-brand-800 text-brand-700 dark:text-brand-300 font-bold text-[9px] uppercase tracking-wider rounded-lg flex items-center gap-1.5 shadow-sm hover:shadow transition-all active:scale-95"
+                            >
+                              🧠 Consult Textbook Brain
+                            </button>
+                          </div>
                         </div>
                       )}
 
@@ -1288,6 +1337,111 @@
 
                   </div>
                 )}
+
+              {/* --- AI TEXTBOOK AUDITOR DRAWER (SLIDE-OVER) --- */}
+              {isAuditorOpen && (
+                <div className="fixed inset-0 z-50 overflow-hidden flex justify-end">
+                  {/* Backdrop */}
+                  <div 
+                    onClick={() => setIsAuditorOpen(false)}
+                    className="absolute inset-0 bg-slate-900/50 backdrop-blur-sm transition-opacity"
+                  ></div>
+
+                  {/* Panel */}
+                  <div className="relative w-full max-w-xl bg-white dark:bg-slate-950 shadow-2xl h-full flex flex-col border-l border-slate-200 dark:border-slate-800 z-10 animate-slide-in">
+                    {/* Header */}
+                    <div className="p-4.5 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center bg-slate-50 dark:bg-slate-900/60">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xl">🧠</span>
+                        <div>
+                          <h3 className="font-extrabold text-xs text-slate-850 dark:text-white uppercase tracking-wider">AI Textbook Library Auditor</h3>
+                          <p className="text-[9px] text-slate-400 dark:text-slate-500 font-semibold uppercase">Real-Time Academic Fact Auditor</p>
+                        </div>
+                      </div>
+                      <button 
+                        onClick={() => setIsAuditorOpen(false)}
+                        className="w-7 h-7 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 flex items-center justify-center text-slate-550 dark:text-slate-400 font-bold transition-all"
+                      >
+                        &times;
+                      </button>
+                    </div>
+
+                    {/* Content Scroll area */}
+                    <div className="flex-1 overflow-y-auto p-5 space-y-4">
+                      {/* Active Question Summary */}
+                      {activeQuestion && (
+                        <div className="bg-slate-50 dark:bg-slate-900/40 p-4 rounded-xl border border-slate-150 dark:border-slate-850">
+                          <span className="text-[8px] font-black uppercase text-brand-600 dark:text-brand-400 block mb-1">Auditing Subject Question</span>
+                          <h4 className="text-[11px] font-bold text-slate-800 dark:text-slate-250 leading-relaxed">{activeQuestion.question}</h4>
+                          <div className="mt-2.5 pt-2.5 border-t border-slate-200/60 dark:border-slate-800/60 flex justify-between items-center">
+                            <span className="text-[8px] font-black text-slate-400 dark:text-slate-500 uppercase">Current Set Answer:</span>
+                            <span className="text-[10px] font-black bg-brand-50 dark:bg-brand-950/20 text-brand-700 dark:text-brand-300 border border-brand-100 dark:border-brand-900/30 px-2 py-0.5 rounded">{activeQuestion.answer}</span>
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Instructions */}
+                      <div className="text-[10px] text-slate-500 dark:text-slate-400 leading-relaxed space-y-1">
+                        <p className="font-bold text-slate-700 dark:text-slate-350">💡 How to challenge a fact:</p>
+                        <p>Write your challenge, mention the conflicting theory or textbook, and ask the AI brain to perform a live semantic scan over your uploaded books (Mishra & Hasnain, Nath, prehistory volumes) to double-check the truth!</p>
+                      </div>
+
+                      {/* Input Doubt Box */}
+                      <div className="space-y-1.5">
+                        <label className="text-[9px] font-black uppercase text-slate-400 dark:text-slate-500">Your Factual Challenge or Question</label>
+                        <textarea
+                          rows="3"
+                          value={userDoubt}
+                          onChange={(e) => setUserDoubt(e.target.value)}
+                          placeholder="e.g., I think the answer should be option B because on page 12 of Mishra's Social Cultural Anthropology it says..."
+                          className="w-full p-3 bg-slate-50 focus:bg-white dark:bg-slate-900/60 dark:focus:bg-slate-900 border border-slate-250 focus:border-brand-400 dark:border-slate-800 focus:ring-1 focus:ring-brand-400 rounded-xl text-xs font-medium placeholder-slate-400 dark:placeholder-slate-500 transition-all outline-none resize-none"
+                        ></textarea>
+                      </div>
+
+                      {/* Run Action Button */}
+                      <button
+                        onClick={handleAuditRequest}
+                        disabled={isAuditing || !userDoubt.trim()}
+                        className="w-full py-2.5 bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-700 hover:to-indigo-700 text-white font-black text-[10px] uppercase tracking-wider rounded-xl shadow-md hover:shadow-lg transition-all active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none flex items-center justify-center gap-2"
+                      >
+                        {isAuditing ? (
+                          <>
+                            <span className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+                            Auditing Textbook Library...
+                          </>
+                        ) : (
+                          <>🚀 Send Challenge to Library Brain</>
+                        )}
+                      </button>
+
+                      {/* Response Container */}
+                      <div className="pt-2">
+                        {isAuditing && (
+                          <div className="bg-slate-50/60 dark:bg-slate-900/20 border border-dashed border-slate-200 dark:border-slate-800 p-8 text-center rounded-2xl animate-pulse">
+                            <span className="text-2xl block mb-2 animate-bounce">🧬</span>
+                            <h5 className="font-extrabold text-[10px] uppercase tracking-wider text-slate-700 dark:text-slate-300">Searching Textbook Context...</h5>
+                            <p className="text-[9px] text-slate-400 dark:text-slate-500 mt-1 uppercase font-semibold">Performing local RAG vector indexing & LLaMA 3.3 audit</p>
+                          </div>
+                        )}
+
+                        {auditResponse && (
+                          <div className="bg-brand-50/30 dark:bg-brand-950/10 border border-brand-100 dark:border-brand-900/30 rounded-2xl p-4.5 space-y-3">
+                            <div className="flex justify-between items-center border-b border-brand-100/50 dark:border-brand-900/30 pb-2">
+                              <h5 className="font-extrabold text-[10px] text-brand-700 dark:text-brand-300 uppercase tracking-widest flex items-center gap-1.5">
+                                📜 Textbook Audit Report
+                              </h5>
+                              <span className="text-[7px] font-black uppercase bg-green-50 dark:bg-green-950/40 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-900/30 px-2 py-0.5 rounded">Verified Facts</span>
+                            </div>
+                            <p className="text-slate-750 dark:text-slate-350 text-xs leading-relaxed font-medium whitespace-pre-wrap">
+                              {auditResponse}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               </main>
 
