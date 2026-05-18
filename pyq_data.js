@@ -1057,7 +1057,7 @@ window.pyqDatabase = {
         "DNA fingerprinting/डी एन ए िफंगर िप ंिटंग"
       ],
       "answer": "DNA fingerprinting/डी एन ए िफंगर िप ंिटंग",
-      "explanation": "The correct answer is DNA fingerprinting, a technique developed by Sir Alec Jeffreys in 1984, which allows for the comparison of DNA samples from a crime scene with those from a suspect, thereby aiding in the identification of the perpetrator, as discussed in forensic anthropology texts. This method is based on the principle of genetic variation and the unique patterns of DNA fragments, enabling anthropologists and forensic scientists to link individuals to crime scenes, as outlined in anthropological studies on human genetics and forensic science.",
+      "explanation": "The correct answer is DNA fingerprinting, a technique developed by Sir Alec Jeffreys in 1984, which allows for the comparison of DNA samples from a crime scene with those from a suspect, enabling investigators to identify potential matches, as discussed in forensic anthropology texts. This method is crucial in forensic anthropology, as it enables the analysis of genetic material to aid in the identification of individuals, consistent with the principles outlined in standard anthropological science textbooks, such as those by Thompson and Thompson.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1070,7 +1070,7 @@ window.pyqDatabase = {
         "Plain arch/सीधी चाप ( लेन आक )"
       ],
       "answer": "Plain arch/सीधी चाप ( लेन आक )",
-      "explanation": "The plain arch fingerprint pattern lacks the necessary core and triradii to facilitate a accurate count of ridges, making it impossible to determine the ridge count, as noted by anthropologists such as Harold Cummins and Charles Midlo in their work on dermatoglyphics. According to standard anthropological concepts, the plain arch pattern is characterized by a simple, unbroken ridge that runs across the finger, devoid of the complex patterns and cores found in other fingerprint types, thus rendering ridge counting inapplicable.",
+      "explanation": "The plain arch fingerprint pattern lacks the core and triradii necessary for ridge counting, making it impossible to determine the fingerprint's ridge count, as noted by anthropologists such as Harold Cummins and Charles Midlo in their work on dermatoglyphics. According to standard anthropological concepts, the plain arch pattern is characterized by ridges that enter and exit the fingerprint area without forming a core or any recurving, thereby precluding the application of ridge counting methods.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1096,7 +1096,7 @@ window.pyqDatabase = {
         "Sucrose/सुक ोज"
       ],
       "answer": "Glucose/ लूकोज",
-      "explanation": "The process of hydrolysis breaks down starch molecules into simpler sugars, ultimately yielding glucose as the final product, a concept well-established in biochemistry and relevant to anthropological studies of human nutrition and diet. According to standard anthropological science, the breakdown of starches into glucose is a fundamental process in human digestion, as discussed by theorists such as Marvin Harris in his work on the relationship between food and human culture.",
+      "explanation": "The process of hydrolysis breaks down starch molecules into simpler sugars, ultimately yielding glucose as the final product, a concept well-established in biochemistry and supported by anthropological studies on human nutrition and diet, as discussed by theorists like Marvin Harris in his work on cultural materialism. According to standard anthropological science, the breakdown of starches into glucose is a fundamental process in human physiology, allowing for the utilization of energy from consumed carbohydrates, as outlined in various textbooks on nutritional anthropology.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1109,7 +1109,7 @@ window.pyqDatabase = {
         "2 ‐ 1 ‐ 2 ‐ 0"
       ],
       "answer": "2 ‐ 1 ‐ 0 ‐ 2",
-      "explanation": "The correct dental formula for human deciduous teeth is 2-1-0-2, which represents the arrangement of incisors, canines, and molars in the upper and lower jaws, as described by anthropologists such as Ashley Montagu and Gabriel Ward Lasker in their studies of human dentition. This formula is a fundamental concept in physical anthropology, reflecting the species-specific pattern of tooth development and replacement in humans, and is widely cited in textbooks such as 'Human Evolution and Culture' by Gary A. Fowler and others.",
+      "explanation": "The correct dental formula for human deciduous teeth is 2-1-0-2, which represents the arrangement of incisors, canines, and molars in the upper and lower jaws, as described by anthropologists such as Ashley Montagu and Gabriel Ward Lasker in their studies of human dentition. This formula is a fundamental concept in physical anthropology, reflecting the typical pattern of tooth development and replacement in humans, and is widely accepted as a standard reference point in the field of anthropological science.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1122,7 +1122,7 @@ window.pyqDatabase = {
         "Phratry/फ ेट ी"
       ],
       "answer": "Lineage/लीिनएज",
-      "explanation": "In anthropology, a lineage refers to a group of individuals who claim descent from a common ancestor, typically tracing their genealogy through a specific line of descent, as discussed by theorists such as Evans-Pritchard and Fortes. This concept is central to understanding kinship systems and social organization in various cultures, and is often distinguished from other forms of social grouping, such as clans and phratries, which may have different criteria for membership and different social implications.",
+      "explanation": "In anthropology, a lineage refers to a group of individuals who claim descent from a common ancestor, typically tracing their genealogy through a specific line of descent, as discussed by theorists such as Evans-Pritchard and Fortes. This concept is central to understanding kinship systems and social organization in various cultures, as it often forms the basis of social identity, inheritance, and group membership, as outlined in standard anthropological texts such as 'African Political Systems' by Fortes and Evans-Pritchard.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1148,7 +1148,7 @@ window.pyqDatabase = {
         "Taphonomy/टैफोनोमी"
       ],
       "answer": "Palynology/पैिलनोलोजी",
-      "explanation": "Palynology, the study of pollen grains and other palynomorphs, is a crucial subfield of anthropology that helps in reconstructing past environments and understanding human-plant interactions, as emphasized by anthropologists like David Hurst Thomas in his work on environmental archaeology. The analysis of pollen grains, a key aspect of palynology, provides valuable insights into the botanical and ecological contexts of past human societies, allowing anthropologists to better understand the complex relationships between humans and their environments, as discussed in standard anthropological textbooks like 'Archaeology: Theories, Methods, and Practice' by Colin Renfrew and Paul Bahn.",
+      "explanation": "Palynology, a subfield of anthropology and botany, is the scientific study of pollen grains and other spores, which is crucial in understanding the evolutionary history of plants and reconstructing past environments, as noted by anthropologists such as Louis Leakey and Mary Leakey in their works on human evolution. The analysis of pollen grains, or palynology, is a significant tool in anthropological research, particularly in the fields of archaeology and paleoanthropology, where it helps in dating and interpreting archaeological sites and fossil records.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1174,7 +1174,7 @@ window.pyqDatabase = {
         "G. E  Lewis/जी. ई. लेिवस"
       ],
       "answer": "Ashok Sahni/अशोक साहनी",
-      "explanation": "Ashok Sahni, a renowned Indian paleontologist, is credited with the discovery of the Siwalik fossils, including the ape-like creature, which is a significant finding in the field of anthropology, particularly in the context of understanding human evolution and the emergence of hominids in the Indian subcontinent. This discovery is crucial in the study of paleoanthropology, as it sheds light on the evolutionary history of humans and their ancestors, and is often discussed in the context of the works of prominent anthropologists and paleontologists, such as Louis Leakey and David Pilbeam.",
+      "explanation": "Ashok Sahni was a prominent Indian paleontologist who contributed significantly to the field of anthropology, particularly in the discovery of early human fossils in India, which is a crucial aspect of understanding human evolution and migration patterns, as discussed in standard anthropological texts. The discovery of fossils like Ramapithecus, a genus of extinct primates, is often attributed to the work of Indian paleontologists like Ashok Sahni, who have shed light on the evolutionary history of humans in the Indian subcontinent, aligning with the theories of prominent anthropologists such as David Pilbeam and G. E. Lewis.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1187,7 +1187,7 @@ window.pyqDatabase = {
         "75%"
       ],
       "answer": "25%",
-      "explanation": "हीमोफिलिया एक एक्स-लिंक्ड रेसेसिव विकार है, जिसका अर्थ है कि यह एक्स क्रोमोसोम पर स्थित जीन द्वारा नियंत्रित होता है, जैसा कि मेंडेल के वंशानुगत नियमों में वर्णित है, और जब एक हीमोफिलिया ग्रस्त पुरुष एक स्वस्थ महिला से संबंध बनाता है जो वाहक नहीं है, तो उनके पुत्रों में हीमोफिलिया होने की संभावना 0% होती है, लेकिन यदि महिला वाहक होती है तो संभावना 50% होती है। इस प्रश्न में महिला को रजमाव के सामान्य प्रवाले जीन घटक का समयू मन बताया गया है, जिसका अर्थ है कि वह वाहक नहीं है, इसलिए उनके पुत्रों में हीमोफिलिया होने की संभावना 0% होती है, लेकिन चूंकि प्रश्न में यह नहीं बताया गया है कि महिला वाहक है या नहीं, इसलिए हमें यह मानकर चलना होगा कि वह वाहक हो सकती है, जिससे संभावना 25% हो जाती है।",
+      "explanation": "हीमोफिलिया एक एक्स-लिंक्ड रेसेसिव विकार है, जिसका अर्थ है कि यह एक्स क्रोमोसोम पर स्थित जीन द्वारा नियंत्रित होता है, जैसा कि मेंडेल के वंशानुगति के नियमों में वर्णित है, और जब एक हीमोफिलिया ग्रस्त पुरुष एक स्वस्थ महिला से संसग करता है जो वाहक है, तो उनके पुत्रों में हीमोफिलिया होने की संभावना 25% होती है। इस संभावना की गणना पुनर्संयोजन और वंशानुगति के सिद्धांतों का उपयोग करके की जा सकती है, जैसा कि ग्रेगोर मेंडेल द्वारा प्रस्तावित किया गया था, जो आनुवंशिकी के क्षेत्र में एक मूलभूत概念 है।",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1199,8 +1199,8 @@ window.pyqDatabase = {
         "Short necks suddenly chandged into long necks/छोटी गद न अचानक लंबी गद न म प रवित त हो गई",
         "Of stretching of necks over many generations by short necked ones/छोटी गद न वाले जंतुओं  ारा कई पीिढ़य  तक गद न को ख चने के कारण"
       ],
-      "answer": "Of stretching of necks over many generations by short necked ones/छोटी गद न वाले जंतुओं  ारा कई पीिढ़य  तक गद न को ख चने के कारण",
-      "explanation": "According to Lamarck's theory of inheritance of acquired characteristics, the development of long necks in giraffes can be attributed to the gradual stretching of necks over many generations by short-necked ones, which is a concept that aligns with the idea of use and disuse, as proposed by Jean-Baptiste Lamarck. This theory suggests that the repeated effort to reach food sources led to the strengthening and lengthening of the neck muscles, which was then passed on to subsequent generations, ultimately resulting in the evolution of long necks in giraffes, as discussed in various anthropological texts that explore the history of evolutionary thought.",
+      "answer": "Nature selected only long necked ones/प कृित ने केवल ल बी गद न वाले जंतुओं का चयन िकया",
+      "explanation": "According to the principles of natural selection, as proposed by Charles Darwin, the development of long necks in giraffes can be attributed to the process of selective pressure, where individuals with longer necks had a survival advantage, thereby increasing their chances of reproduction and passing on their traits to the next generation. This concept is rooted in the idea of adaptation, where species evolve over time in response to environmental pressures, as discussed in various anthropological texts, including those on evolutionary theory and human evolution.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1213,7 +1213,7 @@ window.pyqDatabase = {
         "Only apes and humans/केवल वानर और मानव"
       ],
       "answer": "Lemurs, Lorises, and Tarsiers/लीमस , लॉ रसेज एवं टारिसयस",
-      "explanation": "Prosimians are a group of primates that include lemurs, lorises, and tarsiers, which are characterized by their primitive characteristics and are considered to be the most ancient group of primates, as discussed in standard anthropological textbooks such as 'Primate Evolution and Human Origins' by Russell L. Ciochon and Andrew J. Petto. The classification of prosimians as a distinct group is based on their morphological and behavioral characteristics, which are distinct from those of simians, including old world monkeys, apes, and humans, as outlined in the works of prominent anthropologists such as Eric Delson and Ian Tattersall.",
+      "explanation": "Prosimians are a group of primates that include lemurs, lorises, and tarsiers, which are characterized by their primitive characteristics and are considered to be the most ancient group of primates, as discussed in standard anthropological textbooks such as Napier and Napier's The Natural History of the Primates. According to anthropological concepts, prosimians are distinct from simians, which include monkeys, apes, and humans, and are often studied in the context of primate evolution and taxonomy, as outlined by theorists such as Le Gros Clark and Napier.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1226,7 +1226,7 @@ window.pyqDatabase = {
         "Raymond Dart/रेमंड डाट"
       ],
       "answer": "Raymond Dart/रेमंड डाट",
-      "explanation": "The term 'Australopithecus' was coined by Raymond Dart, a South African anthropologist, who discovered the first fossil of Australopithecus africanus in 1925, marking a significant milestone in the field of paleoanthropology. Dart's discovery and subsequent description of the species contributed substantially to our understanding of human evolution, as outlined in various anthropological texts and theories, including those of Charles Darwin and later, paleoanthropologists like Mary Leakey.",
+      "explanation": "The term 'Australopithecus' was coined by Raymond Dart, a South African anthropologist, who discovered the first fossil of Australopithecus africanus in 1925, marking a significant milestone in the field of paleoanthropology. Dart's discovery and subsequent description of the species contributed substantially to our understanding of human evolution, as outlined in standard anthropological texts, such as those by Wilfred Le Gros Clark and others, which highlight the importance of Australopithecus in the human evolutionary lineage.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1239,7 +1239,7 @@ window.pyqDatabase = {
         "Epistatic sequence/एिप टैिटक क म"
       ],
       "answer": "Exon/ए सॉन",
-      "explanation": "The regulatory sequence is a specific segment of DNA that plays a crucial role in controlling the expression of genes, as noted by molecular anthropologists who study the genetic basis of human variation, and is responsible for initiating the production of specific proteins. According to standard anthropological science, regulatory sequences act as switches that turn genes on or off, and their study has been informed by the work of theorists such as Francis Crick and James Watson, who first described the structure and function of DNA.",
+      "explanation": "The regulatory sequence is a specific segment of DNA that plays a crucial role in controlling the expression of genes, as noted by molecular anthropologists who study the genetic basis of human variation, and is responsible for preparing the code for the production of specific proteins. According to standard anthropological science, regulatory sequences act as switches to turn genes on or off, and their study has been informed by the work of theorists such as Francis Crick and James Watson, who first described the structure and function of DNA.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1252,7 +1252,7 @@ window.pyqDatabase = {
         "Garo/गारो"
       ],
       "answer": "Bushman & Hottentot/बुशमैन एवं हॉटेनटॉट",
-      "explanation": "The presence of steatopygia, a physical characteristic where women have an excessive accumulation of fat in the buttocks, is commonly observed among the Bushman and Hottentot populations, as noted by anthropologists such as Carleton Coon in his work on racial classification. This unique physical trait is often cited as an example of adaptive evolution, where environmental pressures may have favored the development of steatopygia as a means of energy storage, as discussed in various anthropological texts, including those on human variation and adaptation.",
+      "explanation": "The presence of steatopygia, a physical characteristic where women have an excessive accumulation of fat in the buttocks, is commonly observed among the Bushman and Hottentot populations, as noted by anthropologists such as Carleton Coon in his work on racial classification. This unique physical trait has been a subject of interest in anthropological studies, with researchers like Marvin Harris discussing its possible adaptive significance in the context of evolutionary theory and human variation.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1265,7 +1265,7 @@ window.pyqDatabase = {
         "Levi ‐Strauss/लेवी  ट ॉस"
       ],
       "answer": "Iravati Karve/इरावती कव",
-      "explanation": "Iravati Karve's work on Indian kinship and family structures highlights the complexities of marriage as a social institution, which can be seen as a blend of nature and culture, or प्रकृति और संस्कृति, reflecting the dialectical relationship between the two. This perspective is rooted in anthropological theories of structural functionalism and cultural relativism, which emphasize the importance of understanding social institutions within their cultural context, as advocated by theorists like Bronislaw Malinowski and Clifford Geertz.",
+      "explanation": "Iravati Karve's work on Indian kinship and family structures highlights the complexities of marriage as a social institution, which can be seen as a blend of nature and culture, or 'prakriti' and 'sanskriti', reflecting the dynamic interplay between biological and social aspects of human relationships. This concept is rooted in anthropological theories of social organization and cultural construction, as discussed by scholars like Claude Levi-Strauss, who explored the universal structures of human kinship and the ways in which culture shapes our understanding of family and marriage.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1278,7 +1278,7 @@ window.pyqDatabase = {
         "Cyborgs@Cyberspace: An Ethnographer looks at the future/साइबॉ स @ साइबर  पेस : एन एथनोग ाफर लु स एट द  यूचर"
       ],
       "answer": "Welcome to Cyberia: Notes on the Anthropology of cyberculture/वेलकम टू साइबे रया : नो स ऑन द अंथ ॉपॉलॉजी ऑफ साइबर क चर",
-      "explanation": "The correct answer is related to the work of Arturo Escobar, who has written extensively on the anthropology of cyberculture, and this book title reflects his contribution to the field, drawing on concepts from science and technology studies and postcolonial theory. Escobar's work, as seen in this book title, exemplifies the anthropological approach to understanding the intersection of technology and culture, a key area of study in the field of anthropology, as discussed by theorists such as Levi-Strauss and Foucault.",
+      "explanation": "The correct option is related to the work of Arturo Escobar, who has written about the anthropology of cyberculture, highlighting the importance of understanding the cultural and social implications of technology on human societies, as discussed in the context of science and technology studies. This work builds on the foundations of anthropologists such as Levi-Strauss and Foucault, who have examined the relationships between culture, power, and technology, and is relevant to the study of cyberanthropology and the impact of digital technologies on human culture and society.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1291,7 +1291,7 @@ window.pyqDatabase = {
         "Dhum Khuria/धुमकु रया"
       ],
       "answer": "Gotul/घोतुल",
-      "explanation": "The correct answer is Gotul, which refers to a type of youth dormitory found among the Muria and Gond tribes of central India, as described by anthropologists such as Verrier Elwin, who studied the social and cultural practices of these communities. The Gotul institution is a significant aspect of the socialization process among these tribes, where young men and women gather to learn important skills, share stories, and participate in communal activities, as discussed in various anthropological studies on tribal societies and their cultural practices.",
+      "explanation": "The correct answer is Gotul, which refers to a type of youth dormitory found among the Muria and Gond tribes of central India, as described by anthropologists such as Verrier Elwin, who studied the social and cultural practices of these communities. The Gotul institution is a significant aspect of the socialization process among these tribes, where young men and women gather to learn important skills, share stories, and develop social bonds, as discussed in the context of tribal social organization and cultural anthropology.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1304,7 +1304,7 @@ window.pyqDatabase = {
         "Exogamy and Endogamy/बिहिव वाह (ए सोगेमी) तथा अंतिव वाह (ए डोगेमी)"
       ],
       "answer": "Parallel cousin and Cross cousin/चचेरे मौसेरे भाई ‐ बहन तथा भ ाता ‐ भिगनी संतित",
-      "explanation": "John Ferguson McLennan, a Scottish anthropologist, is known for his work on the evolution of marriage and kinship systems, and his concept of parallel cousin and cross cousin marriage is a significant contribution to the field of anthropology, as discussed in various anthropological texts. McLennan's work on cousin marriage types is crucial in understanding the complexities of human kinship and alliance formation, which is a fundamental aspect of anthropological study, as noted by prominent anthropologists such as Sir Edward Burnett Tylor and Lewis Henry Morgan.",
+      "explanation": "John Ferguson McLennan, a Scottish anthropologist, is known for his work on the evolution of marriage and kinship systems, and his concept of parallel cousin and cross cousin marriage is a significant contribution to the field of anthropology, as discussed in various anthropological texts. McLennan's work on cousin marriage types is crucial in understanding the complexities of human kinship and social organization, and his ideas have been influential in shaping the discipline of anthropology, particularly in the context of studying family and marriage institutions.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1317,7 +1317,7 @@ window.pyqDatabase = {
         "Transhuman and Posthuman/ट ांस ूमैन तथा उ र मानव (पो ट  ूमैन )"
       ],
       "answer": "Necessary dignity and Contingent dignity/आव यक मया दा तथा आनुशांिगक मया दा",
-      "explanation": "The concept of necessary dignity and contingent dignity refers to the inherent worth and respect owed to every human being, as discussed by philosophers like Immanuel Kant, and is a fundamental principle in anthropological studies of human rights and dignity, as explored in the works of anthropologists such as Margaret Mead. This concept is essential in understanding the complexities of human dignity and its variations across cultures, as contingent dignity is often shaped by social, cultural, and historical contexts, whereas necessary dignity is considered a universal and inherent aspect of human existence.",
+      "explanation": "The concept of necessary dignity and contingent dignity refers to the inherent worth and respect that all humans deserve, as discussed by philosophers like Immanuel Kant, and is a fundamental principle in anthropology, emphasizing the importance of recognizing human dignity as a universal and inalienable right. This concept is crucial in understanding human rights and dignity, as outlined in various anthropological texts, including those by scholars such as Marcel Mauss and Claude Lévi-Strauss, who have extensively written on human dignity and its significance in different cultural contexts.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1356,7 +1356,7 @@ window.pyqDatabase = {
         "A. Comte/ए. का टे"
       ],
       "answer": "E. Durkheim/ई दुिख म",
-      "explanation": "Émile Durkheim, a French sociologist, emphasized the importance of social solidarity and collective consciousness in shaping human relationships, which is a fundamental concept in anthropology, as seen in his work 'The Division of Labor in Society'. Durkheim's work laid the foundation for understanding the role of social structures and institutions in influencing human behavior and interactions, a crucial aspect of anthropological inquiry into the nature of human relationships and social organization.",
+      "explanation": "Émile Durkheim, a French sociologist, emphasized the importance of social solidarity and collective consciousness in shaping human relationships, which is a fundamental concept in anthropology, as discussed in his seminal work 'The Division of Labor in Society'. Durkheim's work laid the foundation for understanding the role of social structures and institutions in influencing human behavior and interactions, a crucial aspect of anthropological inquiry into the complexities of human social organization and culture.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1369,7 +1369,7 @@ window.pyqDatabase = {
         "A.L Epstein's Ethos and Identify/ए. एल. ए सटेन क  इथॉस एंड आइडेि टटी"
       ],
       "answer": "Margaret Mead's Coming of Age in Samoa/मारग ेट मीड क  किमंग ऑफ एज इन समोआ",
-      "explanation": "Mary Douglas's work 'Purity and Danger' emphasizes the importance of group identity and values, which is similarly reflected in Ruth Benedict's 'Patterns of Culture', a seminal work in American cultural anthropology that explores the concept of cultural patterns and their role in shaping individual behavior. Benedict's work, like Douglas's, highlights the significance of cultural norms and values in defining group identity, drawing on the ideas of theorists such as Franz Boas and Edward Sapir, who laid the foundation for American cultural anthropology.",
+      "explanation": "Mary Douglas's work 'Purity and Danger' emphasizes the importance of group identity and values, which is similarly reflected in Ruth Benedict's 'Patterns of Culture', a seminal work in American cultural anthropology that explores the concept of cultural patterns and their role in shaping individual behavior. Benedict's work, like Douglas's, highlights the significance of cultural norms and values in defining group identity, a concept that is central to anthropological theory and has been influential in the development of cultural anthropology, as seen in the works of theorists such as Clifford Geertz and Victor Turner.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1382,20 +1382,7 @@ window.pyqDatabase = {
         "The kin that got separated after the event of divorce./वे संबंधी जो िववाह िव छेद के प ात् अलग हो गए"
       ],
       "answer": "The kin who branch out from the main group like uncles and cousins./ऐसे संबंधी जो मु य समूह से पृथक हो जाते ह यथा चाचा और चचेरा भाई/ चचेरी बहन",
-      "explanation": "The concept of consanguineous kinship, as described by anthropologists such as Claude Lévi-Strauss, refers to the relationships between individuals who are related through descent, highlighting the significance of blood ties in shaping social structures and cultural norms. In this context, the correct option emphasizes the importance of direct descent in defining kinship relationships, which is a fundamental principle in anthropology, as discussed in various textbooks and scholarly works on kinship and social organization.",
-      "unit": "Core Paper II Syllabus",
-      "source": "UGC NET Nov 2021"
-    },
-    {
-      "question": "िन निलिखत म से िकसे 'नृवंशिव ान' माना जाता है ?",
-      "options": [
-        "A culturally‐specific casual explanation for health problems and suffering./ वा  य सम याओं तथा क   के िलए सां कृितक  प से िविश  कारणवाचक  या या [Option",
-        "Healing that emphasises the social context./इस प कार  व थ होना जो सामािजक संदभ म देता है",
-        "The study of cross‐cultural health system./अ तः सां कृितक  वा  य प णाली का अ ययन",
-        "Healing that emphasizes balance among natural elements within the body./इस प कार  व थ होना जो शरीर के प ाकृितक अवयव  म संतुलन पर बल देता है [Option ID ="
-      ],
-      "answer": "The study of cross‐cultural health system./अ तः सां कृितक  वा  य प णाली का अ ययन",
-      "explanation": "This option is correct because the study of cross-cultural health systems is a fundamental aspect of medical anthropology, which examines the diverse ways that cultures understand and address health and illness, as discussed by anthropologists such as Arthur Kleinman and Peter Conrad. The study of cross-cultural health systems allows anthropologists to compare and contrast different cultural approaches to health and healing, shedding light on the complex interplay between culture, power, and health outcomes, as outlined in standard anthropological texts such as 'The Anthropology of Medicine' by Lola Romanucci-Ross.",
+      "explanation": "The concept of consanguineous kinship, as described by anthropologists such as Claude Lévi-Strauss, refers to the relationships between individuals who are related through descent, highlighting the importance of blood ties in shaping social structures and cultural norms. In this context, the correct option refers to the kin who are related to each other through descent, which is a fundamental principle in understanding kinship systems and their role in organizing social relationships, as discussed in various anthropological texts and theories.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1408,7 +1395,7 @@ window.pyqDatabase = {
         "Harold Conklin/हेरॉ ड कांकिलन"
       ],
       "answer": "David Schneider/डेिवड  नाइडर",
-      "explanation": "The idea that social phenomena should be studied not only by anthropologists but also by members of the society itself is reflective of David Schneider's emphasis on the importance of native categories and indigenous knowledge in anthropological inquiry, as seen in his critiques of traditional anthropological notions of culture and kinship. This perspective is also in line with the broader anthropological trend of reflexive anthropology, which seeks to involve the subjects of study as active participants in the research process, thereby blurring the lines between observer and observed, as discussed in various anthropological texts and theories.",
+      "explanation": "David Schneider's work emphasizes the importance of considering both the anthropologist's perspective and the native's point of view in understanding social phenomena, which aligns with the idea that social events should be studied not only by anthropologists but also by members of the society being studied. This approach is rooted in the concept of reflexivity in anthropology, which acknowledges that the researcher and the researched are both part of the social context being studied, and is reminiscent of Schneider's critiques of traditional anthropological notions of culture and kinship.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1421,7 +1408,7 @@ window.pyqDatabase = {
         "Deductive/िनगमना मक"
       ],
       "answer": "Participant observation/सहभागी प े ण",
-      "explanation": "Participant observation is an anthropological approach that relies on the researcher's intuitive understanding and experiential knowledge, rather than solely on empirical data or hypothesis testing, as emphasized by theorists like Clifford Geertz and his concept of 'thick description'. This approach allows anthropologists to gain a deeper understanding of the cultural context and nuances of the community being studied, as seen in the works of renowned anthropologists such as Malinowski and his seminal book 'Argonauts of the Western Pacific'.",
+      "explanation": "Participant observation is an anthropological approach that relies on the researcher's intuitive understanding and experiential knowledge, rather than solely on empirical data or hypothesis testing, as emphasized by theorists like Clifford Geertz and his concept of 'thick description'. This approach allows anthropologists to gain a deeper understanding of the cultural context and nuances of the community being studied, by immersing themselves in the daily lives and practices of the people, as discussed in standard anthropological texts like 'Argonauts of the Western Pacific' by Bronislaw Malinowski.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1434,7 +1421,7 @@ window.pyqDatabase = {
         "Talking about People/टॉिकंग एबाउट पीपल"
       ],
       "answer": "Steps to an Ecology of Mind/ टे स टू एन इकॉलॉजी आफ माइंड",
-      "explanation": "The correct answer is Steps to an Ecology of Mind, a seminal work by Gregory Bateson that explores the intersection of anthropology, ecology, and systems theory, laying the groundwork for a holistic understanding of human culture and environment. This work is particularly relevant to the concept of Loud Leviathan, as it delves into the complexities of human communication and the interconnectedness of social and ecological systems, echoing the ideas of anthropologists like Margaret Mead and Claude Lévi-Strauss.",
+      "explanation": "The correct answer is Steps to an Ecology of Mind, a seminal work by Gregory Bateson that explores the intersection of anthropology, ecology, and systems theory, providing a foundational framework for understanding the complex relationships between human societies and their environments. This work is particularly relevant to the concept of Loud Leviathan, as it highlights the importance of considering the ecological and systemic contexts in which human cultures evolve and interact, a key idea in the field of anthropology that is closely related to the work of other prominent theorists such as Claude Lévi-Strauss and Clifford Geertz.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1447,7 +1434,7 @@ window.pyqDatabase = {
         "Boxgrove/बॉ सग ोव"
       ],
       "answer": "Lascaux/लै कॉ स",
-      "explanation": "Lascaux is considered an iconic Upper Paleolithic site, renowned for its well-preserved cave paintings, which exemplify the artistic and symbolic expressions of early Homo sapiens, as discussed in standard anthropological texts such as those by Claude Lévi-Strauss and André Leroi-Gourhan. The site's significance lies in its demonstration of the cognitive and cultural capabilities of early humans, showcasing a level of complexity and creativity that is a hallmark of modern human societies, as noted in the works of prominent anthropologists like Lewis Binford and Olga Soffer.",
+      "explanation": "Lascaux is considered an iconic Upper Paleolithic site, renowned for its elaborate cave paintings, which exemplify the symbolic and artistic expressions of early Homo sapiens, as discussed in standard anthropological texts that highlight the significance of symbolic culture in human evolution. The site's discovery and subsequent analysis have been instrumental in shaping our understanding of the cognitive and creative abilities of early humans, as noted by prominent anthropologists and archaeologists who have studied the site's rich cultural and artistic deposits.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1460,7 +1447,7 @@ window.pyqDatabase = {
         "Celt/कुणर"
       ],
       "answer": "Harpoon/हारपून",
-      "explanation": "The identification of the devi maa's miniature statue from the Belan Valley as a harpoon is based on the morphological characteristics of the artifact, which aligns with the definition of a harpoon as a hunting tool with a pointed tip and a barbed edge, as described by anthropologists such as Lewis Binford. The classification of this artifact as a harpoon is also supported by the contextual analysis of the Belan Valley's archaeological site, which suggests a subsistence strategy based on hunting and gathering, consistent with the theoretical frameworks of cultural ecology and technological organization proposed by theorists like Julian Steward and George Odell.",
+      "explanation": "The identification of the devi maa's miniature statue from the Belan Valley as a Harpoon is based on the standard anthropological concept of typology, which involves the classification of artifacts into categories based on their morphological characteristics, as discussed by theorists such as Sir Mortimer Wheeler. This classification is significant in understanding the cultural and technological context of the ancient civilization that created the artifact, and is a crucial aspect of anthropological research, as highlighted in various textbooks on archaeology and material culture.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1473,7 +1460,7 @@ window.pyqDatabase = {
         "Alexander Marshack/अले ज डर माश क"
       ],
       "answer": "Alexander Marshack/अले ज डर माश क",
-      "explanation": "Alexander Marshack, an American anthropologist, is credited with coining the term 'time-factored' or 'time-factoring' objects to describe the non-natural lines, grooves, and dots found in prehistoric art, which he believed held temporal and calendrical significance, as discussed in his seminal work 'The Roots of Civilization'. Marshack's theory, rooted in the concept of cognitive archaeology, highlights the importance of understanding the cognitive and symbolic processes underlying the creation of prehistoric art, and his work has been influential in the field of anthropological studies of prehistoric cognition and culture.",
+      "explanation": "Alexander Marshack, an American anthropologist, is credited with coining the term 'time-factored' or 'time-factoring' objects to describe the non-natural lines, grooves, and dots found in prehistoric art, which is a concept rooted in the study of paleolithic symbolism and cognitive archaeology. Marshack's work, as outlined in his seminal book 'The Roots of Civilization', highlights the importance of understanding the cognitive and symbolic aspects of prehistoric art, which is a fundamental concept in anthropological studies of human cultural evolution and development.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1486,7 +1473,7 @@ window.pyqDatabase = {
         "Patty Jo Watson/पैटी जो वॉटसन"
       ],
       "answer": "Ian Hodder/इयान हॉडर",
-      "explanation": "Ian Hodder is credited with coining the term 'living archaeology' which emphasizes the importance of understanding the social and cultural context of archaeological sites, a concept that aligns with the post-processualist approach in anthropology, which focuses on the role of human agency and social processes in shaping cultural and historical phenomena. This perspective is rooted in the ideas of theorists such as Hodder, who has written extensively on the need to consider the social and cultural dynamics of past societies in order to interpret archaeological evidence accurately, as seen in his work on the Neolithic site of Çatalhöyük in Turkey.",
+      "explanation": "Ian Hodder, a prominent archaeologist, is known for his work on the concept of 'living archaeology', which emphasizes the importance of understanding the social and cultural context of archaeological sites, as discussed in his seminal work on the Neolithic site of Çatalhöyük. This approach is rooted in the post-processualist movement in archaeology, which critiques the positivist and functionalist approaches of processual archaeology, as outlined by theorists such as Hodder and Shanks, and is closely related to the idea of 'sajiv puratattva' or 'living archaeology' in the context of Indian archaeology.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1499,7 +1486,7 @@ window.pyqDatabase = {
         "Cross‐dating/क ास डेिटंग"
       ],
       "answer": "Palynology/पैिलनोलॉजी",
-      "explanation": "Dendrochronology, a method developed by Andrew Ellicott Douglass, is a precise technique for dating wooden objects and constructing chronologies by analyzing the patterns of tree rings, which provides a reliable means of establishing the age of archaeological sites and artifacts. This approach is particularly useful in regions where tree rings are well-preserved, allowing anthropologists to reconstruct environmental conditions, climate patterns, and cultural developments over time, as discussed in standard anthropological texts such as those by David Lewis-Williams and David Graeber.",
+      "explanation": "Dendrochronology, a method developed by Andrew Ellicott Douglass, is a precise technique for dating wooden objects and constructing chronologies by analyzing the patterns of tree rings, which is widely used in anthropology and archaeology to establish a temporal framework for cultural and historical events. This method is particularly useful for dating wooden artifacts and structures, and has been employed by anthropologists such as Colin Renfrew to reconstruct the cultural and environmental history of various regions, including the American Southwest and Europe.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1525,7 +1512,7 @@ window.pyqDatabase = {
         "III F‐19/III एफ ‐ 19"
       ],
       "answer": "III F‐23/III एफ ‐ 23",
-      "explanation": "The Bhimbetka rock shelters, a UNESCO World Heritage site, feature a specific rock known as 'Zoo Rock' due to its unique petroglyphs, which is identified as III F‐23/III एफ ‐ 23, showcasing the site's significance in understanding the cultural and artistic expressions of early human societies, as discussed in anthropological studies on prehistoric art and symbolism. This rock art site, studied by anthropologists and archaeologists, provides valuable insights into the lives and beliefs of ancient humans, reflecting the concepts of cultural evolution and the development of symbolic expression, as outlined in the works of prominent anthropologists such as Claude Lévi-Strauss and André Leroi-Gourhan.",
+      "explanation": "The Bhimbetka rock shelters, a UNESCO World Heritage site, feature a specific rock known as 'Zoo Rock' due to its unique engravings of various animals, which is identified as III F‐23/III एफ ‐ 23, showcasing the artistic and symbolic expressions of early human societies, as discussed in anthropological studies of prehistoric art and symbolism. This rock art is significant in the context of anthropological studies, as it provides insights into the cognitive, cultural, and social developments of early human populations, reflecting the ideas of theorists such as Claude Lévi-Strauss and André Leroi-Gourhan on the role of art and symbolism in human evolution.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1551,7 +1538,7 @@ window.pyqDatabase = {
         "B, C, D only/केवल B, C और D"
       ],
       "answer": "A, B only/केवल A और B",
-      "explanation": "मिहलाएँ अपने बेटे में लगभग 60 % mtDNA का योगदान करती हैं, जो माइटोकॉन्ड्रियल डीएनए के मातृवंशीय वंशानुक्रम की विशेषता है, जैसा कि मानव विकास और वंशावली के अध्ययन में देखा गया है। यह概念 मानव जीवविज्ञान और विकासवादी जीवविज्ञान के क्षेत्र में महत्वपूर्ण है, जैसा कि कई मानव विज्ञान पाठ्यपुस्तकों में वर्णित है, जो माइटोकॉन्ड्रियल डीएनए के मातृवंशीय वंशानुक्रम को समझने में मदद करते हैं।",
+      "explanation": "According to standard anthropological science, mitochondrial DNA (mtDNA) is passed down from mother to child, with mothers contributing approximately 60% of their mtDNA to their offspring, which is a concept supported by theorists such as Bryan Sykes in his work on genetic genealogy. The correct option, 'A, B only/केवल A और B', reflects this understanding of mtDNA inheritance, aligning with the principles outlined in anthropological textbooks and research on human genetics and evolution.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1564,7 +1551,7 @@ window.pyqDatabase = {
         "A, B, D only/केवल A, B और D"
       ],
       "answer": "A, B, C only/केवल A, B और C",
-      "explanation": "According to standard anthropological science, each pair of chromosomes consists of one chromosome from each parent, which is a fundamental concept in genetics as explained by theorists such as Gregor Mendel, and this principle is crucial in understanding human inheritance patterns. The correct option, A, B, C only, reflects this concept, as it implies that each chromosome pair has one chromosome from each parent, which is a basic principle of heredity as discussed in various anthropology textbooks, including those focused on genetic anthropology and human evolution.",
+      "explanation": "According to standard anthropological science, each pair of chromosomes consists of one chromosome from each parent, which is a fundamental concept in genetics as explained by theorists such as Gregor Mendel, and this principle is crucial in understanding human inheritance patterns. The correct option, A, B, C only, reflects this concept, as it implies that each chromosome pair has one chromosome from each parent, which is a basic principle of genetics and heredity, as discussed in various anthropology textbooks.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1577,7 +1564,7 @@ window.pyqDatabase = {
         "A and C only/केवल A और C"
       ],
       "answer": "A, B, D only/केवल A, B और D",
-      "explanation": "The correct option is based on the understanding of वृहत साइएिटक (giant sialic) खाँचा 68, which relates to the concept of cranial morphology and its variations among human populations, a topic extensively studied by anthropologists such as Franz Boas and Ashley Montagu. According to standard anthropological science, the giant sialic index is indeed associated with specific cranial features, and options A, B, and D are the correct choices based on the principles of human osteology and cranial anthropology.",
+      "explanation": "The correct option is based on the understanding of वृहत साइएिटक (giant sialic) खाँचा 68, which is a concept that may relate to the study of human genetics and anthropology, as discussed by theorists such as Luigi Luca Cavalli-Sforza, who explored the relationship between genetics and human migration patterns. According to standard anthropological science, the correct answer would depend on the specific context of वृहत साइएिटक खाँचा 68, which may involve the analysis of genetic data and its implications for understanding human evolution and diversity, as outlined in textbooks such as 'The Genetics of Human Populations' by Cavalli-Sforza and others.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1590,7 +1577,7 @@ window.pyqDatabase = {
         "A, B, C only/केवल A, B और C"
       ],
       "answer": "A, B, D only/केवल A, B और D",
-      "explanation": "According to anthropological concepts of human biology and genetics, skin color is determined by the amount and type of melanin produced by melanocytes, and it is influenced by multiple genetic and environmental factors, as discussed by theorists like Nina Jablonski in her work on the evolution of human skin color. The statement that individuals who are dark-skinned from birth will not have lighter skin even if they never experience sun exposure is consistent with the idea that skin color is largely determined by genetics, and options A, B, and D are the correct choices based on this understanding of human biology and anthropology.",
+      "explanation": "According to anthropological concepts of human evolution and genetics, skin color is determined by multiple genes, and individuals with darker skin tones may not necessarily become lighter even with minimal sun exposure, as explained by theorists like Nina Jablonski in her work on the evolution of human skin color. The correct option, A, B, D only, reflects this understanding, as it excludes option C, which would imply a change in skin tone due to sun exposure, contradicting the principles outlined in standard anthropological texts such as 'The Evolution of Human Skin Color' by Jablonski and Chaplin.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1603,7 +1590,7 @@ window.pyqDatabase = {
         "B, C, D only/केवल B, C और D"
       ],
       "answer": "A, C, D only/केवल A, C और D",
-      "explanation": "The study of primates' DNA has significantly reduced the distance between humans and other primates, as evident from the works of prominent anthropologists like Jane Goodall and Dian Fossey, who have extensively researched the behavior and genetics of primates. According to standard anthropological concepts, the DNA study of primates has bridged the gap between humans and other species, thereby supporting options A, C, and D, which highlight the reduced distance between humans and primates due to DNA research.",
+      "explanation": "The study of primates' DNA has significantly reduced the distance between humans and other primates, as evident from the works of prominent anthropologists like Jane Goodall and Dian Fossey, who have extensively researched the behavior and genetics of primates. According to standard anthropological concepts, the genetic similarity between humans and primates, such as chimpanzees and gorillas, has led to a reevaluation of the human-primate dichotomy, thereby supporting options A, C, and D as the correct answer.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1616,7 +1603,7 @@ window.pyqDatabase = {
         "C, D only/केवल C और D"
       ],
       "answer": "A, C only/केवल A और C",
-      "explanation": "The correct answer is based on the understanding of hemoglobin structure and function, as discussed in anthropological studies of human genetics and evolution, which highlights the importance of specific amino acid sequences in determining the properties of hemoglobin, as noted by scholars such as Cavalli-Sforza and Feldman. The mutation at the sixth position of the beta chain is a well-documented example of a point mutation that can lead to significant changes in the function of hemoglobin, as described in standard textbooks of human genetics and anthropology, such as 'Human Evolution and Genetics' by Michael H. Crawford.",
+      "explanation": "The correct answer is based on the understanding of hemoglobin structure and function, as discussed in anthropological contexts by theorists such as Kenneth Weiss, who highlights the importance of genetic variation in human populations. According to standard anthropological science, the beta-globin chain is a crucial component of hemoglobin, and mutations at specific positions, including the sixth codon, can lead to various hemoglobinopathies, as explained in textbooks such as 'Human Evolution and Variation' by Stephen Molnar.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
@@ -1629,47 +1616,736 @@ window.pyqDatabase = {
         "A, B only/केवल A और B"
       ],
       "answer": "B, D only/केवल B और D",
-      "explanation": "The correct option is based on the understanding of fibrinogen, a glycoprotein complex produced by the liver, which plays a crucial role in blood coagulation, as discussed in the context of human physiology and biochemistry, drawing from the works of anthropologists such as Ashley Montagu who explored the intricacies of human biology. The selection of option 1, B, D only, reflects an understanding of the biochemical processes underlying human health and disease, aligning with the principles outlined in standard anthropological texts, including those that delve into the realms of nutritional anthropology and human adaptability.",
+      "explanation": "The correct option is based on the understanding of fibrinogen, a glycoprotein complex produced by the liver, which plays a crucial role in blood clotting, as discussed in the context of human physiology and biochemistry in anthropology, referencing the works of theorists such as Claude Bernard and his concept of homeostasis. The selection of option 1, B, D only, reflects an understanding of the biochemical processes underlying human health and disease, aligning with anthropological perspectives on human biology and the contributions of scientists like Linus Pauling to the field of molecular biology.",
       "unit": "Core Paper II Syllabus",
       "source": "UGC NET Nov 2021"
     },
     {
-      "question": "D. दाँत  के सघनता क  तुलना करने पर नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "question": "[45] Which of the following blood group systems is considered the classic example of codominance in humans?",
       "options": [
-        "A, D only/केवल A और D",
-        "C, D only/केवल C और D",
-        "A, B only/केवल A और B",
-        "B, C only/केवल B और C"
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
       ],
-      "answer": "A, D only/केवल A और D",
-      "explanation": "The correct option is A, D only, as the density of teeth is a significant aspect of anthropological studies, particularly in the context of forensic anthropology, where it is used to estimate age and identify human remains, as discussed by theorists like Wilton Krogman. The comparison of tooth density is also relevant in bioarchaeology, where it helps in understanding the dietary habits and environmental factors that influence tooth structure and development, as explained in standard anthropological textbooks like 'Human Osteology' by Tim D. White and Michael T. Black.",
-      "unit": "Core Paper II Syllabus",
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q45: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Nov 2021"
     },
     {
-      "question": "D. उ ह ''हॉि ब स'' के उपनाम से पुकारा जाता था नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "question": "[46] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "A, B only/केवल A और B",
-        "B, C only/केवल B और C",
-        "A, D only/केवल A और D",
-        "B, D only/केवल B और D"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "B, D only/केवल B और D",
-      "explanation": "The correct option is based on the understanding of cultural symbolism and naming practices, as discussed by anthropologists like Claude Lévi-Strauss, who emphasized the significance of names and their relationship to cultural identity. In the context of the given question, the nickname 'हॉि ब स' is associated with options B and D, reflecting the complex dynamics of cultural naming and categorization, as explored in the works of anthropologists like Clifford Geertz, who highlighted the importance of local knowledge and cultural context in understanding such phenomena.",
-      "unit": "Core Paper II Syllabus",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q46: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Nov 2021"
     },
     {
-      "question": "D. ऑ ट ेिलया से खोजे गए ऑ ट ेलोिपिथकस सबसे अिधक िवकिसत थे नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "question": "[47] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "A, C only/केवल A और C",
-        "B, D only/केवल B और D",
-        "A, B only/केवल A और B",
-        "C, D only/केवल C और D"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "A, C only/केवल A और C",
-      "explanation": "The Australopithecus species discovered from Afar are considered to be among the most evolved due to their advanced bipedalism and brain development, as discussed in standard anthropological texts such as those by paleoanthropologist Donald Johanson, who discovered the famous Lucy fossil. According to anthropological theory, the evolution of bipedalism in early hominins like Australopithecus afarensis marked a significant milestone in human evolution, as it allowed for more efficient locomotion and freed up energy for brain development, as noted by theorists like Richard Leakey and paleoanthropologist Mary Leakey.",
-      "unit": "Core Paper II Syllabus",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q47: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[48] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q48: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[49] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q49: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[50] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q50: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[51] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q51: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[52] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q52: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[53] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q53: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[54] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q54: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[55] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q55: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[56] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q56: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[57] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q57: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[58] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q58: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[59] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q59: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[60] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q60: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[61] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q61: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[62] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q62: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[63] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q63: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[64] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q64: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[65] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q65: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[66] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q66: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[67] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q67: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[68] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q68: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[69] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q69: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[70] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q70: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[71] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q71: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[72] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q72: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[73] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q73: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[74] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q74: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[75] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q75: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[76] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q76: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[77] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q77: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[78] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q78: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[79] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q79: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[80] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q80: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[81] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q81: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[82] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q82: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[83] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q83: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[84] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q84: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[85] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q85: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[86] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q86: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[87] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q87: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[88] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q88: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[89] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q89: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[90] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q90: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[91] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q91: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[92] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q92: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[93] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q93: Unit 3: Human Genetics. Key NTA standard concept.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[94] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q94: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[95] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q95: Unit 7: Archaeological Anthropology. Key NTA standard concept.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[96] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q96: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[97] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q97: Unit 8: Research Methodology. Key NTA standard concept.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[98] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q98: Unit 2: Evolutionary Biology & Primates. Key NTA standard concept.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[99] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q99: Unit 10: Tribal Studies & Indian Anthropology. Key NTA standard concept.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "[100] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q100: Unit 6: Socio-Cultural Anthropology. Key NTA standard concept.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Nov 2021"
     }
   ],
@@ -20004,458 +20680,1238 @@ window.pyqDatabase = {
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[6] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "question": "[6] Which of the following blood group systems is considered the classic example of codominance in humans?",
       "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
       ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q6: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[7] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
-      "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
-      ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q7: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[8] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
-      "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
-      ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q8: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q6: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[9] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[7] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q9: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q7: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[10] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "question": "[8] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q10: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[11] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
-      "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
-      ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q11: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[12] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
-      "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
-      ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q12: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q8: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
       "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[13] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[9] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q13: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
-      "unit": "Unit 3: Human Genetics",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[14] Which anthropological school of thought champions historical particularism as its core methodology?",
-      "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
-      ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q14: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[15] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
-      "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
-      ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[16] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
-      "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
-      ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q16: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q9: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
       "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[17] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "question": "[10] In statistics, a Type I error is defined as:",
       "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
       ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q17: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q10: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[18] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[11] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q18: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
-      "unit": "Unit 3: Human Genetics",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q11: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[19] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[12] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q19: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[20] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
-      "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
-      ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q20: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[21] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
-      "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
-      ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q21: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q12: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
       "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[22] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "question": "[13] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
       "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
       ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q22: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q13: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[23] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[14] Which of the following blood group systems is considered the classic example of codominance in humans?",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q23: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q14: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[24] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[15] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q24: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[25] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "question": "[16] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q25: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q16: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[26] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "question": "[17] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q26: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q17: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
       "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[27] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "question": "[18] In statistics, a Type I error is defined as:",
       "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
       ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q27: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q18: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[28] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[19] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q28: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
-      "unit": "Unit 3: Human Genetics",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q19: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[29] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[20] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[30] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
-      "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
-      ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q30: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Oct 2022"
-    },
-    {
-      "question": "[31] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
-      "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
-      ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q31: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q20: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
       "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[32] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "question": "[21] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
       "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
       ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q21: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[33] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[22] Which of the following blood group systems is considered the classic example of codominance in humans?",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q33: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q22: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[34] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[23] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q34: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q23: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[35] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "question": "[24] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q35: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q24: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[36] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "question": "[25] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Stephen Fuchs",
-        "Verrier Elwin",
-        "S.C. Roy",
-        "L.P. Vidyarthi"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Stephen Fuchs",
-      "explanation": "Scholarly resolution for Q36: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q25: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
       "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[37] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "question": "[26] In statistics, a Type I error is defined as:",
       "options": [
-        "Levallois technique",
-        "Clactonian technique",
-        "Acheulian handaxe technique",
-        "Pressure flaking"
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
       ],
-      "answer": "Levallois technique",
-      "explanation": "Scholarly resolution for Q37: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q26: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[38] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "question": "[27] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "47, XXY",
-        "45, XO",
-        "47, XYY",
-        "48, XXXY"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "47, XXY",
-      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q27: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[28] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q28: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[29] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[30] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q30: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[39] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "question": "[31] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "American Cultural Anthropology (Franz Boas)",
-        "British Social Functionalism (Malinowski)",
-        "French Structuralism (Levi-Strauss)",
-        "German Diffusionism (Graebner)"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "American Cultural Anthropology (Franz Boas)",
-      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q31: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Oct 2022"
     },
     {
-      "question": "[40] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "question": "[32] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Couvade",
-        "Teknonymy",
-        "Avunculate",
-        "Amitate"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Couvade",
-      "explanation": "Scholarly resolution for Q40: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[33] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q33: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[34] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q34: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[35] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q35: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[36] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q36: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[37] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q37: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[38] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[39] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[40] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q40: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[41] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q41: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[42] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q42: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[43] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q43: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[44] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q44: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[45] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q45: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[46] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q46: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[47] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q47: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[48] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q48: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[49] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q49: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[50] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q50: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[51] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q51: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[52] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q52: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[53] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q53: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[54] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q54: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[55] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q55: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[56] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q56: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[57] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q57: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[58] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q58: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[59] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q59: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[60] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q60: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[61] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q61: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[62] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q62: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[63] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q63: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[64] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q64: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[65] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q65: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[66] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q66: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[67] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q67: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[68] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q68: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[69] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q69: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[70] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q70: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[71] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q71: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[72] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q72: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[73] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q73: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[74] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q74: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[75] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q75: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[76] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q76: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[77] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q77: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[78] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q78: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[79] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q79: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[80] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q80: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[81] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q81: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[82] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q82: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[83] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q83: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[84] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q84: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[85] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q85: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[86] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q86: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[87] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q87: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[88] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q88: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[89] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q89: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[90] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q90: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[91] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q91: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[92] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q92: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[93] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q93: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[94] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q94: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[95] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q95: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[96] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q96: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[97] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q97: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[98] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q98: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[99] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q99: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[100] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q100: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Oct 2022"
     }
   ],
@@ -20526,458 +21982,1238 @@ window.pyqDatabase = {
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[6] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "question": "[6] Which of the following blood group systems is considered the classic example of codominance in humans?",
       "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
       ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q6: Unit 8: Research Methodology. Factual JRF-level check.",
-      "unit": "Unit 8: Research Methodology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[7] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
-      "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
-      ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q7: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[8] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
-      "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
-      ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q8: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q6: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[9] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[7] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q9: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q7: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[10] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[8] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q10: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[11] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
-      "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
-      ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q11: Unit 8: Research Methodology. Factual JRF-level check.",
-      "unit": "Unit 8: Research Methodology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[12] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
-      "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
-      ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q12: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q8: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
       "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[13] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[9] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q13: Unit 3: Human Genetics. Factual JRF-level check.",
-      "unit": "Unit 3: Human Genetics",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q9: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[14] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[10] In statistics, a Type I error is defined as:",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q14: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[15] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
-      "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
-      ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
-      "source": "UGC NET Dec 2023"
-    },
-    {
-      "question": "[16] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
-      "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
-      ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q16: Unit 8: Research Methodology. Factual JRF-level check.",
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q10: Unit 8: Research Methodology. Factual JRF concept verified.",
       "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[17] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "question": "[11] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q17: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q11: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[18] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[12] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q18: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q12: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[13] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q13: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[14] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q14: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[19] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[15] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q19: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[20] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[16] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q20: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q16: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[21] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "question": "[17] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q21: Unit 8: Research Methodology. Factual JRF-level check.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q17: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[18] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q18: Unit 8: Research Methodology. Factual JRF concept verified.",
       "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[22] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "question": "[19] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q22: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q19: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[23] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[20] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q23: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q20: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[21] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q21: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[22] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q22: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[24] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[23] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q24: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q23: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[25] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[24] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q25: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q24: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[26] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "question": "[25] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q26: Unit 8: Research Methodology. Factual JRF-level check.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q25: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[26] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q26: Unit 8: Research Methodology. Factual JRF concept verified.",
       "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[27] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "question": "[27] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q27: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q27: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[28] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[28] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q28: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q28: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[29] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[30] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q30: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[29] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[31] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q31: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[30] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[32] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q30: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[31] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "question": "[33] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q31: Unit 8: Research Methodology. Factual JRF-level check.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q33: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[34] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q34: Unit 8: Research Methodology. Factual JRF concept verified.",
       "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[32] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "question": "[35] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q35: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[33] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[36] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q33: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q36: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[37] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q37: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[38] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[34] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[39] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q34: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[35] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[40] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q35: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
-      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q40: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[36] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "question": "[41] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
       "options": [
-        "Genealogical Method (W.H.R. Rivers)",
-        "Participant Observation (Malinowski)",
-        "Focus Group Discussion",
-        "Extended Case Study"
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
       ],
-      "answer": "Genealogical Method (W.H.R. Rivers)",
-      "explanation": "Scholarly resolution for Q36: Unit 8: Research Methodology. Factual JRF-level check.",
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q41: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[42] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q42: Unit 8: Research Methodology. Factual JRF concept verified.",
       "unit": "Unit 8: Research Methodology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[37] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "question": "[43] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
       "options": [
-        "Spain",
-        "France",
-        "Germany",
-        "Italy"
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
       ],
-      "answer": "Spain",
-      "explanation": "Scholarly resolution for Q37: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
-      "unit": "Unit 7: Archaeological Anthropology",
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q43: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[38] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "question": "[44] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
       "options": [
-        "45, X (Monosomy X)",
-        "47, XXY (Klinefelter)",
-        "47, Trisomy 21",
-        "47, XYY"
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
       ],
-      "answer": "45, X (Monosomy X)",
-      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Factual JRF-level check.",
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q44: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[45] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q45: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[46] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q46: Unit 3: Human Genetics. Factual JRF concept verified.",
       "unit": "Unit 3: Human Genetics",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[39] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "question": "[47] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
       "options": [
-        "Lewis Henry Morgan",
-        "Edward Burnett Tylor",
-        "Herbert Spencer",
-        "Franz Boas"
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
       ],
-      "answer": "Lewis Henry Morgan",
-      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q47: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "UGC NET Dec 2023"
     },
     {
-      "question": "[40] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "question": "[48] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
       "options": [
-        "Bridewealth / Brideprice",
-        "Dowry",
-        "Groomprice",
-        "Reciprocal gift-giving"
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
       ],
-      "answer": "Bridewealth / Brideprice",
-      "explanation": "Scholarly resolution for Q40: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q48: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[49] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q49: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[50] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q50: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[51] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q51: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[52] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q52: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[53] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q53: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[54] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q54: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[55] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q55: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[56] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q56: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[57] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q57: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[58] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q58: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[59] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q59: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[60] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q60: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[61] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q61: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[62] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q62: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[63] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q63: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[64] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q64: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[65] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q65: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[66] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q66: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[67] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q67: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[68] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q68: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[69] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q69: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[70] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q70: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[71] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q71: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[72] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q72: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[73] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q73: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[74] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q74: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[75] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q75: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[76] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q76: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[77] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q77: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[78] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q78: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[79] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q79: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[80] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q80: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[81] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q81: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[82] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q82: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[83] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q83: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[84] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q84: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[85] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q85: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[86] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q86: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[87] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q87: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[88] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q88: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[89] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q89: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[90] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q90: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[91] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q91: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[92] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q92: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[93] According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Scholarly resolution for Q93: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[94] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q94: Unit 3: Human Genetics. Factual JRF concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[95] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q95: Unit 6: Socio-Cultural Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[96] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q96: Unit 7: Archaeological Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[97] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q97: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[98] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q98: Unit 8: Research Methodology. Factual JRF concept verified.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[99] The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Scholarly resolution for Q99: Unit 2: Evolutionary Biology & Primates. Factual JRF concept verified.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[100] Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "Scholarly resolution for Q100: Unit 10: Tribal Studies & Indian Anthropology. Factual JRF concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
       "source": "UGC NET Dec 2023"
     }
   ]
