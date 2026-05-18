@@ -193,6 +193,8 @@
           const [userDoubt, setUserDoubt] = useState('');
           const [auditResponse, setAuditResponse] = useState('');
           const [isAuditing, setIsAuditing] = useState(false);
+          const [showConfirmModal, setShowConfirmModal] = useState(false);
+          const [confirmAction, setConfirmAction] = useState(null);
 
           // --- DATABASE ABSTRACTORS ---
           const currentDatabase = useMemo(() => {
@@ -207,7 +209,7 @@
                 difficulty: q.difficulty || 'Actual PYQ',
                 question: q.question,
                 options: q.options,
-                correctAnswerIndex: q.options.indexOf(q.answer) !== -1 ? q.options.indexOf(q.answer) : 0,
+                correctAnswerIndex: q.options.indexOf(q.answer) !== -1 ? q.options.indexOf(q.answer) : null,
                 explanation: q.explanation,
                 thinker: q.source || 'NTA Previous Year',
                 trend: 'Official NTA Solved PYQ Paper'
@@ -247,60 +249,22 @@
 
           // --- PERSIST ACTIVE STATE (NAMESPACED BY ACTIVE PAPER) ---
           useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_current_index_${activeDatabaseKey}`, currentQuestionIndex.toString());
-            }
-          }, [currentQuestionIndex, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_exam_selected_${activeDatabaseKey}`, JSON.stringify(selectedOptions));
-            }
-          }, [selectedOptions, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_exam_flagged_${activeDatabaseKey}`, JSON.stringify(flaggedQuestions));
-            }
-          }, [flaggedQuestions, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_exam_bookmarked_${activeDatabaseKey}`, JSON.stringify(bookmarkedQuestions));
-            }
-          }, [bookmarkedQuestions, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_exam_visited_${activeDatabaseKey}`, JSON.stringify(visitedQuestions));
-            }
-          }, [visitedQuestions, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_answer_checked_${activeDatabaseKey}`, JSON.stringify(isAnswerChecked));
-            }
-          }, [isAnswerChecked, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_exam_submitted_${activeDatabaseKey}`, JSON.stringify(isExamSubmitted));
-            }
-          }, [isExamSubmitted, activeDatabaseKey]);
-
-          useEffect(() => {
-            if (activeDatabaseKey) {
-              localStorage.setItem(`nta_score_${activeDatabaseKey}`, score.toString());
-            }
-          }, [score, activeDatabaseKey]);
-
-          useEffect(() => {
-            localStorage.setItem('nta_exam_mode', JSON.stringify(examMode));
-          }, [examMode]);
-
-          useEffect(() => {
-            localStorage.setItem('nta_focus_mode', JSON.stringify(isFocusMode));
-          }, [isFocusMode]);
+            const timeoutId = setTimeout(() => {
+              if (activeDatabaseKey) {
+                localStorage.setItem(`nta_current_index_${activeDatabaseKey}`, currentQuestionIndex.toString());
+                localStorage.setItem(`nta_exam_selected_${activeDatabaseKey}`, JSON.stringify(selectedOptions));
+                localStorage.setItem(`nta_exam_flagged_${activeDatabaseKey}`, JSON.stringify(flaggedQuestions));
+                localStorage.setItem(`nta_exam_bookmarked_${activeDatabaseKey}`, JSON.stringify(bookmarkedQuestions));
+                localStorage.setItem(`nta_exam_visited_${activeDatabaseKey}`, JSON.stringify(visitedQuestions));
+                localStorage.setItem(`nta_answer_checked_${activeDatabaseKey}`, JSON.stringify(isAnswerChecked));
+                localStorage.setItem(`nta_exam_submitted_${activeDatabaseKey}`, JSON.stringify(isExamSubmitted));
+                localStorage.setItem(`nta_score_${activeDatabaseKey}`, score.toString());
+              }
+              localStorage.setItem('nta_exam_mode', JSON.stringify(examMode));
+              localStorage.setItem('nta_focus_mode', JSON.stringify(isFocusMode));
+            }, 300);
+            return () => clearTimeout(timeoutId);
+          }, [activeDatabaseKey, currentQuestionIndex, selectedOptions, flaggedQuestions, bookmarkedQuestions, visitedQuestions, isAnswerChecked, isExamSubmitted, score, examMode, isFocusMode]);
 
           // --- HIGH PRECISION MONOTONIC CLOCK ---
           useEffect(() => {
@@ -315,24 +279,26 @@
             const startEpoch = parseInt(startTime, 10);
             const duration = 10800; // 3 hours
 
-            let timerFrame;
-            const updateTimer = () => {
+            const timer = setInterval(() => {
               const elapsed = Math.floor((Date.now() - startEpoch) / 1000);
               const remaining = Math.max(0, duration - elapsed);
-              setTimeRemaining(remaining);
+              setTimeRemaining(prev => prev !== remaining ? remaining : prev);
+            }, 1000);
 
-              if (remaining <= 0) {
-                handleExamSubmit();
-              } else {
-                timerFrame = requestAnimationFrame(updateTimer);
-              }
-            };
-
-            timerFrame = requestAnimationFrame(updateTimer);
-            return () => cancelAnimationFrame(timerFrame);
+            return () => clearInterval(timer);
           }, [examMode, isExamSubmitted]);
 
+          useEffect(() => {
+            if (examMode && !isExamSubmitted && timeRemaining === 0) {
+              handleExamSubmit();
+            }
+          }, [timeRemaining, examMode, isExamSubmitted, handleExamSubmit]);
+
           // --- DYNAMIC SEARCH ---
+          useEffect(() => {
+            setCurrentQuestionIndex(0);
+          }, [searchTerm]);
+
           const filteredAllQuestions = useMemo(() => {
             return currentDatabase.filter(q => {
               const matchesSearch = q.question.toLowerCase().includes(searchTerm.toLowerCase()) || 
@@ -407,15 +373,17 @@
               delete clone[qId];
               return clone;
             });
-            setIsAnswerChecked(prev => {
-              const clone = { ...prev };
-              delete clone[qId];
-              return clone;
-            });
+            if (examMode) {
+              setIsAnswerChecked(prev => {
+                const clone = { ...prev };
+                delete clone[qId];
+                return clone;
+              });
+            }
           }, [examMode, isExamSubmitted]);
 
           const handleClearEntirePaper = useCallback(() => {
-            if (window.confirm("Are you sure you want to clear ALL responses and reset the current paper? This cannot be undone.")) {
+            setConfirmAction(() => () => {
               setSelectedOptions({});
               setIsAnswerChecked({});
               setFlaggedQuestions([]);
@@ -425,7 +393,8 @@
               setCurrentQuestionIndex(0);
               setIsExamSubmitted(false);
               setTimeRemaining(10800);
-            }
+            });
+            setShowConfirmModal(true);
           }, []);
 
           const toggleFlag = useCallback((qId) => {
@@ -447,29 +416,34 @@
           }, [filteredAllQuestions]);
 
           const handleExamSubmit = useCallback(() => {
+            if (isExamSubmitted) return;
             let finalScore = 0;
-            filteredAllQuestions.forEach(q => {
+            currentDatabase.forEach(q => {
               if (selectedOptions[q.id] === q.correctAnswerIndex) {
                 finalScore += 1;
               }
             });
             setScore(finalScore);
             setIsExamSubmitted(true);
-          }, [filteredAllQuestions, selectedOptions]);
+          }, [currentDatabase, selectedOptions, isExamSubmitted]);
 
           const handleResetEngine = useCallback((mode) => {
-            setExamMode(mode);
-            setSelectedOptions({});
-            setFlaggedQuestions([]);
-            setBookmarkedQuestions([]);
-            setIsAnswerChecked({});
-            setScore(0);
-            setIsExamSubmitted(false);
-            setCurrentQuestionIndex(0);
-            setVisitedQuestions({ 1: true });
-            setActiveTab('quiz');
-            localStorage.removeItem('nta_exam_start_time');
-            setTimeRemaining(10800);
+            setConfirmAction(() => () => {
+              setExamMode(mode);
+              setSelectedOptions({});
+              setFlaggedQuestions([]);
+              setBookmarkedQuestions([]);
+              setIsAnswerChecked({});
+              setScore(0);
+              setIsExamSubmitted(false);
+              setCurrentQuestionIndex(0);
+              setVisitedQuestions({ 1: true });
+              setActiveTab('quiz');
+              localStorage.removeItem('nta_exam_start_time');
+              setTimeRemaining(10800);
+              setSearchTerm('');
+            });
+            setShowConfirmModal(true);
           }, []);
 
           // --- ERGONOMIC KEYBOARD NAVIGATOR ---
@@ -508,6 +482,7 @@
                   break;
                 case 'Enter':
                 case ' ':
+                  if (document.activeElement.tagName === 'BUTTON') return;
                   e.preventDefault();
                   handleManualJump(currentQuestionIndex + 1);
                   break;
@@ -652,7 +627,11 @@
 
                     <div className="flex items-center gap-3">
                       {examMode && (
-                        <div className="bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/60 text-rose-700 dark:text-rose-300 px-3.5 py-1.5 rounded-lg flex items-center gap-2 font-mono text-xs font-bold">
+                        <div 
+                          className="bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/60 text-rose-700 dark:text-rose-300 px-3.5 py-1.5 rounded-lg flex items-center gap-2 font-mono text-xs font-bold"
+                          aria-live={timeRemaining < 300 ? "assertive" : "polite"} 
+                          aria-atomic="true"
+                        >
                           ⏱️ TIME REMAINING: {formatTime(timeRemaining)}
                         </div>
                       )}
@@ -708,20 +687,7 @@
                       <span>Practice Paper:</span>
                       <select 
                         value={activeDatabaseKey}
-                        onChange={(e) => {
-                          if(e.target.value !== activeDatabaseKey) {
-                            setActiveDatabaseKey(e.target.value);
-                            setSelectedOptions({});
-                            setIsAnswerChecked({});
-                            setFlaggedQuestions([]);
-                            setBookmarkedQuestions([]);
-                            setVisitedQuestions({ 1: true });
-                            setScore(0);
-                            setCurrentQuestionIndex(0);
-                            setIsExamSubmitted(false);
-                            setTimeRemaining(10800);
-                          }
-                        }}
+                        onChange={(e) => setActiveDatabaseKey(e.target.value)}
                         className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-brand-300 rounded p-1 text-[11px] font-bold outline-none max-w-xs"
                       >
                         {window.pyqDatabase && (
@@ -866,6 +832,7 @@
                                   flaggedQuestions.includes(activeQuestion.id) ? 'text-purple-500 bg-purple-500/10' : 'text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-850'
                                 }`}
                                 title="Flag for Review"
+                                aria-label={flaggedQuestions.includes(activeQuestion.id) ? 'Remove flag' : 'Flag for review'}
                               >
                                 <FlagIcon filled={flaggedQuestions.includes(activeQuestion.id)} />
                               </button>
@@ -876,6 +843,7 @@
                                   bookmarkedQuestions.includes(activeQuestion.id) ? 'text-amber-500 bg-amber-500/10' : 'text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-850'
                                 }`}
                                 title="Add to Revision Desk"
+                                aria-label={bookmarkedQuestions.includes(activeQuestion.id) ? 'Remove bookmark' : 'Bookmark for revision'}
                               >
                                 <BookmarkIcon filled={bookmarkedQuestions.includes(activeQuestion.id)} />
                               </button>
@@ -892,11 +860,14 @@
                           </div>
 
                           <h2 className="text-sm md:text-base font-semibold text-slate-900 dark:text-white leading-relaxed mb-6 whitespace-pre-line">
+                            {activeQuestion.correctAnswerIndex === null && (
+                              <span className="inline-block px-2 py-0.5 bg-rose-100 dark:bg-rose-900/40 border border-rose-300 dark:border-rose-700 text-rose-800 dark:text-rose-300 text-xs font-bold rounded mr-2 uppercase tracking-widest align-middle">Data Error</span>
+                            )}
                             {activeQuestion.question}
                           </h2>
 
                           {/* Options Block */}
-                          <div className="space-y-2.5 mb-6">
+                          <div className="space-y-2.5 mb-6" role="radiogroup">
                             {activeQuestion.options.map((opt, oIdx) => {
                               const isSelected = selectedOptions[activeQuestion.id] === oIdx;
                               const isChecked = isAnswerChecked[activeQuestion.id];
@@ -929,17 +900,23 @@
                                   }
                                 } else {
                                   optStyle += isSelected 
-                                    ? "border-rose-500 bg-rose-50 dark:bg-rose-500/10 text-rose-700 dark:text-white" 
+                                    ? "border-brand-500 bg-brand-50 dark:bg-brand-500/10 text-brand-700 dark:text-white" 
                                     : "border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900/50 text-slate-700 dark:text-slate-300";
                                 }
                               }
 
+                              const isRevealed = (!examMode && isChecked) || (examMode && isExamSubmitted);
+                              const ariaLabel = isRevealed ? (isCorrect ? 'Correct Option: ' : (isSelected ? 'Incorrect Option: ' : 'Option: ')) + opt : 'Option: ' + opt;
+
                               return (
                                 <button 
                                   key={oIdx}
+                                  role="radio"
+                                  aria-checked={isSelected}
+                                  aria-label={ariaLabel}
                                   onClick={() => handleOptionClick(activeQuestion.id, oIdx)}
                                   className={optStyle}
-                                  disabled={(!examMode && isChecked) || (examMode && isExamSubmitted)}
+                                  disabled={isRevealed}
                                 >
                                   <span className="flex items-center gap-3">
                                     <span className="w-6 h-6 flex items-center justify-center rounded bg-slate-100 dark:bg-slate-800 text-[10px] text-slate-500 dark:text-slate-400 font-bold border border-slate-200 dark:border-slate-700 flex-shrink-0">
@@ -961,12 +938,14 @@
 
                           <div className="flex flex-col sm:flex-row justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800 gap-3">
                             <div className="flex gap-2">
-                              <button 
-                                onClick={() => handleClearResponse(activeQuestion.id)}
-                                className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-880 dark:hover:bg-slate-750 text-slate-600 dark:text-slate-300 rounded-lg text-[9px] font-black uppercase tracking-wider transition-colors border border-slate-200 dark:border-slate-700"
-                              >
-                                Clear Response
-                              </button>
+                              {!(!examMode && isAnswerChecked[activeQuestion.id]) && (
+                                <button 
+                                  onClick={() => handleClearResponse(activeQuestion.id)}
+                                  className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-880 dark:hover:bg-slate-750 text-slate-600 dark:text-slate-300 rounded-lg text-[9px] font-black uppercase tracking-wider transition-colors border border-slate-200 dark:border-slate-700"
+                                >
+                                  Clear Response
+                                </button>
+                              )}
                               <button 
                                 onClick={handleClearEntirePaper}
                                 className="px-3 py-1.5 bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/20 dark:hover:bg-rose-900/40 text-rose-600 dark:text-rose-400 rounded-lg text-[9px] font-black uppercase tracking-wider transition-colors border border-rose-200 dark:border-rose-900/60"
@@ -1473,6 +1452,34 @@
                 </div>
               )}
 
+              {/* Confirm Modal */}
+              {showConfirmModal && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm" role="dialog" aria-modal="true">
+                  <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-6 max-w-sm w-full shadow-2xl" role="alertdialog" aria-labelledby="confirm-title" aria-describedby="confirm-desc">
+                    <h3 id="confirm-title" className="text-lg font-bold text-slate-900 dark:text-white mb-2">Are you sure?</h3>
+                    <p id="confirm-desc" className="text-sm text-slate-600 dark:text-slate-400 mb-6">
+                      Are you sure you want to clear ALL responses and reset the current paper? This cannot be undone.
+                    </p>
+                    <div className="flex justify-end gap-3">
+                      <button
+                        onClick={() => setShowConfirmModal(false)}
+                        className="px-4 py-2 text-sm font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        onClick={() => {
+                          if (confirmAction) confirmAction();
+                          setShowConfirmModal(false);
+                        }}
+                        className="px-4 py-2 text-sm font-bold text-white bg-rose-600 hover:bg-rose-700 rounded-lg transition-colors"
+                      >
+                        Yes, Reset
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
               </main>
 
               {/* --- FOOTER --- */}
@@ -1484,7 +1491,7 @@
         }
 
         // --- SUBCOMPONENT: MASTER QUESTION ROW ---
-        function LibraryQuestionRow({ question, idx, isBookmarked, toggleBookmark, isFlagged, toggleFlag }) {
+        const LibraryQuestionRow = React.memo(({ question, idx, isBookmarked, toggleBookmark, isFlagged, toggleFlag }) => {
           const [showAnswer, setShowAnswer] = useState(false);
 
           return (
@@ -1500,6 +1507,7 @@
                   <button 
                     onClick={() => toggleFlag(question.id)}
                     className={`p-1 rounded transition-all ${isFlagged ? 'text-purple-500 bg-purple-50 dark:bg-purple-950/40' : 'text-slate-400 hover:text-slate-650'}`}
+                    aria-label={isFlagged ? 'Remove flag' : 'Flag for review'}
                   >
                     <FlagIcon filled={isFlagged} />
                   </button>
@@ -1507,6 +1515,7 @@
                   <button 
                     onClick={() => toggleBookmark(question.id)}
                     className={`p-1 rounded transition-all ${isBookmarked ? 'text-amber-500 bg-amber-50 dark:bg-amber-950/40' : 'text-slate-400 hover:text-slate-650'}`}
+                    aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark for revision'}
                   >
                     <BookmarkIcon filled={isBookmarked} />
                   </button>
@@ -1545,7 +1554,7 @@
               )}
             </div>
           );
-        }
+        });
 
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);

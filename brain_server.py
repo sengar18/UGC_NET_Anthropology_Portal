@@ -3,19 +3,39 @@ import os
 import sys
 import re
 from http.server import HTTPServer, BaseHTTPRequestHandler
+import unicodedata
+import subprocess
 
-# Auto-install dependencies if missing
-try:
-    import fitz  # PyMuPDF
-except ImportError:
-    os.system(f"{sys.executable} -m pip install pymupdf")
-    import fitz
+def ensure_package(package, import_name):
+    try:
+        __import__(import_name)
+    except ImportError:
+        result = subprocess.run(
+            [sys.executable, "-m", "pip", "install", package],
+            capture_output=True, text=True
+        )
+        if result.returncode != 0:
+            raise RuntimeError(f"Failed to install {package}:\n{result.stderr}")
+        __import__(import_name)
 
-try:
-    from groq import Groq
-except ImportError:
-    os.system(f"{sys.executable} -m pip install groq")
-    from groq import Groq
+ensure_package("pymupdf", "fitz")
+ensure_package("groq", "groq")
+
+import fitz
+from groq import Groq
+
+def safe_path(filepath, base_dir):
+    real = os.path.realpath(filepath)
+    base = os.path.realpath(base_dir)
+    if not real.startswith(base + os.sep):
+        raise ValueError(f"Path escape blocked: {filepath}")
+    return real
+
+def sanitise(text, max_len=400):
+    text = text[:max_len]
+    text = "".join(c for c in text if unicodedata.category(c)[0] != "C")
+    text = re.sub(r"(?i)(ignore|disregard|forget).{0,30}(above|previous|instruction)", "[redacted]", text)
+    return text.strip()
 
 # Read Groq API key securely from a local file to prevent GitHub Secret leaks
 GROQ_API_KEY = ""
@@ -29,6 +49,8 @@ else:
 client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
 
 CHUNKS_INDEX = []
+from collections import defaultdict
+INVERTED_INDEX: dict = defaultdict(list)
 
 # --- 1. RECURSIVE MULTI-DIRECTORY SCANNER (PDF, MD, TXT) ---
 def index_all_knowledge_assets():
@@ -57,23 +79,31 @@ def index_all_knowledge_assets():
                 # A. Handle PDF books/files
                 if file.endswith('.pdf'):
                     try:
+                        filepath = safe_path(filepath, base_dir)
                         doc = fitz.open(filepath)
-                        pages_to_read = min(150, len(doc)) # index up to 150 pages for large books
-                        for p in range(pages_to_read):
-                            txt = doc[p].get_text().strip()
-                            if txt:
-                                CHUNKS_INDEX.append({
-                                    "source": rel_path,
-                                    "page": p + 1,
-                                    "text": txt
-                                })
+                        buffer, start_page = "", 1
+                        for p in range(min(150, len(doc))):
+                            for block in doc[p].get_text("blocks"):
+                                if block[6] != 0: continue
+                                para = block[4].strip()
+                                if not para: continue
+                                if len(buffer) + len(para) > 1200:
+                                    if buffer:
+                                        CHUNKS_INDEX.append({"source": rel_path, "page": start_page, "text": buffer})
+                                    buffer = buffer[-150:] + " " + para
+                                    start_page = p + 1
+                                else:
+                                    buffer += (" " if buffer else "") + para
+                        if buffer:
+                            CHUNKS_INDEX.append({"source": rel_path, "page": start_page, "text": buffer})
                         doc.close()
                     except Exception as e:
-                        print(f"    Error reading PDF {rel_path}: {e}")
+                        print(f"Error reading PDF {rel_path}: {e}")
                 
                 # B. Handle Markdown or Text Notes
                 elif file.endswith(('.md', '.txt')):
                     try:
+                        filepath = safe_path(filepath, base_dir)
                         with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
                             content = f.read().strip()
                             if content:
@@ -95,53 +125,40 @@ def index_all_knowledge_assets():
                         print(f"    Error reading notes {rel_path}: {e}")
 
     print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
+    build_inverted_index()
+
+def build_inverted_index():
+    INVERTED_INDEX.clear()
+    for idx, chunk in enumerate(CHUNKS_INDEX):
+        for word in re.findall(r'\b[a-zA-Z]{4,}\b', chunk["text"].lower()):
+            INVERTED_INDEX[word].append(idx)
 
 # --- 2. LOCAL VERBATIM KEYWORD MATCHER ---
 def search_local_textbooks(question, doubt, top_n=3):
-    # Strip common stopwords
-    stopwords = {'what', 'which', 'who', 'does', 'really', 'have', 'the', 'and', 'for', 'are', 'there', 'that', 'should'}
+    stopwords = {'what','which','does','have','the','and','for','are','that'}
     q_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', question.lower())) - stopwords
     d_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', doubt.lower())) - stopwords
-    
-    scored = []
-    for idx, page_data in enumerate(CHUNKS_INDEX):
-        c_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', page_data['text'].lower()))
-        # Score the question words normally
-        score = len(q_words & c_words)
-        # Heavily weight the user's specific doubt words (5x multiplier)
-        score += len(d_words & c_words) * 5
-        
-        # Boost matches for critical terms
-        critical_terms = ['schedule', 'governor', 'neanderthal', 'equilibrium', 'malinowski', 'lineage', 'prehistory', 'chromosomal']
-        for term in critical_terms:
-            if term in doubt.lower() and term in page_data['text'].lower():
-                score += 10
-                
-        if score > 0:
-            scored.append((score, idx))
-            
-    scored.sort(reverse=True, key=lambda x: x[0])
-    
-    verbatim_results = []
-    for score, idx in scored[:top_n]:
-        match = CHUNKS_INDEX[idx]
-        cleaned_text = re.sub(r'\n+', '\n', match['text'])
-        if len(cleaned_text) > 400:
-            cleaned_text = cleaned_text[:400] + "..."
-            
-        verbatim_results.append({
-            "source": match['source'],
-            "page": match['page'],
-            "text": cleaned_text
-        })
-    return verbatim_results
+    scores = defaultdict(float)
+    for w in q_words:
+        for idx in INVERTED_INDEX.get(w, []):
+            scores[idx] += 1.0
+    for w in d_words:
+        for idx in INVERTED_INDEX.get(w, []):
+            scores[idx] += 5.0
+    top = sorted(scores, key=scores.__getitem__, reverse=True)[:top_n]
+    return [{"source": CHUNKS_INDEX[i]["source"], "page": CHUNKS_INDEX[i]["page"],
+             "text": CHUNKS_INDEX[i]["text"]} for i in top]
 
 # --- 3. LOCAL API SERVER HANDLER ---
 class BrainRequestHandler(BaseHTTPRequestHandler):
     def end_headers(self):
-        self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        ALLOWED_ORIGINS = {"http://localhost:3000"}
+        origin = self.headers.get("Origin", "")
+        if origin in ALLOWED_ORIGINS:
+            self.send_header("Access-Control-Allow-Origin", origin)
+            self.send_header("Vary", "Origin")
+        self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
         super().end_headers()
 
     def do_OPTIONS(self):
@@ -155,10 +172,10 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
             
             try:
                 data = json.loads(post_data.decode('utf-8'))
-                question = data.get('question', '')
+                question = sanitise(data.get('question', ''))
                 options = data.get('options', [])
                 correct_answer = data.get('correct_answer', '')
-                user_doubt = data.get('user_doubt', '')
+                user_doubt = sanitise(data.get('user_doubt', ''))
                 
                 print(f"\n[Brain-Server] Challenge received for: '{question[:45]}...'")
                 print(f"               Doubt: '{user_doubt}'")
