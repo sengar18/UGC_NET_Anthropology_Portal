@@ -709,8 +709,18 @@
                       <select 
                         value={activeDatabaseKey}
                         onChange={(e) => {
-                          setActiveDatabaseKey(e.target.value);
-                          setCurrentQuestionIndex(0);
+                          if(e.target.value !== activeDatabaseKey) {
+                            setActiveDatabaseKey(e.target.value);
+                            setSelectedOptions({});
+                            setIsAnswerChecked({});
+                            setFlaggedQuestions([]);
+                            setBookmarkedQuestions([]);
+                            setVisitedQuestions({ 1: true });
+                            setScore(0);
+                            setCurrentQuestionIndex(0);
+                            setIsExamSubmitted(false);
+                            setTimeRemaining(10800);
+                          }
                         }}
                         className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-brand-300 rounded p-1 text-[11px] font-bold outline-none max-w-xs"
                       >
