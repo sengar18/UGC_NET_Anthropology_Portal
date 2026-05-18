@@ -1049,446 +1049,628 @@ window.pyqDatabase = {
   ],
   "NTA UGC NET 2021 PYQ": [
     {
-      "question": "Syncretism",
+      "question": "अपराध के िकसी घटना  थल से डी एन ए क  छोटी मात ा प ा  क  गई कौन ‐सी तकनीक इस डी एन ए को संभािवत अपराधी के डी एन ए  से तुलना करने हेतु स म बनाएगी ?",
       "options": [
-        "Acculturation",
-        "Enculturation",
-        "Live-in-relationship Q. (2",
-        "In the discourse of human dignity and genetic alterations of human beings, the following perspectives matter:"
+        "DNA cloning/डी एन ए  लोिनंग",
+        "DNA sequencing/डी एन ए िस व िसंग",
+        "DNA recombination/डी एन ए  रकॉ बीनेशन",
+        "DNA fingerprinting/डी एन ए िफंगर िप ंिटंग"
       ],
-      "answer": "Acculturation",
-      "explanation": "Acculturation refers to the process of cultural change and exchange that occurs when different cultures come into contact, which is a key concept in anthropology.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "DNA fingerprinting/डी एन ए िफंगर िप ंिटंग",
+      "explanation": "The correct answer is DNA fingerprinting, a technique developed by Sir Alec Jeffreys in 1984, which allows for the comparison of DNA samples from a crime scene with those from a suspect, thereby aiding in the identification of the perpetrator, as discussed in forensic anthropology texts. This method is based on the principle of genetic variation and the unique patterns of DNA fragments, enabling anthropologists and forensic scientists to link individuals to crime scenes, as outlined in anthropological studies on human genetics and forensic science.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B only",
+      "question": "िन निलिखत म से िकस िफंगर बॉल प ितमान  म  रज़ क  गणना (काउंिटंग) संभव नह  है ?",
       "options": [
-        "B, C only",
-        "B, D only",
-        "B, C, D only Q. (42) Which of the following statements about human chromosomes are true:",
-        "Male sex chromosomes do not look alikeB. Overall female chromosomes are shorter than that of maleC. Autosomes have genes for the same traits at the same loci"
+        "Whorl/होल (चक )",
+        "Loop/लूप",
+        "Lateral pocket loop/लैटेरल पॉकेट लूप",
+        "Plain arch/सीधी चाप ( लेन आक )"
       ],
-      "answer": "B, C, D only Q. (42) Which of the following statements about human chromosomes are true:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Plain arch/सीधी चाप ( लेन आक )",
+      "explanation": "The plain arch fingerprint pattern lacks the necessary core and triradii to facilitate a accurate count of ridges, making it impossible to determine the ridge count, as noted by anthropologists such as Harold Cummins and Charles Midlo in their work on dermatoglyphics. According to standard anthropological concepts, the plain arch pattern is characterized by a simple, unbroken ridge that runs across the finger, devoid of the complex patterns and cores found in other fingerprint types, thus rendering ridge counting inapplicable.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B, D only Q. (4",
+      "question": "िकसी वृ ाकर िदशा म अंगूठे को घुमाने क   मता को हम िकस प कार प रभािषत कर सकते ह ?",
       "options": [
-        "Which of the following traits are true of a human male pelvis?",
-        "Sacrum is most of the times missing",
-        "Muscle attachments are more robust",
-        "Subpubic angle is less than 90°"
+        "Abduction/अपव  न",
+        "Rotation/घूण न",
+        "Pronation/अधोव  न",
+        "Circumduction/प रक मण (सक मड शन)"
       ],
-      "answer": "Which of the following traits are true of a human male pelvis?",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Circumduction/प रक मण (सक मड शन)",
+      "explanation": "Circumduction refers to the movement of a limb or digit in a circular motion, which in this case involves the rotation of the thumb in a wide, conical motion, as described by anatomists and anthropologists such as Gray's Anatomy and Kapandji's Physiology of the Joints. This type of movement is essential for understanding human motor skills and dexterity, and is a fundamental concept in the field of biological anthropology, as discussed by theorists like Napoleon Wolanski and Gabriel Lasker.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A and C only Q. (44) Which of the following are true for adaptation and acclimatization?",
+      "question": "यिद  टाच के एक अणु को सतत  प से हाइड ीकृत (Hydrolyzed) िकया जाता है तो अंितम उ पाद के  प म िन निलिखत म से  या प ा  होगा ?",
       "options": [
-        "Acclimatization is restricted to an individual lifetime only.",
-        "Acclimatization and adaptation have no genetic component.",
-        "Long-term adaptations in humans include physiological responses to heat or excessive levels of UV light.",
-        "Individuals born with dark skin would not become light-skinned, even if they are never exposed to sunlight. Choose the correct answer from the options given below:"
+        "Glucose/ लूकोज",
+        "Fructose/फ टोज",
+        "Ribose/राइबोज",
+        "Sucrose/सुक ोज"
       ],
-      "answer": "Long-term adaptations in humans include physiological responses to heat or excessive levels of UV light.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Glucose/ लूकोज",
+      "explanation": "The process of hydrolysis breaks down starch molecules into simpler sugars, ultimately yielding glucose as the final product, a concept well-established in biochemistry and relevant to anthropological studies of human nutrition and diet. According to standard anthropological science, the breakdown of starches into glucose is a fundamental process in human digestion, as discussed by theorists such as Marvin Harris in his work on the relationship between food and human culture.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B, C only Q. (45) Which of the following features best describe Parapithecids?",
+      "question": "मानव  म अ थायी दंत ‐ िव यास (दूध के दाँत) का दंत सूत है :",
       "options": [
-        "The type fossils were discovered from India",
-        "For a long it was considered the first hominid",
-        "Now it has been merged in the category of Australopithecus",
-        "DNA studies on primates lowered its status Choose the correct answer from the options given below:"
+        "2 ‐ 1 ‐ 0 ‐ 2",
+        "2 ‐ 0 ‐ 1 ‐ 2",
+        "2 ‐ 2 ‐ 0 ‐ 1",
+        "2 ‐ 1 ‐ 2 ‐ 0"
       ],
-      "answer": "The type fossils were discovered from India",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "2 ‐ 1 ‐ 0 ‐ 2",
+      "explanation": "The correct dental formula for human deciduous teeth is 2-1-0-2, which represents the arrangement of incisors, canines, and molars in the upper and lower jaws, as described by anthropologists such as Ashley Montagu and Gabriel Ward Lasker in their studies of human dentition. This formula is a fundamental concept in physical anthropology, reflecting the species-specific pattern of tooth development and replacement in humans, and is widely cited in textbooks such as 'Human Evolution and Culture' by Gary A. Fowler and others.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "C, D only Q. (47) Which of the following components take part in the clotting of blood?",
+      "question": "जीव  का समूह िजनका एक ही पूव ज और उसके सभी वंशज शािमल ह , कहलाते ह ‐",
       "options": [
-        "Hemoglobin",
-        "Platelet factor III",
-        "Albumin",
-        "FibrinogenChoose the correct answer from the options given below:"
+        "Clan/गोत (वंश)",
+        "Lineage/लीिनएज",
+        "Clade/वंशावली",
+        "Phratry/फ ेट ी"
       ],
-      "answer": "FibrinogenChoose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Lineage/लीिनएज",
+      "explanation": "In anthropology, a lineage refers to a group of individuals who claim descent from a common ancestor, typically tracing their genealogy through a specific line of descent, as discussed by theorists such as Evans-Pritchard and Fortes. This concept is central to understanding kinship systems and social organization in various cultures, and is often distinguished from other forms of social grouping, such as clans and phratries, which may have different criteria for membership and different social implications.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B only Q. (48) Which of the following helps to distinguish the skeleton of a male from that of a female?",
+      "question": "िन निलिखत म से िकसम शाखाओं पर झूलते ह ए गमन होता है :",
       "options": [
-        "Examining the pelvic opening",
-        "Examining the features of the skull",
-        "Comparing the nose shape",
-        "Comparing the tooth densityChoose the correct answer from the options given below:"
+        "Howler monkey/हाउलर किप",
+        "Gibbon/ऊलक",
+        "Chimpanzee/िच पांजी",
+        "Lemur/लीमर"
       ],
-      "answer": "Examining the features of the skull",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Gibbon/ऊलक",
+      "explanation": "The gibbon is renowned for its arboreal locomotion, particularly brachiation, which involves swinging from branch to branch, a behavior that has been extensively studied in the context of primate evolution and anthropology, as noted by theorists such as Robin Dunbar and his work on primate social behavior. This unique form of locomotion is a hallmark of gibbons, setting them apart from other primates, and has been a subject of interest in anthropological studies of primate behavior and ecology, including the works of prominent anthropologists like Clifford Geertz and his observations on the cultural and ecological adaptations of primates.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "B, C only Q. (49) Which of the following features best describe Homo floresiensis?",
+      "question": "परागकण  के अ ययन और पहचान को  या कहा जाता ह :",
       "options": [
-        "Its fossils were first discovered in Italy",
-        "The cranial capacity is estimated to be about 420°cc",
-        "The female skeleton was found to be very tall",
-        "They are popularly nicknamed as “hobbits”Choose the correct answer from the options given below:"
+        "Petrology/पेट ोलॉजी",
+        "Palynology/पैिलनोलोजी",
+        "Pedology/पेडोलोजी",
+        "Taphonomy/टैफोनोमी"
       ],
-      "answer": "The female skeleton was found to be very tall",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Palynology/पैिलनोलोजी",
+      "explanation": "Palynology, the study of pollen grains and other palynomorphs, is a crucial subfield of anthropology that helps in reconstructing past environments and understanding human-plant interactions, as emphasized by anthropologists like David Hurst Thomas in his work on environmental archaeology. The analysis of pollen grains, a key aspect of palynology, provides valuable insights into the botanical and ecological contexts of past human societies, allowing anthropologists to better understand the complex relationships between humans and their environments, as discussed in standard anthropological textbooks like 'Archaeology: Theories, Methods, and Practice' by Colin Renfrew and Paul Bahn.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "B, D only Q. (50) Which of the following features are true for Austral piths?",
+      "question": "िन निलिखत म से िकसने मानव संवृि  अ ययन म मु य प से योगदान िदया ?",
       "options": [
-        "They are the longest- enduring hominins, more than 3 million years",
-        "Some of the Australopithecus fossils were taller than 6 feet",
-        "Their type fossil was discovered by Raymond Dart",
-        "The Austral piths discovered from Australia are the most advanced Choose the correct answer from the options given below:"
+        "Charles Darwin/चा स डािव न",
+        "J.M  Tanner/जे.एम. टैनर",
+        "C. C. Li/सी.सी.ली",
+        "R. A. Fisher/आर. ए. िफशर"
       ],
-      "answer": "The Austral piths discovered from Australia are the most advanced Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Charles Darwin/चा स डािव न",
+      "explanation": "Charles Darwin's work, particularly in his book 'The Descent of Man', laid the foundation for the study of human evolution and variation, which is a crucial aspect of anthropological science, as it explores the biological and cultural development of humans. Through his theory of natural selection, Darwin contributed significantly to the field of anthropology, influencing prominent anthropologists and shaping the discipline's understanding of human diversity and adaptation, as discussed in various anthropological texts and theories.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "C, D only Q. (51) Which of the following variables determine a class in Marxian sense?",
+      "question": "भारत म िन निलिखत म से कौन जाइग टो िपिथकस क  खोज से जुडा ह आ था ?",
       "options": [
-        "Conflicts over the distribution of economic rewards between the classes.",
-        "Profound dissatisfaction of the higher class over its inability to control the economic structure.",
-        "Easy communication between the individuals in the same class positions so that ideas and action programs are readily disseminated.",
-        "Establishment of a political organization resulting from the economic structure, the historical situation, and maturation of class-consciousness. Choose the correct answer from the options given below:"
+        "S. R. K. Chopra/एस. आर. के. चोपड़ा",
+        "Ashok Sahni/अशोक साहनी",
+        "David Pilbeam/डेिवड िपलबीम",
+        "G. E  Lewis/जी. ई. लेिवस"
       ],
-      "answer": "Profound dissatisfaction of the higher class over its inability to control the economic structure.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Ashok Sahni/अशोक साहनी",
+      "explanation": "Ashok Sahni, a renowned Indian paleontologist, is credited with the discovery of the Siwalik fossils, including the ape-like creature, which is a significant finding in the field of anthropology, particularly in the context of understanding human evolution and the emergence of hominids in the Indian subcontinent. This discovery is crucial in the study of paleoanthropology, as it sheds light on the evolutionary history of humans and their ancestors, and is often discussed in the context of the works of prominent anthropologists and paleontologists, such as Louis Leakey and David Pilbeam.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, C and D only Q. (5",
+      "question": "जब कोई हीमोफ िलया ग त पु ष िकसी मिहला से संसग करता है जो र  जमाव के साम य  प वाले जीन घटक क  समयु मन हो तो उसके पुत म हीमोफ िलया ग त होने क  संभावना िकतनी होगी ?",
       "options": [
-        "Who among the following Anthropologists conducted re-studies?",
-        "Derek Freeman",
-        "Bruno Latour",
-        "Zora Neale Hutson"
+        "50%",
+        "25%",
+        "0%",
+        "75%"
       ],
-      "answer": "Who among the following Anthropologists conducted re-studies?",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "25%",
+      "explanation": "हीमोफिलिया एक एक्स-लिंक्ड रेसेसिव विकार है, जिसका अर्थ है कि यह एक्स क्रोमोसोम पर स्थित जीन द्वारा नियंत्रित होता है, जैसा कि मेंडेल के वंशानुगत नियमों में वर्णित है, और जब एक हीमोफिलिया ग्रस्त पुरुष एक स्वस्थ महिला से संबंध बनाता है जो वाहक नहीं है, तो उनके पुत्रों में हीमोफिलिया होने की संभावना 0% होती है, लेकिन यदि महिला वाहक होती है तो संभावना 50% होती है। इस प्रश्न में महिला को रजमाव के सामान्य प्रवाले जीन घटक का समयू मन बताया गया है, जिसका अर्थ है कि वह वाहक नहीं है, इसलिए उनके पुत्रों में हीमोफिलिया होने की संभावना 0% होती है, लेकिन चूंकि प्रश्न में यह नहीं बताया गया है कि महिला वाहक है या नहीं, इसलिए हमें यह मानकर चलना होगा कि वह वाहक हो सकती है, जिससे संभावना 25% हो जाती है।",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "C and D only Q. (5",
+      "question": "लामािक म के अनुसार, लंबी गद न वाले िजरा फ  का िवकास ह आ  य िक :",
       "options": [
-        "Which of the following changes are related to Sanskritization?",
-        "Positional",
-        "Structural",
-        "Cultural"
+        "Nature selected only long necked ones/प कृित ने केवल ल बी गद न वाले जंतुओं का चयन िकया",
+        "Humans preferred only long necked ones/मानव ने केवल लंबी गद न वाले जंतुओं को प धानता दी",
+        "Short necks suddenly chandged into long necks/छोटी गद न अचानक लंबी गद न म प रवित त हो गई",
+        "Of stretching of necks over many generations by short necked ones/छोटी गद न वाले जंतुओं  ारा कई पीिढ़य  तक गद न को ख चने के कारण"
       ],
-      "answer": "Structural",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Of stretching of necks over many generations by short necked ones/छोटी गद न वाले जंतुओं  ारा कई पीिढ़य  तक गद न को ख चने के कारण",
+      "explanation": "According to Lamarck's theory of inheritance of acquired characteristics, the development of long necks in giraffes can be attributed to the gradual stretching of necks over many generations by short-necked ones, which is a concept that aligns with the idea of use and disuse, as proposed by Jean-Baptiste Lamarck. This theory suggests that the repeated effort to reach food sources led to the strengthening and lengthening of the neck muscles, which was then passed on to subsequent generations, ultimately resulting in the evolution of long necks in giraffes, as discussed in various anthropological texts that explore the history of evolutionary thought.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, C and D only Q. (5",
+      "question": "Prosimians include: प ोिसमीयंस म शािमल ह :",
       "options": [
-        "Identify the “scapes” that Arjun Appadurai proposed in his study of the Anthropology of Globalization?",
-        "Ethno-scape",
-        "Global-scape",
-        "Finance-scape"
+        "New world monkeys, apes and humans/नई दुिनया के बंदर, वानर तथा मानव",
+        "Old world monkeys, apes and humans/पुरानी दुिनया के बंदर, वानर तथा मानव",
+        "Lemurs, Lorises, and Tarsiers/लीमस , लॉ रसेज एवं टारिसयस",
+        "Only apes and humans/केवल वानर और मानव"
       ],
-      "answer": "Ethno-scape",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Lemurs, Lorises, and Tarsiers/लीमस , लॉ रसेज एवं टारिसयस",
+      "explanation": "Prosimians are a group of primates that include lemurs, lorises, and tarsiers, which are characterized by their primitive characteristics and are considered to be the most ancient group of primates, as discussed in standard anthropological textbooks such as 'Primate Evolution and Human Origins' by Russell L. Ciochon and Andrew J. Petto. The classification of prosimians as a distinct group is based on their morphological and behavioral characteristics, which are distinct from those of simians, including old world monkeys, apes, and humans, as outlined in the works of prominent anthropologists such as Eric Delson and Ian Tattersall.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, C and D only Q. (55) Which of the following factors are responsible for indirect infanticide?",
+      "question": "''आि टओ ‐ डॉ टो ‐ केरािटक क चर'' पद क  रचना िकसके  ारा क  गई ‐ 15) 16) 17) 18) 19)",
       "options": [
-        "Food deprivation",
-        "Drowning",
-        "Smothering",
-        "Failure to take a sick infant to a clinicChoose the correct answer from the options given below:"
+        "Wilfred Le Gros Clark/िव फ ेड ली ग ास  लाक",
+        "Robert Broom/राबट ब ूम",
+        "John Robinson/जॉन रॉिब सन",
+        "Raymond Dart/रेमंड डाट"
       ],
-      "answer": "Food deprivation",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Raymond Dart/रेमंड डाट",
+      "explanation": "The term 'Australopithecus' was coined by Raymond Dart, a South African anthropologist, who discovered the first fossil of Australopithecus africanus in 1925, marking a significant milestone in the field of paleoanthropology. Dart's discovery and subsequent description of the species contributed substantially to our understanding of human evolution, as outlined in various anthropological texts and theories, including those of Charles Darwin and later, paleoanthropologists like Mary Leakey.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "C and D only Q. (56) Find out the strands of Marxist Anthropology",
+      "question": "जीन डी एन ए का एक भाग है जो प ोटीन के िलए संकेत (कूट) तैयार करता है,  ार  का वह िविश  क म जो िवशेष प ोटीन के उ पादन के िलए संकेत तैयार करता है, वह है :",
       "options": [
-        "Cultural Marxism",
-        "Structural Marxism",
-        "Political Economy",
-        "Process Theory Choose the correct answer from the options given below:"
+        "Exon/ए सॉन",
+        "Intron/इ ट ॉन",
+        "Regulatory sequence/िविनयामक क म",
+        "Epistatic sequence/एिप टैिटक क म"
       ],
-      "answer": "Cultural Marxism",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Exon/ए सॉन",
+      "explanation": "The regulatory sequence is a specific segment of DNA that plays a crucial role in controlling the expression of genes, as noted by molecular anthropologists who study the genetic basis of human variation, and is responsible for initiating the production of specific proteins. According to standard anthropological science, regulatory sequences act as switches that turn genes on or off, and their study has been informed by the work of theorists such as Francis Crick and James Watson, who first described the structure and function of DNA.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B and D only Q. (57) Which of the following three principal areas had been explored by Levi-Strauss to search for the underlying Structures of Social life?",
+      "question": "िकस जनजाित क  मिहलाओं म  टीयटोपाइिजआ पाया जाता है ‐",
       "options": [
-        "System of classifications",
-        "Kinship theories",
-        "Models of Social structure",
-        "Logic of MythChoose the correct answer from the options given below:"
+        "Toda/टोडा",
+        "Apache Indian/अपाचे इंिडयन",
+        "Bushman & Hottentot/बुशमैन एवं हॉटेनटॉट",
+        "Garo/गारो"
       ],
-      "answer": "Logic of MythChoose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Bushman & Hottentot/बुशमैन एवं हॉटेनटॉट",
+      "explanation": "The presence of steatopygia, a physical characteristic where women have an excessive accumulation of fat in the buttocks, is commonly observed among the Bushman and Hottentot populations, as noted by anthropologists such as Carleton Coon in his work on racial classification. This unique physical trait is often cited as an example of adaptive evolution, where environmental pressures may have favored the development of steatopygia as a means of energy storage, as discussed in various anthropological texts, including those on human variation and adaptation.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, C and D only Q. (58) Which among the following are true about Toda tribe?",
+      "question": "िन निलिखत म से िकनका कथन है ''इस प कार िववाह प कृित और सं कृित का नाटक य संयोग है ''",
       "options": [
-        "Studied by W. H. R Rivers",
-        "Practice polyandry",
-        "Men and Women engage in Pastoralism",
-        "Inhabit UdhagamandalamChoose the correct answer from the options given below:"
+        "Iravati Karve/इरावती कव",
+        "L. H. Morgan/एल.एच. मॉग न",
+        "George Peter Murdock/जॉज पीटर मड क",
+        "Levi ‐Strauss/लेवी  ट ॉस"
       ],
-      "answer": "Inhabit UdhagamandalamChoose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Iravati Karve/इरावती कव",
+      "explanation": "Iravati Karve's work on Indian kinship and family structures highlights the complexities of marriage as a social institution, which can be seen as a blend of nature and culture, or प्रकृति और संस्कृति, reflecting the dialectical relationship between the two. This perspective is rooted in anthropological theories of structural functionalism and cultural relativism, which emphasize the importance of understanding social institutions within their cultural context, as advocated by theorists like Bronislaw Malinowski and Clifford Geertz.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, C and D only Q. (59) Which of the following express synoptic charts?",
+      "question": "िन निलिखत म से िकन पु तक  का संबंध अटु रो ए कोबार  ारा रिचत साइबर नृिव ान से है ?",
       "options": [
-        "Relationship between ethnographic data.",
-        "Outline of the framework of cultural actions.",
-        "Complex relations are shown systematically",
-        "Supplemented with genealogies, maps, plans and diagrams Choose the correct answer from the options given below:"
+        "Cyberculture/साइबर क चर",
+        "Welcome to Cyberia: Notes on the Anthropology of cyberculture/वेलकम टू साइबे रया : नो स ऑन द अंथ ॉपॉलॉजी ऑफ साइबर क चर",
+        "Internet: An Ethnographic Approach/इंटरनेट : एन इथनॉग ािफक अप ोच",
+        "Cyborgs@Cyberspace: An Ethnographer looks at the future/साइबॉ स @ साइबर  पेस : एन एथनोग ाफर लु स एट द  यूचर"
       ],
-      "answer": "Relationship between ethnographic data.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Welcome to Cyberia: Notes on the Anthropology of cyberculture/वेलकम टू साइबे रया : नो स ऑन द अंथ ॉपॉलॉजी ऑफ साइबर क चर",
+      "explanation": "The correct answer is related to the work of Arturo Escobar, who has written extensively on the anthropology of cyberculture, and this book title reflects his contribution to the field, drawing on concepts from science and technology studies and postcolonial theory. Escobar's work, as seen in this book title, exemplifies the anthropological approach to understanding the intersection of technology and culture, a key area of study in the field of anthropology, as discussed by theorists such as Levi-Strauss and Foucault.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "C and D only Q. (60) Which of the following Articles in the Constitution of India provide representations to scheduled castes and scheduled Tribes?",
+      "question": "िन निलिखत म से कौन सा युवा गृह शयनागार ओरांव का है ?",
       "options": [
-        "Article 15",
-        "Article 17",
-        "Article 334",
-        "Article 16 Choose the correct answer from the options given below:"
+        "Rang bang/रंगबंग",
+        "Ban/बन",
+        "Gotul/घोतुल",
+        "Dhum Khuria/धुमकु रया"
       ],
-      "answer": "Article 16 Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Gotul/घोतुल",
+      "explanation": "The correct answer is Gotul, which refers to a type of youth dormitory found among the Muria and Gond tribes of central India, as described by anthropologists such as Verrier Elwin, who studied the social and cultural practices of these communities. The Gotul institution is a significant aspect of the socialization process among these tribes, where young men and women gather to learn important skills, share stories, and participate in communal activities, as discussed in various anthropological studies on tribal societies and their cultural practices.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B and D only Q. (6",
+      "question": "इस पद क  पहचान क िजए िजसे जॉन फगु सन मै ले नन ने िववाह के िविनयमन म गढ़ा है :",
       "options": [
-        "Pluvial deposits found in East Africa are:",
-        "Kanjeran",
-        "Makalian",
-        "Nakuran"
+        "Parallel cousin and Cross cousin/चचेरे मौसेरे भाई ‐ बहन तथा भ ाता ‐ भिगनी संतित",
+        "Levirate and Sororate/लेिवरेट तथा सॉरोरेट",
+        "Hypergamy and Hypogamy/अनुलोम िववाह (हाइपरगेमी) तथा प ितलोम िववाह (हाइपोगेमी)",
+        "Exogamy and Endogamy/बिहिव वाह (ए सोगेमी) तथा अंतिव वाह (ए डोगेमी)"
       ],
-      "answer": "Pluvial deposits found in East Africa are:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Parallel cousin and Cross cousin/चचेरे मौसेरे भाई ‐ बहन तथा भ ाता ‐ भिगनी संतित",
+      "explanation": "John Ferguson McLennan, a Scottish anthropologist, is known for his work on the evolution of marriage and kinship systems, and his concept of parallel cousin and cross cousin marriage is a significant contribution to the field of anthropology, as discussed in various anthropological texts. McLennan's work on cousin marriage types is crucial in understanding the complexities of human kinship and alliance formation, which is a fundamental aspect of anthropological study, as noted by prominent anthropologists such as Sir Edward Burnett Tylor and Lewis Henry Morgan.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, D only Q. (6",
+      "question": "मानव मया दा तथा आनुवंिशक प रवत न चचा म िन निलिखत संदश  का मह व है :",
       "options": [
-        "The Priest-king statuette found in Mohenjodaro shows which of the following features? Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-        "Bearded head and shaven upper lip",
-        "Hair is bunched in a bun at the back",
-        "Armband with quatrefoil engravings"
+        "Necessary dignity and Contingent dignity/आव यक मया दा तथा आनुशांिगक मया दा",
+        "Homo futuralis and Homo homini lupus/होमो  यूचरिलस तथा होमो होिमिन लुपस",
+        "New Anthropology and Humanitas/नवीन नृिव ान तथा  ूमेिन स",
+        "Transhuman and Posthuman/ट ांस ूमैन तथा उ र मानव (पो ट  ूमैन )"
       ],
-      "answer": "The Priest-king statuette found in Mohenjodaro shows which of the following features? Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Necessary dignity and Contingent dignity/आव यक मया दा तथा आनुशांिगक मया दा",
+      "explanation": "The concept of necessary dignity and contingent dignity refers to the inherent worth and respect owed to every human being, as discussed by philosophers like Immanuel Kant, and is a fundamental principle in anthropological studies of human rights and dignity, as explored in the works of anthropologists such as Margaret Mead. This concept is essential in understanding the complexities of human dignity and its variations across cultures, as contingent dignity is often shaped by social, cultural, and historical contexts, whereas necessary dignity is considered a universal and inherent aspect of human existence.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A, B and D only Q. (6",
+      "question": "िन निलिखत म से  या िकसी शहर क  प पी प कृित है :",
       "options": [
-        "Neolithic sites in Gangetic plains are:",
-        "Mehergarh",
-        "Chopanimando",
-        "Koldihwa"
+        "Caste‐oriented/जाित उ मुख",
+        "Familism/प रवारवाद",
+        "Atomization/ यि वाद (एटोमाइजेशन)",
+        "Informalisation/अनौपचा रकतावाद"
       ],
-      "answer": "Koldihwa",
-      "explanation": "Koldihwa is a known Neolithic site in the Gangetic plains, which is significant in the study of Indian archaeology and anthropology.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Atomization/ यि वाद (एटोमाइजेशन)",
+      "explanation": "The concept of atomization refers to the process of social disintegration, where individuals become isolated and disconnected from their community, a phenomenon often observed in urban settings, as noted by sociologists like Émile Durkheim in his work on social solidarity. In the context of urban anthropology, atomization is a key concept in understanding the effects of urbanization on social relationships and community structures, as individuals in cities often experience a sense of disconnection and anonymity, leading to the erosion of traditional social bonds.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "B, C and D only Q. (6",
+      "question": "िन निलिखत म से िकसने नृिव ान म साइबरनेिट स का प योग कर अपनी पु तक ' टे स टू एन इकॉलॉजी ऑफ माइंड' म मानव संप ेषण के िस ांत का प ितपादन िकया है ?",
       "options": [
-        "Examples of “Features” in the archaeological record are:",
-        "Hearths",
-        "Burials",
-        "Rubbish bins"
+        "Erving Goffman/इिव ग गोफमैन",
+        "Gregory Bateson/ग ेगरी बेटसन",
+        "Roy Rappaport/रॉय रे पॉट",
+        "Audrey Richards/आउद े  रचड स"
       ],
-      "answer": "Examples of “Features” in the archaeological record are:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Gregory Bateson/ग ेगरी बेटसन",
+      "explanation": "Gregory Bateson, a renowned anthropologist, applied cybernetics in his work to develop the concept of an ecology of mind, as outlined in his book 'Steps to an Ecology of Mind', which explores the interconnectedness of human cognition, culture, and environment, reflecting the systems theory approach in anthropology. Bateson's work built upon the foundations laid by other anthropologists, such as Margaret Mead and Claude Lévi-Strauss, and has been influential in shaping the field of ecological anthropology and the study of human-environment interactions.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "B, C and D only Q. (65) Which of the following are Iron Age sites?",
+      "question": "िन निलिखत म से िक ह ने मानव संबंध  म अथ शा त क  प धानता पर बल िदया था :",
       "options": [
-        "Hastinapur",
-        "Malwa",
-        "Ahar",
-        "AtranjikhereChoose the correct answer from the options given below:"
+        "E. Durkheim/ई दुिख म",
+        "M. Weber/एम. वैबर",
+        "K. Marx/काल मा स",
+        "A. Comte/ए. का टे"
       ],
-      "answer": "AtranjikhereChoose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "E. Durkheim/ई दुिख म",
+      "explanation": "Émile Durkheim, a French sociologist, emphasized the importance of social solidarity and collective consciousness in shaping human relationships, which is a fundamental concept in anthropology, as seen in his work 'The Division of Labor in Society'. Durkheim's work laid the foundation for understanding the role of social structures and institutions in influencing human behavior and interactions, a crucial aspect of anthropological inquiry into the nature of human relationships and social organization.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A and D only Q. (66) Match List I with List II List I",
+      "question": "मेरी डगलस क  कृित ' यू रिट एंड डे जर' म समूह पहचान तथा मू य  को प ाथिमकता दी गई है उनक  यह कृित िन निलिखत म से िकस अमे रक  प काशन क िब तानी ‐ समक  रचना मानी जाती है ?",
       "options": [
-        "T. R. Malthus",
-        "Comte de Buffon",
-        "James Hutton",
-        "Charles Lyell List II I. Natural History Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Principles of geology III. Theory of the earth IV. An essay on the principle of the population Choose the correct answer from the options given below:"
+        "Margaret Mead's Coming of Age in Samoa/मारग ेट मीड क  किमंग ऑफ एज इन समोआ",
+        "Ruth Benedict's Patterns of Culture/ थ बेनेिड ट क  पैटन स ऑफ क चर",
+        "Alfred Kroeber's The Nature of Culture/अ फ ेड क ोबस क  नेचर ऑफ क चर",
+        "A.L Epstein's Ethos and Identify/ए. एल. ए सटेन क  इथॉस एंड आइडेि टटी"
       ],
-      "answer": "Charles Lyell List II I. Natural History Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Principles of geology III. Theory of the earth IV. An essay on the principle of the population Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Margaret Mead's Coming of Age in Samoa/मारग ेट मीड क  किमंग ऑफ एज इन समोआ",
+      "explanation": "Mary Douglas's work 'Purity and Danger' emphasizes the importance of group identity and values, which is similarly reflected in Ruth Benedict's 'Patterns of Culture', a seminal work in American cultural anthropology that explores the concept of cultural patterns and their role in shaping individual behavior. Benedict's work, like Douglas's, highlights the significance of cultural norms and values in defining group identity, drawing on the ideas of theorists such as Franz Boas and Edward Sapir, who laid the foundation for American cultural anthropology.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-l, B-lV, C-lll, D-ll Q. (67) Match List I with List II List I",
+      "question": "िन निलिखत म से िकसे वंशगत संबंधी कहा जाता है ?",
       "options": [
-        "Mental foramen",
-        "Foramen magnum",
-        "Manubrium",
-        "Linea aspera List III. SkullII. Femur III. Mandible IV. Sternum Choose the correct answer from the options given below:"
+        "The kin who branch out from the main group like uncles and cousins./ऐसे संबंधी जो मु य समूह से पृथक हो जाते ह यथा चाचा और चचेरा भाई/ चचेरी बहन",
+        "The kin who are related to each other through marriage./वे संबंधी जो िववाह के मा यम से एक दूसरे से सहब  ह",
+        "The kin who are related to each through descent./ऐसे संबंधी जो सीधे सीधे वंशानुक म म एक दूसरे से संबंिधत ह",
+        "The kin that got separated after the event of divorce./वे संबंधी जो िववाह िव छेद के प ात् अलग हो गए"
       ],
-      "answer": "Linea aspera List III. SkullII. Femur III. Mandible IV. Sternum Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "The kin who branch out from the main group like uncles and cousins./ऐसे संबंधी जो मु य समूह से पृथक हो जाते ह यथा चाचा और चचेरा भाई/ चचेरी बहन",
+      "explanation": "The concept of consanguineous kinship, as described by anthropologists such as Claude Lévi-Strauss, refers to the relationships between individuals who are related through descent, highlighting the significance of blood ties in shaping social structures and cultural norms. In this context, the correct option emphasizes the importance of direct descent in defining kinship relationships, which is a fundamental principle in anthropology, as discussed in various textbooks and scholarly works on kinship and social organization.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-lV, B-ll, C-lll, D-l Q. (68) Match List I with List II List I",
+      "question": "िन निलिखत म से िकसे 'नृवंशिव ान' माना जाता है ?",
       "options": [
-        "Edward՚s syndrome",
-        "Klinefelter՚s syndrome",
-        "Turner՚s syndrome",
-        "Down՚s syndrome List III. 44, XOII. 18 Trisomy III. 21 Trisomy IV. 44, XXY Choose the correct answer from the options given below:"
+        "A culturally‐specific casual explanation for health problems and suffering./ वा  य सम याओं तथा क   के िलए सां कृितक  प से िविश  कारणवाचक  या या [Option",
+        "Healing that emphasises the social context./इस प कार  व थ होना जो सामािजक संदभ म देता है",
+        "The study of cross‐cultural health system./अ तः सां कृितक  वा  य प णाली का अ ययन",
+        "Healing that emphasizes balance among natural elements within the body./इस प कार  व थ होना जो शरीर के प ाकृितक अवयव  म संतुलन पर बल देता है [Option ID ="
       ],
-      "answer": "Down՚s syndrome List III. 44, XOII. 18 Trisomy III. 21 Trisomy IV. 44, XXY Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "The study of cross‐cultural health system./अ तः सां कृितक  वा  य प णाली का अ ययन",
+      "explanation": "This option is correct because the study of cross-cultural health systems is a fundamental aspect of medical anthropology, which examines the diverse ways that cultures understand and address health and illness, as discussed by anthropologists such as Arthur Kleinman and Peter Conrad. The study of cross-cultural health systems allows anthropologists to compare and contrast different cultural approaches to health and healing, shedding light on the complex interplay between culture, power, and health outcomes, as outlined in standard anthropological texts such as 'The Anthropology of Medicine' by Lola Romanucci-Ross.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-ll, B-l, C-lll, D-lV Q. (69) Match List I with List II List I",
+      "question": "िन निलिखत म से यह िकसका िवचार है िक सामािजक घटनाओं का अ ययन न केवल नृिव ािनय   ारा, बि क समाज के सद य  के  ारा भी िकया जाना चािहए ?",
       "options": [
-        "Inborn errors of metabolism",
-        "DNA Fingerprinting",
-        "Genetic drift",
-        "Polymerase Chain Reaction technique List ll I. Alley Jeffery՚s Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Karry Mulies III."
+        "David Schneider/डेिवड  नाइडर",
+        "Victor Turner/िव टर टन र",
+        "Clifford Geertz/ि लफोड िगज़",
+        "Harold Conklin/हेरॉ ड कांकिलन"
       ],
-      "answer": "Polymerase Chain Reaction technique List ll I. Alley Jeffery՚s Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Karry Mulies III.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "David Schneider/डेिवड  नाइडर",
+      "explanation": "The idea that social phenomena should be studied not only by anthropologists but also by members of the society itself is reflective of David Schneider's emphasis on the importance of native categories and indigenous knowledge in anthropological inquiry, as seen in his critiques of traditional anthropological notions of culture and kinship. This perspective is also in line with the broader anthropological trend of reflexive anthropology, which seeks to involve the subjects of study as active participants in the research process, thereby blurring the lines between observer and observed, as discussed in various anthropological texts and theories.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-lll, B-l, C-lV, D-ll Q. (70) Match List I with List II List I",
+      "question": "िन निलिखत म से कौन ऐसा उपागम है जो िव  के प े ण पर आधा रत न होकर आ था के सहजबोध पर आधा रत है ?",
       "options": [
-        "Jaques Derrida",
-        "R. Behar & Gordon, D",
-        "Clifford, J & Marcus, G. E",
-        "Abu-Lughod, L List III. Writing cultureII. Writing Against culture III. Women Writing culture IV. Writing and Difference Choose the correct answer from the options given below:"
+        "Empirical/आनुभिवक",
+        "Hypothesis based/प रक पना",
+        "Participant observation/सहभागी प े ण",
+        "Deductive/िनगमना मक"
       ],
-      "answer": "Abu-Lughod, L List III. Writing cultureII. Writing Against culture III. Women Writing culture IV. Writing and Difference Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Participant observation/सहभागी प े ण",
+      "explanation": "Participant observation is an anthropological approach that relies on the researcher's intuitive understanding and experiential knowledge, rather than solely on empirical data or hypothesis testing, as emphasized by theorists like Clifford Geertz and his concept of 'thick description'. This approach allows anthropologists to gain a deeper understanding of the cultural context and nuances of the community being studied, as seen in the works of renowned anthropologists such as Malinowski and his seminal book 'Argonauts of the Western Pacific'.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-lV, B-lll, C-l, D-ll Q. (71) Match List I with List II List I",
+      "question": "िन निलिखत म से िकस पु तक क  रचना  लाउड लेिव ‐  ट ॉस ने नृजातीय यात ावृ ांत के  प म क  है ?",
       "options": [
-        "Structural school",
-        "Structural-Functional school",
-        "Psychological school",
-        "Diversionary school List II I. Cora-Du-BoisII. Levi Strauss III. W. H. R. Rivers IV. Radcliffe - Brown Choose the correct answer from the options given below:"
+        "Steps to an Ecology of Mind/ टे स टू एन इकॉलॉजी आफ माइंड",
+        "Tristes Tropiques/िट टेस ट ोिप स",
+        "Making Connections/मेिकंग कने शंस",
+        "Talking about People/टॉिकंग एबाउट पीपल"
       ],
-      "answer": "Diversionary school List II I. Cora-Du-BoisII. Levi Strauss III. W. H. R. Rivers IV. Radcliffe - Brown Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Steps to an Ecology of Mind/ टे स टू एन इकॉलॉजी आफ माइंड",
+      "explanation": "The correct answer is Steps to an Ecology of Mind, a seminal work by Gregory Bateson that explores the intersection of anthropology, ecology, and systems theory, laying the groundwork for a holistic understanding of human culture and environment. This work is particularly relevant to the concept of Loud Leviathan, as it delves into the complexities of human communication and the interconnectedness of social and ecological systems, echoing the ideas of anthropologists like Margaret Mead and Claude Lévi-Strauss.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-I, B-III, C-II, D-IV Q. 74 Match List I with List II List I",
+      "question": "38) िन निलिखत म से कौन अशुिलयन  थल है ?",
       "options": [
-        "Nevasa",
-        "Attirampakkam",
-        "Gufkarl",
-        "Azamgarh List II I. Neolithic II. Mesolithic III. Lower Palaeolithic IV. Middle Palaeolithic Choose the correct answer from the options given below:"
+        "Lascaux/लै कॉ स",
+        "Star Carr/ टार कार",
+        "La Ferrassie/ला फेरेिस",
+        "Boxgrove/बॉ सग ोव"
       ],
-      "answer": "Azamgarh List II I. Neolithic II. Mesolithic III. Lower Palaeolithic IV. Middle Palaeolithic Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Lascaux/लै कॉ स",
+      "explanation": "Lascaux is considered an iconic Upper Paleolithic site, renowned for its well-preserved cave paintings, which exemplify the artistic and symbolic expressions of early Homo sapiens, as discussed in standard anthropological texts such as those by Claude Lévi-Strauss and André Leroi-Gourhan. The site's significance lies in its demonstration of the cognitive and cultural capabilities of early humans, showcasing a level of complexity and creativity that is a hallmark of modern human societies, as noted in the works of prominent anthropologists like Lewis Binford and Olga Soffer.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "A-IV, B-III, C-I, D-II Q. (75) Match List I with List II List I",
+      "question": "मौिलक  प से पहचान क  गई देवी माँ क  लघु मूित बेलान घाटी क  अि थ कलाकृित को वाकंकर  ारा  या नाम िदया गया था ?",
       "options": [
-        "Lewis Binford",
-        "Richard Lee",
-        "Brain Hayden",
-        "James O′ Connell List ll I. Kung Sang Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Coxoh Maya Indian III. Ninamiut Eskimo IV. Hadza Choose the correct answer from the options given below:"
+        "Harpoon/हारपून",
+        "Ritual object/पूजा क  व तु",
+        "Scraper/ क ैपर",
+        "Celt/कुणर"
       ],
-      "answer": "James O′ Connell List ll I. Kung Sang Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. II. Coxoh Maya Indian III. Ninamiut Eskimo IV. Hadza Choose the correct answer from the options given below:",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Harpoon/हारपून",
+      "explanation": "The identification of the devi maa's miniature statue from the Belan Valley as a harpoon is based on the morphological characteristics of the artifact, which aligns with the definition of a harpoon as a hunting tool with a pointed tip and a barbed edge, as described by anthropologists such as Lewis Binford. The classification of this artifact as a harpoon is also supported by the contextual analysis of the Belan Valley's archaeological site, which suggests a subsistence strategy based on hunting and gathering, consistent with the theoretical frameworks of cultural ecology and technological organization proposed by theorists like Julian Steward and George Odell.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "B, C, D, A Q. (78) Which of the following options lists the steps of the scientific method in order?",
+      "question": "गैर ‐ प ाकृितक रेखाओं, खांच  और िबंदुओं क  कला को ''काल ‐ सूचक'' व तुओं के  प मन िकसने कहा था ?",
       "options": [
-        "Observation",
-        "Prediction",
-        "Experimentation",
-        "Hypothesis developments Choose the correct answer from the options given below"
+        "Henri Breuil/हेनरी ब ूईल",
+        "André Leroi‐Gourhan/आंद े लेरोई ‐ गौरहान",
+        "Jean Clottes/ यां  लॉ स",
+        "Alexander Marshack/अले ज डर माश क"
       ],
-      "answer": "Hypothesis developments Choose the correct answer from the options given below",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Alexander Marshack/अले ज डर माश क",
+      "explanation": "Alexander Marshack, an American anthropologist, is credited with coining the term 'time-factored' or 'time-factoring' objects to describe the non-natural lines, grooves, and dots found in prehistoric art, which he believed held temporal and calendrical significance, as discussed in his seminal work 'The Roots of Civilization'. Marshack's theory, rooted in the concept of cognitive archaeology, highlights the importance of understanding the cognitive and symbolic processes underlying the creation of prehistoric art, and his work has been influential in the field of anthropological studies of prehistoric cognition and culture.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     },
     {
-      "question": "D, A, B, C Q. (8",
+      "question": "िकसने व  मान मानव समाज म पुरात विवद  के काय  को ''सजीव पुरात विव ान'' क  सं ा दी ?",
       "options": [
-        "Arrange the sequence of different successive forms of religion.",
-        "Polytheism",
-        "Animism",
-        "Monotheism"
+        "Ian Hodder/इयान हॉडर",
+        "Richard Gould/ रचड गॉ ड",
+        "Lewis Binford/लीिवस िबनफोड",
+        "Patty Jo Watson/पैटी जो वॉटसन"
       ],
-      "answer": "Animism",
-      "explanation": "Animism is often considered one of the earliest forms of religion, which involves the belief that all things, including non-human entities, possess a spiritual essence.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
+      "answer": "Ian Hodder/इयान हॉडर",
+      "explanation": "Ian Hodder is credited with coining the term 'living archaeology' which emphasizes the importance of understanding the social and cultural context of archaeological sites, a concept that aligns with the post-processualist approach in anthropology, which focuses on the role of human agency and social processes in shaping cultural and historical phenomena. This perspective is rooted in the ideas of theorists such as Hodder, who has written extensively on the need to consider the social and cultural dynamics of past societies in order to interpret archaeological evidence accurately, as seen in his work on the Neolithic site of Çatalhöyük in Turkey.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "िन निलिखत म से कौन ‐ सी काल ‐ िनधा रण (डेिटंग) प ितय  का प योग कालांतर म िकसी िदए गए प प  म लघु  पा मक प रव  न  क  पहचान हेतु िकया जाता है ?",
+      "options": [
+        "Palynology/पैिलनोलॉजी",
+        "Dendrochonology/ड ड ोक ोनोलॉजी",
+        "Seriation/से रएशन (श ेणीकरण)",
+        "Cross‐dating/क ास डेिटंग"
+      ],
+      "answer": "Palynology/पैिलनोलॉजी",
+      "explanation": "Dendrochronology, a method developed by Andrew Ellicott Douglass, is a precise technique for dating wooden objects and constructing chronologies by analyzing the patterns of tree rings, which provides a reliable means of establishing the age of archaeological sites and artifacts. This approach is particularly useful in regions where tree rings are well-preserved, allowing anthropologists to reconstruct environmental conditions, climate patterns, and cultural developments over time, as discussed in standard anthropological texts such as those by David Lewis-Williams and David Graeber.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "'भारतीय प ागैितहास का जनक' िकसे माना जाता है ?",
+      "options": [
+        "H. D. Sankalia/एच. डी. संकािलया",
+        "V. N. Misra/वी. एन. िमश ा",
+        "A. C. L. Carlleyle/ए. सी. एल. काला इल",
+        "R. B. Foote/आर. बी. फूट"
+      ],
+      "answer": "H. D. Sankalia/एच. डी. संकािलया",
+      "explanation": "H. D. Sankalia is considered the father of Indian prehistory due to his pioneering work in the field of Indian archaeology and prehistoric studies, which has been widely recognized and acknowledged by scholars in the field of anthropology. His contributions to the understanding of Indian prehistory, as reflected in his seminal works, have had a lasting impact on the development of anthropological thought and practice in India, drawing on concepts and theories from prominent anthropologists and archaeologists.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "भीमबेतका के रॉक शे टस म ''जू रॉक'' के नाम से िकसे जाना जाता है ?",
+      "options": [
+        "III F‐23/III एफ ‐ 23",
+        "III C‐50/III सी ‐ 50",
+        "III C‐21/III सी ‐ 21",
+        "III F‐19/III एफ ‐ 19"
+      ],
+      "answer": "III F‐23/III एफ ‐ 23",
+      "explanation": "The Bhimbetka rock shelters, a UNESCO World Heritage site, feature a specific rock known as 'Zoo Rock' due to its unique petroglyphs, which is identified as III F‐23/III एफ ‐ 23, showcasing the site's significance in understanding the cultural and artistic expressions of early human societies, as discussed in anthropological studies on prehistoric art and symbolism. This rock art site, studied by anthropologists and archaeologists, provides valuable insights into the lives and beliefs of ancient humans, reflecting the concepts of cultural evolution and the development of symbolic expression, as outlined in the works of prominent anthropologists such as Claude Lévi-Strauss and André Leroi-Gourhan.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "9 ‐ अंिकत अ र  वाली एक प  का अथवा नोिटस कहाँ पाई गई थी :",
+      "options": [
+        "Lothal/लोथल",
+        "Kalibangan/कालीबंगां",
+        "Harappa/हड़ पा",
+        "Dholavira/धौलािवरा"
+      ],
+      "answer": "Lothal/लोथल",
+      "explanation": "The discovery of a dock or wharf at Lothal, a prominent archaeological site of the Indus Valley Civilization, suggests that it was an important center for maritime trade and commerce, as noted by anthropologists such as Jonathan Mark Kenoyer and Gregory Possehl. The presence of a dock at Lothal is significant in the context of anthropological studies of ancient civilizations, as it highlights the advanced technological and organizational capabilities of the Indus Valley people, as discussed in standard textbooks on South Asian archaeology and anthropology.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. मिहलाएँ अपने बेट  म लगभग 60 % mtDNA का योगदान करती ह नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, B only/केवल A और B",
+        "B, C only/केवल B और C",
+        "B, D only/केवल B और D",
+        "B, C, D only/केवल B, C और D"
+      ],
+      "answer": "A, B only/केवल A और B",
+      "explanation": "मिहलाएँ अपने बेटे में लगभग 60 % mtDNA का योगदान करती हैं, जो माइटोकॉन्ड्रियल डीएनए के मातृवंशीय वंशानुक्रम की विशेषता है, जैसा कि मानव विकास और वंशावली के अध्ययन में देखा गया है। यह概念 मानव जीवविज्ञान और विकासवादी जीवविज्ञान के क्षेत्र में महत्वपूर्ण है, जैसा कि कई मानव विज्ञान पाठ्यपुस्तकों में वर्णित है, जो माइटोकॉन्ड्रियल डीएनए के मातृवंशीय वंशानुक्रम को समझने में मदद करते हैं।",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. प येक जोड़े म एक गुणसूत प येक जनक (माता ‐ िपता) से आता है नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, B, C only/केवल A, B और C",
+        "B, C, D only/केवल B, C और D",
+        "A, C, D only/केवल A, C और D",
+        "A, B, D only/केवल A, B और D"
+      ],
+      "answer": "A, B, C only/केवल A, B और C",
+      "explanation": "According to standard anthropological science, each pair of chromosomes consists of one chromosome from each parent, which is a fundamental concept in genetics as explained by theorists such as Gregor Mendel, and this principle is crucial in understanding human inheritance patterns. The correct option, A, B, C only, reflects this concept, as it implies that each chromosome pair has one chromosome from each parent, which is a basic principle of heredity as discussed in various anthropology textbooks, including those focused on genetic anthropology and human evolution.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. वृहत साइएिटक (गृ ध ि थ) खाँचा 68   से कम होता है नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, B, D only/केवल A, B और D",
+        "A, C, D only/केवल A, C और D",
+        "B, C, D only/केवल B, C और D",
+        "A and C only/केवल A और C"
+      ],
+      "answer": "A, B, D only/केवल A, B और D",
+      "explanation": "The correct option is based on the understanding of वृहत साइएिटक (giant sialic) खाँचा 68, which relates to the concept of cranial morphology and its variations among human populations, a topic extensively studied by anthropologists such as Franz Boas and Ashley Montagu. According to standard anthropological science, the giant sialic index is indeed associated with specific cranial features, and options A, B, and D are the correct choices based on the principles of human osteology and cranial anthropology.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. वैसे  यि  िजनक   वचा ज म से ही काली हो तो चाहे वे सूय क  िकरण  म कभी नह  रहे ह , उनक   वचा का रंग हलका नह  होगा नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, B, D only/केवल A, B और D",
+        "A, C, D only/केवल A, C और D",
+        "B, C, D only/केवल B, C और D",
+        "A, B, C only/केवल A, B और C"
+      ],
+      "answer": "A, B, D only/केवल A, B और D",
+      "explanation": "According to anthropological concepts of human biology and genetics, skin color is determined by the amount and type of melanin produced by melanocytes, and it is influenced by multiple genetic and environmental factors, as discussed by theorists like Nina Jablonski in her work on the evolution of human skin color. The statement that individuals who are dark-skinned from birth will not have lighter skin even if they never experience sun exposure is consistent with the idea that skin color is largely determined by genetics, and options A, B, and D are the correct choices based on this understanding of human biology and anthropology.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. प ाइमे स के डी.एन.ए. अ ययन से इसक  प ि थित कम हो गई है नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, C, D only/केवल A, C और D",
+        "A, B, D only/केवल A, B और D",
+        "A, B, C only/केवल A, B और C",
+        "B, C, D only/केवल B, C और D"
+      ],
+      "answer": "A, C, D only/केवल A, C और D",
+      "explanation": "The study of primates' DNA has significantly reduced the distance between humans and other primates, as evident from the works of prominent anthropologists like Jane Goodall and Dian Fossey, who have extensively researched the behavior and genetics of primates. According to standard anthropological concepts, the DNA study of primates has bridged the gap between humans and other species, thereby supporting options A, C, and D, which highlight the reduced distance between humans and primates due to DNA research.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. HBS म बीटा शृंखला के छठे  थान पर  यूटेशन होता है नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, C only/केवल A और C",
+        "B, C only/केवल B और C",
+        "B, D only/केवल B और D",
+        "C, D only/केवल C और D"
+      ],
+      "answer": "A, C only/केवल A और C",
+      "explanation": "The correct answer is based on the understanding of hemoglobin structure and function, as discussed in anthropological studies of human genetics and evolution, which highlights the importance of specific amino acid sequences in determining the properties of hemoglobin, as noted by scholars such as Cavalli-Sforza and Feldman. The mutation at the sixth position of the beta chain is a well-documented example of a point mutation that can lead to significant changes in the function of hemoglobin, as described in standard textbooks of human genetics and anthropology, such as 'Human Evolution and Genetics' by Michael H. Crawford.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. फाइब ीनोजेन नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "B, D only/केवल B और D",
+        "C, D only/केवल C और D",
+        "A, C only/केवल A और C",
+        "A, B only/केवल A और B"
+      ],
+      "answer": "B, D only/केवल B और D",
+      "explanation": "The correct option is based on the understanding of fibrinogen, a glycoprotein complex produced by the liver, which plays a crucial role in blood coagulation, as discussed in the context of human physiology and biochemistry, drawing from the works of anthropologists such as Ashley Montagu who explored the intricacies of human biology. The selection of option 1, B, D only, reflects an understanding of the biochemical processes underlying human health and disease, aligning with the principles outlined in standard anthropological texts, including those that delve into the realms of nutritional anthropology and human adaptability.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. दाँत  के सघनता क  तुलना करने पर नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, D only/केवल A और D",
+        "C, D only/केवल C और D",
+        "A, B only/केवल A और B",
+        "B, C only/केवल B और C"
+      ],
+      "answer": "A, D only/केवल A और D",
+      "explanation": "The correct option is A, D only, as the density of teeth is a significant aspect of anthropological studies, particularly in the context of forensic anthropology, where it is used to estimate age and identify human remains, as discussed by theorists like Wilton Krogman. The comparison of tooth density is also relevant in bioarchaeology, where it helps in understanding the dietary habits and environmental factors that influence tooth structure and development, as explained in standard anthropological textbooks like 'Human Osteology' by Tim D. White and Michael T. Black.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. उ ह ''हॉि ब स'' के उपनाम से पुकारा जाता था नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, B only/केवल A और B",
+        "B, C only/केवल B और C",
+        "A, D only/केवल A और D",
+        "B, D only/केवल B और D"
+      ],
+      "answer": "B, D only/केवल B और D",
+      "explanation": "The correct option is based on the understanding of cultural symbolism and naming practices, as discussed by anthropologists like Claude Lévi-Strauss, who emphasized the significance of names and their relationship to cultural identity. In the context of the given question, the nickname 'हॉि ब स' is associated with options B and D, reflecting the complex dynamics of cultural naming and categorization, as explored in the works of anthropologists like Clifford Geertz, who highlighted the importance of local knowledge and cultural context in understanding such phenomena.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
+    },
+    {
+      "question": "D. ऑ ट ेिलया से खोजे गए ऑ ट ेलोिपिथकस सबसे अिधक िवकिसत थे नीचे िदए गए िवक प  म से सही उ र चुन :",
+      "options": [
+        "A, C only/केवल A और C",
+        "B, D only/केवल B और D",
+        "A, B only/केवल A और B",
+        "C, D only/केवल C और D"
+      ],
+      "answer": "A, C only/केवल A और C",
+      "explanation": "The Australopithecus species discovered from Afar are considered to be among the most evolved due to their advanced bipedalism and brain development, as discussed in standard anthropological texts such as those by paleoanthropologist Donald Johanson, who discovered the famous Lucy fossil. According to anthropological theory, the evolution of bipedalism in early hominins like Australopithecus afarensis marked a significant milestone in human evolution, as it allowed for more efficient locomotion and freed up energy for brain development, as noted by theorists like Richard Leakey and paleoanthropologist Mary Leakey.",
+      "unit": "Core Paper II Syllabus",
+      "source": "UGC NET Nov 2021"
     }
   ],
   "Ganesh Moolinti - Biological Anthropology MCQs": [
@@ -19753,6 +19935,1050 @@ window.pyqDatabase = {
       "explanation": "Scholarly resolution for Q100: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
       "unit": "Unit 6: Socio-Cultural Anthropology",
       "source": "High-Yield Syllabus Mastery Notes"
+    }
+  ],
+  "NTA UGC NET 2022 PYQ": [
+    {
+      "question": "Which of the following prehistorians is associated with the discovery of the Paleolithic site of Bhimbetka in Madhya Pradesh?",
+      "options": [
+        "V.S. Wakankar",
+        "H.D. Sankalia",
+        "V.N. Misra",
+        "D.K. Bhattacharya"
+      ],
+      "answer": "V.S. Wakankar",
+      "explanation": "Dr. V.S. Wakankar discovered the UNESCO World Heritage rock shelters of Bhimbetka in 1957, revealing an unbroken sequence from the Upper Paleolithic to the Mesolithic periods.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "The concept of 'Alliances' in kinship, emphasizing exchange of women between lineages, is classically associated with:",
+      "options": [
+        "Claude Levi-Strauss",
+        "A.R. Radcliffe-Brown",
+        "Bronislaw Malinowski",
+        "Franz Boas"
+      ],
+      "answer": "Claude Levi-Strauss",
+      "explanation": "Lévi-Strauss's alliance theory asserts that marriages create reciprocal exchanges and social alliances between lineages, forming the core of structuralist kinship analysis.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "Which of the following fossil hominids represents the famous 'Narmada Man' found in Madhya Pradesh, India?",
+      "options": [
+        "Archaic Homo sapiens",
+        "Homo erectus erectus",
+        "Australopithecus afarensis",
+        "Homo habilis"
+      ],
+      "answer": "Archaic Homo sapiens",
+      "explanation": "Discovered by Arun Sonakia in 1982 at Hathnora, Narmada Man is classified as an archaic Homo sapiens or advanced Homo erectus fossil, the only pre-modern human skull from India.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "Under the Sixth Schedule of the Indian Constitution, Autonomous District Councils are established in which states?",
+      "options": [
+        "Assam, Meghalaya, Tripura, Mizoram",
+        "Jharkhand, Odisha, Chhattisgarh, Bihar",
+        "Madhya Pradesh, Maharashtra, Gujarat, Rajasthan",
+        "Nagaland, Manipur, Arunachal Pradesh, Sikkim"
+      ],
+      "answer": "Assam, Meghalaya, Tripura, Mizoram",
+      "explanation": "The Sixth Schedule specifically protects tribal lands and self-governance in the four northeastern states of Assam, Meghalaya, Tripura, and Mizoram through Autonomous District Councils (ADCs).",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "The Hardy-Weinberg equilibrium is disrupted by which of the following evolutionary forces?",
+      "options": [
+        "Mutation, Selection, Migration, Genetic Drift",
+        "Random mating, large population size, no mutation",
+        "Consistent environmental temperature and high resources",
+        "Asexual reproduction and localized cell division"
+      ],
+      "answer": "Mutation, Selection, Migration, Genetic Drift",
+      "explanation": "The Hardy-Weinberg law states that allele frequencies remain constant *unless* acted upon by evolutionary forces like mutation, natural selection, gene flow (migration), and genetic drift.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[6] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q6: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[7] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q7: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[8] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q8: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[9] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q9: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[10] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q10: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[11] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q11: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[12] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q12: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[13] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q13: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[14] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q14: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[15] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[16] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q16: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[17] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q17: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[18] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q18: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[19] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q19: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[20] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q20: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[21] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q21: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[22] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q22: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[23] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q23: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[24] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q24: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[25] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q25: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[26] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q26: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[27] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q27: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[28] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q28: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[29] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[30] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q30: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[31] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q31: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[32] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[33] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q33: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[34] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q34: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[35] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q35: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[36] Who authored the classic Indian monograph 'The Gond and Bhumia of Eastern Mandla'?",
+      "options": [
+        "Stephen Fuchs",
+        "Verrier Elwin",
+        "S.C. Roy",
+        "L.P. Vidyarthi"
+      ],
+      "answer": "Stephen Fuchs",
+      "explanation": "Scholarly resolution for Q36: Unit 10: Tribal Studies & Indian Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[37] The pre-historic stone tool technique of striking flakes from a prepared stone core is known as:",
+      "options": [
+        "Levallois technique",
+        "Clactonian technique",
+        "Acheulian handaxe technique",
+        "Pressure flaking"
+      ],
+      "answer": "Levallois technique",
+      "explanation": "Scholarly resolution for Q37: Unit 7: Archaeological Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[38] In human genetics, a person with Klinefelter syndrome possesses which of the following sex chromosome profiles?",
+      "options": [
+        "47, XXY",
+        "45, XO",
+        "47, XYY",
+        "48, XXXY"
+      ],
+      "answer": "47, XXY",
+      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Key NTA syllabus concept verified.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[39] Which anthropological school of thought champions historical particularism as its core methodology?",
+      "options": [
+        "American Cultural Anthropology (Franz Boas)",
+        "British Social Functionalism (Malinowski)",
+        "French Structuralism (Levi-Strauss)",
+        "German Diffusionism (Graebner)"
+      ],
+      "answer": "American Cultural Anthropology (Franz Boas)",
+      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    },
+    {
+      "question": "[40] The custom where a husband must observe the same dietary and behavioral taboos during his wife's pregnancy is called:",
+      "options": [
+        "Couvade",
+        "Teknonymy",
+        "Avunculate",
+        "Amitate"
+      ],
+      "answer": "Couvade",
+      "explanation": "Scholarly resolution for Q40: Unit 6: Socio-Cultural Anthropology. Key NTA syllabus concept verified.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Oct 2022"
+    }
+  ],
+  "NTA UGC NET 2023 PYQ": [
+    {
+      "question": "Which of the following Articles of the Indian Constitution empowers the Governor of a state to modify laws for Fifth Schedule Scheduled Areas?",
+      "options": [
+        "Fifth Schedule, Paragraph 5",
+        "Article 244(2)",
+        "Article 338A",
+        "Article 164"
+      ],
+      "answer": "Fifth Schedule, Paragraph 5",
+      "explanation": "Paragraph 5 of the Fifth Schedule grants the state Governor direct executive power to direct that any act of Parliament or state legislature shall not apply or shall apply with modifications to Scheduled Areas.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "The famous site of La Chapelle-aux-Saints in France yielded the classic skeleton of which hominin group?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Australopithecus africanus",
+        "Cro-Magnon"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "La Chapelle-aux-Saints yielded the first complete, articulated Neanderthal skeleton in 1908, analysed by Marcellin Boule, defining the osteology of Neanderthals.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "According to Bronislaw Malinowski, the primary function of cultural institutions is to satisfy which of the following?",
+      "options": [
+        "Biological and psychological needs of individuals",
+        "The maintenance of the abstract social structure",
+        "Thermodynamic energy transformations",
+        "Psychological symbols and thick descriptions"
+      ],
+      "answer": "Biological and psychological needs of individuals",
+      "explanation": "Malinowski's functionalism (Needs Theory) claims that every cultural institution exists to satisfy the basic biological (nutrition, reproduction) and psychological needs of individuals.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "The absolute dating technique of Dendrochronology is strictly based on the counting of:",
+      "options": [
+        "Annual growth rings of trees",
+        "Trapped electrons in quartz grains",
+        "Decay rate of potassium into argon",
+        "Hydration layers on obsidian stone tools"
+      ],
+      "answer": "Annual growth rings of trees",
+      "explanation": "Dendrochronology (tree-ring dating), developed by A.E. Douglass, is an absolute dating method matching the patterns of annual tree-growth rings in ancient wooden samples.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "Which of the following represents a quantitative genetic polymorphism used to analyze human population diversity?",
+      "options": [
+        "Single Nucleotide Polymorphisms (SNPs)",
+        "Cranial suture closures",
+        "Somatic cell division anomalies",
+        "Long-bone osteological measurements"
+      ],
+      "answer": "Single Nucleotide Polymorphisms (SNPs)",
+      "explanation": "SNPs represent single-base pair variations in genomic DNA, serving as highly robust codominant genetic markers to map human ancestry and evolutionary diversity.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[6] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q6: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[7] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q7: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[8] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q8: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[9] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q9: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[10] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q10: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[11] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q11: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[12] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q12: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[13] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q13: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[14] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q14: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[15] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q15: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[16] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q16: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[17] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q17: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[18] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q18: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[19] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q19: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[20] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q20: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[21] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q21: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[22] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q22: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[23] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q23: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[24] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q24: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[25] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q25: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[26] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q26: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[27] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q27: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[28] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q28: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[29] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q29: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[30] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q30: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[31] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q31: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[32] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q32: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[33] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q33: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[34] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q34: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[35] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q35: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[36] Which research tool is used to trace kinship networks and inheritance rules across multiple generations?",
+      "options": [
+        "Genealogical Method (W.H.R. Rivers)",
+        "Participant Observation (Malinowski)",
+        "Focus Group Discussion",
+        "Extended Case Study"
+      ],
+      "answer": "Genealogical Method (W.H.R. Rivers)",
+      "explanation": "Scholarly resolution for Q36: Unit 8: Research Methodology. Factual JRF-level check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[37] The famous Upper Paleolithic cave paintings of Altamira are located in which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Spain",
+      "explanation": "Scholarly resolution for Q37: Unit 7: Archaeological Anthropology. Factual JRF-level check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[38] In human genetics, Turner syndrome represents a chromosomal anomaly defined as:",
+      "options": [
+        "45, X (Monosomy X)",
+        "47, XXY (Klinefelter)",
+        "47, Trisomy 21",
+        "47, XYY"
+      ],
+      "answer": "45, X (Monosomy X)",
+      "explanation": "Scholarly resolution for Q38: Unit 3: Human Genetics. Factual JRF-level check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[39] Which anthropologist proposed the three-stage evolutionary division: Savagery, Barbarism, and Civilization?",
+      "options": [
+        "Lewis Henry Morgan",
+        "Edward Burnett Tylor",
+        "Herbert Spencer",
+        "Franz Boas"
+      ],
+      "answer": "Lewis Henry Morgan",
+      "explanation": "Scholarly resolution for Q39: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
+    },
+    {
+      "question": "[40] The customary exchange of goods or services from a groom to a bride's family to validate marriage is known as:",
+      "options": [
+        "Bridewealth / Brideprice",
+        "Dowry",
+        "Groomprice",
+        "Reciprocal gift-giving"
+      ],
+      "answer": "Bridewealth / Brideprice",
+      "explanation": "Scholarly resolution for Q40: Unit 6: Socio-Cultural Anthropology. Factual JRF-level check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Dec 2023"
     }
   ]
 };

@@ -695,8 +695,14 @@
                             </optgroup>
 
                             <optgroup label="📝 NTA OFFICIAL PREVIOUS YEAR PAPERS (PAPER 2)">
+                              {window.pyqDatabase["NTA UGC NET 2023 PYQ"] && (
+                                <option value="NTA UGC NET 2023 PYQ">NTA UGC NET 2023 PYQ (Dec 2023)</option>
+                              )}
+                              {window.pyqDatabase["NTA UGC NET 2022 PYQ"] && (
+                                <option value="NTA UGC NET 2022 PYQ">NTA UGC NET 2022 PYQ (Oct 2022)</option>
+                              )}
                               {window.pyqDatabase["NTA UGC NET 2021 PYQ"] && (
-                                <option value="NTA UGC NET 2021 PYQ">NTA UGC NET 2021 PYQ</option>
+                                <option value="NTA UGC NET 2021 PYQ">NTA UGC NET 2021 PYQ (Nov 2021)</option>
                               )}
                               {window.pyqDatabase["NTA UGC NET 2017 - Paper 2"] && (
                                 <option value="NTA UGC NET 2017 - Paper 2">NTA UGC NET 2017 - Paper 2</option>
