@@ -11,6 +11,7 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="pyq_data.js"></script>
 </head>
 <body class="bg-slate-900 text-slate-100 font-sans">
     <div id="root"></div>
@@ -201,6 +202,7 @@
         const rawMasterDatabase = generateMasterDatabase();
 
         function App() {
+          const [activeDatabaseKey, setActiveDatabaseKey] = useState('Standard (500 Qs)');
           const [activeTab, setActiveTab] = useState('quiz');
           const [examMode, setExamMode] = useState(false);
           const [searchTerm, setSearchTerm] = useState('');
@@ -217,6 +219,25 @@
           const [score, setScore] = useState(0);
           const [isExamSubmitted, setIsExamSubmitted] = useState(false);
           const [timeRemaining, setTimeRemaining] = useState(10800);
+
+          const currentDatabase = useMemo(() => {
+            if (activeDatabaseKey === 'Standard (500 Qs)') return rawMasterDatabase;
+            if (window.pyqDatabase && window.pyqDatabase[activeDatabaseKey]) {
+              return window.pyqDatabase[activeDatabaseKey].map((q, idx) => ({
+                id: idx + 1,
+                year: activeDatabaseKey.substring(4, 8) || "PYQ",
+                unit: 'Mixed PYQ',
+                difficulty: q.difficulty || 'Actual PYQ',
+                question: `[Q-${idx+1}] ${q.question}`,
+                options: q.options,
+                correctAnswerIndex: q.options.indexOf(q.answer) !== -1 ? q.options.indexOf(q.answer) : 0,
+                explanation: q.explanation,
+                thinker: q.source || 'NTA Previous Year',
+                trend: 'Official Previous Year Question Paper'
+              }));
+            }
+            return rawMasterDatabase;
+          }, [activeDatabaseKey]);
 
           useEffect(() => {
             let timer;
@@ -243,7 +264,7 @@
           };
 
           const filteredAllQuestions = useMemo(() => {
-            return rawMasterDatabase.filter(q => {
+            return currentDatabase.filter(q => {
               const matchesSearch = q.question.toLowerCase().includes(searchTerm.toLowerCase()) || 
                                     q.explanation.toLowerCase().includes(searchTerm.toLowerCase()) ||
                                     (q.thinker && q.thinker.toLowerCase().includes(searchTerm.toLowerCase()));
@@ -319,7 +340,7 @@
 
           const analyticsData = useMemo(() => {
             const breakdown = {};
-            rawMasterDatabase.forEach(q => {
+            currentDatabase.forEach(q => {
               if (!breakdown[q.unit]) {
                 breakdown[q.unit] = { total: 0, attempted: 0, correct: 0 };
               }
@@ -345,7 +366,7 @@
             const attempted = Object.keys(selectedOptions).length;
             if (attempted === 0) return 0;
             let correctCount = 0;
-            rawMasterDatabase.forEach(q => {
+            currentDatabase.forEach(q => {
               if (selectedOptions[q.id] === q.correctAnswerIndex) {
                 correctCount += 1;
               }
@@ -446,6 +467,22 @@
                   </div>
 
                   <div className="flex items-center gap-4 text-xs font-bold text-slate-400">
+                    <span>Database:</span>
+                    <select 
+                      value={activeDatabaseKey}
+                      onChange={(e) => {
+                        setActiveDatabaseKey(e.target.value);
+                        setUnitFilter('All');
+                        setCurrentQuestionIndex(0);
+                      }}
+                      className="bg-amber-950/30 border border-amber-800 text-amber-300 rounded p-1 text-xs font-bold outline-none"
+                    >
+                      <option value="Standard (500 Qs)">Standard Mock (500 Qs)</option>
+                      {window.pyqDatabase && Object.keys(window.pyqDatabase).map(key => (
+                        <option key={key} value={key}>{key}</option>
+                      ))}
+                    </select>
+
                     <span>Palette Filter:</span>
                     <select 
                       value={unitFilter}
@@ -456,11 +493,13 @@
                       className="bg-slate-900 border border-slate-800 text-slate-300 rounded p-1 text-xs font-bold outline-none"
                     >
                       <option value="All">All Units</option>
-                      {Array.from({ length: 10 }).map((_, idx) => (
+                      {activeDatabaseKey === 'Standard (500 Qs)' ? Array.from({ length: 10 }).map((_, idx) => (
                         <option key={idx} value={`UNIT ${idx + 1}: ${rawMasterDatabase[idx * 50].unit.split(': ')[1]}`}>
                           Unit {idx + 1}
                         </option>
-                      ))}
+                      )) : (
+                        <option value="Mixed PYQ">Mixed PYQ</option>
+                      )}
                     </select>
                   </div>
                 </div>
@@ -769,7 +808,7 @@
                           <p className="text-slate-400 text-xs">Browse, search, and practice through all 500 active syllabus questions.</p>
                         </div>
                         <div className="bg-amber-500/10 border border-amber-500/20 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-black uppercase">
-                          Showing {filteredAllQuestions.length} of {rawMasterDatabase.length} questions
+                          Showing {filteredAllQuestions.length} of {currentDatabase.length} questions
                         </div>
                       </div>
 
