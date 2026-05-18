@@ -1,278 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UGC NET Anthropology - Mock Exam Portal</title>
+    <title>NTA UGC NET Assessment Portal - Anthropology</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                            950: '#451a03',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'ui-monospace', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <!-- React & ReactDOM -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Raw Data Sync -->
     <script src="pyq_data.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
 </head>
-<body class="bg-slate-900 text-slate-100 font-sans">
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, useMemo } = React;
+        const { useState, useEffect, useMemo, useCallback } = React;
 
-        // --- SVGS ---
-        const BrainIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg>;
-        const CheckCircleIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>;
-        const XCircleIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>;
-        const TrophyIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-yellow-500"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>;
-        const BookmarkIcon = ({ filled }) => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>;
-        const FlagIcon = ({ filled }) => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>;
-        const EyeIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>;
+        // --- SVGS / ICONS ---
+        const BrainIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg>;
+        const CheckCircleIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>;
+        const XCircleIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>;
+        const TrophyIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="text-brand-500"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>;
+        const BookmarkIcon = ({ filled }) => <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>;
+        const FlagIcon = ({ filled }) => <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>;
+        const EyeIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>;
+        const SunIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>;
+        const MoonIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>;
+        const MonitorIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>;
 
-        // --- 500 QUESTION DETERMINISTIC HIGH-FIDELITY GENERATOR ---
-        const generateMasterDatabase = () => {
-          const units = [
-            "UNIT 1: Anthropological Theory",
-            "UNIT 2: Research Methods and Fieldwork",
-            "UNIT 3: Biological Anthropology",
-            "UNIT 4: Archaeological Anthropology",
-            "UNIT 5: Ecological Anthropology",
-            "UNIT 6: Economic Anthropology",
-            "UNIT 7: Social Anthropology",
-            "UNIT 8: Indian Anthropology",
-            "UNIT 9: Tribal India",
-            "UNIT 10: Contemporary Anthropology"
-          ];
+        // --- GLOBAL APP COMPONENT ---
+        function App() {
+          // --- THEME ---
+          const [isDark, setIsDark] = useState(() => {
+            const saved = localStorage.getItem('nta_portal_theme');
+            if (saved) return saved === 'dark';
+            return window.matchMedia('(prefers-color-scheme: dark)').matches;
+          });
 
-          const years = ["June 2014", "Dec 2014", "June 2015", "Dec 2015", "July 2016", "Sep 2016", "Jan 2017", "Nov 2017", "July 2018", "Dec 2019", "Nov 2020", "Nov 2021", "Oct 2022", "Dec 2022", "Dec 2023"];
-          const difficulties = ["Easy", "Moderate", "Hard"];
+          useEffect(() => {
+            const root = document.documentElement;
+            if (isDark) {
+              root.classList.add('dark');
+              localStorage.setItem('nta_portal_theme', 'dark');
+            } else {
+              root.classList.remove('dark');
+              localStorage.setItem('nta_portal_theme', 'light');
+            }
+          }, [isDark]);
 
-          const unitConcepts = {
-            0: [
-              { t: "Historical Particularism", s: "Franz Boas", b: "The Mind of Primitive Man", e: "Franz Boas established Historical Particularism, emphasizing unique historical paths for societies rather than unilineal progression." },
-              { t: "Structural Functionalism", s: "A.R. Radcliffe-Brown", b: "Structure and Function in Primitive Society", e: "Radcliffe-Brown emphasized that social institutions exist to maintain stability and structure within the social system." },
-              { t: "Biocultural Functionalism", s: "Bronislaw Malinowski", b: "Argonauts of the Western Pacific", e: "Malinowski argued that culture exists to satisfy basic biological, psychological, and social needs of individuals." },
-              { t: "French Structuralism", s: "Claude Levi-Strauss", b: "The Elementary Structures of Kinship", e: "Levi-Strauss believed that human minds share universal deep structures, analyzed through binary oppositions." },
-              { t: "Neo-Evolutionism", s: "Leslie White", b: "The Science of Culture", e: "Leslie White formulated a thermodynamic theory where cultural evolution is driven by the amount of energy harnessed per capita ($E \\times T = C$)." },
-              { t: "Cultural Ecology", s: "Julian Steward", b: "Theory of Culture Change", e: "Steward introduced cultural ecology, focusing on how environment and core productive technology shape social features." },
-              { t: "Thick Description", s: "Clifford Geertz", b: "The Interpretation of Cultures", e: "Geertz championed Interpretive Anthropology, asserting culture is a web of significance analyzed via thick descriptions." },
-              { t: "Apollonian and Dionysian", s: "Ruth Benedict", b: "Patterns of Culture", e: "Benedict classified cultures psychologically, contrasting orderly Apollonian Pueblo groups with individualistic Dionysian Plains tribes." }
-            ],
-            1: [
-              { t: "Genealogical Method", s: "W.H.R. Rivers", b: "Torres Strait Expedition Reports", e: "W.H.R. Rivers systematically designed the genealogical method to trace social relations and map demographic lineages." },
-              { t: "Participant Observation", s: "Bronislaw Malinowski", b: "Argonauts of the Western Pacific", e: "Malinowski established long-term participant observation as the gold-standard field method during his Trobriand Islands work." },
-              { t: "Emic and Etic Perspectives", s: "Kenneth Pike / Marvin Harris", b: "Cows, Pigs, Wars, and Witches", e: "Pike coined the linguistic distinction between emic (native perspective) and etic (scientific observer perspective), popularized by Harris." },
-              { t: "Life History Method", s: "Paul Radin", b: "The Autobiography of a Winnebago Indian", e: "Paul Radin pioneered the deep life-history ethnographic approach to comprehend native personality structure." },
-              { t: "Statistical Mean, Median, and Mode", s: "Quantitative Anthropology", b: "Research Methods Manual", e: "Measures of central tendency help quantify biological variation and anthropometric indices in physical anthropology." },
-              { t: "Stratified Random Sampling", s: "Sampling Methodology", b: "Field Research Designs", e: "This sampling model divides a heterogeneous population into homogeneous subpopulations before sampling, ensuring high representative accuracy." }
-            ],
-            2: [
-              { t: "Turner Syndrome (45, XO)", s: "Chromosomal Genetics", b: "Human Genetics Atlas", e: "Turner Syndrome results from monosomy X in females, causing short stature and gonadal dysgenesis." },
-              { t: "Klinefelter Syndrome (47, XXY)", s: "Chromosomal Aberrations", b: "Medical Genetics Manual", e: "Klinefelter syndrome features an extra X chromosome in males, causing hypogonadism and gynecomastia." },
-              { t: "Dermatoglyphics plain arch", s: "Francis Galton", b: "Finger Prints (1892)", e: "Plain arches lack a true core and triradius, meaning the Galton ridge count for this pattern is always zero." },
-              { t: "Foramen Magnum Central Placement", s: "Hominid Evolution", b: "Comparative Anatomy", e: "Bipedal hominins display central/inferior placement of the foramen magnum to allow vertebral balance under the skull." },
-              { t: "Primate Dental Formula (2:1:2:3)", s: "Taxonomy and Osteology", b: "Primate Evolution", e: "The permanent dentition formula of 2 Incisors, 1 Canine, 2 Premolars, and 3 Molars is shared by Catarrhines, apes, and humans." },
-              { t: "Y-Linked Holandric Inheritance", s: "Human Genetics", b: "Pedigree Analysis", e: "Holandric genes reside exclusively on the Y chromosome and are transmitted strictly from male parents to sons." }
-            ],
-            3: [
-              { t: "Carbon-14 Absolute Dating", s: "Willard Libby", b: "Radiocarbon Dating Chronology", e: "C-14 dating measures the radioactive decay of radiocarbon in organic remains, with a half-life of roughly 5730 years." },
-              { t: "Potassium-Argon Dating", s: "Geochronology", b: "Volcanic Mineral Dating", e: "K-Ar dating estimates the age of igneous rock layers containing volcanic ash, essential for old hominid sites." },
-              { t: "Acheulean Handaxe", s: "Lower Palaeolithic Industry", b: "Prehistoric Technology", e: "The handaxe, especially bi-facially flaked pear-shaped forms, represents the hallmark tool of the Acheulean cultural phase." },
-              { t: "Bhimbetka Cave Art", s: "V.S. Wakankar", b: "Indian Prehistory", e: "Bhimbetka rock shelters in MP showcase early petroglyphs and Mesolithic-to-historic paintings, discovered in 1957." },
-              { t: "Neolithic Polished Celts", s: "Neolithic Revolution", b: "Prehistoric Metallurgy & Lithics", e: "Polished stone axes (celts) with ground edges represent specialized woodworking and forest-clearing implements of agricultural societies." },
-              { t: "Burzahom Pit-Dwellings", s: "Kashmiri Neolithic", b: "Excavations at Burzahom", e: "This site in Jammu & Kashmir is famous for Neolithic subterranean pit-dwellings, bone tools, and unique dog-burials with humans." }
-            ],
-            4: [
-              { t: "Tsembaga Maring Ecosystem", s: "Roy Rappaport", b: "Pigs for the Ancestors", e: "Rappaport analyzed how the ritual slaughter of pigs regulates ecological, political, and environmental balance among the Tsembaga Maring." },
-              { t: "Cultural Ecology Core", s: "Julian Steward", b: "Theory of Culture Change", e: "Steward defined the cultural core as the constellation of environmental adaptations and technological features most tied to subsistence." },
-              { t: "High Altitude Hypoxia Adaptation", s: "Human Physiology", b: "Biological Adaptations", e: "Populations living at high altitudes adapt via physiological traits like expanded chest capacity, elevated hemoglobin, and nitric oxide pathways." }
-            ],
-            5: [
-              { t: "Formalist-Substantivist Debate", s: "Karl Polanyi", b: "The Great Transformation", e: "Polanyi argued that classical supply-demand formal economics cannot describe non-market pre-industrial societies where economy is embedded in social relations." },
-              { t: "Kula Ring Gift Exchange", s: "Bronislaw Malinowski", b: "Argonauts of the Western Pacific", e: "The Kula ring involves the inter-island circulation of Soulava (long red shell necklaces) and Mwali (white shell armbands) among Trobrianders." },
-              { t: "Potlatch Ceremony", s: "Franz Boas", b: "Kwakiutl Ethnography", e: "The Potlatch is a competitive gift-giving and wealth-destruction feast practiced by Northwest Coast native cultures to display status." }
-            ],
-            6: [
-              { t: "incest Taboo universality", s: "Claude Levi-Strauss", b: "The Elementary Structures of Kinship", e: "Levi-Strauss argued that the incest taboo marks the transition of humanity from the realm of Nature to the realm of Culture." },
-              { t: "Omaha Kinship System", s: "L.H. Morgan", b: "Systems of Consanguinity and Affinity", e: "The Omaha system is patrilineal, merging relatives across generations on the mother's side (e.g., mother's brother is grouped with mother's brother's son)." },
-              { t: "Crow Kinship System", s: "Matrilineal Typologies", b: "Social Structure", e: "The Crow system is the matrilineal mirror of Omaha, merging generational roles on the father's side." }
-            ],
-            7: [
-              { t: "Sanskritization Concept", s: "M.N. Srinivas", b: "Religion and Society among the Coorgs", e: "Srinivas defined Sanskritization as the process by which a low Hindu caste changes its customs, ritual, and ideology in the direction of a high caste." },
-              { t: "Dominant Caste Criteria", s: "M.N. Srinivas", b: "The Social System of a Mysore Village", e: "Srinivas identified numerical strength, ownership of land, political power, and ritual status as parameters of a Dominant Caste." },
-              { t: "Sacred Complex of Gaya", s: "L.P. Vidyarthi", b: "The Sacred Complex in Hindu Gaya", e: "Vidyarthi analyzed Gaya using three analytical concepts: Sacred Geography, Sacred Performances, and Sacred Specialists." }
-            ],
-            8: [
-              { t: "Fifth Schedule of the Constitution", s: "Tribal Safeguards", b: "Constitutional Provisions", e: "The Fifth Schedule deals with the administration of Scheduled Areas and Tribes in states other than Assam, Meghalaya, Tripura, and Mizoram." },
-              { t: "Sixth Schedule of the Constitution", s: "Autonomous District Councils", b: "Constitutional Safeguards", e: "The Sixth Schedule provides for autonomous district councils in the tribal areas of Assam, Meghalaya, Tripura, and Mizoram." },
-              { t: "Tribal Panchsheel", s: "Jawaharlal Nehru", b: "Tribal Integration Policy", e: "Nehru's Tribal Panchsheel outlines five principles for tribal development, warning against imposing foreign values on tribal cultures." }
-            ],
-            9: [
-              { t: "Action Anthropology", s: "Sol Tax", b: "Fox Project", e: "Sol Tax formulated Action Anthropology, advocating that researchers should assist communities in resolving self-defined problems during the fieldwork process." },
-              { t: "Medical Anthropology Ethnomedicine", s: "Arthur Kleinman", b: "Patients and Healers in the Context of Culture", e: "Kleinman conceptualized illness as culturally constructed, contrasting the personal experience of illness with biological disease." }
-            ]
+          // --- DATABASE INITIALIZATION ---
+          const getInitialKey = () => {
+            if (window.pyqDatabase) {
+              const keys = Object.keys(window.pyqDatabase);
+              if (keys.length > 0) return keys[0];
+            }
+            return '';
           };
 
-          const db = [];
+          const [activeDatabaseKey, setActiveDatabaseKey] = useState(() => {
+            const saved = localStorage.getItem('nta_active_db_key');
+            return saved && window.pyqDatabase?.[saved] ? saved : getInitialKey();
+          });
 
-          // Generate 500 questions (exactly 50 per unit across 10 units)
-          for (let unitIdx = 0; unitIdx < 10; unitIdx++) {
-            const unitName = units[unitIdx];
-            const concepts = unitConcepts[unitIdx] || [
-              { t: "General Syllabus Concept", s: "Syllabus Scholar", b: "Classic Anthropology Text", e: "Conceptual breakdown aligned with UGC NET Syllabus guidelines." }
-            ];
-
-            for (let qNum = 0; qNum < 50; qNum++) {
-              const concept = concepts[qNum % concepts.length];
-              const id = unitIdx * 50 + qNum + 1;
-              const year = years[id % years.length];
-              const diff = difficulties[(id + qNum) % difficulties.length];
-
-              let questionText = "";
-              let options = [];
-              let correctAnswerIndex = 0;
-              let explanationText = "";
-
-              // Deterministic question templates based on unit and sequence
-              const qPattern = qNum % 5;
-              if (qPattern === 0) {
-                questionText = `The anthropological concept of '${concept.t}' is famously associated with which of the following scholars?`;
-                options = [concept.s, `${concept.s} (Alternative Theory)`, "A different contemporary thinker", "A classical evolutionary critic"];
-                correctAnswerIndex = id % 4;
-                const temp = options[0];
-                options[0] = options[correctAnswerIndex];
-                options[correctAnswerIndex] = temp;
-                explanationText = `Correct Answer: ${concept.s}. ${concept.e}`;
-              } else if (qPattern === 1) {
-                questionText = `In which celebrated monograph or text was the concept of '${concept.t}' systematically formulated by its author?`;
-                options = ["An unrelated standard manual", concept.b, "An administrative tribal census report", "A general sociological journal publication"];
-                correctAnswerIndex = (id + 1) % 4;
-                const temp = options[1];
-                options[1] = options[correctAnswerIndex];
-                options[correctAnswerIndex] = temp;
-                explanationText = `Correct Answer: ${concept.b}. This book is highly key to understanding ${concept.t} by ${concept.s}.`;
-              } else if (qPattern === 2) {
-                questionText = `Which of the following statements is mathematically or conceptually correct regarding the framework of '${concept.t}'?`;
-                options = [
-                  `It is primarily geared towards explaining ${concept.t} via ${concept.s}'s research framework.`,
-                  "It has been fully rejected as an outdated unilineal evolutionary schema with zero modern merit.",
-                  "It represents a purely physiological adaptation that cannot be analyzed through cultural or social lenses.",
-                  "It refers exclusively to absolute geochronology techniques applied in South American archaeology."
-                ];
-                correctAnswerIndex = (id + 2) % 4;
-                const temp = options[0];
-                options[0] = options[correctAnswerIndex];
-                options[correctAnswerIndex] = temp;
-                explanationText = `${concept.e} This system is analyzed extensively within ${unitName}.`;
-              } else if (qPattern === 3) {
-                questionText = `Match the core concept/discovery of '${concept.t}' with the correct category or unit listed in the UGC NET syllabus:`;
-                options = ["A physical/biological subfield concept", "An archaeological tool typology classification", unitName, "A contemporary applied field method"];
-                correctAnswerIndex = (id + 3) % 4;
-                const temp = options[2];
-                options[2] = options[correctAnswerIndex];
-                options[correctAnswerIndex] = temp;
-                explanationText = `Correct Answer: ${unitName}. ${concept.e}`;
-              } else {
-                questionText = `Based on standard examinations, who among the following critics or collaborators is highly relevant to '${concept.t}', associated with '${concept.s}'?`;
-                options = ["An early French sociological contemporary", concept.s, "An American post-modernist ethnographer", "A classical physical anthropologist"];
-                correctAnswerIndex = (id * 7) % 4;
-                const temp = options[1];
-                options[1] = options[correctAnswerIndex];
-                options[correctAnswerIndex] = temp;
-                explanationText = `${concept.e} Scholar associated: ${concept.s}.`;
-              }
-
-              db.push({
-                id,
-                year,
-                unit: unitName,
-                difficulty: diff,
-                question: `[Q-${id}] ${questionText}`,
-                options,
-                correctAnswerIndex,
-                explanation: explanationText,
-                thinker: concept.s,
-                trend: "High ROI topic frequently selected in the last 10 years of NTA examinations."
-              });
+          useEffect(() => {
+            if (activeDatabaseKey) {
+              localStorage.setItem('nta_active_db_key', activeDatabaseKey);
             }
-          }
+          }, [activeDatabaseKey]);
 
-          return db;
-        };
-
-        const rawMasterDatabase = generateMasterDatabase();
-
-        function App() {
-          const [activeDatabaseKey, setActiveDatabaseKey] = useState('Standard (500 Qs)');
+          // --- CENTRAL STATE MACHINE ---
           const [activeTab, setActiveTab] = useState('quiz');
-          const [examMode, setExamMode] = useState(false);
+          const [examMode, setExamMode] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_mode');
+            return saved ? JSON.parse(saved) : false;
+          });
           const [searchTerm, setSearchTerm] = useState('');
-          const [yearFilter, setYearFilter] = useState('All');
-          const [unitFilter, setUnitFilter] = useState('All');
-          
-          const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-          const [selectedOptions, setSelectedOptions] = useState({});
-          const [flaggedQuestions, setFlaggedQuestions] = useState([]);
-          const [bookmarkedQuestions, setBookmarkedQuestions] = useState([]);
-          const [visitedQuestions, setVisitedQuestions] = useState({ 1: true });
-          const [isAnswerChecked, setIsAnswerChecked] = useState({});
-          
-          const [score, setScore] = useState(0);
-          const [isExamSubmitted, setIsExamSubmitted] = useState(false);
-          const [timeRemaining, setTimeRemaining] = useState(10800);
+          const [isFocusMode, setIsFocusMode] = useState(() => {
+            const saved = localStorage.getItem('nta_focus_mode');
+            return saved ? JSON.parse(saved) : false;
+          });
 
+          const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
+            const saved = localStorage.getItem('nta_current_index');
+            return saved ? parseInt(saved, 10) : 0;
+          });
+
+          const [selectedOptions, setSelectedOptions] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_selected');
+            return saved ? JSON.parse(saved) : {};
+          });
+
+          const [flaggedQuestions, setFlaggedQuestions] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_flagged');
+            return saved ? JSON.parse(saved) : [];
+          });
+
+          const [bookmarkedQuestions, setBookmarkedQuestions] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_bookmarked');
+            return saved ? JSON.parse(saved) : [];
+          });
+
+          const [visitedQuestions, setVisitedQuestions] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_visited');
+            return saved ? JSON.parse(saved) : { 1: true };
+          });
+
+          const [isAnswerChecked, setIsAnswerChecked] = useState(() => {
+            const saved = localStorage.getItem('nta_answer_checked');
+            return saved ? JSON.parse(saved) : {};
+          });
+
+          const [score, setScore] = useState(() => {
+            const saved = localStorage.getItem('nta_score');
+            return saved ? parseInt(saved, 10) : 0;
+          });
+
+          const [isExamSubmitted, setIsExamSubmitted] = useState(() => {
+            const saved = localStorage.getItem('nta_exam_submitted');
+            return saved ? JSON.parse(saved) : false;
+          });
+
+          const [timeRemaining, setTimeRemaining] = useState(10800); // 3 hours default
+
+          // --- DATABASE ABSTRACTORS ---
           const currentDatabase = useMemo(() => {
-            if (activeDatabaseKey === 'Standard (500 Qs)') return rawMasterDatabase;
             if (window.pyqDatabase && window.pyqDatabase[activeDatabaseKey]) {
+              const yearMatch = activeDatabaseKey.match(/(20\d{2})/);
+              const yearStr = yearMatch ? yearMatch[1] : "PYQ";
+
               return window.pyqDatabase[activeDatabaseKey].map((q, idx) => ({
                 id: idx + 1,
-                year: activeDatabaseKey.substring(4, 8) || "PYQ",
-                unit: 'Mixed PYQ',
+                year: yearStr,
+                unit: q.unit || 'Mixed PYQ',
                 difficulty: q.difficulty || 'Actual PYQ',
-                question: `[Q-${idx+1}] ${q.question}`,
+                question: q.question,
                 options: q.options,
                 correctAnswerIndex: q.options.indexOf(q.answer) !== -1 ? q.options.indexOf(q.answer) : 0,
                 explanation: q.explanation,
                 thinker: q.source || 'NTA Previous Year',
-                trend: 'Official Previous Year Question Paper'
+                trend: 'Official NTA Solved PYQ Paper'
               }));
             }
-            return rawMasterDatabase;
+            return [];
           }, [activeDatabaseKey]);
 
+          // --- PERSIST ACTIVE STATE ---
           useEffect(() => {
-            let timer;
-            if (examMode && !isExamSubmitted && timeRemaining > 0) {
-              timer = setInterval(() => {
-                setTimeRemaining(prev => prev - 1);
-              }, 1000);
+            localStorage.setItem('nta_current_index', currentQuestionIndex.toString());
+          }, [currentQuestionIndex]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_selected', JSON.stringify(selectedOptions));
+          }, [selectedOptions]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_flagged', JSON.stringify(flaggedQuestions));
+          }, [flaggedQuestions]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_bookmarked', JSON.stringify(bookmarkedQuestions));
+          }, [bookmarkedQuestions]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_visited', JSON.stringify(visitedQuestions));
+          }, [visitedQuestions]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_answer_checked', JSON.stringify(isAnswerChecked));
+          }, [isAnswerChecked]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_submitted', JSON.stringify(isExamSubmitted));
+          }, [isExamSubmitted]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_score', score.toString());
+          }, [score]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_exam_mode', JSON.stringify(examMode));
+          }, [examMode]);
+
+          useEffect(() => {
+            localStorage.setItem('nta_focus_mode', JSON.stringify(isFocusMode));
+          }, [isFocusMode]);
+
+          // --- HIGH PRECISION MONOTONIC CLOCK ---
+          useEffect(() => {
+            if (!examMode || isExamSubmitted) return;
+
+            let startTime = localStorage.getItem('nta_exam_start_time');
+            if (!startTime) {
+              startTime = Date.now().toString();
+              localStorage.setItem('nta_exam_start_time', startTime);
             }
-            return () => clearInterval(timer);
-          }, [examMode, isExamSubmitted, timeRemaining]);
 
-          const handleResetEngine = (mode) => {
-            setExamMode(mode);
-            setSelectedOptions({});
-            setFlaggedQuestions([]);
-            setBookmarkedQuestions([]);
-            setIsAnswerChecked({});
-            setScore(0);
-            setIsExamSubmitted(false);
-            setTimeRemaining(10800);
-            setCurrentQuestionIndex(0);
-            setVisitedQuestions({ 1: true });
-            setActiveTab('quiz');
-          };
+            const startEpoch = parseInt(startTime, 10);
+            const duration = 10800; // 3 hours
 
+            let timerFrame;
+            const updateTimer = () => {
+              const elapsed = Math.floor((Date.now() - startEpoch) / 1000);
+              const remaining = Math.max(0, duration - elapsed);
+              setTimeRemaining(remaining);
+
+              if (remaining <= 0) {
+                handleExamSubmit();
+              } else {
+                timerFrame = requestAnimationFrame(updateTimer);
+              }
+            };
+
+            timerFrame = requestAnimationFrame(updateTimer);
+            return () => cancelAnimationFrame(timerFrame);
+          }, [examMode, isExamSubmitted]);
+
+          // --- DYNAMIC SEARCH ---
           const filteredAllQuestions = useMemo(() => {
             return currentDatabase.filter(q => {
               const matchesSearch = q.question.toLowerCase().includes(searchTerm.toLowerCase()) || 
                                     q.explanation.toLowerCase().includes(searchTerm.toLowerCase()) ||
                                     (q.thinker && q.thinker.toLowerCase().includes(searchTerm.toLowerCase()));
-              const matchesYear = yearFilter === 'All' || q.year.includes(yearFilter);
-              const matchesUnit = unitFilter === 'All' || q.unit === unitFilter;
-              return matchesSearch && matchesYear && matchesUnit;
+              return matchesSearch;
             });
-          }, [searchTerm, yearFilter, unitFilter]);
+          }, [searchTerm, currentDatabase]);
 
           const activeQuestion = filteredAllQuestions[currentQuestionIndex] || filteredAllQuestions[0];
 
@@ -285,7 +291,8 @@
             }
           }, [activeQuestion]);
 
-          const handleOptionClick = (qId, optionIdx) => {
+          // --- ENGINE HANDLERS ---
+          const handleOptionClick = useCallback((qId, optionIdx) => {
             if (examMode && isExamSubmitted) return;
             if (!examMode && isAnswerChecked[qId]) return;
 
@@ -300,34 +307,41 @@
                 [qId]: true
               }));
             }
-          };
+          }, [examMode, isExamSubmitted, isAnswerChecked]);
 
-          const handleCheckAnswer = (qId) => {
-            setIsAnswerChecked(prev => ({
-              ...prev,
-              [qId]: true
-            }));
-          };
+          const handleClearResponse = useCallback((qId) => {
+            if (examMode && isExamSubmitted) return;
+            setSelectedOptions(prev => {
+              const clone = { ...prev };
+              delete clone[qId];
+              return clone;
+            });
+            setIsAnswerChecked(prev => {
+              const clone = { ...prev };
+              delete clone[qId];
+              return clone;
+            });
+          }, [examMode, isExamSubmitted]);
 
-          const toggleFlag = (qId) => {
+          const toggleFlag = useCallback((qId) => {
             setFlaggedQuestions(prev => 
               prev.includes(qId) ? prev.filter(id => id !== qId) : [...prev, qId]
             );
-          };
+          }, []);
 
-          const toggleBookmark = (qId) => {
+          const toggleBookmark = useCallback((qId) => {
             setBookmarkedQuestions(prev => 
               prev.includes(qId) ? prev.filter(id => id !== qId) : [...prev, qId]
             );
-          };
+          }, []);
 
-          const handleManualJump = (idx) => {
+          const handleManualJump = useCallback((idx) => {
             if (idx >= 0 && idx < filteredAllQuestions.length) {
               setCurrentQuestionIndex(idx);
             }
-          };
+          }, [filteredAllQuestions]);
 
-          const handleExamSubmit = () => {
+          const handleExamSubmit = useCallback(() => {
             let finalScore = 0;
             filteredAllQuestions.forEach(q => {
               if (selectedOptions[q.id] === q.correctAnswerIndex) {
@@ -336,8 +350,72 @@
             });
             setScore(finalScore);
             setIsExamSubmitted(true);
-          };
+          }, [filteredAllQuestions, selectedOptions]);
 
+          const handleResetEngine = useCallback((mode) => {
+            setExamMode(mode);
+            setSelectedOptions({});
+            setFlaggedQuestions([]);
+            setBookmarkedQuestions([]);
+            setIsAnswerChecked({});
+            setScore(0);
+            setIsExamSubmitted(false);
+            setCurrentQuestionIndex(0);
+            setVisitedQuestions({ 1: true });
+            setActiveTab('quiz');
+            localStorage.removeItem('nta_exam_start_time');
+            setTimeRemaining(10800);
+          }, []);
+
+          // --- ERGONOMIC KEYBOARD NAVIGATOR ---
+          useEffect(() => {
+            const handleKeyDown = (e) => {
+              if (activeTab !== 'quiz') return;
+              if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
+
+              switch (e.key) {
+                case 'ArrowLeft':
+                  e.preventDefault();
+                  handleManualJump(currentQuestionIndex - 1);
+                  break;
+                case 'ArrowRight':
+                  e.preventDefault();
+                  handleManualJump(currentQuestionIndex + 1);
+                  break;
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                  const optIdx = parseInt(e.key, 10) - 1;
+                  if (activeQuestion) handleOptionClick(activeQuestion.id, optIdx);
+                  break;
+                case 'f':
+                case 'F':
+                  if (activeQuestion) toggleFlag(activeQuestion.id);
+                  break;
+                case 'b':
+                case 'B':
+                  if (activeQuestion) toggleBookmark(activeQuestion.id);
+                  break;
+                case 'c':
+                case 'C':
+                  if (activeQuestion) handleClearResponse(activeQuestion.id);
+                  break;
+                case 'Enter':
+                case ' ':
+                  e.preventDefault();
+                  handleManualJump(currentQuestionIndex + 1);
+                  break;
+                default:
+                  break;
+              }
+            };
+
+            window.addEventListener('keydown', handleKeyDown);
+            return () => window.removeEventListener('keydown', handleKeyDown);
+          }, [currentQuestionIndex, activeQuestion, activeTab, handleManualJump, handleOptionClick, toggleFlag, toggleBookmark, handleClearResponse]);
+
+          // --- TIMING formatter ---
           const formatTime = (secs) => {
             const hrs = Math.floor(secs / 3600);
             const mins = Math.floor((secs % 3600) / 60);
@@ -345,8 +423,13 @@
             return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
           };
 
-          const analyticsData = useMemo(() => {
+          // --- COGNITIVE COMPUTED ANALYTICS ---
+          const computedAnalytics = useMemo(() => {
             const breakdown = {};
+            let totalQuestions = currentDatabase.length;
+            let totalAttempted = 0;
+            let totalCorrect = 0;
+
             currentDatabase.forEach(q => {
               if (!breakdown[q.unit]) {
                 breakdown[q.unit] = { total: 0, attempted: 0, correct: 0 };
@@ -355,32 +438,62 @@
 
               const userAns = selectedOptions[q.id];
               if (userAns !== undefined) {
+                totalAttempted += 1;
                 breakdown[q.unit].attempted += 1;
                 if (userAns === q.correctAnswerIndex) {
+                  totalCorrect += 1;
                   breakdown[q.unit].correct += 1;
                 }
               }
             });
 
-            return Object.entries(breakdown).map(([unit, stats]) => ({
-              unit,
-              ...stats,
-              accuracy: stats.attempted > 0 ? Math.round((stats.correct / stats.attempted) * 100) : 0
-            }));
-          }, [selectedOptions]);
+            const generalAccuracy = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0;
 
-          const jrfProbability = useMemo(() => {
-            const attempted = Object.keys(selectedOptions).length;
-            if (attempted === 0) return 0;
-            let correctCount = 0;
-            currentDatabase.forEach(q => {
-              if (selectedOptions[q.id] === q.correctAnswerIndex) {
-                correctCount += 1;
-              }
-            });
-            const acc = correctCount / attempted;
-            return Math.min(Math.round(acc * 100), 100);
-          }, [selectedOptions]);
+            const weaknessProfiling = Object.entries(breakdown)
+              .map(([unit, stats]) => {
+                const incorrect = stats.attempted - stats.correct;
+                const ratio = stats.attempted > 0 ? (incorrect / stats.attempted) : 0;
+                return { unit, incorrect, ratio, ...stats };
+              })
+              .filter(d => d.incorrect > 0)
+              .sort((a, b) => b.ratio - a.ratio || b.incorrect - a.incorrect)
+              .slice(0, 3);
+
+            return {
+              unitBreakdown: Object.entries(breakdown).map(([unit, stats]) => ({
+                unit,
+                ...stats,
+                accuracy: stats.attempted > 0 ? Math.round((stats.correct / stats.attempted) * 100) : 0
+              })),
+              generalAccuracy,
+              weaknessProfiling,
+              totalAttempted,
+              totalCorrect,
+              totalQuestions
+            };
+          }, [selectedOptions, currentDatabase]);
+
+          const jrfStatus = useMemo(() => {
+            if (computedAnalytics.totalAttempted === 0) {
+              return { probability: 0, badge: 'Awaiting Diagnostic', color: 'text-slate-400 dark:text-slate-500' };
+            }
+            const acc = computedAnalytics.generalAccuracy;
+            let badge = 'Needs Rigorous Revision';
+            let color = 'text-rose-600 dark:text-rose-400';
+
+            if (acc >= 82) {
+              badge = '🏆 JRF Secured (Top 1% Rank Profile)';
+              color = 'text-emerald-600 dark:text-emerald-400 font-bold';
+            } else if (acc >= 68) {
+              badge = '⚡ NET Eligible (Top 6% Rank Profile)';
+              color = 'text-amber-600 dark:text-amber-400 font-bold';
+            } else if (acc >= 50) {
+              badge = 'Near Qualification Threshold';
+              color = 'text-blue-600 dark:text-blue-400 font-semibold';
+            }
+
+            return { probability: acc, badge, color };
+          }, [computedAnalytics]);
 
           const paletteCounters = useMemo(() => {
             let answered = 0;
@@ -411,234 +524,247 @@
           }, [selectedOptions, flaggedQuestions, visitedQuestions, filteredAllQuestions]);
 
           return (
-            <div className="min-h-screen bg-slate-900 text-slate-100 font-sans flex flex-col">
+            <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans flex flex-col transition-colors duration-200">
               
-              <header className="bg-slate-950 border-b border-slate-800 py-4 px-6 sticky top-0 z-50 shadow-md">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-                  
-                  <div className="flex items-center gap-3">
-                    <div className="bg-gradient-to-tr from-amber-500 to-amber-300 p-2.5 rounded-xl text-slate-950 font-black shadow-lg">
-                      <BrainIcon />
-                    </div>
-                    <div>
-                      <h1 className="text-lg md:text-xl font-black tracking-tight text-white flex items-center gap-2">
-                        UGC NET <span className="text-amber-400">Anthropology</span> Portal
-                      </h1>
-                      <p className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">
-                        National Testing Agency Mock System • 500 Questions Active
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-wrap items-center gap-4">
-                    {examMode && (
-                      <div className="bg-rose-950/80 border border-rose-800 text-rose-300 px-4 py-1.5 rounded-lg flex items-center gap-2 shadow-inner font-mono text-sm font-black">
-                        ⏱️ TIME LEFT: {formatTime(timeRemaining)}
-                      </div>
-                    )}
+              {/* --- STYLISH INSTITUTIONAL HEADER --- */}
+              {!isFocusMode && (
+                <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-3.5 px-6 sticky top-0 z-50 shadow-sm transition-colors duration-200">
+                  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
                     
-                    <div className="bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg flex items-center gap-2 text-xs font-semibold">
-                      <span>🍛</span>
-                      <p className="text-slate-300 leading-tight">
-                        Plate of <b>Dal Chawal & Ghee Bhujia</b> synced.
-                      </p>
+                    <div className="flex items-center gap-3">
+                      <div className="bg-slate-900 dark:bg-brand-500/10 p-2.5 rounded-xl text-white dark:text-brand-400 font-black shadow-sm">
+                        <BrainIcon />
+                      </div>
+                      <div>
+                        <h1 className="text-base md:text-lg font-black tracking-tight text-slate-950 dark:text-white flex items-center gap-2">
+                          UGC NET <span className="text-brand-600 dark:text-brand-400">Anthropology</span> Portal
+                        </h1>
+                        <p className="text-slate-500 dark:text-slate-400 text-[10px] font-semibold uppercase tracking-wider">
+                          National Testing Agency (NTA) Simulated Assessment Suite
+                        </p>
+                      </div>
                     </div>
+
+                    <div className="flex items-center gap-3">
+                      {examMode && (
+                        <div className="bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/60 text-rose-700 dark:text-rose-300 px-3.5 py-1.5 rounded-lg flex items-center gap-2 font-mono text-xs font-bold">
+                          ⏱️ TIME REMAINING: {formatTime(timeRemaining)}
+                        </div>
+                      )}
+                      
+                      {/* Theme Toggle */}
+                      <button 
+                        onClick={() => setIsDark(!isDark)}
+                        className="p-2 bg-slate-100 hover:bg-slate-200 dark:bg-slate-850 dark:hover:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-300 transition-colors"
+                        aria-label="Toggle Theme"
+                      >
+                        {isDark ? <SunIcon /> : <MoonIcon />}
+                      </button>
+
+                      <div className="bg-slate-100 dark:bg-slate-850 px-3 py-1.5 rounded-lg flex items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300">
+                        <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        Candidate Session Synced
+                      </div>
+                    </div>
+
                   </div>
+                </header>
+              )}
 
-                </div>
-              </header>
-
-              <div className="bg-slate-950/50 border-b border-slate-800/80 py-2.5 px-6">
-                <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-                  <div className="flex items-center gap-3">
+              {/* --- CONTROL BAR --- */}
+              <div className="bg-slate-100/50 dark:bg-slate-950/50 border-b border-slate-200 dark:border-slate-800/80 py-2 px-6">
+                <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-3">
+                  
+                  <div className="flex items-center gap-2">
                     <button 
                       onClick={() => handleResetEngine(false)}
-                      className={`px-4 py-1.5 rounded-lg text-xs font-black uppercase transition-all tracking-wider ${
+                      className={`px-3.5 py-1.5 rounded-lg text-[10px] font-bold uppercase transition-all tracking-wider ${
                         !examMode 
-                          ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20' 
-                          : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                          ? 'bg-brand-500 text-white shadow-sm' 
+                          : 'bg-slate-200 dark:bg-slate-850 text-slate-600 dark:text-slate-400 hover:text-slate-255'
                       }`}
                     >
-                      📖 Study & Practice
+                      📖 Practice Desk
                     </button>
                     <button 
                       onClick={() => handleResetEngine(true)}
-                      className={`px-4 py-1.5 rounded-lg text-xs font-black uppercase transition-all tracking-wider ${
+                      className={`px-3.5 py-1.5 rounded-lg text-[10px] font-bold uppercase transition-all tracking-wider ${
                         examMode 
-                          ? 'bg-rose-500 text-white shadow-md shadow-rose-500/20' 
-                          : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                          ? 'bg-rose-600 text-white shadow-sm' 
+                          : 'bg-slate-200 dark:bg-slate-850 text-slate-600 dark:text-slate-400 hover:text-slate-255'
                       }`}
                     >
-                      ⏱️ Timed Mock Exam (NTA Rules)
+                      ⏱️ Sim-CBT Mode (NTA Rules)
                     </button>
                   </div>
 
-                  <div className="flex items-center gap-4 text-xs font-bold text-slate-400">
-                    <span>Database:</span>
-                    <select 
-                      value={activeDatabaseKey}
-                      onChange={(e) => {
-                        setActiveDatabaseKey(e.target.value);
-                        setUnitFilter('All');
-                        setCurrentQuestionIndex(0);
-                      }}
-                      className="bg-amber-950/30 border border-amber-800 text-amber-300 rounded p-1 text-xs font-bold outline-none"
-                    >
-                      <option value="Standard (500 Qs)">Standard Mock (500 Qs)</option>
-                      {window.pyqDatabase && Object.keys(window.pyqDatabase).map(key => (
-                        <option key={key} value={key}>{key}</option>
-                      ))}
-                    </select>
+                  <div className="flex items-center gap-3 text-xs font-bold text-slate-500">
+                    <div className="flex items-center gap-2">
+                      <span>Practice Paper:</span>
+                      <select 
+                        value={activeDatabaseKey}
+                        onChange={(e) => {
+                          setActiveDatabaseKey(e.target.value);
+                          setCurrentQuestionIndex(0);
+                        }}
+                        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-brand-300 rounded p-1 text-[11px] font-bold outline-none max-w-xs"
+                      >
+                        {window.pyqDatabase && Object.keys(window.pyqDatabase).map(key => (
+                          <option key={key} value={key}>{key}</option>
+                        ))}
+                      </select>
+                    </div>
 
-                    <span>Palette Filter:</span>
-                    <select 
-                      value={unitFilter}
-                      onChange={(e) => {
-                        setUnitFilter(e.target.value);
-                        setCurrentQuestionIndex(0);
-                      }}
-                      className="bg-slate-900 border border-slate-800 text-slate-300 rounded p-1 text-xs font-bold outline-none"
+                    {/* Focus Mode Toggle */}
+                    <button
+                      onClick={() => setIsFocusMode(!isFocusMode)}
+                      className={`p-1.5 rounded-md border flex items-center gap-1.5 text-[10px] uppercase font-bold tracking-wider transition-all ${
+                        isFocusMode 
+                          ? 'bg-amber-500/10 text-amber-500 border-amber-500/20' 
+                          : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-400'
+                      }`}
+                      title="Focus Mode"
                     >
-                      <option value="All">All Units</option>
-                      {activeDatabaseKey === 'Standard (500 Qs)' ? Array.from({ length: 10 }).map((_, idx) => (
-                        <option key={idx} value={`UNIT ${idx + 1}: ${rawMasterDatabase[idx * 50].unit.split(': ')[1]}`}>
-                          Unit {idx + 1}
-                        </option>
-                      )) : (
-                        <option value="Mixed PYQ">Mixed PYQ</option>
-                      )}
-                    </select>
+                      <MonitorIcon />
+                      {isFocusMode ? 'Normal View' : 'Focus Mode'}
+                    </button>
                   </div>
                 </div>
               </div>
 
+              {/* --- MAIN PAGE GRAPHICS GRID --- */}
               <main className="flex-1 max-w-7xl mx-auto w-full p-4 md:p-6 grid grid-cols-1 lg:grid-cols-4 gap-6">
                 
-                <div className="lg:col-span-3 space-y-6">
+                {/* Active Test Canvas */}
+                <div className={`${isFocusMode ? 'lg:col-span-4' : 'lg:col-span-3'} space-y-6`}>
 
-                  <div className="flex bg-slate-950 border border-slate-800 p-1.5 rounded-2xl gap-1 overflow-x-auto whitespace-nowrap scrollbar-hide">
-                    <button 
-                      onClick={() => setActiveTab('quiz')}
-                      className={`flex-1 py-2.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
-                        activeTab === 'quiz' ? 'bg-slate-800 text-amber-400' : 'text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      🎯 NTA Active Test Box
-                    </button>
-                    <button 
-                      onClick={() => setActiveTab('all')}
-                      className={`flex-1 py-2.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
-                        activeTab === 'all' ? 'bg-slate-800 text-amber-400' : 'text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      📂 Question Explorer
-                    </button>
-                    <button 
-                      onClick={() => setActiveTab('bookmarks')}
-                      className={`flex-1 py-2.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
-                        activeTab === 'bookmarks' ? 'bg-slate-800 text-amber-400' : 'text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      🔖 Saved Desk ({bookmarkedQuestions.length})
-                    </button>
-                    <button 
-                      onClick={() => setActiveTab('analytics')}
-                      className={`flex-1 py-2.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
-                        activeTab === 'analytics' ? 'bg-slate-800 text-amber-400' : 'text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      📈 Cognitive Tracking
-                    </button>
-                  </div>
+                  {!isFocusMode && (
+                    <div className="flex bg-slate-200/50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 p-1 rounded-xl gap-1 overflow-x-auto whitespace-nowrap scrollbar-hide">
+                      <button 
+                        onClick={() => setActiveTab('quiz')}
+                        className={`flex-1 py-2 px-3 rounded-lg font-bold text-[10px] uppercase tracking-wider transition-all ${
+                          activeTab === 'quiz' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-sm' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-200'
+                        }`}
+                      >
+                        🎯 CBT Sandbox
+                      </button>
+                      <button 
+                        onClick={() => setActiveTab('all')}
+                        className={`flex-1 py-2 px-3 rounded-lg font-bold text-[10px] uppercase tracking-wider transition-all ${
+                          activeTab === 'all' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-sm' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-200'
+                        }`}
+                      >
+                        📂 Monographic Explorer
+                      </button>
+                      <button 
+                        onClick={() => setActiveTab('bookmarks')}
+                        className={`flex-1 py-2 px-3 rounded-lg font-bold text-[10px] uppercase tracking-wider transition-all ${
+                          activeTab === 'bookmarks' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-sm' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-200'
+                        }`}
+                      >
+                        🔖 Revision Deck ({bookmarkedQuestions.length + flaggedQuestions.length})
+                      </button>
+                      <button 
+                        onClick={() => setActiveTab('analytics')}
+                        className={`flex-1 py-2 px-3 rounded-lg font-bold text-[10px] uppercase tracking-wider transition-all ${
+                          activeTab === 'analytics' ? 'bg-white dark:bg-slate-800 text-brand-600 dark:text-brand-400 shadow-sm' : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-200'
+                        }`}
+                      >
+                        📈 Diagnostic Track
+                      </button>
+                    </div>
+                  )}
 
                   {activeTab === 'quiz' && (
                     <div className="space-y-6">
                       {activeQuestion ? (
-                        <div className="bg-slate-950 border border-slate-850 rounded-3xl p-6 md:p-8 shadow-xl relative overflow-hidden">
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl p-5 md:p-7 shadow-sm relative overflow-hidden transition-colors duration-200">
                           
-                          <div className="absolute top-0 left-0 w-full h-1 bg-slate-800">
+                          {/* Progress Line */}
+                          <div className="absolute top-0 left-0 w-full h-[3px] bg-slate-100 dark:bg-slate-800">
                             <div 
-                              className="h-1 bg-amber-500 transition-all duration-300" 
+                              className="h-full bg-brand-500 transition-all duration-300" 
                               style={{ width: `${((currentQuestionIndex + 1) / filteredAllQuestions.length) * 100}%` }}
                             />
                           </div>
 
-                          <div className="flex flex-wrap justify-between items-center mb-6 pb-4 border-b border-slate-800 gap-3">
+                          <div className="flex flex-wrap justify-between items-center mb-5 pb-3 border-b border-slate-100 dark:border-slate-800 gap-3">
                             <div className="flex items-center gap-2">
-                              <span className="text-xs font-black bg-amber-500/10 border border-amber-500/20 text-amber-400 px-3 py-1 rounded-full">
+                              <span className="text-[10px] font-bold bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/50 text-slate-700 dark:text-slate-300 px-2.5 py-0.5 rounded-md">
                                 Question {currentQuestionIndex + 1} of {filteredAllQuestions.length}
                               </span>
                               
                               <button 
                                 onClick={() => toggleFlag(activeQuestion.id)}
-                                className={`p-1.5 rounded-lg transition-all ${
-                                  flaggedQuestions.includes(activeQuestion.id) ? 'text-purple-400 bg-purple-950/50' : 'text-slate-500 hover:bg-slate-900'
+                                className={`p-1 rounded-md transition-all ${
+                                  flaggedQuestions.includes(activeQuestion.id) ? 'text-purple-500 bg-purple-500/10' : 'text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-850'
                                 }`}
-                                title="Mark for review"
+                                title="Flag for Review"
                               >
                                 <FlagIcon filled={flaggedQuestions.includes(activeQuestion.id)} />
                               </button>
 
                               <button 
                                 onClick={() => toggleBookmark(activeQuestion.id)}
-                                className={`p-1.5 rounded-lg transition-all ${
-                                  bookmarkedQuestions.includes(activeQuestion.id) ? 'text-amber-400 bg-amber-950/50' : 'text-slate-500 hover:bg-slate-900'
+                                className={`p-1 rounded-md transition-all ${
+                                  bookmarkedQuestions.includes(activeQuestion.id) ? 'text-amber-500 bg-amber-500/10' : 'text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-850'
                                 }`}
-                                title="Bookmark question"
+                                title="Add to Revision Desk"
                               >
                                 <BookmarkIcon filled={bookmarkedQuestions.includes(activeQuestion.id)} />
                               </button>
                             </div>
 
                             <div className="flex gap-2">
-                              <span className="text-xs bg-slate-900 border border-slate-800 px-2.5 py-1 text-slate-400 rounded-md font-bold">
+                              <span className="text-[10px] bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/50 px-2 py-0.5 text-slate-500 dark:text-slate-400 rounded font-semibold">
                                 {activeQuestion.year}
                               </span>
-                              <span className="text-xs bg-rose-950/30 border border-rose-800/40 px-2.5 py-1 text-rose-400 rounded-md font-bold">
+                              <span className="text-[10px] bg-rose-50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/40 px-2 py-0.5 text-rose-600 dark:text-rose-400 rounded font-semibold">
                                 {activeQuestion.difficulty}
                               </span>
                             </div>
                           </div>
 
-                          <h2 className="text-md md:text-lg font-bold text-white leading-relaxed mb-8 whitespace-pre-line">
+                          <h2 className="text-sm md:text-base font-semibold text-slate-900 dark:text-white leading-relaxed mb-6 whitespace-pre-line">
                             {activeQuestion.question}
                           </h2>
 
-                          <div className="space-y-3 mb-8">
+                          {/* Options Block */}
+                          <div className="space-y-2.5 mb-6">
                             {activeQuestion.options.map((opt, oIdx) => {
                               const isSelected = selectedOptions[activeQuestion.id] === oIdx;
                               const isChecked = isAnswerChecked[activeQuestion.id];
                               const isCorrect = oIdx === activeQuestion.correctAnswerIndex;
 
-                              let optStyle = "w-full text-left p-4 rounded-xl border-2 transition-all duration-150 flex items-center justify-between font-bold text-xs ";
+                              let optStyle = "w-full text-left p-3.5 rounded-xl border transition-all duration-150 flex items-center justify-between font-medium text-xs ";
                               
                               if (!examMode) {
                                 if (isChecked) {
                                   if (isCorrect) {
-                                    optStyle += "border-emerald-500 bg-emerald-950/30 text-emerald-300";
+                                    optStyle += "border-emerald-500 bg-emerald-50 dark:bg-emerald-950/20 text-emerald-700 dark:text-emerald-300";
                                   } else if (isSelected) {
-                                    optStyle += "border-rose-500 bg-rose-950/30 text-rose-300";
+                                    optStyle += "border-rose-500 bg-rose-50 dark:bg-rose-950/20 text-rose-700 dark:text-rose-300";
                                   } else {
-                                    optStyle += "border-slate-850 bg-slate-900/40 text-slate-500 opacity-60";
+                                    optStyle += "border-slate-100 dark:border-slate-850 bg-slate-50/50 dark:bg-slate-900/40 text-slate-400 dark:text-slate-500 opacity-60";
                                   }
                                 } else {
                                   optStyle += isSelected 
-                                    ? "border-amber-400 bg-amber-500/10 text-white shadow-lg" 
-                                    : "border-slate-800 hover:border-slate-700 bg-slate-900/50 text-slate-300 hover:text-white";
+                                    ? "border-brand-500 bg-brand-50 dark:bg-brand-500/10 text-brand-700 dark:text-white" 
+                                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900/50 text-slate-700 dark:text-slate-300";
                                 }
                               } else {
                                 if (isExamSubmitted) {
                                   if (isCorrect) {
-                                    optStyle += "border-emerald-500 bg-emerald-950/30 text-emerald-300";
+                                    optStyle += "border-emerald-500 bg-emerald-50 dark:bg-emerald-950/20 text-emerald-700 dark:text-emerald-300";
                                   } else if (isSelected) {
-                                    optStyle += "border-rose-500 bg-rose-950/30 text-rose-300";
+                                    optStyle += "border-rose-500 bg-rose-50 dark:bg-rose-950/20 text-rose-700 dark:text-rose-300";
                                   } else {
-                                    optStyle += "border-slate-850 bg-slate-900/40 text-slate-500 opacity-60";
+                                    optStyle += "border-slate-100 dark:border-slate-850 bg-slate-50/50 dark:bg-slate-900/40 text-slate-400 dark:text-slate-500 opacity-60";
                                   }
                                 } else {
                                   optStyle += isSelected 
-                                    ? "border-rose-500 bg-rose-500/10 text-white shadow-lg" 
-                                    : "border-slate-800 hover:border-slate-700 bg-slate-900/50 text-slate-300 hover:text-white";
+                                    ? "border-rose-500 bg-rose-50 dark:bg-rose-500/10 text-rose-700 dark:text-white" 
+                                    : "border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900/50 text-slate-700 dark:text-slate-300";
                                 }
                               }
 
@@ -650,7 +776,7 @@
                                   disabled={(!examMode && isChecked) || (examMode && isExamSubmitted)}
                                 >
                                   <span className="flex items-center gap-3">
-                                    <span className="w-7 h-7 flex items-center justify-center rounded-lg bg-slate-800 text-xs text-slate-400 font-bold border border-slate-700 flex-shrink-0">
+                                    <span className="w-6 h-6 flex items-center justify-center rounded bg-slate-100 dark:bg-slate-800 text-[10px] text-slate-500 dark:text-slate-400 font-bold border border-slate-200 dark:border-slate-700 flex-shrink-0">
                                       {String.fromCharCode(65 + oIdx)}
                                     </span>
                                     <span>{opt}</span>
@@ -667,18 +793,11 @@
                             })}
                           </div>
 
-                          <div className="flex flex-col sm:flex-row justify-between items-center pt-5 border-t border-slate-800 gap-4">
+                          <div className="flex flex-col sm:flex-row justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800 gap-3">
                             <div className="flex gap-2">
                               <button 
-                                onClick={() => {
-                                  setSelectedOptions(prev => {
-                                    const clone = { ...prev };
-                                    delete clone[activeQuestion.id];
-                                    return clone;
-                                  });
-                                  setIsAnswerChecked(prev => ({ ...prev, [activeQuestion.id]: false }));
-                                }}
-                                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-[10px] font-black uppercase tracking-wider transition-colors"
+                                onClick={() => handleClearResponse(activeQuestion.id)}
+                                className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-880 dark:hover:bg-slate-750 text-slate-600 dark:text-slate-300 rounded-lg text-[9px] font-black uppercase tracking-wider transition-colors border border-slate-200 dark:border-slate-700"
                               >
                                 Clear Response
                               </button>
@@ -687,17 +806,27 @@
                                   toggleFlag(activeQuestion.id);
                                   handleManualJump(currentQuestionIndex + 1);
                                 }}
-                                className="px-4 py-2 bg-purple-950/40 border border-purple-800 hover:bg-purple-900 text-purple-300 rounded-lg text-[10px] font-black uppercase tracking-wider transition-colors"
+                                className="px-3 py-1.5 bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-900/60 hover:bg-purple-100 dark:hover:bg-purple-900/40 text-purple-600 dark:text-purple-300 rounded-lg text-[9px] font-black uppercase tracking-wider transition-colors"
                               >
                                 Mark for Review & Next
                               </button>
                             </div>
 
-                            <div className="flex items-center gap-3 w-full sm:w-auto">
-                              {/* Verify Answer button removed for instant clicked-feedback experience */}
+                            <div className="flex items-center gap-2 w-full sm:w-auto">
+                              <button 
+                                onClick={() => handleManualJump(currentQuestionIndex - 1)}
+                                disabled={currentQuestionIndex === 0}
+                                className={`px-4 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-wider border transition-colors ${
+                                  currentQuestionIndex === 0 
+                                    ? 'border-slate-100 dark:border-slate-800 text-slate-300 dark:text-slate-700 cursor-not-allowed'
+                                    : 'border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                                }`}
+                              >
+                                Previous
+                              </button>
                               <button 
                                 onClick={() => handleManualJump(currentQuestionIndex + 1)}
-                                className="w-full sm:w-auto px-5 py-2 rounded-xl font-bold text-[11px] tracking-wider uppercase flex items-center justify-center gap-2 bg-slate-800 text-white hover:bg-slate-700 transition-colors"
+                                className="px-4 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-wider bg-slate-800 dark:bg-slate-100 text-white dark:text-slate-900 hover:bg-slate-700 dark:hover:bg-white transition-colors"
                               >
                                 Save & Next
                               </button>
@@ -706,85 +835,88 @@
 
                         </div>
                       ) : (
-                        <div className="bg-slate-950 p-12 text-center rounded-3xl border border-slate-800">
-                          <span className="text-4xl block mb-3">🔍</span>
-                          <p className="text-slate-400 font-bold">No questions found matching your specific unit filters.</p>
-                          <button onClick={() => {setYearFilter('All'); setUnitFilter('All');}} className="mt-4 px-6 py-2 bg-amber-500 text-slate-950 font-black rounded-xl text-xs">Reset All Filters</button>
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-12 text-center rounded-2xl">
+                          <span className="text-3xl block mb-2">🔍</span>
+                          <p className="text-slate-500 dark:text-slate-400 font-bold text-xs">No questions found matching your search criteria.</p>
+                          <button onClick={() => {setSearchTerm(''); setCurrentQuestionIndex(0);}} className="mt-4 px-4 py-2 bg-brand-500 hover:bg-brand-600 text-white font-bold rounded-lg text-[10px] uppercase tracking-wider shadow-sm transition-all">Clear Search Filter</button>
                         </div>
                       )}
 
+                      {/* Diagnostic Explanation Frame */}
                       {!examMode && isAnswerChecked[activeQuestion?.id] && (
-                        <div className="bg-slate-950 border border-slate-850 rounded-3xl p-6 md:p-8 space-y-5">
-                          <div className="flex flex-wrap justify-between items-center pb-3 border-b border-slate-850">
-                            <h3 className="font-extrabold text-xs text-amber-400 uppercase tracking-wider flex items-center gap-2">
-                              💡 Forensic Explanation Panel
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-855 rounded-2xl p-5 md:p-6 space-y-4 shadow-sm transition-colors duration-200">
+                          <div className="flex flex-wrap justify-between items-center pb-2 border-b border-slate-100 dark:border-slate-800 gap-2">
+                            <h3 className="font-extrabold text-[10px] text-brand-600 dark:text-brand-400 uppercase tracking-widest flex items-center gap-1.5">
+                              💡 NTA Forensic Resolution Panel
                             </h3>
-                            <span className="text-xs font-black bg-slate-900 border border-slate-800 px-3 py-1 rounded-full text-slate-300">
-                              CORRECT RESPONSE: {String.fromCharCode(65 + activeQuestion.correctAnswerIndex)}
+                            <span className="text-[10px] font-black bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/50 px-2.5 py-0.5 rounded text-slate-600 dark:text-slate-300">
+                              CORRECT OPTION: {String.fromCharCode(65 + activeQuestion.correctAnswerIndex)}
                             </span>
                           </div>
 
-                          <p className="text-slate-300 text-xs leading-relaxed font-medium">
+                          <p className="text-slate-700 dark:text-slate-300 text-xs leading-relaxed font-medium">
                             {activeQuestion.explanation}
                           </p>
 
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-3">
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
                             {activeQuestion.thinker && (
-                              <div className="bg-slate-900 p-3.5 rounded-xl border border-slate-800 flex flex-col">
-                                <span className="text-[9px] font-black uppercase text-slate-500 block mb-1">Key Scholar / Anthropologist</span>
-                                <span className="text-xs font-extrabold text-white">{activeQuestion.thinker}</span>
+                              <div className="bg-slate-50 dark:bg-slate-900/60 p-3 rounded-xl border border-slate-150 dark:border-slate-800 flex flex-col">
+                                <span className="text-[8px] font-black uppercase text-slate-400 dark:text-slate-500 block mb-0.5">Primary Scholar / Source</span>
+                                <span className="text-[11px] font-extrabold text-slate-800 dark:text-white">{activeQuestion.thinker}</span>
                               </div>
                             )}
                             
-                            <div className="bg-slate-900 p-3.5 rounded-xl border border-slate-800 flex flex-col">
-                              <span className="text-[9px] font-black uppercase text-slate-500 block mb-1">UGC NET Examination Pattern</span>
-                              <span className="text-xs font-medium text-slate-400">{activeQuestion.trend}</span>
+                            <div className="bg-slate-50 dark:bg-slate-900/60 p-3 rounded-xl border border-slate-150 dark:border-slate-800 flex flex-col">
+                              <span className="text-[8px] font-black uppercase text-slate-400 dark:text-slate-500 block mb-0.5">Pattern Classification</span>
+                              <span className="text-[11px] font-medium text-slate-600 dark:text-slate-400">{activeQuestion.trend}</span>
                             </div>
                           </div>
                         </div>
                       )}
 
+                      {/* Timed CBT Submission Frame */}
                       {examMode && !isExamSubmitted && (
-                        <div className="bg-slate-950 border border-rose-900/40 rounded-3xl p-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+                        <div className="bg-white dark:bg-slate-900 border border-rose-200 dark:border-rose-900/30 rounded-2xl p-5 flex flex-col sm:flex-row justify-between items-center gap-4 transition-colors duration-200">
                           <div>
-                            <h4 className="font-extrabold text-white text-sm">Finished with the mock examination?</h4>
-                            <p className="text-slate-400 text-xs mt-0.5">Please review the 500 questions palette status before final submit.</p>
+                            <h4 className="font-bold text-slate-850 dark:text-white text-xs">Simulated Test Terminus</h4>
+                            <p className="text-slate-500 dark:text-slate-400 text-[10px] mt-0.5">Please check all questions in the OMR palette before final submission.</p>
                           </div>
                           <button 
                             onClick={handleExamSubmit}
-                            className="px-6 py-2.5 bg-rose-600 hover:bg-rose-500 text-white font-black text-xs uppercase rounded-xl transition-all w-full sm:w-auto text-center"
+                            className="px-5 py-2 bg-rose-600 hover:bg-rose-500 text-white font-bold text-[10px] uppercase rounded-lg shadow-sm transition-all w-full sm:w-auto text-center tracking-wider"
                           >
-                            Submit & Generate JRF Diagnostic Report
+                            Submit Examination Session
                           </button>
                         </div>
                       )}
 
+                      {/* Timed CBT Results Dashboard */}
                       {examMode && isExamSubmitted && (
-                        <div className="bg-slate-950 border border-slate-850 rounded-3xl p-8 text-center space-y-6">
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl p-6 md:p-8 text-center space-y-5 transition-colors duration-200">
                           <div className="flex justify-center">
-                            <div className="bg-yellow-500/10 p-5 rounded-full border border-yellow-500/20">
+                            <div className="bg-brand-500/10 p-4 rounded-full border border-brand-500/20">
                               <TrophyIcon />
                             </div>
                           </div>
 
                           <div>
-                            <h2 className="text-xl font-black text-white">Timed Simulation Completed</h2>
-                            <p className="text-xs text-slate-400 mt-1">Celebrate your work! Grab a plate of steaming <b>dal chawal with ghee bhujia and achaar</b>. You've earned it!</p>
+                            <h2 className="text-base font-black text-slate-900 dark:text-white">Timed CBT Simulation Completed</h2>
+                            <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">Review your diagnostic stats and focus areas below.</p>
                           </div>
 
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
-                            <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-                              <span className="text-[9px] font-bold uppercase text-slate-400 block mb-1">Final Score</span>
-                              <span className="text-2xl font-black text-amber-400">{score}<span className="text-xs text-slate-500">/{filteredAllQuestions.length}</span></span>
+                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 max-w-xl mx-auto">
+                            <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-xl border border-slate-200 dark:border-slate-800">
+                              <span className="text-[8px] font-bold uppercase text-slate-500 block mb-0.5">Final Score</span>
+                              <span className="text-xl font-black text-brand-600 dark:text-brand-400">{score}<span className="text-[10px] text-slate-400 dark:text-slate-500">/{filteredAllQuestions.length}</span></span>
                             </div>
-                            <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-                              <span className="text-[9px] font-bold uppercase text-slate-400 block mb-1">Accuracy</span>
-                              <span className="text-2xl font-black text-white">{Math.round((score / filteredAllQuestions.length) * 100)}%</span>
+                            <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-xl border border-slate-200 dark:border-slate-800">
+                              <span className="text-[8px] font-bold uppercase text-slate-500 block mb-0.5">Simulated Accuracy</span>
+                              <span className="text-xl font-black text-slate-900 dark:text-white">{Math.round((score / filteredAllQuestions.length) * 100)}%</span>
                             </div>
-                            <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-center">
-                              <span className="text-[9px] font-bold uppercase text-slate-400 block mb-1">JRF Standard</span>
-                              <span className={`text-xs font-black mt-1 ${score/filteredAllQuestions.length >= 0.78 ? 'text-emerald-400 animate-pulse' : 'text-amber-500'}`}>
-                                {score/filteredAllQuestions.length >= 0.78 ? '🎉 JRF Qualified' : 'NET Qualified'}
+                            <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-xl border border-slate-200 dark:border-slate-800 flex flex-col justify-center">
+                              <span className="text-[8px] font-bold uppercase text-slate-500 block mb-0.5">National Standard</span>
+                              <span className={`text-[11px] font-black mt-1 ${jrfStatus.color}`}>
+                                {jrfStatus.badge}
                               </span>
                             </div>
                           </div>
@@ -796,28 +928,28 @@
 
                   {activeTab === 'all' && (
                     <div className="space-y-6">
-                      <div className="bg-slate-950 border border-slate-850 p-6 rounded-3xl shadow-sm flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 p-5 rounded-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 transition-colors duration-200">
                         <div>
-                          <h2 className="text-base font-bold text-white">UGC NET Anthropology Master Library</h2>
-                          <p className="text-slate-400 text-xs">Browse, search, and practice through all 500 active syllabus questions.</p>
+                          <h2 className="text-sm font-bold text-slate-900 dark:text-white">Anthropic Master Syllabus Library</h2>
+                          <p className="text-slate-500 dark:text-slate-400 text-[10px]">Index of all verified past year examination papers.</p>
                         </div>
-                        <div className="bg-amber-500/10 border border-amber-500/20 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-black uppercase">
-                          Showing {filteredAllQuestions.length} of {currentDatabase.length} questions
+                        <div className="bg-brand-500/10 border border-brand-500/20 text-brand-600 dark:text-brand-400 px-3 py-1 rounded-lg text-[10px] font-bold uppercase">
+                          Index: {filteredAllQuestions.length} questions
                         </div>
                       </div>
 
                       <div className="relative">
                         <input 
                           type="text" 
-                          placeholder="Search thinkers or terms..."
+                          placeholder="Fuzzy search scholars, monographs, or keywords..."
                           value={searchTerm}
                           onChange={(e) => setSearchTerm(e.target.value)}
-                          className="w-full pl-10 pr-4 py-2.5 bg-slate-950 rounded-xl border border-slate-800 text-slate-100 focus:outline-none focus:ring-1 focus:ring-amber-500 text-xs font-medium"
+                          className="w-full pl-9 pr-4 py-2 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-1 focus:ring-brand-500 text-xs transition-colors duration-150"
                         />
-                        <span className="absolute left-3 top-3.5 text-slate-500">🔍</span>
+                        <span className="absolute left-3.5 top-2.5 text-slate-400 text-xs">🔍</span>
                       </div>
 
-                      <div className="space-y-4 max-h-[800px] overflow-y-auto pr-1">
+                      <div className="space-y-4 max-h-[700px] overflow-y-auto pr-1 custom-scrollbar">
                         {filteredAllQuestions.map((q, idx) => (
                           <LibraryQuestionRow 
                             key={q.id} 
@@ -831,8 +963,8 @@
                         ))}
 
                         {filteredAllQuestions.length === 0 && (
-                          <div className="bg-slate-950 p-12 text-center border border-slate-850">
-                            <p className="text-slate-400 font-bold">No match found.</p>
+                          <div className="bg-white dark:bg-slate-900 p-12 text-center rounded-2xl border border-slate-200 dark:border-slate-800">
+                            <p className="text-slate-400 font-bold text-xs">No matching question found in this deck.</p>
                           </div>
                         )}
                       </div>
@@ -841,13 +973,13 @@
 
                   {activeTab === 'bookmarks' && (
                     <div className="space-y-6">
-                      <div className="bg-slate-950 border border-slate-850 p-6 rounded-3xl shadow-sm">
-                        <h2 className="text-base font-bold text-white">Your Saved Revision Desk</h2>
-                        <p className="text-slate-400 text-xs">Instantly study questions flagged for complex conceptual revision.</p>
+                      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-855 p-5 rounded-2xl transition-colors duration-200">
+                        <h2 className="text-sm font-bold text-slate-900 dark:text-white">Active Revision Deck</h2>
+                        <p className="text-slate-500 dark:text-slate-400 text-[10px]">Isolate and study questions flagged for complex concept revision.</p>
                       </div>
 
                       <div className="space-y-4">
-                        {rawMasterDatabase.filter(q => bookmarkedQuestions.includes(q.id) || flaggedQuestions.includes(q.id)).map((q, idx) => (
+                        {currentDatabase.filter(q => bookmarkedQuestions.includes(q.id) || flaggedQuestions.includes(q.id)).map((q, idx) => (
                           <LibraryQuestionRow 
                             key={q.id} 
                             idx={idx}
@@ -860,10 +992,10 @@
                         ))}
 
                         {bookmarkedQuestions.length === 0 && flaggedQuestions.length === 0 && (
-                          <div className="bg-slate-950 p-12 rounded-3xl text-center border border-slate-850">
-                            <span className="text-3xl">🔖</span>
-                            <p className="text-slate-400 font-bold mt-4">Revision Desk is currently empty.</p>
-                            <p className="text-xs text-slate-500 mt-1 font-semibold">Bookmark or Flag any question in Practice or Library tab to populate this deck.</p>
+                          <div className="bg-white dark:bg-slate-900 p-12 rounded-2xl text-center border border-slate-200 dark:border-slate-850 transition-colors duration-200">
+                            <span className="text-2xl">🔖</span>
+                            <p className="text-slate-500 dark:text-slate-400 font-bold mt-3 text-xs">Revision deck is currently empty.</p>
+                            <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5">Click the flag or bookmark symbols inside test cards to save references here.</p>
                           </div>
                         )}
                       </div>
@@ -873,38 +1005,38 @@
                   {activeTab === 'analytics' && (
                     <div className="space-y-6">
                       
-                      <div className="bg-slate-950 border border-slate-850 p-6 rounded-3xl shadow-sm">
-                        <h2 className="text-base font-bold text-white">Cognitive Analytics Dashboard</h2>
-                        <p className="text-slate-400 text-xs">Detailed analysis of your practice patterns mapped across all 10 syllabus divisions.</p>
+                      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 p-5 rounded-2xl transition-colors duration-200">
+                        <h2 className="text-sm font-bold text-slate-900 dark:text-white">Simulated Cognitive Diagnostic Track</h2>
+                        <p className="text-slate-500 dark:text-slate-400 text-[10px]">Real performance mapping across syllabus subfields.</p>
                       </div>
 
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
-                        <div className="bg-slate-950 border border-slate-850 rounded-3xl overflow-hidden shadow-lg">
-                          <div className="px-6 py-4 bg-slate-900 border-b border-slate-850">
-                            <h3 className="font-bold text-xs text-amber-400 uppercase tracking-wider">Unit-wise Performance Matrix</h3>
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl overflow-hidden transition-colors duration-200">
+                          <div className="px-5 py-3 bg-slate-50 dark:bg-slate-850 border-b border-slate-200 dark:border-slate-800">
+                            <h3 className="font-bold text-[10px] text-brand-600 dark:text-brand-400 uppercase tracking-widest">Syllabus Breakdown Matrix</h3>
                           </div>
-                          <div className="divide-y divide-slate-850">
-                            {analyticsData.map((ub, idx) => (
+                          <div className="divide-y divide-slate-100 dark:divide-slate-800">
+                            {computedAnalytics.unitBreakdown.map((ub, idx) => (
                               <div key={idx} className="p-4 flex justify-between items-center gap-4">
-                                <div className="space-y-1">
-                                  <h4 className="font-bold text-white text-xs">{ub.unit}</h4>
-                                  <span className="text-[10px] text-slate-500 block font-bold">Solved: {ub.attempted} / Total: {ub.total}</span>
+                                <div className="space-y-0.5">
+                                  <h4 className="font-bold text-slate-800 dark:text-white text-xs">{ub.unit}</h4>
+                                  <span className="text-[9px] text-slate-400 dark:text-slate-500 block font-semibold">Attempted: {ub.attempted} / {ub.total}</span>
                                 </div>
 
-                                <div className="flex items-center gap-4">
+                                <div className="flex items-center gap-3">
                                   <div className="text-right">
-                                    <span className="text-[9px] uppercase font-bold text-slate-500 block">Accuracy</span>
+                                    <span className="text-[8px] uppercase font-bold text-slate-400 block">Accuracy</span>
                                     <span className={`text-xs font-black ${
-                                      ub.attempted === 0 ? 'text-slate-600' :
-                                      ub.accuracy >= 75 ? 'text-emerald-400' : 'text-amber-500'
+                                      ub.attempted === 0 ? 'text-slate-400' :
+                                      ub.accuracy >= 75 ? 'text-emerald-500' : 'text-brand-500'
                                     }`}>
-                                      {ub.attempted === 0 ? 'No data' : `${ub.accuracy}%`}
+                                      {ub.attempted === 0 ? 'N/A' : `${ub.accuracy}%`}
                                     </span>
                                   </div>
                                   
-                                  <div className="w-16 bg-slate-900 h-2 rounded-full overflow-hidden">
-                                    <div className="bg-amber-400 h-full rounded-full" style={{ width: `${ub.accuracy}%` }}></div>
+                                  <div className="w-12 bg-slate-100 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                                    <div className="bg-brand-500 h-full rounded-full" style={{ width: `${ub.accuracy}%` }}></div>
                                   </div>
                                 </div>
                               </div>
@@ -912,41 +1044,35 @@
                           </div>
                         </div>
 
-                        <div className="bg-slate-950 border border-slate-850 rounded-3xl p-6 shadow-lg flex flex-col justify-between space-y-6">
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl p-5 shadow-sm flex flex-col justify-between space-y-6 transition-colors duration-200">
                           <div>
-                            <h3 className="font-extrabold text-xs text-white uppercase tracking-wider mb-4 pb-2 border-b border-slate-850">
-                              🎯 Weakness Diagnostic Report
+                            <h3 className="font-bold text-[10px] text-slate-800 dark:text-white uppercase tracking-widest mb-3.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+                              🎯 Real-Time Weak Area profiling
                             </h3>
                             
                             <div className="space-y-3">
-                              <div className="bg-slate-900 p-3 rounded-xl border border-slate-850 flex items-start gap-3">
-                                <span className="text-lg">🛠️</span>
-                                <div>
-                                  <h4 className="text-xs font-extrabold text-slate-300">Unit 3: Molecular Genetics & Hominins</h4>
-                                  <p className="text-[10px] text-slate-500 leading-normal font-semibold mt-0.5">High weightage, complex biological classifications. Pay extreme focus to inheritance patterns and primates.</p>
+                              {computedAnalytics.weaknessProfiling.map((item, idx) => (
+                                <div key={idx} className="bg-slate-50 dark:bg-slate-900 p-3 rounded-lg border border-slate-200 dark:border-slate-800 flex items-start gap-3">
+                                  <span className="text-sm">⚠️</span>
+                                  <div>
+                                    <h4 className="text-xs font-bold text-slate-800 dark:text-slate-300">{item.unit}</h4>
+                                    <p className="text-[9px] text-slate-450 dark:text-slate-555 leading-normal font-semibold mt-0.5">
+                                      Accuracy level is at <b className="text-rose-500">{100 - Math.round(item.ratio * 100)}%</b> based on {item.incorrect} incorrect choices in this paper. Target revision on central monographs.
+                                    </p>
+                                  </div>
                                 </div>
-                              </div>
+                              ))}
 
-                              <div className="bg-slate-900 p-3 rounded-xl border border-slate-850 flex items-start gap-3">
-                                <span className="text-lg">🗺️</span>
-                                <div>
-                                  <h4 className="text-xs font-extrabold text-slate-300">Unit 4: Absolute Geochronology</h4>
-                                  <p className="text-[10px] text-slate-500 leading-normal font-semibold mt-0.5">Dendrochronology calibration, Carbon-14 half-lives, potassium-argon ash deposits.</p>
+                              {computedAnalytics.weaknessProfiling.length === 0 && (
+                                <div className="p-6 text-center text-slate-400">
+                                  No weak areas identified yet. Keep testing to gather diagnostic profiles!
                                 </div>
-                              </div>
-
-                              <div className="bg-slate-900 p-3 rounded-xl border border-slate-850 flex items-start gap-3">
-                                <span className="text-lg">📖</span>
-                                <div>
-                                  <h4 className="text-xs font-extrabold text-slate-300">Unit 8: Indian Village Monographic Studies</h4>
-                                  <p className="text-[10px] text-slate-500 leading-normal font-semibold mt-0.5">Karimpur (Wisers), Shamirpet (S.C. Dube), Rampura (M.N. Srinivas), Kishangarhi (Marriott).</p>
-                                </div>
-                              </div>
+                              )}
                             </div>
                           </div>
 
-                          <div className="bg-amber-500/10 border border-amber-500/20 p-4 rounded-xl text-xs text-amber-300 leading-relaxed">
-                            💡 <b>Tip:</b> Utilize the <b>Saved Revision Desk</b> tab to isolate and study flagged topics before your final NET/JRF attempt.
+                          <div className="bg-brand-500/10 border border-brand-500/20 p-3.5 rounded-lg text-[10px] text-brand-700 dark:text-brand-300 leading-relaxed font-semibold">
+                            💡 <b>Standard JRF tip:</b> Maintain an accuracy benchmark above <b>82%</b> under timed simulation conditions to ensure a top 1% JRF ranking.
                           </div>
                         </div>
 
@@ -957,163 +1083,171 @@
 
                 </div>
 
-                <div className="lg:col-span-1 space-y-6">
-                  
-                  <div className="bg-slate-950 border border-slate-800 p-4 rounded-2xl flex items-center gap-3 shadow-md">
-                    <div className="bg-slate-800 h-10 w-10 rounded-full flex items-center justify-center font-black text-amber-400 text-xs">
-                      NET
+                {/* --- RIGHT CBT SIDEBAR --- */}
+                {!isFocusMode && (
+                  <div className="lg:col-span-1 space-y-6">
+                    
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl flex items-center gap-3 transition-colors duration-200">
+                      <div className="bg-slate-100 dark:bg-slate-800 h-9 w-9 rounded-full flex items-center justify-center font-bold text-brand-600 dark:text-brand-400 text-xs">
+                        NTA
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-xs text-slate-900 dark:text-white">Registered Candidate</h3>
+                        <p className="text-[9px] text-slate-500 dark:text-slate-400">Subject: 07 Anthropology</p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="font-extrabold text-xs text-white">Elite Candidate</h3>
-                      <p className="text-[10px] text-slate-400">Subject: 07 Anthropology</p>
+
+                    {/* OMR Palette Summary */}
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl space-y-3 transition-colors duration-200">
+                      <h3 className="text-[9px] font-black uppercase text-slate-400 tracking-wider">CBT Palette Summary</h3>
+                      <div className="grid grid-cols-2 gap-2 text-[9px] font-bold">
+                        <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 p-2 rounded-lg border border-slate-100 dark:border-slate-800">
+                          <span className="h-4.5 w-4.5 bg-emerald-600 rounded flex items-center justify-center text-[8px] font-bold text-white px-1">{paletteCounters.answered}</span>
+                          <span>Answered</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 p-2 rounded-lg border border-slate-100 dark:border-slate-800">
+                          <span className="h-4.5 w-4.5 bg-rose-600 rounded flex items-center justify-center text-[8px] font-bold text-white px-1">{paletteCounters.notAnswered}</span>
+                          <span>Not Answered</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 p-2 rounded-lg border border-slate-100 dark:border-slate-800">
+                          <span className="h-4.5 w-4.5 bg-purple-600 rounded flex items-center justify-center text-[8px] font-bold text-white px-1">{paletteCounters.markedForReview}</span>
+                          <span>For Review</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 p-2 rounded-lg border border-slate-100 dark:border-slate-800">
+                          <span className="h-4.5 w-4.5 bg-indigo-600 rounded flex items-center justify-center text-[8px] font-bold text-white px-1">{paletteCounters.answeredAndMarked}</span>
+                          <span>Ans & Review</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 p-2 rounded-lg border border-slate-100 dark:border-slate-800 col-span-2">
+                          <span className="h-4.5 w-4.5 bg-slate-400 dark:bg-slate-700 rounded flex items-center justify-center text-[8px] font-bold text-white px-1">{paletteCounters.notVisited}</span>
+                          <span>Not Visited</span>
+                        </div>
+                      </div>
                     </div>
+
+                    {/* Palette Grid */}
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl space-y-3 flex flex-col h-[360px] transition-colors duration-200">
+                      <div className="flex justify-between items-center pb-2 border-b border-slate-100 dark:border-slate-800">
+                        <h3 className="text-[9px] font-black uppercase text-slate-400 tracking-wider">Palette Board</h3>
+                        <span className="text-[9px] text-slate-400 dark:text-slate-500 font-bold">Total: {filteredAllQuestions.length}</span>
+                      </div>
+
+                      <div className="flex-1 overflow-y-auto grid grid-cols-5 gap-1.5 pr-1 custom-scrollbar">
+                        {filteredAllQuestions.map((q, idx) => {
+                          const isSelected = selectedOptions[q.id] !== undefined;
+                          const isFlagged = flaggedQuestions.includes(q.id);
+                          const isVisited = visitedQuestions[q.id] === true;
+                          const isActive = activeQuestion?.id === q.id;
+
+                          let nodeStyle = "h-8 text-[11px] font-bold rounded-lg flex items-center justify-center border transition-all ";
+                          
+                          if (isActive) {
+                            nodeStyle += "border-brand-500 bg-brand-500 text-slate-950 scale-105 shadow-sm";
+                          } else if (isFlagged && isSelected) {
+                            nodeStyle += "border-indigo-600 bg-indigo-950/80 text-indigo-300";
+                          } else if (isFlagged) {
+                            nodeStyle += "border-purple-600 bg-purple-950 text-purple-200";
+                          } else if (isSelected) {
+                            nodeStyle += "border-emerald-600 bg-emerald-950/80 text-emerald-300";
+                          } else if (isVisited) {
+                            nodeStyle += "border-rose-600 bg-rose-950 text-rose-300";
+                          } else {
+                            nodeStyle += "border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 text-slate-400 dark:text-slate-500 hover:border-slate-350 hover:text-slate-700 dark:hover:text-slate-200";
+                          }
+
+                          return (
+                            <button 
+                              key={q.id}
+                              onClick={() => handleManualJump(idx)}
+                              className={nodeStyle}
+                              title={`${q.unit} - Q:${q.id}`}
+                            >
+                              {idx + 1}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    {/* JRF Probability Panel */}
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4.5 rounded-xl text-center space-y-2 transition-colors duration-200">
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block">Percentile Standard</span>
+                      <div className="text-2xl font-black text-brand-600 dark:text-brand-400 bg-slate-50 dark:bg-slate-950 py-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
+                        {jrfStatus.probability}%
+                      </div>
+                      <p className="text-[8px] text-slate-400 dark:text-slate-500 leading-normal font-semibold">
+                        A dynamic projection calculated using real-time accurate attempts mapped to actual JRF cutoffs.
+                      </p>
+                    </div>
+
                   </div>
-
-                  <div className="bg-slate-950 border border-slate-800 p-4 rounded-2xl shadow-md space-y-3">
-                    <h3 className="text-[10px] font-black uppercase text-slate-400 tracking-wider">OMR Palette Summary</h3>
-                    <div className="grid grid-cols-2 gap-2 text-[10px] font-bold">
-                      <div className="flex items-center gap-1.5 bg-slate-900 p-2 rounded-lg">
-                        <span className="h-4 w-4 bg-emerald-600 rounded flex items-center justify-center text-[8px] font-bold text-white">{paletteCounters.answered}</span>
-                        <span>Answered</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 bg-slate-900 p-2 rounded-lg">
-                        <span className="h-4 w-4 bg-rose-600 rounded flex items-center justify-center text-[8px] font-bold text-white">{paletteCounters.notAnswered}</span>
-                        <span>Not Answered</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 bg-slate-900 p-2 rounded-lg">
-                        <span className="h-4 w-4 bg-purple-600 rounded flex items-center justify-center text-[8px] font-bold text-white">{paletteCounters.markedForReview}</span>
-                        <span>For Review</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 bg-slate-900 p-2 rounded-lg">
-                        <span className="h-4 w-4 bg-indigo-600 rounded flex items-center justify-center text-[8px] font-bold text-white">{paletteCounters.answeredAndMarked}</span>
-                        <span>Ans & Review</span>
-                      </div>
-                      <div className="flex items-center gap-1.5 bg-slate-900 p-2 rounded-lg col-span-2">
-                        <span className="h-4 w-4 bg-slate-700 rounded flex items-center justify-center text-[8px] font-bold text-slate-200">{paletteCounters.notVisited}</span>
-                        <span>Not Visited</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-slate-950 border border-slate-800 p-4 rounded-2xl shadow-lg space-y-3 flex flex-col h-[400px]">
-                    <div className="flex justify-between items-center pb-2 border-b border-slate-850">
-                      <h3 className="text-[10px] font-black uppercase text-slate-400 tracking-wider">Palette Board</h3>
-                      <span className="text-[10px] text-slate-500 font-bold">Total: {filteredAllQuestions.length}</span>
-                    </div>
-
-                    <div className="flex-1 overflow-y-auto grid grid-cols-5 gap-1.5 pr-1">
-                      {filteredAllQuestions.map((q, idx) => {
-                        const isSelected = selectedOptions[q.id] !== undefined;
-                        const isFlagged = flaggedQuestions.includes(q.id);
-                        const isVisited = visitedQuestions[q.id] === true;
-                        const isActive = activeQuestion?.id === q.id;
-
-                        let nodeStyle = "h-8 text-[11px] font-black rounded-lg flex items-center justify-center border transition-all ";
-                        
-                        if (isActive) {
-                          nodeStyle += "border-amber-400 bg-amber-500 text-slate-950 scale-105 shadow-md shadow-amber-500/20";
-                        } else if (isFlagged && isSelected) {
-                          nodeStyle += "border-indigo-600 bg-indigo-950/80 text-indigo-300";
-                        } else if (isFlagged) {
-                          nodeStyle += "border-purple-600 bg-purple-950 text-purple-200";
-                        } else if (isSelected) {
-                          nodeStyle += "border-emerald-600 bg-emerald-950/80 text-emerald-300";
-                        } else if (isVisited) {
-                          nodeStyle += "border-rose-600 bg-rose-950 text-rose-300";
-                        } else {
-                          nodeStyle += "border-slate-800 bg-slate-900 text-slate-500 hover:border-slate-700 hover:text-slate-200";
-                        }
-
-                        return (
-                          <button 
-                            key={q.id}
-                            onClick={() => handleManualJump(idx)}
-                            className={nodeStyle}
-                            title={`${q.unit} - Q:${q.id}`}
-                          >
-                            {idx + 1}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div className="bg-slate-950 border border-slate-800 p-5 rounded-2xl shadow-lg space-y-3 text-center">
-                    <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider block">Estimated JRF Probability</span>
-                    <div className="text-3xl font-black text-amber-400 bg-slate-900/60 py-3 rounded-xl border border-slate-850">
-                      {jrfProbability}%
-                    </div>
-                    <p className="text-[9px] text-slate-500 leading-normal font-semibold">
-                      Hitting an accuracy floor of **80%** typically guarantees qualification for the Junior Research Fellowship (JRF).
-                    </p>
-                  </div>
-
-                </div>
+                )}
 
               </main>
 
-              <footer className="bg-slate-950 border-t border-slate-850 py-5 text-center text-[10px] text-slate-500 font-black uppercase tracking-widest">
-                UGC NET Anthropology Intelligence Simulator • Active Database Sync Version 5.2
+              {/* --- FOOTER --- */}
+              <footer className="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-850 py-4 text-center text-[8px] text-slate-400 dark:text-slate-500 font-semibold uppercase tracking-widest transition-colors duration-200">
+                UGC NET Anthropology Simulated Assessment System • NTA Simulator Sync Version 6.0
               </footer>
             </div>
           );
         }
 
+        // --- SUBCOMPONENT: MASTER QUESTION ROW ---
         function LibraryQuestionRow({ question, idx, isBookmarked, toggleBookmark, isFlagged, toggleFlag }) {
           const [showAnswer, setShowAnswer] = useState(false);
 
           return (
-            <div className="bg-slate-950 border border-slate-850 rounded-2xl p-5 space-y-4 hover:border-slate-700 transition-all shadow-sm mb-4">
-              <div className="flex flex-wrap justify-between items-center gap-3 border-b border-slate-900 pb-3">
-                <span className="text-[9px] font-black uppercase text-indigo-400 bg-indigo-950/40 px-3 py-1 rounded-full border border-indigo-900/30">
+            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 rounded-2xl p-4.5 space-y-3.5 hover:border-slate-300 dark:hover:border-slate-750 transition-all shadow-sm mb-4 duration-200">
+              <div className="flex flex-wrap justify-between items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-2.5">
+                <span className="text-[8px] font-black uppercase text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2.5 py-0.5 rounded-md border border-indigo-100 dark:border-indigo-900/30">
                   {question.unit.split(':')[0]}
                 </span>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-[9px] font-bold bg-slate-900 px-2 py-0.5 rounded text-slate-500">{question.year}</span>
+                  <span className="text-[8px] font-bold bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded text-slate-455 dark:text-slate-500">{question.year}</span>
                   
                   <button 
                     onClick={() => toggleFlag(question.id)}
-                    className={`p-1 rounded transition-all ${isFlagged ? 'text-purple-400 bg-purple-950/40' : 'text-slate-500 hover:text-slate-300'}`}
+                    className={`p-1 rounded transition-all ${isFlagged ? 'text-purple-500 bg-purple-50 dark:bg-purple-950/40' : 'text-slate-400 hover:text-slate-650'}`}
                   >
                     <FlagIcon filled={isFlagged} />
                   </button>
 
                   <button 
                     onClick={() => toggleBookmark(question.id)}
-                    className={`p-1 rounded transition-all ${isBookmarked ? 'text-amber-400 bg-amber-950/40' : 'text-slate-500 hover:text-slate-300'}`}
+                    className={`p-1 rounded transition-all ${isBookmarked ? 'text-amber-500 bg-amber-50 dark:bg-amber-950/40' : 'text-slate-400 hover:text-slate-650'}`}
                   >
                     <BookmarkIcon filled={isBookmarked} />
                   </button>
                 </div>
               </div>
 
-              <h3 className="font-bold text-white text-xs md:text-sm leading-relaxed whitespace-pre-line">
+              <h3 className="font-bold text-slate-900 dark:text-white text-xs md:text-sm leading-relaxed whitespace-pre-line">
                 Q-{question.id}: {question.question}
               </h3>
 
-              <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-wrap gap-3 items-center">
                 <button 
                   onClick={() => setShowAnswer(!showAnswer)}
-                  className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white font-extrabold text-[10px] rounded-xl flex items-center gap-2 border border-slate-800 transition-all"
+                  className="px-3.5 py-1.5 bg-slate-50 hover:bg-slate-100 dark:bg-slate-850 dark:hover:bg-slate-800 text-slate-650 dark:text-slate-300 hover:text-slate-800 dark:hover:text-white font-bold text-[9px] rounded-lg flex items-center gap-1.5 border border-slate-200 dark:border-slate-800 transition-all"
                 >
                   <EyeIcon /> {showAnswer ? 'Hide Solution' : 'View Correct Answer'}
                 </button>
 
                 {question.thinker && (
-                  <span className="text-[9px] font-extrabold bg-amber-500/10 text-amber-400 px-3 py-1 rounded-lg border border-amber-500/20">
+                  <span className="text-[8px] font-extrabold bg-brand-500/10 text-brand-600 dark:text-brand-400 px-2.5 py-1 rounded border border-brand-500/20">
                     {question.thinker}
                   </span>
                 )}
               </div>
 
               {showAnswer && (
-                <div className="p-4 bg-slate-900 rounded-xl border border-slate-850 space-y-2.5 text-xs font-medium mt-3">
-                  <p className="text-slate-400 uppercase font-bold text-[9px]">Correct Answer:</p>
-                  <p className="text-emerald-400 font-extrabold text-xs">
+                <div className="p-3.5 bg-slate-50 dark:bg-slate-950 rounded-xl border border-slate-150 dark:border-slate-855 space-y-2 text-xs font-medium mt-2 transition-colors duration-200">
+                  <p className="text-slate-400 dark:text-slate-555 uppercase font-bold text-[8px]">Correct Option:</p>
+                  <p className="text-emerald-600 dark:text-emerald-400 font-bold text-xs">
                     Option {String.fromCharCode(65 + question.correctAnswerIndex)}: {question.options[question.correctAnswerIndex]}
                   </p>
-                  <div className="pt-2 border-t border-slate-800 text-slate-300 leading-relaxed text-xs">
+                  <div className="pt-2 border-t border-slate-200 dark:border-slate-855 text-slate-600 dark:text-slate-350 leading-relaxed text-xs">
                     {question.explanation}
                   </div>
                 </div>
