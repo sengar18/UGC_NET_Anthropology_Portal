@@ -106,7 +106,7 @@
           // --- DATABASE INITIALIZATION ---
           const getInitialKey = () => {
             if (window.pyqDatabase) {
-              const preferred = "UGC NET - 200 Master Assertion-Reason Practice Paper";
+              const preferred = "UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock";
               if (window.pyqDatabase[preferred]) return preferred;
               
               const keys = Object.keys(window.pyqDatabase);
@@ -692,15 +692,6 @@
                       >
                         {window.pyqDatabase && (
                           <>
-                            <optgroup label="🌟 ELITE ASSERTION-REASON MOCKS">
-                              {window.pyqDatabase["UGC NET - 200 Master Assertion-Reason Practice Paper"] && (
-                                <option value="UGC NET - 200 Master Assertion-Reason Practice Paper">UGC NET - 200 Master Assertion-Reason Practice Paper</option>
-                              )}
-                              {window.pyqDatabase["Unit Notes - 100 Assertion-Reason Mocks"] && (
-                                <option value="Unit Notes - 100 Assertion-Reason Mocks">Unit Notes - 100 Assertion-Reason Mocks</option>
-                              )}
-                            </optgroup>
-                            
                             <optgroup label="🔥 HIGH-YIELD SYLLABUS MASTERY">
                               {window.pyqDatabase["UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock"] && (
                                 <option value="UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock">UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock</option>
