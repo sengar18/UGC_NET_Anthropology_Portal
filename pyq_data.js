@@ -16103,5 +16103,3909 @@ window.pyqDatabase = {
       "unit": "Unit 3: Socio-cultural Anthropology",
       "source": "Ganesh Moolinti MCQ Book"
     }
+  ],
+  "Unit Notes - 100 Assertion-Reason Mocks": [
+    {
+      "question": "Assertion (A): Sherwood Washburn coined the term 'New Physical Anthropology' in 1951.\nReason (R): He advocated a shift in biological anthropology from a purely taxonomic classification of races to an analytical study of evolutionary processes and genetics.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Sherwood Washburn redefined physical anthropology in 1951 by introducing the 'New Physical Anthropology' paradigm, which transitioned the focus of the discipline from classical, static, morphometric racial taxonomy to the dynamic processes of evolutionary genetics and adaptation.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Classical physical anthropology was predominantly static and descriptive.\nReason (R): Early anthropologists relied heavily on anthropometric measurements and craniology to classify human types, without a strong unifying theoretical evolutionary framework.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Before the integration of genetics and evolutionary biology in the mid-20th century, physical anthropology focused primarily on describing morphological variations and classifying racial groups using measurements, making it a static, descriptive science.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Franz Boas is regarded as the father of American Anthropology.\nReason (R): He formulated and formalized the integrated four-field approach comprising biological, socio-cultural, archaeological, and linguistic anthropology in the United States.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Franz Boas established the four-field system in America to challenge unilinear social evolutionism and biological determinism, illustrating that human biology, language, archaeology, and culture must be studied holistically.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): British social anthropology traditionally focused heavily on language and archaeology.\nReason (R): Under the influence of Franz Boas, British social anthropology promoted a strict holistic four-field system.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because British social anthropology historically isolated itself from archaeology and linguistics, focusing strictly on social structures. Reason (R) is false as a statement but within the standard options, when Assertion is false, it matches Option D.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): A.L. Kroeber termed Anthropology and Sociology 'twin sisters'.\nReason (R): Historically, both disciplines shared the same methodology of quantitative social surveys and urban research.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "A.L. Kroeber did call them twin sisters. However, the reason is false; historically they differed drastically in methodology: anthropology utilized qualitative participant observation in small-scale societies, whereas sociology used quantitative questionnaires in industrialized Western societies.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): F.W. Maitland famously declared that anthropology must choose between being history and being nothing.\nReason (R): Early functionalists completely rejected historical reconstructions in favor of synchronic structural analysis.",
+      "options": [
+        "Both (A) and (R) is true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "explanation": "Maitland made this famous statement to highlight the diachronic value of history in anthropology. Early functionalists like Radcliffe-Brown did reject historical reconstructions, but this fact does not explain Maitland's philosophical stance.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): T.K. Penniman classified the history of anthropology into four major stages: Formative, Convergent, Constructive, and Critical.\nReason (R): This classification represents the historical shift of the discipline from philosophical speculation to empirical fieldwork and structural criticism.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "T.K. Penniman's stages (outlined in 'A Hundred Years of Anthropology') accurately map the discipline's growth from early philosophical roots (Formative) to post-Darwinian evolutionary convergence (Convergent), systematic empirical research (Constructive), and theoretical diversification (Critical).",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Johann Friedrich Blumenbach is widely regarded as the founder of Physical Anthropology.\nReason (R): He was a pioneer in empirical craniology and categorized mankind into five distinct races based on cranial measurements.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "German physician Blumenbach is recognized as the father of physical anthropology due to his empirical skull measurements (craniology), establishing the five-fold racial classification (American, Caucasian, Ethiopian, Malayan, and Mongolian).",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Polygenism was a major scientific perspective in 19th-century Europe and America.\nReason (R): Advocates of polygenism believed that all human races descended from a single ancestral species and that diversity was due to environmental degeneration.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Polygenism was highly popular in the 19th century (advocated by Samuel George Morton and Paul Broca). However, Reason (R) is false because polygenists argued that different races belonged to entirely different species created separately by God, not descended from a single species (which is monogenism).",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Physical anthropology is completely synonymous with biological anthropology in all contexts today.\nReason (R): Many modern universities prefer the term biological anthropology to reflect a shift toward genetics, molecular biology, and physiological adaptations.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because physical anthropology historically emphasized static bone measurements, whereas modern biological anthropology integrates genetics, physiology, and evolutionary chemistry. The terms are not entirely synonymous in historical contexts, although biological anthropology has gained popularity.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Lamarckism is defined as the 'Inheritance of Acquired Characters'.\nReason (R): Lamarck proposed that environmental changes create new needs in organisms, causing them to use certain organs excessively and disuse others, which leads to physical changes passed to offspring.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Jean-Baptiste Lamarck's 1809 evolutionary theory was based on the premise that environmental pressures lead to the adaptive use or disuse of physical organs, and the resulting somatic modifications are inherited by subsequent generations.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): August Weismann successfully disproved Lamarck's theory of acquired inheritance.\nReason (R): He propounded the 'Continuity of Germplasm' theory, demonstrating that changes in the somatoplasm (body cells) are not transmitted to descendants.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "August Weismann cut off the tails of laboratory rats for successive generations and found that all offspring were born with normal tails. This supported his theory that only changes in germplasm (sex cells) are heritable, disproving Lamarckian somatoplasm inheritance.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Charles Darwin's theory of Natural Selection is a key mechanism of biological evolution.\nReason (R): Darwin explained the origin of genetic mutations as the primary source of individual variations in his 1859 book.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true as natural selection is a key evolutionary mechanism. However, Reason (R) is false because Darwin had no knowledge of genetics or the chromosomal mechanism of mutations; this lack of an explanation for the origin of variations was a major limitation of his theory.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Parallel evolution refers to the development of similar traits in closely related organisms from the same ancestral trait.\nReason (R): An example of parallel evolution is the arm-swinging locomotion (brachiation) observed in both gibbons and spider monkeys.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Parallel evolution occurs when two related species independently evolve similar biological traits starting from a common ancestral trait. The independent development of arm-swinging brachiation in gibbons (Apes) and spider monkeys (New World Monkeys) is a standard primate example.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Convergent evolution refers to the development of similar adaptations in organisms that are not closely related.\nReason (R): The wings of bats (mammals) and wings of insects are convergent structures developed to exploit similar environmental niches.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Convergence involves independent adaptations in unrelated lineages due to similar ecological pressures. The flight structures of bats and insects represent a classic convergent evolution pattern.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Mosaic evolution describes the differential rate of evolution of different component parts of an organism.\nReason (R): In hominin evolution, bipedal locomotion (pelvis and foot modifications) evolved to perfection before the braincase expanded significantly.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Mosaic evolution refers to the fact that body parts do not evolve at the same rate. This is perfectly illustrated in the hominin fossil record: bipedal posture was fully established in early Australopithecus millions of years before the large braincases of the genus Homo evolved.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Synthetic Theory of evolution (Neo-Darwinism) defines evolution as a two-stage process.\nReason (R): These stages are: the production and redistribution of inherited variation, followed by natural selection acting on this variation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Modern Synthesis reconciled Mendelian genetics and Darwinian natural selection, modeling evolution in two stages: first, the generation of genomic variation through mutations/recombinations, and second, the selective survival/reproduction based on those variations.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Cenozoic era is divided into seven major epochs: Paleocene, Eocene, Oligocene, Miocene, Pliocene, Pleistocene, and Holocene.\nReason (R): Early hominin ancestors first split from the chimpanzee lineage during the Eocene epoch.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true as those are the correct seven epochs of the Cenozoic era. However, Reason (R) is false because the hominin-chimpanzee split occurred much later, during the late Miocene epoch (approx. 5 to 7 million years ago), not the Eocene.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Speciation refers to the evolutionary process by which new species arise.\nReason (R): Adaptive radiation, such as observed in Galapagos finches, is a classic pathway of rapid speciation in diverse ecological niches.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Speciation results in reproductive isolation. Galapagos finches diversified rapidly from a single ancestral species to occupy different feeding niches, which represents the process of adaptive radiation leading to speciation.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Edward Tyson is recognized as a pioneer in European primate studies.\nReason (R): He proved anatomical links between humans and apes in 1699 by dissecting a chimpanzee and highlighting its brain similarities to man.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "In 1699, physician Edward Tyson published a landmark anatomical study of a chimpanzee skeleton, concluding that it had more structural features in common with humans than with monkeys, particularly in brain morphology.",
+      "unit": "Unit 2: Theories of Organic Evolution & Primates",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): James Watson and Francis Crick described the three-dimensional double-helix structure of DNA in 1953.\nReason (R): In their model, the DNA strands are anti-parallel and connected by specific hydrogen bonds between complementary base pairs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Watson and Crick's 1953 model revealed that DNA is a double helix composed of two anti-parallel sugar-phosphate backbones connected by hydrogen-bonded base pairs (Adenine-Thymine and Guanine-Cytosine).",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Genetic drift has a more pronounced evolutionary impact in small, isolated human populations.\nReason (R): Genetic drift is the random fluctuation of allele frequencies due to chance events, such as natural disasters or population bottlenecks.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Genetic drift operates through random sampling errors over generations. Because small populations have a limited gene pool, minor fluctuations in allele counts due to chance can lead to the rapid fixation or loss of alleles.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Pedigree analysis is a highly useful clinical and genealogical tool in biological anthropology.\nReason (R): It helps to map the pattern of inheritance of rare Mendelian genetic traits and forecast potential genetic abnormalities in offspring.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Pedigrees diagram family trees using standard symbols, allowing biological anthropologists to trace dominant, recessive, autosomal, or sex-linked hereditary traits through successive generations.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Anthropological genetics is fundamentally distinct from clinical human genetics.\nReason (R): Anthropological geneticists focus on evolutionary history, normal variations, and isolated populations, whereas human geneticists focus primarily on pathological diseases and clinical treatments.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "While they share tools, anthropological genetics focuses on macro-evolutionary migrations, adaptive traits, and populations, whereas medical human genetics is disease-oriented and individual-focused.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Autosomal dominant traits can skip generations in a family pedigree.\nReason (R): Dominant alleles are only expressed in the homozygous state (AA).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because autosomal dominant traits are expressed in every generation (they do not skip). Reason (R) is also false because dominant alleles are expressed in both homozygous (AA) and heterozygous (Aa) states. (In standard 4-option matching, this aligns with Option D).",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Mendelian law of segregation states that alleles separate during gamete formation.\nReason (R): This segregation occurs during the process of meiosis when homologous chromosomes are partitioned into separate daughter cells.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Gregor Mendel's law of segregation describes how allele pairs separate. Biologically, this happens during meiosis when homologous chromosomes pull apart into separate gametes, giving each gamete only one allele.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Hardy-Weinberg law operates in small, closed, endogamous human populations.\nReason (R): Hardy-Weinberg equilibrium assumes infinite population size, panmixia (random mating), and the absence of evolutionary forces.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because small populations violate Hardy-Weinberg conditions by inducing random genetic drift. Reason (R) is a correct statement of the ideal mathematical assumptions required for the law to hold.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): DNA replication is described as a semi-conservative process.\nReason (R): Each new DNA double-helix consists of one completely original template strand and one newly synthesized strand.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "DNA replication is semi-conservative (as demonstrated by Meselson and Stahl) because the double helix unwinds and each single strand serves as a template to build a complementary partner, preserving half of the parent molecule.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Point mutations always alter the physical phenotype of an individual.\nReason (R): A point mutation is a change in a single nucleotide base in the DNA sequence.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because many point mutations are silent or synonymous (coding for the same amino acid) and do not affect the phenotype. Reason (R) is a correct definition of a point mutation.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Polygenic traits display a continuous, non-overlapping distribution in human populations.\nReason (R): Polygenic traits, such as human height or skin color, are controlled by multiple genes at different loci and are highly influenced by environmental factors.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Unlike simple Mendelian traits (which are discrete), polygenic traits are quantitative and exhibit continuous variation (normal bell curve) because multiple alleles contribute additive effects alongside environmental influences.",
+      "unit": "Unit 3: Human Genetics & Molecular Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Anthropometry has been a cornerstone of physical anthropology for over 150 years.\nReason (R): It is a simple, inexpensive, and non-invasive metric method to assess the size, shape, and composition of the human body.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Anthropometry (literally 'measurement of humankind') provides physical anthropologists with quantitative data on skeletal and living forms, serving as a robust tool for studying human variation, growth, and evolutionary history.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Somatoscopy relies heavily on quantitative calipers and metric scales.\nReason (R): Somatoscopy is defined as the systematic visual description of morphological physical traits (like skin color, hair form, and eye color) based on qualitative observation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because somatoscopy is purely visual and qualitative, not using metric calipers or scales (which are the domain of somatometry). Reason (R) is the correct definition of somatoscopy.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): W.C. Boyd advocated a shift from traditional anthropometry to serology in studying human variation in 1950.\nReason (R): He argued that blood group systems (like ABO, Rh, and MN) have a simple, known genetic mode of inheritance, reducing the subjectivity associated with physical traits.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Boyd's landmark argument in 1950 marked a methodological revolution, proposing that genetic serological markers were objective evolutionary indicators, unlike classical cranial measurements which were subject to environmental modification.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Blood group O is considered the universal recipient in blood transfusions.\nReason (R): Red blood cells of Type O individuals lack both A and B antigens on their cell walls.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because Blood Type O is the universal donor, not the recipient (Type AB is the universal recipient). Reason (R) is a correct physiological statement explaining why Type O blood can be given safely.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Basques and American Indians exhibit some of the highest frequencies of the blood group B gene globally.\nReason (R): The B gene is virtually absent in Basques and native American Indian populations.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because Basques and native American Indians have virtually 0% of the B gene (many Amerindians are 100% Type O). Reason (R) is a correct statement of their genetic composition.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Dermatoglyphic patterns on fingertips are formed early in human development.\nReason (R): Skin ridges develop permanently between the 11th and 17th weeks of gestation and remain unchanged throughout life.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Fingertip ridge patterns are established during early fetal development (11th to 17th weeks) and are highly stable biological markers used for individual identification and micro-evolutionary population studies.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Identical (monozygotic) twins share exactly identical fingerprints.\nReason (R): Fingerprints are determined entirely by the genetic makeup inherited from parents.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because monozygotic twins do NOT have identical fingerprints. Reason (R) is technically false as a standalone biological fact (as micro-movements and womb environment affect ridge formation), but under standard logic formats, this aligns with Option D.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Fingertip ridge patterns are generally categorized into three major patterns: arches, loops, and whorls.\nReason (R): These classifications are essential for assessing Down syndrome risk, as individuals with genetic abnormalities often display anomalous ridge frequencies.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "explanation": "While loops, arches, and whorls are the correct categories, and dermatoglyphics do change in Down syndrome (e.g. Simian crease or specific loops), the general classification of fingerprints was not created for medical diagnoses; thus R is not the correct explanation of A.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Craniometry is a subset of osteometry.\nReason (R): Craniometry deals specifically with the metric study and measurements of the human skull and face, whereas osteometry applies to the post-cranial skeleton.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Osteometry is the broad science of skeletal measurements. Craniometry is the specialized subset focusing entirely on the skull (cranium and face), making the relationship hierarchical and correct.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Parallelograph is an instrument used to measure the torsion angle of long bones.\nReason (R): The Mandibulometer is used to keep the skull in the proper anatomical position while taking measurements.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true because a parallelograph is used for measuring bone torsion. Reason (R) is false because the Craniophore (not Mandibulometer) is used to hold the skull in anatomical position (the Mandibulometer measures mandible angles).",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Human growth and development represent two distinct biological processes.\nReason (R): Growth is a quantitative increase in size or cell mass (measured in kg or cm), whereas development refers to a progressive qualitative transformation of physiological structures and functional skills.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "While they occur together, biological growth refers to dimensional increases (height, weight, cell count), whereas development refers to maturation, cellular differentiation, and acquisition of complex psychomotor skills.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Growth proceeds in a cephalocaudal direction in infants.\nReason (R): This biological principle dictates that infants gain muscular control of their head first, followed by their arms, and finally their legs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The cephalocaudal (head-to-tail) developmental principle describes physical and motor coordination progression starting from the head and radiating downward to the trunk and extremities.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The proximodistal developmental principle explains why infants crawl before they can grasp small items with their fingers.\nReason (R): Proximodistal growth states that coordination and control develop from the center of the body outward (spinal cord to extremities).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Proximodistal development dictates that inner, larger muscle groups (arms, trunk) achieve control before fine distal structures (fingers, toes). This explains why gross motor skills (crawling) precede fine motor skills (pincer grasp).",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Senescence represents a phase of positive, accelerated somatic growth.\nReason (R): During senescence, biological aging causes progressive, irreversible deterioration of body organ functions and structures.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because senescence is a phase of negative growth (decline and aging). Reason (R) is a correct scientific definition of senescence.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Secular trends describe long-term directional shifts in growth and developmental indicators over generations.\nReason (R): An example of a positive secular trend is the progressive increase in average adult stature and earlier onset of menarche observed in modern populations.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Secular trends reflect socio-economic, environmental, and nutritional changes in populations. Improved hygiene and nutrition in modern societies have accelerated maturation rates and final adult heights across generations.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Mid-Upper Arm Circumference (MUAC) is a major anthropometric index used to diagnose pediatric malnutrition.\nReason (R): MUAC changes slowly during childhood, rendering it a highly unreliable indicator of acute protein-energy wasting.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true. However, Reason (R) is false because MUAC is a highly rapid and sensitive indicator of acute wasting (malnutrition) in children aged 6 to 59 months, which is why it is used globally as a standard field screening tool.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Acclimatization is a long-term, permanent genetic change in a population.\nReason (R): Tanning is a temporary physiological response to ultraviolet stress that represents a short-term acclimatization process.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because acclimatization is a short-term, non-heritable physiological adjustment (like tanning or high-altitude red blood cell counts). Reason (R) is a correct explanation of the temporary nature of acclimatization.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): High-altitude adaptations can include both short-term acclimatization and long-term genetic changes.\nReason (R): Andean populations have evolved genetic adaptations displaying permanently larger chest sizes and elevated lung capacities developed over generations of hypoxic stress.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Living in high altitudes triggers rapid biological adjustments (like hyperventilation). Over thousands of years, natural selection has driven permanent, genetic adaptations (like larger thoracic cages in Andean populations) to survive low oxygen tension.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Human growth velocity is completely uniform from birth to adulthood.\nReason (R): The adolescent growth spurt represents a rapid, hormone-driven increase in height and weight during puberty.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because human growth velocity is highly non-uniform, featuring extremely rapid growth in infancy, a slow and steady plateau in middle childhood, a massive acceleration during puberty (adolescent spurt), and deceleration to zero.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Biological aging is a reversible physiological process.\nReason (R): Senescence results in progressive and irreversible somatic changes that deteriorate the metabolic activities of an individual.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because biological aging is irreversible in multicellular organisms. Reason (R) is the correct scientific description of the irreversible somatic decline known as senescence.",
+      "unit": "Unit 5: Human Growth and Development",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Bronisław Malinowski established participant observation as the gold standard of anthropological fieldwork.\nReason (R): During his intensive fieldwork in the Trobriand Islands (1914-1918), he lived among the native people, spoke their language, and participated in their daily customs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Malinowski popularized the method of participant observation by showing that deep, qualitative immersion is required to understand the 'native's point of view' and reconstruct the functional integration of social institutions.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Radcliffe-Brown's school of thought is known as structural-functionalism.\nReason (R): He argued that social institutions function to meet the biological and psychological needs of individual human beings.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true. However, Reason (R) is false because it describes *Malinowski's individual functionalism*. Radcliffe-Brown rejected individual psychological needs, arguing instead that social institutions function to maintain the continuity of the entire *social structure*.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Culture and Personality school attempted to bridge the gap between anthropology and psychology.\nReason (R): Ruth Benedict and Margaret Mead studied how cultural patterns and child-rearing practices mold the personality types of individuals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Pioneered by Boas's students Benedict and Mead, this school argued that culture acts as a psychological mold, shaping a group's collective 'configuration' and establishing the dominant personality types of its members.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Sapir-Whorf hypothesis is a key concept in linguistic anthropology.\nReason (R): This hypothesis proposes that the structure of a language directly shapes the cognitive processes and worldview of its speakers.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Formulated by Edward Sapir and Benjamin Lee Whorf, this hypothesis (linguistic relativity) argues that language is not merely a tool for reporting experience, but a framework that actively structures how speakers perceive the physical world.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Claude Lévi-Strauss is the father of historical particularism.\nReason (R): He argued that each culture has a unique, historical developmental pathway and must be studied on its own terms using extensive fieldwork.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because Franz Boas (not Lévi-Strauss) is the father of historical particularism (Lévi-Strauss founded structuralism). Reason (R) is a correct description of the methodology of historical particularism.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Matrilocal post-marital residence has been hypothesized for some Harappan skeletal populations.\nReason (R): Genetic and osteological analysis of skeletal remains at Harappa showed that most adult females were biologically related, whereas adult males were genetically unrelated.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Because related females clustered together while males were genetically diverse, archaeologists inferred a matrilocal system (where husbands move to the wife's family home), establishing a strong biocultural reconstruction of Harappan society.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Exogamy is a social rule that mandates marriage within a specific social group.\nReason (R): Endogamy promotes the consolidation of property and genetic isolation of a social class.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because exogamy requires marrying *outside* a group, whereas endogamy requires marrying *inside* (making A false and R a true description of endogamic functions).",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Franz Boas strongly opposed the classical social evolutionism of E.B. Tylor and L.H. Morgan.\nReason (R): He argued that the unilinear stages (savagery, barbarism, civilization) were speculative and lacked empirical evidence from specific cultural histories.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Boas launched a devastating critique against the armchair 'unilinear' evolutionists, demanding that anthropology ground itself in empirical, inductive fieldwork (historical particularism) rather than grand deductive speculation.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Incest taboo is a universal social rule in human societies.\nReason (R): The incest taboo prevents the harmful biological and genetic effects of inbreeding and promotes alliance-building between different kin groups.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The incest taboo is a universal phenomenon. Anthropologists explain its universality using biological arguments (avoiding recessive genetic homozygosity) and sociological arguments (Lévi-Strauss's alliance theory of marrying out to build social bridges).",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Totemism is a religious system involving a sacred relationship between a social group and an animal or plant.\nReason (R): Émile Durkheim argued that totemism represents the worship of society itself, serving to reinforce social solidarity and group identity.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Durkheim's classic sociological analysis of Australian Aborigines in 'The Elementary Forms of the Religious Life' demonstrated that the totem represents the group's collective consciousness, and by worshipping the totem, they worship the social structure itself.",
+      "unit": "Unit 6: Socio-Cultural Foundations & Theories",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Archaeological anthropology reconstructs past human cultures without written records.\nReason (R): Archaeologists recover, analyze, and interpret material culture remains, such as tools, pottery, enclosures, and environmental ecofacts.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Archaeology's primary methodology rests on excavating and analyzing physical artifacts, structures, and ecofacts, allowing scientists to recreate human history and behaviors in prehistoric and protohistoric times.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Stratigraphy is a key relative dating method in archaeology.\nReason (R): According to the law of superposition, in undisturbed geological layers, the oldest strata (and their associated artifacts) will lie at the bottom.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Stratigraphic dating uses geological layers to sequence artifacts relatively. Because sediment accumulates from the bottom up, deeper items are chronologically older than those located in upper layers, provided the site is undisturbed.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Carbon-14 (radiocarbon) dating can determine the absolute age of stone tools.\nReason (R): Carbon-14 is an unstable radioactive isotope that decays at a constant rate with a half-life of 5,730 years.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because C-14 dating can only date *organic remains* (containing carbon, like bone, wood, or charcoal), not inorganic materials like stone tools. Reason (R) is a correct definition of C-14 half-life decay mechanics.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Olduvai Gorge (Tanzania) is exceptionally important in human evolutionary studies.\nReason (R): Excavations by Louis and Mary Leakey at Olduvai revealed the earliest Oldowan pebble tools alongside crucial hominin fossil remains.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Olduvai Gorge provides a pristine stratigraphic record of Plio-Pleistocene hominin evolution. The Leakeys' discovery of stone tools (Oldowan) and hominin fossils (like Paranthropus boisei) established Africa as the cradle of humanity.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): The Neolithic period is characterized as a 'Revolution' in human prehistory.\nReason (R): During the Neolithic, humans transitioned from nomadic hunting and gathering to sedentary farming and domestication of plants and animals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "V. Gordon Childe coined the term 'Neolithic Revolution' because the emergence of agriculture and animal husbandry fundamentally transformed human social organization, demographics, settlement patterns, and technology.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Prehistoric handaxes are the defining tool of the Oldowan industry.\nReason (R): The Acheulean tool industry is characterized by bifacial, symmetrically flaked handaxes and cleavers.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because handaxes define the *Acheulean* industry, whereas the Oldowan industry features simpler, unifacial pebble tools and flakes. Reason (R) is a correct description of Acheulean bifaces.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Microliths are characteristic stone tools of the Mesolithic period.\nReason (R): Mesolithic populations manufactured tiny, geometric stone blades designed to be composite components hafted onto wooden or bone shafts.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The transition to the Holocene (Mesolithic) led to the development of microliths—minute geometric stone points (trapezes, lunates). These were hafted to build composite tools like arrows or harpoons, displaying highly advanced tool designs.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Prehistoric cave paintings are primarily associated with the Lower Paleolithic period.\nReason (R): Upper Paleolithic modern Homo sapiens possessed the cognitive and linguistic capacity to create complex symbolic art (like Lascaux and Altamira).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because cave art emerged in the *Upper Paleolithic* (not Lower Paleolithic). Reason (R) is a correct explanation of the cognitive and artistic achievements of Upper Paleolithic Homo sapiens.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Dendrochronology is a highly precise absolute dating method.\nReason (R): Dendrochronology calculates calendar years by counting and matching the annual growth rings observed in prehistoric wooden beams.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Dendrochronology (tree-ring dating) provides absolute calendar-year dates. By building a continuous master ring index from living trees to fossil wood, archaeologists can match ring patterns to date structures with 100% precision.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Prehistoric pottery was invented during the Paleolithic period.\nReason (R): Domestication and sedentary life in the Neolithic created a strong need for storage vessels to preserve surplus grains and seeds.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because pottery was widely manufactured and popularized during the Neolithic period (with few localized exceptions like Jomon), not the Paleolithic. Reason (R) is a correct explanation of why pottery became essential in Neolithic farming.",
+      "unit": "Unit 7: Archaeological Foundations",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Statistical biostatistics is vital in modern biological anthropology.\nReason (R): Anthropologists study large populations and rely on bio-statistical sampling methods (like stratified or cluster sampling) to derive representative research conclusions.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Because it is impossible or highly expensive to study every member of a large population, biological anthropologists use robust statistical sampling models to ensure their samples represent the general population accurately.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Qualitative methods are completely superior to quantitative methods in all anthropological research.\nReason (R): Qualitative methods, such as ethnography, capture deep cultural meanings, whereas quantitative methods capture numerical patterns.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because modern anthropology values a mixed-methods approach; neither is superior as both serve different functions. Reason (R) is a correct statement describing the focus of each methodology.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Random sampling is the most ideal sampling method to avoid research bias.\nReason (R): In a simple random sample, every individual in the population has an equal, non-zero probability of being selected.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Random sampling ensures that each member of a population has an identical chance of selection, eliminating researcher subjectivity and enabling valid statistical generalizations about the population.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Case study method is a highly quantitative research design.\nReason (R): A case study involves an intensive, in-depth investigation of a single individual, group, or social event to extract exhaustive contextual details.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because the case study method is heavily *qualitative*, not quantitative. Reason (R) is a correct definition of a case study design.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Triangulation enhances the validity of anthropological research.\nReason (R): Triangulation is the practice of combining multiple data sources, investigators, or methodologies to study a single anthropological problem.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "By checking findings through different methods (e.g. surveys + interviews + participant observation), researchers can overcome the limitations of a single technique, thereby reinforcing the overall validity and credibility of the study.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Emic perspective represents the researcher's external, scientific interpretation of a culture.\nReason (R): Etic perspective represents the native informant's internal, subjective viewpoint of their own culture.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because *emic* is the native's internal view, whereas *etic* is the researcher's external scientific view. Thus both statements are reversed. (Aligns with Option D in standardized structures).",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Focus Group Discussion (FGD) is a highly structured questionnaire method.\nReason (R): FGD involves a moderated, interactive discussion with a small, purposive group of informants to extract collective cultural insights.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because FGD is a qualitative, semi-structured interactive discussion method, not a structured questionnaire. Reason (R) is a correct explanation of FGD's structure and goals.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Participant observation is completely free from subjective researcher bias.\nReason (R): Participant observation requires the anthropologist to balance active emotional participation in a culture with passive, objective observation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because participant observation is highly susceptible to subjective bias due to the researcher's close immersion. Reason (R) is a correct statement of the dual demands of the methodology.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Genealogy is an essential ethnographic method in kinship studies.\nReason (R): Developing kinship pedigrees and genealogies helps anthropologists chart marriage patterns, inheritance rules, and social alliances in traditional societies.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Genealogical methods are crucial because social structure, power, property, and group alliances in small-scale societies are fundamentally organized around kinship networks, which must be systematically mapped.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Informed consent is a primary ethical mandate in anthropological research.\nReason (R): Anthropologists must guarantee that research participants are fully informed of the study's goals and participate completely voluntarily without coercion.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Ethics boards require informed consent to protect human subjects from exploitation, ensuring that native populations understand the potential risks and outcomes of the research and provide clear, voluntary agreement.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Ergonomics is also defined as 'Human Engineering' or design customization.\nReason (R): It deals with designing machines, tools, seats, and work environments utilizing population-specific static and dynamic anthropometric data to optimize safety and productivity.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Derived from 'ergon' (work) and 'nomos' (law), ergonomics relies on anthropometric databases to custom-fit workspaces and equipment to human bodies, reducing physical stress and occupational injuries.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Static anthropometric measurements are completely sufficient to design aircraft cockpits.\nReason (R): Static measurements record the dimensions of the body in fixed, stationary positions, whereas dynamic measurements record body dimensions during active physical movements.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because aircraft cockpits require both static and *dynamic* (functional) measurements to ensure pilots can comfortably reach controls and navigate while in active motion. Reason (R) is a correct distinction between the two types of measurements.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Kinanthropology is the application of biological anthropology in the field of sports.\nReason (R): Kinanthropologists utilize somatotyping (ectomorph, mesomorph, endomorph) and limb segment measurements to select and train athletes for events matching their physical strengths.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Kinanthropology bridges human biology and sports science. By measuring body size, limb proportions, and body types, scientists can counsel athletes on events where their biomechanics will yield maximum performance.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Forensic anthropology is a major applied branch of biological anthropology.\nReason (R): Forensic anthropologists assist law enforcement by examining skeletal, dental, and dermatoglyphic remains to establish the age, sex, ancestry, and identity of deceased individuals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Forensic anthropology utilizes osteological and skeletal methods to analyze skeletal remains in medico-legal contexts, reconstructing profile markers (age, sex, stature, trauma) to resolve criminal cases or identify disaster victims.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Individuals with a G-6-PD enzyme deficiency cannot be given standard antimalarial drugs.\nReason (R): G-6-PD deficiency is a genetic condition that causes red blood cells to break down (hemolytic anemia) when exposed to certain antimalarial compounds.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This pharmacogenetic interaction is a key applied biological anthropology concern. Administering drugs like primaquine to G-6-PD deficient individuals can trigger severe, potentially fatal hemolytic anemia, illustrating the medical value of mapping genetic traits.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Somatotyping classifies human bodies into three components: endomorphy, mesomorphy, and ectomorphy.\nReason (R): Ectomorphs are characterized by high muscularity and thick bone structure.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true. However, Reason (R) is false because ectomorphs are lean, linear, and fragile with low fat and muscle tissue (mesomorphs are the ones characterized by high muscularity).",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Action Anthropology was formulated by Sol Tax in 1951.\nReason (R): He advocated that anthropologists should actively assist local communities in solving their socio-economic problems while conducting academic research.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Sol Tax pioneered 'Action Anthropology' during the Fox Indian Project, arguing that anthropologists have an ethical responsibility to help native communities resolve their problems immediately, rather than using them as passive research objects.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Medical anthropology is a synthetic subfield that combines biological and cultural anthropology.\nReason (R): It examines health, disease, and healing systems from evolutionary, ecological, cultural, and political-economic perspectives.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Medical anthropology is fundamentally biosocial. It explores how human biology interacts with cultural beliefs about illness, ethnomedical healing practices, and structural inequalities to shape health outcomes.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Applied anthropology is strictly an academic, theoretical pursuit.\nReason (R): Applied anthropologists employ anthropological theories, methods, and data to solve practical human problems in sectors like health, education, and development.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because applied anthropology is practical and interventionist, not strictly academic. Reason (R) is the correct definition of the goals and methods of applied anthropology.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A): Nutritional anthropology has emerged as an important applied subfield.\nReason (R): It studies human diet and food systems from integrated evolutionary, ecological, socio-cultural, and health perspectives.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Nutritional anthropology bridges biology (nutritional status, physiological demands) and culture (food taboos, culinary customs), offering critical insights for resolving child malnutrition and public health crises.",
+      "unit": "Unit 9: Applied & Development Anthropology",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [91]: B.S. Guha classified the Indian population into six major racial groups.\nReason (R): He relied extensively on systematic somatometrical measurements and cranial indices collected during the Census of India.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q91: B.S. Guha's 1937 racial classification remains the most authoritative anthropometric mapping of Indian populations, relying heavily on metric skull indices to isolate Caucasians, Mongoloids, and Negritos. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [92]: H.H. Risley classified the Indian population into seven major racial categories.\nReason (R): He utilized nasal index measurements to argue that caste hierarchy in India was closely linked to racial differences.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q92: H.H. Risley's controversial 1901 classification proposed that nasal shapes directly correlated with social status, claiming that higher castes possessed finer noses (leptorrhine) than lower castes. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [93]: S.S. Sarkar proposed a separate racial classification for the Indian population.\nReason (R): He argued that Risley's classification was flawed because it neglected the ancient Negrito element in Indian tribes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q93: S.S. Sarkar challenged Risley's Indo-Aryan/Dravidian dichotomies, asserting that the Dravidian population had Negrito roots and classifying the population based on distinct phenotypic indices. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [94]: The Fifth Schedule of the Indian Constitution contains special provisions for tribal administration.\nReason (R): It mandates the creation of Tribal Advisory Councils (TAC) in states with Scheduled Areas to safeguard tribal lands and rights.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q94: The Fifth Schedule acts as a critical constitutional shield, providing for local tribal governance through the TAC and empowering governors to restrict land alienation by non-tribals. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [95]: The Sixth Schedule of the Indian Constitution is applicable to all states with tribal populations in India.\nReason (R): It provides for Autonomous District Councils (ADC) in tribal regions, but is restricted to the states of Assam, Meghalaya, Tripura, and Mizoram.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q95: The Sixth Schedule provides high-level autonomy through ADCs, allowing tribal communities to legislate custom laws. However, it is structurally restricted to the four northeastern states (AMTM). This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [96]: Article 338A of the Indian Constitution establishes the National Commission for Scheduled Tribes (NCST).\nReason (R): The NCST is empowered to investigate tribal rights violations, monitor tribal development safeguards, and report directly to the President.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q96: Article 338A was inserted via the 89th Amendment, splitting the combined commission into two separate bodies (NCSC and NCST) to focus strictly on tribal socio-economic development and protection. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [97]: Verrier Elwin advocated a policy of complete assimilation for Indian tribes.\nReason (R): He proposed the concept of 'National Parks' in his early monographs to protect tribal cultures from the destructive influences of outer contractors and traders.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q97: Verrier Elwin advocated 'isolationism' or the 'National Park' policy initially, arguing that rapid, unguided assimilation led to the complete moral and economic decay of tribes like the Baigas. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [98]: G.S. Ghurye described Indian tribes as 'Backward Hindus'.\nReason (R): He strongly opposed the isolationist policies of British administrators and argued that tribes were structurally integrated into the Hindu caste system.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q98: As an integrationist, Ghurye asserted that tribal populations were part of the general Hindu fold, sharing religious customs, and rejected administrative segregation as a colonial trick. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [99]: Particularly Vulnerable Tribal Groups (PVTGs) require targeted development policies.\nReason (R): PVTGs are characterized by stagnant or declining populations, pre-agricultural technology, extremely low literacy rates, and subsistence economies.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q99: Formerly known as Primitive Tribal Groups (PTGs), PVTGs are the most marginalized tribal isolates, identified by the Dhebar Commission as requiring highly specialized protective safeguards. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    },
+    {
+      "question": "Assertion (A) [100]: Shifting cultivation is a highly primitive and destructive agricultural system.\nReason (R): Shifting cultivation (Jhumming) involves clearing forest patches, burning the slash to enrich soil nutrients, and moving to new patches when fertility declines.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q100: While modern environmentalists debate its impact, shifting cultivation represents a highly adaptive, traditional land-rotation system that utilizes ash nutrients to grow mixed crops in hilly terrains. This is compiled from NTA study guidelines.",
+      "unit": "Unit 10: Indian Anthropology & Tribal Studies",
+      "source": "UGC NET Anthropology Unit Notes"
+    }
+  ],
+  "UGC NET - 200 Master Assertion-Reason Practice Paper": [
+    {
+      "question": "Assertion (A): Anthropological research is fundamentally holistic.\nReason (R): It attempts to integrate human biological, historical, archaeological, linguistic, and socio-cultural dimensions into a single unified study of humankind.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Holism is the foundational cornerstone of anthropology. It asserts that human beings cannot be understood by studying a single aspect of their existence; instead, biological evolution, linguistic structures, prehistoric material remains, and cultural systems must be examined collectively.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The 'New Physical Anthropology' paradigm shifted focus from descriptive taxonomy to evolutionary dynamics.\nReason (R): Sherwood Washburn in 1951 advocated for the integration of population genetics, experimental biology, and evolutionary mechanisms to study human variation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Washburn's landmark 1951 address revolutionized physical anthropology, urging the discipline to abandon passive racial typing (craniology) and embrace process-oriented investigations using evolutionary principles, adaptation, and genetics.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Franz Boas formulated the four-field system to counter racial determinism.\nReason (R): By showing that race, language, and culture evolve independently, he proved that biological capacity does not determine cultural achievements.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Boas's classic work in American anthropology integrated physical anthropology, linguistics, cultural studies, and archaeology to systematically dismantle 19th-century scientific racism, demonstrating that skull shape changes with environment and that language does not dictate cognitive limits.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): E.B. Tylor's definition of culture is considered highly descriptive and holistic.\nReason (R): In 1871, he defined culture as 'that complex whole which includes knowledge, belief, art, law, morals, custom, and any other capabilities and habits acquired by man as a member of society.'",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Tylor's definition in 'Primitive Culture' was revolutionary because it established culture as a scientific object of study, emphasizing its holistic, learned, and socially transmitted nature rather than biological heredity.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Bronisław Malinowski completely rejected the diachronic historical reconstructions of the evolutionists.\nReason (R): He argued that society should be studied synchronically to understand how its integrated institutions function to satisfy biological needs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Malinowski's functionalism dismissed 'conjectural history' as unscientific guesswork, arguing instead for direct, synchronic participant observation to analyze how cultural features satisfy human needs in the present.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): A.L. Kroeber described culture as 'superorganic' and autonomous.\nReason (R): He believed that cultural patterns operate under their own laws of growth and transmission, completely independent of biological or psychological influences.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "In his famous 1917 essay 'The Superorganic', Kroeber argued that culture exists on a level above the organic, possessing its own systemic logic (historical trends) that cannot be reduced to individual biology or psychology.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Johann Friedrich Blumenbach used craniometry to divide humanity into five distinct racial categories.\nReason (R): His five-fold classification (Caucasian, Mongolian, Malayan, Ethiopian, American) assumed that Caucasians were the original, most beautiful form from which others degenerated.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Blumenbach, the founder of physical anthropology, relied on empirical skull collections. His typological classification, however, was biased by aesthetic ideas, claiming Georgia (in the Caucasus) was the cradle of the ideal human form.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Monogenists and Polygenists in the 19th century engaged in a fierce scientific debate over human origins.\nReason (R): Monogenists argued that all human races descended from a single creation, whereas Polygenists claimed that different races belonged to entirely different species created separately.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This debate was a major pre-Darwinian scientific conflict. Polygenism was heavily used in the American South to justify slavery by asserting that African and European populations were distinct species with permanent biological differences.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Historical Particularism reject general laws of cultural evolution.\nReason (R): Franz Boas insisted that each culture has a unique, complex history that must be reconstructed through meticulous empirical fieldwork rather than sweeping speculative theories.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Boas and his students argued that universal evolutionary models (savagery-barbarism-civilization) were ethnocentric distortions. They championed inductive, local historical reconstructions as the only valid path to cultural understanding.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Linguistic anthropology views language as a primary cultural practice.\nReason (R): Linguistic anthropologists explore how language shapes social identities, cultural ideologies, and cognitive世界views.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Linguistic anthropology does not merely study the formal structure of language (like formal linguistics); instead, it analyzes language in its social and cultural contexts to understand power dynamics and cognitive framing.",
+      "unit": "Unit 1: Meaning, Scope and Development of Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Lamarck's theory of organic evolution relied on the concept of 'inner felt needs'.\nReason (R): He claimed that environmental changes stimulate new desires in organisms, leading to the use or disuse of physical organs, which alters their anatomy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Lamarck's evolutionary model (published in 'Philosophie Zoologique' in 1809) claimed that physical modifications are driven by an organism's internal needs to adapt to environmental changes, causing anatomical shifts that are then inherited.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Weismann's germplasm theory deals a fatal blow to classic Lamarckism.\nReason (R): He cut the tails off mice for 22 generations and found that all offspring were born with normal-length tails, proving that modifications to somatic cells do not affect the gametes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "August Weismann's experiments established a barrier (the 'Weismann barrier') between body cells (somatoplasm) and reproductive cells (germplasm). Somatic changes induced by the environment are not recorded in the DNA of germ cells and cannot be inherited.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Natural Selection acts as a filter on phenotypes rather than direct genotypes.\nReason (R): Evolutionary survival is determined by an organism's physical and behavioral fitness in its environment, regardless of the underlying heterozygous or homozygous genotype coding for those traits.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Natural selection cannot directly 'see' genes. It operates on the expressed physical and physiological characteristics (phenotype). If a dominant phenotype is selective, the recessive genotype remains hidden in heterozygous carriers.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Synthetic Theory of Evolution (Neo-Darwinism) resolved a major missing link in Darwin's original theory.\nReason (R): It integrated Mendelian genetics with natural selection, proving that mutations, chromosomal recombinations, and genetic drift are the actual sources of the individual variations Darwin observed.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Charles Darwin admitted he did not know the mechanism of inheritance or how variations originated. The Modern Synthesis (Dobzhansky, Mayr, Simpson) successfully merged genetic science with natural selection to explain evolution at the gene level.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Parallel evolution occurs in closely related species that share a common ancestor.\nReason (R): Convergent evolution occurs in completely unrelated species that develop similar structures due to similar environmental pressures.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "explanation": "Both assertions are scientifically correct definitions. However, the definition of convergent evolution in Reason (R) does not explain the evolutionary mechanism of parallel evolution in closely related species; they are two separate pathways.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Mosaic evolution characterizes human evolutionary history.\nReason (R): Different parts of the human body (bipedal pelvis, fine-grip hand, expanded brain, reduced jaw) evolved at different rates rather than all changing together in a uniform sequence.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Fossil evidence shows that bipedal locomotion evolved millions of years before brain size increased significantly. This staggered, non-uniform development of anatomical suites is the definition of mosaic evolution.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Primates are characterized by generalized, unspecialized skeletons.\nReason (R): Retaining ancestral mammalian skeletal structures (like five-digited hands/feet and separate clavicle) allowed primates to remain highly flexible in diverse arboreal niches.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Unlike specialized mammals (e.g. horses with single hooves or bats with webbed wings), primates retained the generalized pentadactyl limb, which acted as an evolutionary canvas for bipedalism, climbing, and tool use.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Stereoscopic vision is a key adaptation for arboreal primates.\nReason (R): Forward-facing eyes create overlapping visual fields, providing the depth perception essential for jumping between tree branches.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Depth perception (stereoscopic vision) is vital for tree-dwelling animals. Natural selection favored primates with orbits rotated to the front of the skull, facilitating safe arboreal navigation at high speeds.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Bipedalism led to major remodeling of the hominin pelvis.\nReason (R): To support the vertical weight of the internal organs and enable walking, the pelvis became short, broad, and bowl-shaped compared to the long, narrow pelvis of quadrupeds.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The transition from quadrupedalism to bipedalism demanded extensive structural modifications. A bowl-shaped pelvis lowered the center of gravity and provided stable anchors for the gluteal muscles essential for maintaining balance on two legs.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The position of the foramen magnum is an anatomical indicator of posture.\nReason (R): In bipedal humans, the foramen magnum is located underneath the center of the skull base, whereas in quadrupedal apes, it is positioned towards the back of the skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The foramen magnum (where the spinal cord enters the brain) is positioned centrally in humans to balance the skull effortlessly atop a vertical vertebral column, reflecting bipedal adaptations.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Watson-Crick DNA model is a right-handed double helix.\nReason (R): It is held together by hydrogen bonds between complementary bases: Adenine pairs with Thymine via two hydrogen bonds, and Guanine pairs with Cytosine via three.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The double helix consists of two anti-parallel sugar-phosphate backbones. The stable complementary base-pairing (A=T, G≡C) discovered by Watson and Crick in 1953 explains the chemical replication mechanism of heredity.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Transcription and Translation are the two core stages of protein synthesis.\nReason (R): Transcription builds a complementary mRNA strand from DNA in the nucleus, while Translation decodes this mRNA into an amino acid chain at the ribosomes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This represents the Central Dogma of Molecular Biology. DNA acts as a master template, mRNA serves as a portable transcript, and ribosomes act as factories translating the genetic code into structural proteins.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Hardy-Weinberg equilibrium maintains constant allele frequencies across generations.\nReason (R): It operates under the assumptions of infinite population size, random mating (panmixia), and the complete absence of mutations, selection, gene flow, and genetic drift.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The Hardy-Weinberg law (p^2 + 2pq + q^2 = 1) is a null mathematical model. In the absence of evolutionary forces, allele frequencies do not change, establishing a benchmark against which evolutionary shifts are measured.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Autosomal recessive genetic disorders often skip generations in a family pedigree.\nReason (R): Affected individuals must inherit two copies of the recessive allele (homozygous recessive), while heterozygous carriers remain asymptomatic.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Because heterozygous individuals (Aa) are phenotypic normals, the recessive disease allele can be transmitted silently through generations. The phenotype only manifests when two carriers produce homozygous offspring (aa).",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): X-linked recessive disorders are significantly more common in biological males than females.\nReason (R): Males are hemizygous for the X chromosome, meaning a single copy of a defective X-linked gene will manifest the disease, whereas females require two defective copies.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Because males have only one X chromosome (XY), they lack a backup allele to mask a recessive mutation. Females (XX) are protected from showing symptoms if their second X chromosome carries a dominant normal allele.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Genetic drift can drive the fixation of neutral or deleterious alleles in small populations.\nReason (R): Small population sizes are highly vulnerable to random sampling fluctuations, meaning alleles can be lost or fixed completely by chance rather than environmental selection.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Genetic drift operates mathematically through sampling variance. In small, isolated communities (like island populations), random survival can rapidly eliminate genetic diversity or elevate rare, harmful genes.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Down syndrome is caused by a chromosomal translocation or non-disjunction.\nReason (R): Non-disjunction during meiosis results in an extra copy of chromosome 21, leading to a karyotype of 47 chromosomes (Trisomy 21).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Down syndrome is the most common autosomal chromosomal aberration. It is caused by the failure of chromosome pair 21 to separate (non-disjunction) during gametogenesis, leaving the child with three copies of chromosome 21.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): DNA fingerprinting is highly useful in forensic anthropology.\nReason (R): Variable Number Tandem Repeats (VNTRs) and Short Tandem Repeats (STRs) in non-coding DNA are highly polymorphic and unique to each individual (except identical twins).",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "DNA profiling relies on non-coding hypervariable regions. Because the number of repeated units at specific chromosomal loci varies drastically between people, analyzing multiple loci creates a unique genetic signature.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Somatic mutations are inherited by future generations.\nReason (R): Somatic mutations occur in non-reproductive body cells (like skin or liver), meaning they are not passed to gametes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because somatic mutations are confined to the individual's tissues and are never inherited. Reason (R) is the correct genetic explanation for why this is the case.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Epigenetic modifications alter the underlying DNA sequence.\nReason (R): Epigenetics involves biochemical changes (like DNA methylation and histone acetylation) that influence gene expression without altering the genetic code itself.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because epigenetics specifically refers to changes in gene activity *without* mutating the nucleotide sequence. Reason (R) is a correct explanation of the molecular mechanism of epigenetics.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Nasal Index is a critical diagnostic measurement in racial classification.\nReason (R): It is calculated as the ratio of nasal width to nasal height multiplied by 100, dividing humans into leptorrhine, mesorrhine, and platyrrhine types.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The nasal index was highly valued by early physical anthropologists (like Risley) as a racial classification tool. A high nasal index (platyrrhine) indicates a broad nose, while a low index (leptorrhine) indicates a narrow one.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Somatometry is distinct from Somatoscopy.\nReason (R): Somatometry involves quantitative, metric measurements of the living human body using standardized instruments, whereas Somatoscopy involves qualitative visual assessment of morphological features.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Both are methodologies of physical anthropology. Somatometry uses tools like spreading calipers and anthropometers to collect millimeter data, while somatoscopy uses visual charts to record hair form, skin tone, or eye folds.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Anthropometry has absolute utility in clinical pediatrics.\nReason (R): Standardized growth charts based on height-for-age and weight-for-age anthropometrics are used globally to monitor child growth and diagnose stunting or wasting.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Anthropometry is a standard tool in child healthcare. Plotting metric measurements against age percentiles allows pediatricians to detect nutritional deficits or metabolic developmental issues.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Dermatoglyphics are useful in clinical diagnostics.\nReason (R): Individuals with chromosomal aberrations, such as Down syndrome or Turner syndrome, exhibit distinct, highly atypical fingerprint and palmar ridge configurations.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Because skin ridges develop in the fetus at the same time as the nervous and skeletal systems, genetic issues manifest as clear abnormalities in dermatoglyphic patterns (e.g. high frequency of ulnar loops or a single transverse palmar crease in Down syndrome).",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Blood group frequencies are widely used by anthropological geneticists to track human migrations.\nReason (R): Genetic markers like ABO, Rh, and MN blood groups have simple, non-environmental modes of inheritance, making them highly objective biological history markers.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Before modern DNA sequencing, physical anthropologists (pioneered by Boyd) mapped blood group distributions globally to trace prehistoric migrations, bypassing the subjective bias of cranial features.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Dermatoglyphic patterns on fingertips are classified into loops, whorls, and arches.\nReason (R): Whorls represent the simplest pattern type, lacking any triradii.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true. However, Reason (R) is false because arches are the simplest pattern lacking any triradii. Whorls are highly complex and typically contain two or more triradii.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Cephalic Index measures the ratio of head width to head length.\nReason (R): It is calculated as (Head Breadth / Head Length) * 100, classifying skulls into dolichocephalic, mesocephalic, and brachycephalic.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The cephalic index (introduced by Retzius) is the standard index of craniometry, used to describe head shape. Values under 75 indicate long heads (dolichocephalic), while values above 80 indicate round heads (brachycephalic).",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Quantitative genetics is used to study complex traits in biological anthropology.\nReason (R): Complex traits like stature, skin color, and intelligence are polygenic and display continuous phenotypic variation under environmental influence.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Unlike simple Mendelian traits, quantitative genetics deals with continuous, measurable variations that are controlled by multiple genes acting additively, alongside substantial environmental inputs.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Gloger's Rule relates skin pigmentation in mammals to environmental humidity.\nReason (R): It states that populations in warm, humid regions tend to be more heavily pigmented than those in cold, dry climates.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Gloger's ecological rule explains pigmentation variance. High humidity and temperature favor melanin synthesis in mammals (to protect against solar radiation and parasites), leading to darker complexions near the equator.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Twin studies are highly valuable to disentangle nature versus nurture.\nReason (R): Comparing monozygotic (genetically identical) twins and dizygotic (sharing 50% genes) twins reared in similar or different environments reveals the relative contributions of heredity and environment to physical traits.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Twin methodology is a classic quantitative genetic tool. Higher concordance rates in monozygotic twins compared to dizygotic twins suggest a strong genetic basis for a trait.",
+      "unit": "Unit 4: Traditional vs Modern Biological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Cephalocaudal developmental principle operates in childhood growth.\nReason (R): This biological vector dictates that physical growth and motor control advance from the head downward to the trunk and extremities.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This is a universal law of growth. A child gains control of their head and eyes first, then their arms (reaching), and lastly their legs (walking), reflecting central nervous system maturation from top to bottom.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Proximodistal principle describes motor skill progression in infants.\nReason (R): Physical control radiates from the central axis of the body outward to the peripheral tips, explaining why gross arm control precedes fine finger manipulation.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This principle describes the center-outward developmental trajectory. Infants gain control of the shoulder and arm muscles (proximal) before developing the finger coordination (distal) required for a pincer grasp.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Senescence represents a normal, positive growth milestone.\nReason (R): Senescence is defined as the biological process of aging, marked by progressive, irreversible decline in physiological functions and cellular repair mechanisms.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because senescence is a phase of biological decline and negative growth. Reason (R) is the correct scientific definition of senescence.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Secular trends in growth reflect socio-economic changes in a population.\nReason (R): Positive secular trends, such as increased final adult height and earlier menarche, occur when nutrition, healthcare, and sanitation improve over generations.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Secular trends are long-term shifts in growth indicators across generations. They serve as sensitive markers of a population's socio-economic status, reflecting improvements in living standards rather than genetic changes.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Nutritional status in children can be effectively assessed using anthropometry.\nReason (R): Indices like Height-for-Age (indicative of chronic stunting) and Weight-for-Height (indicative of acute wasting) are validated standard metrics globally.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Child growth metrics are highly sensitive to nutrition. Stunting represents long-term nutritional deprivation, whereas wasting indicates rapid muscle and fat loss due to acute disease or famine.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Andean high-altitude populations exhibit distinct biological adaptations to hypoxia.\nReason (R): They possess genetically larger chest dimensions (barrel chests) and elevated lung capacities, allowing them to extract oxygen efficiently from thin air.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Hypoxic stress at high altitudes is a powerful evolutionary driver. The barrel-chested morphology of Andean populations is a classic genetic adaptation that increases lung surface area for gas exchange.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Bergmann's Rule describes human body shape adaptations to temperature.\nReason (R): It states that populations in cold climates tend to have larger, bulkier bodies to reduce surface-area-to-volume ratio and conserve heat, while warm-climate populations are leaner.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Carl Bergmann's ecological rule relates body mass to climate. A larger volume relative to surface area decreases heat loss, which is highly adaptive for survival in freezing conditions.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Allen's Rule explains human limb length adaptations in different climates.\nReason (R): It predicts that warm-climate populations have longer extremities (arms, legs) to increase body surface area and maximize heat dissipation, while cold-climate populations have shorter limbs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Joel Asaph Allen's rule complements Bergmann's rule. Longer limbs act as physiological radiators, helping to cool the body in hot environments (like the Nilotic peoples of East Africa).",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Growth velocity is completely uniform throughout human childhood.\nReason (R): Growth velocity is marked by distinct surges: extremely rapid in infancy, slow and steady in middle childhood, accelerating dramatically during the pubertal adolescent spurt.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because childhood growth is highly non-uniform and marked by distinct developmental phases and velocity spikes. Reason (R) is a correct explanation of these growth dynamics.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Acclimatization is a permanent, heritable biological change in individuals.\nReason (R): Acclimatization represents temporary physiological adjustments (like sweating in hot environments or increasing red blood cell counts at high altitudes) that revert when the environmental stress is removed.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because acclimatization is a short-term, non-genetic adjustment, not a permanent evolutionary change. Reason (R) is the correct definition of acclimatization.",
+      "unit": "Unit 5: Human Growth & Development",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Bronisław Malinowski developed participant observation as the foundational method of ethnography.\nReason (R): During his fieldwork in the Trobriand Islands, he showed that living with native communities and participating in their daily life is required to grasp their worldview.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "In 'Argonauts of the Western Pacific' (1922), Malinowski formalized participant observation, demonstrating that deep immersion is essential to document both actual behaviors and native explanations (the emic view).",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Radcliffe-Brown's school of thought is known as structural-functionalism.\nReason (R): He argued that social institutions function to maintain the continuity and stability of the entire social structure rather than satisfying individual biological needs.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Radcliffe-Brown rejected Malinowski's focus on individual needs, drawing on Durkheim to argue that social systems are self-regulating structures whose components function to maintain societal equilibrium and structural continuity.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Sapir-Whorf Hypothesis is a key concept in linguistic anthropology.\nReason (R): It proposes that the structure of a language shapes the cognitive categories and worldview of its speakers, a concept known as linguistic relativity.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Edward Sapir and Benjamin Whorf argued that language is not a neutral tool for reporting reality, but a cognitive framework that influences how speakers perceive and structure their experiences of the world.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Claude Lévi-Strauss is the father of structuralism in social anthropology.\nReason (R): He analyzed kinship systems, myths, and food classifications to show that they are structured by universal, subconscious binary oppositions of the human mind.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Lévi-Strauss applied structural linguistics to anthropology. He argued that diverse cultural practices are surface expressions of universal mental structures (such as nature vs culture or raw vs cooked) that organize human experience.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Culture and Personality school integrated anthropological and psychological methods.\nReason (R): Anthropologists like Ruth Benedict and Margaret Mead analyzed how child-rearing practices and dominant cultural patterns shape the modal personality of individuals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This school argued that culture acts as a psychological mold. Benedict's 'Patterns of Culture' and Mead's work in Samoa illustrated how cultural configurations shape individual temperaments and behavior patterns during development.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Anthropological studies of kinship include the reconstruction of past residence rules.\nReason (R): Biochemical and osteological analysis of Harappan burials suggests a matrilocal post-marital residence pattern, where females clustered together while males were biologically unrelated.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This biocultural study represents a major achievement. Skeletal analysis showing that buried females were biologically related (kin) while males were genetically diverse suggests a matrilocal residence rule, where husbands moved to their wives' kin groups.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Totemism represents a simple, speculative phase of human religious evolution.\nReason (R): Émile Durkheim argued that the totem is a symbol of both the sacred object and the society itself, serving to reinforce social solidarity and group identity.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because modern anthropology rejects the view that totemism is a 'simple' or 'primitive' evolutionary stage. Reason (R) is a correct explanation of Durkheim's sociological analysis of totemism.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Endogamy is a marriage rule requiring individuals to marry within their defined social group.\nReason (R): Caste systems in India are historically endogamous, helping to maintain genetic and social boundaries between castes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Endogamy enforces marriage within a specific boundary (kin, caste, or class). In traditional India, caste endogamy maintained the social stratification and genetic isolation of caste lineages.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The incest taboo is a universal social rule in human societies.\nReason (R): Biologically, it prevents the expression of harmful recessive homozygous mutations, while sociologically, it drives families to build alliances with outside groups.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The incest taboo is a universal phenomenon. Anthropologists explain this using both biological arguments (avoiding inbreeding depression) and structural arguments (Lévi-Strauss's alliance theory of exchanging mates to build social peace).",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Postmodern anthropology rejects the possibility of completely objective ethnography.\nReason (R): Postmodernists argue that ethnographies are literary constructions shaped by the researcher's subjective biases, power relations, and historical context.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Pioneered by scholars like Clifford Geertz (in 'Writing Culture'), postmodern anthropology treats ethnography as a text, questioning the absolute authority of the researcher and urging reflexivity in writing.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Stratigraphy is a highly useful relative dating method in archaeology.\nReason (R): Based on the geological law of superposition, in an undisturbed site, deeper layers (and their associated artifacts) are chronologically older than those in upper layers.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Stratigraphic dating uses geological layers to sequence artifacts relatively. Because sediment accumulates from the bottom up, deeper items are chronologically older than those located in upper layers, provided the site is undisturbed.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Carbon-14 (radiocarbon) dating can determine the absolute age of prehistoric stone axes.\nReason (R): Carbon-14 is an unstable radioactive isotope that decays at a constant rate with a half-life of 5,730 years.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because C-14 dating can only date organic remains (containing carbon, like bone, wood, or charcoal), not inorganic materials like stone tools. Reason (R) is a correct definition of C-14 half-life decay mechanics.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Olduvai Gorge in Tanzania is exceptionally important in human prehistory.\nReason (R): Meticulous excavations by Louis and Mary Leakey at Olduvai revealed the earliest Oldowan pebble tools alongside crucial Plio-Pleistocene hominin fossil remains.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Olduvai Gorge provides a pristine stratigraphic record of Plio-Pleistocene hominin evolution. The Leakeys' discovery of stone tools (Oldowan) and hominin fossils (like Paranthropus boisei) established Africa as the cradle of humanity.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Neolithic period is characterized as a 'Revolution' in human prehistory.\nReason (R): During the Neolithic, humans transitioned from nomadic hunting and gathering to sedentary farming and domestication of plants and animals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "V. Gordon Childe coined the term 'Neolithic Revolution' because the emergence of agriculture and animal husbandry fundamentally transformed human social organization, demographics, settlement patterns, and technology.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Microliths are the defining stone tools of the Paleolithic period.\nReason (R): Mesolithic populations manufactured tiny, geometric stone blades designed to be composite components hafted onto wooden or bone shafts.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because microliths define the Mesolithic period, while Paleolithic tools are much larger (handaxes, flakes). Reason (R) is a correct explanation of Mesolithic composite technology.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Acheulean tool industry is characterized by bifacial handaxes.\nReason (R): Symmetrically flaked, pear-shaped handaxes and cleavers were manufactured by Homo erectus for diverse chopping, scraping, and cutting activities.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The Acheulean industry represents a major advance in cognitive planning. Symmetrical bifaces require a mental template before flaking, showing the developing intelligence of Homo erectus populations.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Dendrochronology is a highly precise absolute dating method.\nReason (R): By matching the patterns of annual growth rings in preserved wood to a master chronological index, archaeologists can date wooden beams to the exact calendar year.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Dendrochronology (tree-ring dating) provides absolute calendar-year dates. By building a continuous master ring index from living trees to fossil wood, archaeologists can match ring patterns to date structures with 100% precision.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Potassium-Argon (K-Ar) dating is used to date early hominin fossil bones directly.\nReason (R): K-Ar dating measures the decay of unstable Potassium-40 into Argon-40 gas in volcanic ash layers, providing an absolute date for volcanic strata surrounding the fossils.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because K-Ar dating cannot be used directly on bone; it is strictly used on volcanic rocks and ash. Reason (R) is the correct description of the methodology of dating volcanic strata to bracket fossils.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Prehistoric cave paintings are associated with the Upper Paleolithic period.\nReason (R): Upper Paleolithic anatomically modern Homo sapiens possessed the symbolic capacity and language to create complex cave art in places like Lascaux and Altamira.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Upper Paleolithic tool industries (like Aurignacian and Magdalenian) are accompanied by a burst of symbolic art, reflecting modern human cognitive evolution and linguistic capabilities.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The invention of pottery is a key diagnostic feature of the Mesolithic period.\nReason (R): The sedentary lifestyle and agricultural surplus of the Neolithic created a strong functional demand for durable storage vessels, driving the invention and widespread use of pottery.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because pottery is a diagnostic feature of the Neolithic (not Mesolithic) period. Reason (R) is a correct explanation of why pottery became essential for Neolithic farming communities.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Systematic sampling is a type of non-probability sampling.\nReason (R): In systematic sampling, the researcher selects every nth individual from a complete population list starting from a random point.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because systematic sampling is a *probability* sampling method, as every individual has a known, equal chance of selection. Reason (R) is a correct description of systematic sampling mechanics.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Qualitative research methods are essential for socio-cultural anthropology.\nReason (R): Techniques like semi-structured interviews and participant observation allow researchers to document deep, contextual emic meanings that quantitative surveys often miss.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Qualitative research is the bedrock of cultural anthropology. While quantitative data shows macro-patterns, qualitative methods capture the lived experiences, local concepts, and cultural motivations of a community.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Simple random sampling minimizes research selection bias.\nReason (R): In a simple random sample, every single individual in the target population has an equal, non-zero probability of being chosen, ensuring statistical representativeness.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Random sampling ensures that each member of a population has an identical chance of selection, eliminating researcher subjectivity and enabling valid statistical generalizations about the population.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Case Study method is a highly quantitative research design.\nReason (R): A case study involves an intensive, in-depth investigation of a single individual, group, or social event to extract exhaustive contextual details.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because the case study method is heavily *qualitative*, not quantitative. Reason (R) is a correct definition of a case study design.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Triangulation increases the validity and reliability of research findings.\nReason (R): It involves combining multiple methodologies, data sources, or investigators to cross-verify findings, minimizing the limitations of a single technique.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "By checking findings through different methods (e.g. surveys + interviews + participant observation), researchers can overcome the limitations of a single technique, thereby reinforcing the overall validity and credibility of the study.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Emic perspective represents the researcher's external, scientific interpretation of a culture.\nReason (R): The Etic perspective represents the native informant's internal, subjective viewpoint of their own culture.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because emic is the native's internal view, while etic is the researcher's external scientific view. Thus both statements are reversed. (Aligns with Option D in standardized structures).",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Focus Group Discussions (FGDs) are highly useful for exploring collective community norms.\nReason (R): The dynamic interaction among group members in a moderated FGD reveals shared cultural beliefs and consensus views that individual interviews may not elicit.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "FGDs utilize group synergy. By discussing topics collectively, informants bounce ideas off each other, highlighting community consensus or patterns of conflict.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Participant observation requires the researcher to remain completely passive.\nReason (R): Active emotional participation in a culture helps the ethnographer build rapport, which is essential to gain access to private cultural knowledge.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because participant observation is highly active, requiring the researcher to balance objective, detached observation with active, direct participation in the community's daily life.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Genealogical method is a cornerstone of ethnographic research in kinship-based societies.\nReason (R): Mapping genealogical networks allows anthropologists to analyze inheritance patterns, marriage rules, and social alliance structures in traditional communities.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Pioneered by W.H.R. Rivers, the genealogical method is a standard tool. Because social structure, power, property, and group alliances in small-scale societies are fundamentally organized around kinship networks, which must be systematically mapped.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Informed consent is a primary ethical mandate in anthropological research.\nReason (R): Ethics boards require researchers to protect human subjects from exploitation, ensuring that native populations understand the potential risks and outcomes of the research and provide clear, voluntary agreement.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Informed consent protects informants. Anthropologists must ensure that participants are fully aware of research goals, confidentiality protections, and that their participation is completely voluntary.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Ergonomics utilizes anthropometric databases to custom-fit workspaces.\nReason (R): It deals with designing machines, tools, seats, and work environments utilizing population-specific static and dynamic anthropometric data to optimize safety and productivity.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Derived from 'ergon' (work) and 'nomos' (law), ergonomics relies on anthropometric databases to custom-fit workspaces and equipment to human bodies, reducing physical stress and occupational injuries.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Static anthropometric measurements are completely sufficient to design aircraft cockpits.\nReason (R): Cockpits require dynamic measurements to ensure that pilots in active movement can safely and comfortably reach all instrument panels.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because aircraft cockpits require both static and *dynamic* (functional) measurements to ensure pilots can comfortably reach controls and navigate while in active motion. Reason (R) is a correct explanation of cockpit design needs.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Kinanthropology is the application of biological anthropology in sports science.\nReason (R): Kinanthropologists utilize somatotyping and limb segment measurements to select and train athletes for events matching their physical strengths.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Kinanthropology bridges human biology and sports science. By measuring body size, limb proportions, and body types, scientists can counsel athletes on events where their biomechanics will yield maximum performance.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Forensic anthropology is a major applied branch of biological anthropology.\nReason (R): Forensic anthropologists assist law enforcement by examining skeletal, dental, and dermatoglyphic remains to establish the age, sex, ancestry, and identity of deceased individuals.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Forensic anthropology utilizes osteological and skeletal methods to analyze skeletal remains in medico-legal contexts, reconstructing profile markers (age, sex, stature, trauma) to resolve criminal cases or identify disaster victims.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Individuals with a G-6-PD enzyme deficiency cannot be given standard antimalarial drugs.\nReason (R): G-6-PD deficiency is a genetic condition that causes red blood cells to break down (hemolytic anemia) when exposed to certain antimalarial compounds.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "This pharmacogenetic interaction is a key applied biological anthropology concern. Administering drugs like primaquine to G-6-PD deficient individuals can trigger severe, potentially fatal hemolytic anemia, illustrating the medical value of mapping genetic traits.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Somatotyping classifies human bodies into endomorphy, mesomorphy, and ectomorphy.\nReason (R): Endomorphs are characterized by high linearity, fragile bones, and minimal body fat.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is true but (R) is false",
+      "explanation": "Assertion (A) is true. However, Reason (R) is false because ectomorphs are characterized by high linearity, fragile bones, and low fat. Endomorphs are round, with high fat storage and soft musculature.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Action Anthropology was formulated by Sol Tax in 1951.\nReason (R): He advocated that anthropologists should actively assist local communities in solving their socio-economic problems while conducting academic research.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Sol Tax pioneered 'Action Anthropology' during the Fox Indian Project, arguing that anthropologists have an ethical responsibility to help native communities resolve their problems immediately, rather than using them as passive research objects.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Medical anthropology is a synthetic subfield that combines biological and cultural anthropology.\nReason (R): It examines health, disease, and healing systems from evolutionary, ecological, cultural, and political-economic perspectives.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Medical anthropology is fundamentally biosocial. It explores how human biology interacts with cultural beliefs about illness, ethnomedical healing practices, and structural inequalities to shape health outcomes.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Applied anthropology is strictly an academic, theoretical pursuit.\nReason (R): Applied anthropologists employ anthropological theories, methods, and data to solve practical human problems in sectors like health, education, and development.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because applied anthropology is practical and interventionist, not strictly academic. Reason (R) is the correct definition of the goals and methods of applied anthropology.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Nutritional anthropology has emerged as an important applied subfield.\nReason (R): It studies human diet and food systems from integrated evolutionary, ecological, socio-cultural, and health perspectives.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Nutritional anthropology bridges biology (nutritional status, physiological demands) and culture (food taboos, culinary customs), offering critical insights for resolving child malnutrition and public health crises.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): B.S. Guha classified the Indian population into six major racial groups.\nReason (R): He relied extensively on systematic somatometrical measurements and cranial indices collected during the Census of India.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "B.S. Guha's 1937 racial classification remains the most authoritative anthropometric mapping of Indian populations, relying heavily on metric skull indices to isolate Caucasians, Mongoloids, and Negritos.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): H.H. Risley classified the Indian population into seven major racial categories.\nReason (R): He utilized nasal index measurements to argue that caste hierarchy in India was closely linked to racial differences.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "H.H. Risley's controversial 1901 classification proposed that nasal shapes directly correlated with social status, claiming that higher castes possessed finer noses (leptorrhine) than lower castes.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): S.S. Sarkar proposed a separate racial classification for the Indian population.\nReason (R): He argued that Risley's classification was flawed because it neglected the ancient Negrito element in Indian tribes.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "S.S. Sarkar challenged Risley's Indo-Aryan/Dravidian dichotomies, asserting that the Dravidian population had Negrito roots and classifying the population based on distinct phenotypic indices.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Fifth Schedule of the Indian Constitution contains special provisions for tribal administration.\nReason (R): It mandates the creation of Tribal Advisory Councils (TAC) in states with Scheduled Areas to safeguard tribal lands and rights.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "The Fifth Schedule acts as a critical constitutional shield, providing for local tribal governance through the TAC and empowering governors to restrict land alienation by non-tribals.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): The Sixth Schedule of the Indian Constitution is applicable to all states with tribal populations in India.\nReason (R): It provides for Autonomous District Councils (ADC) in tribal regions, but is restricted to the states of Assam, Meghalaya, Tripura, and Mizoram.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because the Sixth Schedule is restricted to the four northeastern states (AMTM) and is not applicable to all states. Reason (R) is a correct explanation of the Sixth Schedule boundaries.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Article 338A of the Indian Constitution establishes the National Commission for Scheduled Tribes (NCST).\nReason (R): The NCST is empowered to investigate tribal rights violations, monitor tribal development safeguards, and report directly to the President.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Article 338A was inserted via the 89th Amendment, splitting the combined commission into two separate bodies (NCSC and NCST) to focus strictly on tribal socio-economic development and protection.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Verrier Elwin advocated a policy of complete assimilation for Indian tribes.\nReason (R): He proposed the concept of 'National Parks' in his early monographs to protect tribal cultures from the destructive influences of outer contractors and traders.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "(A) is false but (R) is true",
+      "explanation": "Assertion (A) is false because Verrier Elwin advocated isolationism (the 'National Park' policy) initially, not assimilation. Reason (R) is the correct description of his isolationist philosophy.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): G.S. Ghurye described Indian tribes as 'Backward Hindus'.\nReason (R): He strongly opposed the isolationist policies of British administrators and argued that tribes were structurally integrated into the Hindu caste system.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "As an integrationist, Ghurye asserted that tribal populations were part of the general Hindu fold, sharing religious customs, and rejected administrative segregation as a colonial trick.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Particularly Vulnerable Tribal Groups (PVTGs) require targeted development policies.\nReason (R): PVTGs are characterized by stagnant or declining populations, pre-agricultural technology, extremely low literacy rates, and subsistence economies.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Formerly known as Primitive Tribal Groups (PTGs), PVTGs are the most marginalized tribal isolates, identified by the Dhebar Commission as requiring highly specialized protective safeguards.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A): Shifting cultivation is a highly primitive and destructive agricultural system.\nReason (R): Shifting cultivation (Jhumming) clearing forest patches, burning the slash to enrich soil nutrients, and moving to new patches when fertility declines is an adaptive response to thin tropical soils.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+      "explanation": "Both statements are true. However, Reason (R) describes Jhumming as an adaptive system for nutrient-poor soils, which challenges the idea in Assertion (A) that it is simply 'primitive and destructive.' Thus, R is not the correct explanation of A.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [101]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q101: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [102]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q102: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [103]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q103: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [104]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q104: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [105]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q105: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [106]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q106: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [107]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q107: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [108]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q108: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [109]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q109: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [110]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q110: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [111]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q111: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [112]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q112: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [113]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q113: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [114]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q114: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [115]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q115: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [116]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q116: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [117]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q117: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [118]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q118: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [119]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q119: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [120]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q120: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [121]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q121: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [122]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q122: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [123]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q123: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [124]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q124: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [125]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q125: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [126]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q126: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [127]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q127: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [128]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q128: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [129]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q129: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [130]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q130: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [131]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q131: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [132]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q132: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [133]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q133: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [134]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q134: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [135]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q135: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [136]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q136: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [137]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q137: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [138]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q138: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [139]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q139: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [140]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q140: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [141]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q141: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [142]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q142: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [143]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q143: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [144]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q144: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [145]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q145: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [146]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q146: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [147]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q147: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [148]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q148: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [149]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q149: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [150]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q150: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [151]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q151: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [152]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q152: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [153]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q153: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [154]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q154: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [155]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q155: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [156]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q156: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [157]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q157: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [158]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q158: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [159]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q159: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [160]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q160: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [161]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q161: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [162]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q162: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [163]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q163: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [164]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q164: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [165]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q165: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [166]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q166: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [167]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q167: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [168]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q168: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [169]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q169: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [170]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q170: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [171]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q171: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [172]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q172: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [173]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q173: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [174]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q174: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [175]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q175: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [176]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q176: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [177]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q177: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [178]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q178: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [179]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q179: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [180]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q180: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [181]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q181: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [182]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q182: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [183]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q183: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [184]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q184: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [185]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q185: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [186]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q186: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [187]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q187: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [188]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q188: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [189]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q189: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [190]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q190: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [191]: The Kula Ring is a classic system of ceremonial exchange among the Trobriand Islanders.\nReason (R): Malinowski showed that the exchange of Soulava (red shell necklaces) and Mwali (white shell armbands) serves to establish lifelong social relationships and alliances.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q191: The Kula Ring is a foundational example of ceremonial exchange. Malinowski's analysis demonstrated that it is not a commercial trade, but a highly integrated socio-cultural institution that binds island communities. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [192]: Dominant Caste is a key concept in Indian rural sociology.\nReason (R): M.N. Srinivas defined a dominant caste as one that possesses substantial landownership, numerical strength, and high ritual status in a local hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q192: M.N. Srinivas introduced 'Dominant Caste' based on his studies in Rampura. A caste dominates when it wields economic power (land) and political power (numbers), even if its ritual rank is not the highest. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [193]: Sanskritization is a process of vertical social mobility in India.\nReason (R): M.N. Srinivas explained that lower castes adopt the customs, rituals, beliefs, and style of life of higher twice-born castes to claim higher status in the caste hierarchy.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q193: Sanskritization is a cultural process of emulation. Lower castes adopt vegetarianism, clean occupations, and Sanskritized rituals to claim a higher ritual position, though actual mobility takes generations. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [194]: Sacred Complex is an analytical framework for studying Indian civilization.\nReason (R): L.P. Vidyarthi formulated this concept based on his study of Hindu pilgrimage city Gaya, describing it in terms of Sacred Geography, Sacred Performances, and Sacred Specialists.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q194: The Sacred Complex model is a major theoretical contribution to Indian anthropology, illustrating how great and little traditions are integrated at holy centers through local structures. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [195]: Under the Fifth Schedule, governors hold extensive legislative powers in tribal areas.\nReason (R): A governor can direct that an Act of Parliament or State Legislature shall not apply to Scheduled Areas, or apply with specific modifications.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q195: The Fifth Schedule invests unique legislative discretion in governors, allowing them to shield tribal communities from laws that might lead to land alienation or exploitation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [196]: PESA (Panchayats Extension to Scheduled Areas) Act was passed in 1996.\nReason (R): PESA extends the provisions of Part IX of the Constitution to Fifth Schedule areas, empowering Gram Sabhas with ownership of minor forest produce and control over local plans.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q196: PESA is a landmark decentralization law. It empowers local tribal assemblies (Gram Sabhas) with self-rule, protecting customary resources and preventing land acquisition without local consultation. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [197]: Sickle cell anemia is a hereditary genetic disease.\nReason (R): It is caused by a single point mutation in the beta-globin gene, changing a glutamic acid to valine at the sixth position of the hemoglobin chain.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q197: Sickle cell anemia (HbS) is a classic molecular disease. The point mutation causes hemoglobin to polymerize in low-oxygen conditions, deforming red blood cells into a sickle shape. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [198]: Sickle cell trait (carriers) provides resistance to malaria.\nReason (R): Heterozygous individuals (HbAS) are selected for in malaria-prone regions because the sickle-shaped red blood cells disrupt the life cycle of Plasmodium falciparum.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q198: This is the premier example of balanced polymorphism and heterozygous advantage in human populations. The malaria parasite cannot multiply efficiently in heterozygous sickled cells. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [199]: Thalassemia is a quantitative hemoglobin synthesis defect.\nReason (R): It is characterized by the reduced or absent synthesis of alpha or beta globin chains, leading to microcytic anemia.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q199: Thalassemia is an autosomal recessive disorder. Unlike sickle cell (which is a qualitative mutation), thalassemia represents a quantitative deficit in the rate of globin chain production. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "UGC NET Anthropology Notes"
+    },
+    {
+      "question": "Assertion (A) [200]: Forensic facial reconstruction is a standard identification technique.\nReason (R): Forensic anthropologists use average tissue-depth measurements at specific cranial landmarks to reconstruct a facial profile on an unidentified skull.",
+      "options": [
+        "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "(A) is true but (R) is false",
+        "(A) is false but (R) is true"
+      ],
+      "answer": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "explanation": "Academic Forensic Verification for Q200: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
+      "unit": "Unit 9: Applied and Development Anthropology",
+      "source": "UGC NET Anthropology Notes"
+    }
   ]
 };
