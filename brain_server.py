@@ -97,21 +97,25 @@ def index_all_knowledge_assets():
     print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
 
 # --- 2. LOCAL VERBATIM KEYWORD MATCHER ---
-def search_local_textbooks(query, top_n=3):
+def search_local_textbooks(question, doubt, top_n=3):
     # Strip common stopwords
     stopwords = {'what', 'which', 'who', 'does', 'really', 'have', 'the', 'and', 'for', 'are', 'there', 'that', 'should'}
-    q_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', query.lower())) - stopwords
+    q_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', question.lower())) - stopwords
+    d_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', doubt.lower())) - stopwords
     
     scored = []
     for idx, page_data in enumerate(CHUNKS_INDEX):
         c_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', page_data['text'].lower()))
+        # Score the question words normally
         score = len(q_words & c_words)
+        # Heavily weight the user's specific doubt words (5x multiplier)
+        score += len(d_words & c_words) * 5
         
         # Boost matches for critical terms
         critical_terms = ['schedule', 'governor', 'neanderthal', 'equilibrium', 'malinowski', 'lineage', 'prehistory', 'chromosomal']
         for term in critical_terms:
-            if term in query.lower() and term in page_data['text'].lower():
-                score += 3
+            if term in doubt.lower() and term in page_data['text'].lower():
+                score += 10
                 
         if score > 0:
             scored.append((score, idx))
@@ -160,7 +164,7 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
                 print(f"               Doubt: '{user_doubt}'")
 
                 # 1. Run local offline verbatim search across books AND notes
-                scanned_matches = search_local_textbooks(question + " " + user_doubt, top_n=3)
+                scanned_matches = search_local_textbooks(question, user_doubt, top_n=3)
                 
                 verbatim_block = "📖 VERBATIM TEXTBOOK & NOTES SCAN:\n\n"
                 if scanned_matches:
@@ -176,16 +180,17 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
                 try:
                     context = "\n...\n".join([m['text'] for m in scanned_matches])
                     prompt = f"""You are a Senior Staff-Level Professor in Anthropology.
-Analyse this question doubt using the textbook and notes passages.
+Analyse this question using the textbook and notes passages. Focus strictly on answering the USER DOUBT.
+
 Source Passages:
 {context}
 
-Question: {question}
-Options: {options}
-Answer Key: {correct_answer}
-User Doubt: "{user_doubt}"
+Question Context: {question}
+Currently Set Answer Key: {correct_answer}
 
-Write a concise 2-sentence resolution verifying the facts. Cite the textbook names or note files.
+USER DOUBT (PRIORITY): "{user_doubt}"
+
+Write a concise 2-sentence resolution DIRECTLY ANSWERING the user's doubt. Cite the textbook names or note files to prove your point.
 Resolution:"""
                     response = client.chat.completions.create(
                         model="llama-3.3-70b-versatile",
