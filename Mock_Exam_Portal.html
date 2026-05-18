@@ -106,6 +106,9 @@
           // --- DATABASE INITIALIZATION ---
           const getInitialKey = () => {
             if (window.pyqDatabase) {
+              const preferred = "UGC NET - 200 Master Assertion-Reason Practice Paper";
+              if (window.pyqDatabase[preferred]) return preferred;
+              
               const keys = Object.keys(window.pyqDatabase);
               if (keys.length > 0) return keys[0];
             }
@@ -136,42 +139,50 @@
           });
 
           const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
-            const saved = localStorage.getItem('nta_current_index');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_current_index_${dbKey}`);
             return saved ? parseInt(saved, 10) : 0;
           });
 
           const [selectedOptions, setSelectedOptions] = useState(() => {
-            const saved = localStorage.getItem('nta_exam_selected');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_exam_selected_${dbKey}`);
             return saved ? JSON.parse(saved) : {};
           });
 
           const [flaggedQuestions, setFlaggedQuestions] = useState(() => {
-            const saved = localStorage.getItem('nta_exam_flagged');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_exam_flagged_${dbKey}`);
             return saved ? JSON.parse(saved) : [];
           });
 
           const [bookmarkedQuestions, setBookmarkedQuestions] = useState(() => {
-            const saved = localStorage.getItem('nta_exam_bookmarked');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_exam_bookmarked_${dbKey}`);
             return saved ? JSON.parse(saved) : [];
           });
 
           const [visitedQuestions, setVisitedQuestions] = useState(() => {
-            const saved = localStorage.getItem('nta_exam_visited');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_exam_visited_${dbKey}`);
             return saved ? JSON.parse(saved) : { 1: true };
           });
 
           const [isAnswerChecked, setIsAnswerChecked] = useState(() => {
-            const saved = localStorage.getItem('nta_answer_checked');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_answer_checked_${dbKey}`);
             return saved ? JSON.parse(saved) : {};
           });
 
           const [score, setScore] = useState(() => {
-            const saved = localStorage.getItem('nta_score');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_score_${dbKey}`);
             return saved ? parseInt(saved, 10) : 0;
           });
 
           const [isExamSubmitted, setIsExamSubmitted] = useState(() => {
-            const saved = localStorage.getItem('nta_exam_submitted');
+            const dbKey = localStorage.getItem('nta_active_db_key') || getInitialKey();
+            const saved = localStorage.getItem(`nta_exam_submitted_${dbKey}`);
             return saved ? JSON.parse(saved) : false;
           });
 
@@ -199,38 +210,83 @@
             return [];
           }, [activeDatabaseKey]);
 
-          // --- PERSIST ACTIVE STATE ---
+          // --- TRANSITION EFFECT WHEN SWITCHING PAPERS ---
           useEffect(() => {
-            localStorage.setItem('nta_current_index', currentQuestionIndex.toString());
-          }, [currentQuestionIndex]);
+            if (!activeDatabaseKey) return;
+            
+            const savedIndex = localStorage.getItem(`nta_current_index_${activeDatabaseKey}`);
+            setCurrentQuestionIndex(savedIndex ? parseInt(savedIndex, 10) : 0);
+
+            const savedSelected = localStorage.getItem(`nta_exam_selected_${activeDatabaseKey}`);
+            setSelectedOptions(savedSelected ? JSON.parse(savedSelected) : {});
+
+            const savedFlagged = localStorage.getItem(`nta_exam_flagged_${activeDatabaseKey}`);
+            setFlaggedQuestions(savedFlagged ? JSON.parse(savedFlagged) : []);
+
+            const savedBookmarked = localStorage.getItem(`nta_exam_bookmarked_${activeDatabaseKey}`);
+            setBookmarkedQuestions(savedBookmarked ? JSON.parse(savedBookmarked) : []);
+
+            const savedVisited = localStorage.getItem(`nta_exam_visited_${activeDatabaseKey}`);
+            setVisitedQuestions(savedVisited ? JSON.parse(savedVisited) : { 1: true });
+
+            const savedAnswerChecked = localStorage.getItem(`nta_answer_checked_${activeDatabaseKey}`);
+            setIsAnswerChecked(savedAnswerChecked ? JSON.parse(savedAnswerChecked) : {});
+
+            const savedSubmitted = localStorage.getItem(`nta_exam_submitted_${activeDatabaseKey}`);
+            setIsExamSubmitted(savedSubmitted ? JSON.parse(savedSubmitted) : false);
+
+            const savedScore = localStorage.getItem(`nta_score_${activeDatabaseKey}`);
+            setScore(savedScore ? parseInt(savedScore, 10) : 0);
+          }, [activeDatabaseKey]);
+
+          // --- PERSIST ACTIVE STATE (NAMESPACED BY ACTIVE PAPER) ---
+          useEffect(() => {
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_current_index_${activeDatabaseKey}`, currentQuestionIndex.toString());
+            }
+          }, [currentQuestionIndex, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_exam_selected', JSON.stringify(selectedOptions));
-          }, [selectedOptions]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_exam_selected_${activeDatabaseKey}`, JSON.stringify(selectedOptions));
+            }
+          }, [selectedOptions, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_exam_flagged', JSON.stringify(flaggedQuestions));
-          }, [flaggedQuestions]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_exam_flagged_${activeDatabaseKey}`, JSON.stringify(flaggedQuestions));
+            }
+          }, [flaggedQuestions, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_exam_bookmarked', JSON.stringify(bookmarkedQuestions));
-          }, [bookmarkedQuestions]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_exam_bookmarked_${activeDatabaseKey}`, JSON.stringify(bookmarkedQuestions));
+            }
+          }, [bookmarkedQuestions, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_exam_visited', JSON.stringify(visitedQuestions));
-          }, [visitedQuestions]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_exam_visited_${activeDatabaseKey}`, JSON.stringify(visitedQuestions));
+            }
+          }, [visitedQuestions, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_answer_checked', JSON.stringify(isAnswerChecked));
-          }, [isAnswerChecked]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_answer_checked_${activeDatabaseKey}`, JSON.stringify(isAnswerChecked));
+            }
+          }, [isAnswerChecked, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_exam_submitted', JSON.stringify(isExamSubmitted));
-          }, [isExamSubmitted]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_exam_submitted_${activeDatabaseKey}`, JSON.stringify(isExamSubmitted));
+            }
+          }, [isExamSubmitted, activeDatabaseKey]);
 
           useEffect(() => {
-            localStorage.setItem('nta_score', score.toString());
-          }, [score]);
+            if (activeDatabaseKey) {
+              localStorage.setItem(`nta_score_${activeDatabaseKey}`, score.toString());
+            }
+          }, [score, activeDatabaseKey]);
 
           useEffect(() => {
             localStorage.setItem('nta_exam_mode', JSON.stringify(examMode));
@@ -609,9 +665,54 @@
                         }}
                         className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-brand-300 rounded p-1 text-[11px] font-bold outline-none max-w-xs"
                       >
-                        {window.pyqDatabase && Object.keys(window.pyqDatabase).map(key => (
-                          <option key={key} value={key}>{key}</option>
-                        ))}
+                        {window.pyqDatabase && (
+                          <>
+                            <optgroup label="🌟 ELITE ASSERTION-REASON MOCKS">
+                              {window.pyqDatabase["UGC NET - 200 Master Assertion-Reason Practice Paper"] && (
+                                <option value="UGC NET - 200 Master Assertion-Reason Practice Paper">UGC NET - 200 Master Assertion-Reason Practice Paper</option>
+                              )}
+                              {window.pyqDatabase["Unit Notes - 100 Assertion-Reason Mocks"] && (
+                                <option value="Unit Notes - 100 Assertion-Reason Mocks">Unit Notes - 100 Assertion-Reason Mocks</option>
+                              )}
+                            </optgroup>
+                            
+                            <optgroup label="🔥 HIGH-YIELD SYLLABUS MASTERY">
+                              {window.pyqDatabase["UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock"] && (
+                                <option value="UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock">UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock</option>
+                              )}
+                            </optgroup>
+
+                            <optgroup label="📖 GANESH MOOLINTI BOOK MCQS">
+                              {window.pyqDatabase["Ganesh Moolinti - Biological Anthropology MCQs"] && (
+                                <option value="Ganesh Moolinti - Biological Anthropology MCQs">Ganesh Moolinti - Biological Anthropology</option>
+                              )}
+                              {window.pyqDatabase["Ganesh Moolinti - Archaeological Anthropology MCQs"] && (
+                                <option value="Ganesh Moolinti - Archaeological Anthropology MCQs">Ganesh Moolinti - Archaeological Anthropology</option>
+                              )}
+                              {window.pyqDatabase["Ganesh Moolinti - Socio-cultural Anthropology MCQs"] && (
+                                <option value="Ganesh Moolinti - Socio-cultural Anthropology MCQs">Ganesh Moolinti - Socio-cultural Anthropology</option>
+                              )}
+                            </optgroup>
+
+                            <optgroup label="📝 NTA OFFICIAL PREVIOUS YEAR PAPERS (PAPER 2)">
+                              {window.pyqDatabase["NTA UGC NET 2021 PYQ"] && (
+                                <option value="NTA UGC NET 2021 PYQ">NTA UGC NET 2021 PYQ</option>
+                              )}
+                              {window.pyqDatabase["NTA UGC NET 2017 - Paper 2"] && (
+                                <option value="NTA UGC NET 2017 - Paper 2">NTA UGC NET 2017 - Paper 2</option>
+                              )}
+                              {window.pyqDatabase["NTA UGC NET 2016 - Paper 2"] && (
+                                <option value="NTA UGC NET 2016 - Paper 2">NTA UGC NET 2016 - Paper 2</option>
+                              )}
+                              {window.pyqDatabase["NTA UGC NET 2013 - Paper 2"] && (
+                                <option value="NTA UGC NET 2013 - Paper 2">NTA UGC NET 2013 - Paper 2</option>
+                              )}
+                              {window.pyqDatabase["NTA UGC NET 2012 - Paper 2"] && (
+                                <option value="NTA UGC NET 2012 - Paper 2">NTA UGC NET 2012 - Paper 2</option>
+                              )}
+                            </optgroup>
+                          </>
+                        )}
                       </select>
                     </div>
 

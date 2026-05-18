@@ -250,582 +250,6 @@ window.pyqDatabase = {
       "source": "UGC NET Paper"
     }
   ],
-  "NTA UGC NET 2017 - Paper 3": [
-    {
-      "question": "The prenatal diagnostic technique that can detect neural tube defects is",
-      "options": [
-        "Radiography",
-        "Alpha Fetoproteins test",
-        "Ultrasonography",
-        "Chorionic villus sampling"
-      ],
-      "answer": "Alpha Fetoproteins test",
-      "explanation": "Alpha Fetoproteins test is the correct answer because it is a prenatal diagnostic technique that can detect neural tube defects by measuring the levels of alpha-fetoprotein in the mother's blood. Elevated levels of alpha-fetoprotein can indicate the presence of neural tube defects such as spina bifida or anencephaly.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following primate fossils is known as “Aberrent Ape” ?",
-      "options": [
-        "Gigantopithecus",
-        "Ramapithecus",
-        "Kenyapithecus",
-        "Oreopithecus"
-      ],
-      "answer": "Oreopithecus",
-      "explanation": "Oreopithecus is known as the 'Aberrant Ape' due to its unique combination of primitive and advanced characteristics, which set it apart from other primates. This fossil discovery has been significant in understanding the evolutionary history of primates.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Alkaptonuria is caused by the deficiency of",
-      "options": [
-        "Tyrosinase",
-        "Arginase",
-        "Homogentisic acid oxidase",
-        "Carbamyl synthase"
-      ],
-      "answer": "Homogentisic acid oxidase",
-      "explanation": "Alkaptonuria is a genetic disorder caused by the deficiency of the enzyme homogentisic acid oxidase, which is necessary for the breakdown of homogentisic acid. This deficiency leads to the accumulation of homogentisic acid in the body, resulting in the characteristic symptoms of alkaptonuria.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Short stature is a typical feature of",
-      "options": [
-        "Klinefelter syndrome",
-        "Turner syndrome",
-        "Fragile X-syndrome",
-        "Edward syndrome"
-      ],
-      "answer": "Turner syndrome",
-      "explanation": "Turner syndrome is a genetic disorder that affects females and is characterized by short stature, among other physical features. It is the correct answer because individuals with Turner syndrome typically have a shorter height compared to the average population.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The basic classification of finger ball patterns was given by",
-      "options": [
-        "S.B. Holt",
-        "J.D. Malavwala",
-        "Francis Galton",
-        "Edward Henry"
-      ],
-      "answer": "Edward Henry",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Favism leading to acute hemolytic anemia is due to",
-      "options": [
-        "Hemoglobin S",
-        "Iron deficiency",
-        "Thalassemia",
-        "G6PD deficiency"
-      ],
-      "answer": "G6PD deficiency",
-      "explanation": "Favism leading to acute hemolytic anemia is due to G6PD deficiency, as individuals with this deficiency are unable to break down certain compounds in fava beans, leading to the destruction of red blood cells. This condition is a common cause of hemolytic anemia in people with G6PD deficiency.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Taurodontism is seen in which of the following hominids ?",
-      "options": [
-        "Australopithecus",
-        "Homo habilis",
-        "Homo erectus",
-        "Neanderthal man"
-      ],
-      "answer": "Australopithecus",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who substituted the term bride-price with bride-wealth ?",
-      "options": [
-        "M.N. Srinivas",
-        "S.C. Roy",
-        "L.H. Morgan",
-        "E.E. Evans-Pritchard"
-      ],
-      "answer": "E.E. Evans-Pritchard",
-      "explanation": "E.E. Evans-Pritchard substituted the term bride-price with bride-wealth, as he believed that the term bride-price implied a commercial transaction, whereas bride-wealth referred to the wealth given to the bride's family as a symbol of the groom's commitment to the marriage.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "New Ethnography appeared in anthropology in order to",
-      "options": [
-        "partially accept and partially denounce culture and personality school.",
-        "improve the quality of data collection and interpretation.",
-        "accept functionalism and structuralism both.",
-        "denounce evolution and diffusion."
-      ],
-      "answer": "improve the quality of data collection and interpretation.",
-      "explanation": "New Ethnography appeared in anthropology in order to improve the quality of data collection and interpretation, by using more rigorous and systematic methods to collect and analyze data.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The classificatory and the descriptive Kinship terminologies were first brought to the notice in anthropology by",
-      "options": [
-        "B.K. Malinowski",
-        "L.H. Morgan",
-        "E.E. Evans-Pritchard",
-        "D.N. Majumdar"
-      ],
-      "answer": "L.H. Morgan",
-      "explanation": "L.H. Morgan was the first to bring the classificatory and descriptive kinship terminologies to the notice in anthropology, in his work on the Iroquois kinship system.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "One can judge the level of a culture by “the amount of energy harnessed and put to use per capita per year by the group”, has been proposed by",
-      "options": [
-        "Leslie White",
-        "Abram Kardiner",
-        "V.G. Childe",
-        "Cora Du-Bois"
-      ],
-      "answer": "Leslie White",
-      "explanation": "Leslie White proposed that one can judge the level of a culture by the amount of energy harnessed and put to use per capita per year by the group, as a measure of the culture's technological and economic development.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Psychic unity of mankind is associated with the school of",
-      "options": [
-        "Diffusionism",
-        "Evolutionism",
-        "Neo-evolutionism",
-        "Culture and Personality"
-      ],
-      "answer": "Evolutionism",
-      "explanation": "The concept of psychic unity of mankind is associated with the school of evolutionism, which posits that all humans share a common psychological and cognitive makeup, and that cultural differences are the result of different stages of evolutionary development.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The term Scheduled Tribes has been defined in the Indian Constitution under Article :",
-      "options": [
-        "342(1)",
-        "341(1)",
-        "330",
-        "254"
-      ],
-      "answer": "342(1)",
-      "explanation": "The term Scheduled Tribes has been defined in the Indian Constitution under Article 342(1), which provides for the recognition and protection of the rights of scheduled tribes in India.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following sites yielded earliest evidence of rice cultivation in India ?",
-      "options": [
-        "Mahadaha",
-        "Chirand",
-        "Koldihwa",
-        "Barudih"
-      ],
-      "answer": "Koldihwa",
-      "explanation": "Koldihwa is one of the sites that yielded evidence of early rice cultivation in India, dating back to the Neolithic period.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following sites is not an iron age site ?",
-      "options": [
-        "Noh",
-        "Atranjikhera",
-        "Mundigak",
-        "Ahichhatra"
-      ],
-      "answer": "Mundigak",
-      "explanation": "Mundigak is a site in Afghanistan that is not an iron age site, but rather a site from the Bronze Age or Neolithic period.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following hills/mountains is known as “fertile crescent” ?",
-      "options": [
-        "Baluch hills",
-        "Zagros mountain",
-        "Ural mountain",
-        "Aravalli hills Examrace Examrace Examrace JA-007-17 5 Paper-III"
-      ],
-      "answer": "Zagros mountain",
-      "explanation": "The Zagros mountain range is known as the fertile crescent, due to its fertile soil and mild climate, which made it suitable for early agriculture and the development of civilizations.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following anthropologists have contributed to the study of tribe-caste- continuum ? Use code.",
-      "options": [
-        "F.G. Baiely",
-        "Sachchidananda",
-        "L.P.Vidyarthi",
-        "Surajit"
-      ],
-      "answer": "L.P.Vidyarthi",
-      "explanation": "L.P.Vidyarthi contributed to the study of tribe-caste continuum, while F.G. Bailey, Sachchidananda, and Surajit also worked on related topics, but are not the best answer.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Arrange the sequence of A.R. Radcliffe Brown’s analysis of structure-functionalism.",
-      "options": [
-        "Social Structure \u0000 Social Organization \u0000 Social Morphology \u0000 Social Physiology \u0000 Social Eunomia \u0000 Social Dysnomia.",
-        "Social Structure \u0000 Social Organization \u0000 Social Eunomia \u0000Social Dysnomia \u0000 Social Morphology \u0000 Social Physiology.",
-        "Social Structure \u0000 Social Morphology \u0000 Social Physiology \u0000 Social Organization \u0000 Social Eunomia \u0000 Social Dysnomia",
-        "Social Structure \u0000 Social Organization \u0000 Social Morphology \u0000 Social Physiology \u0000 Social Dysnomia \u0000 Social Eunomia."
-      ],
-      "answer": "Social Structure \u0000 Social Organization \u0000 Social Morphology \u0000 Social Physiology \u0000 Social Eunomia \u0000 Social Dysnomia.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who was influenced by whom ?",
-      "options": [
-        "Herbert Spencer was influenced by Thomas Malthus and Charles Darwin.",
-        "Thomas Malthus was influenced by Charles Darwin and Herbert Spencer.",
-        "Charles Darwin was influenced by Thomas Malthus and Herbert Spencer.",
-        "Charles Darwin was in no way influenced by Herbert Spencer and Thomas Malthus"
-      ],
-      "answer": "Herbert Spencer was influenced by Thomas Malthus and Charles Darwin.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What was the name of Charles Darwin’s epoch making book ?",
-      "options": [
-        "Natural Selection",
-        "Survival of the Fittest",
-        "The Origin of Species",
-        "Essays on Population"
-      ],
-      "answer": "The Origin of Species",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who considered that human culture had developed from savagery through barbarism to civilization ?",
-      "options": [
-        "Herbert Spencer",
-        "Charles Darwin",
-        "Thomas Malthus",
-        "Founding fathers of discipline of Anthropology."
-      ],
-      "answer": "Founding fathers of discipline of Anthropology.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Whose book provided a readymade road map to evolutionism ?",
-      "options": [
-        "Any book of founding fathers of Anthropology.",
-        "Book of Herbert Spencer",
-        "Book of Thomas Malthus",
-        "Book of Charles Darwin ___________ Examrace Examrace Examrace JA-007-17 39 Paper-III"
-      ],
-      "answer": "Any book of founding fathers of Anthropology.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    }
-  ],
-  "NTA UGC NET 2016 - Paper 3": [
-    {
-      "question": "Genetic drift is likely to occur in",
-      "options": [
-        "Plant population",
-        "Small population",
-        "Large population",
-        "Hybrid population"
-      ],
-      "answer": "Large population",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Karyotype of a Turner syndrome is",
-      "options": [
-        "47, XXY",
-        "47, XYY",
-        "45, XO",
-        "45, YO"
-      ],
-      "answer": "45, XO",
-      "explanation": "The Karyotype of a Turner syndrome is 45, XO, which means the individual has only one X chromosome.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What are the molecular scissors in genetic engineering ?",
-      "options": [
-        "RNA polymerases",
-        "Taq polymerases",
-        "Endonucleases",
-        "Hexokinases"
-      ],
-      "answer": "Endonucleases",
-      "explanation": "Endonucleases, also known as restriction enzymes, are the molecular scissors in genetic engineering.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The sudden reappearance of ancestral traits in an organism which do not occur normally is called",
-      "options": [
-        "Disequilibrium",
-        "Atavism",
-        "Mutation",
-        "Genetic drift"
-      ],
-      "answer": "Atavism",
-      "explanation": "Atavism refers to the sudden reappearance of ancestral traits in an organism which do not occur normally.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The process of genetic counseling comprises",
-      "options": [
-        "Diagnosis and cause of disease",
-        "Determining the risk of recurrence of disease",
-        "Options available for prevention",
-        "All of these"
-      ],
-      "answer": "Options available for prevention",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The phenotypic ratio in a dihybrid cross is",
-      "options": [
-        "1 : 3 : 3 : 9",
-        "1 : 2 : 2 : 1",
-        "9 : 3 : 3 : 1",
-        "1 : 2 : 1 : 2"
-      ],
-      "answer": "9 : 3 : 3 : 1",
-      "explanation": "The phenotypic ratio in a dihybrid cross is 9 : 3 : 3 : 1, which is the classic Mendelian ratio.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following is not a sex-linked trait in humans ?",
-      "options": [
-        "Haemophilia",
-        "Colour blindness",
-        "G-6-PD deficiency",
-        "Sickle cell anaemia"
-      ],
-      "answer": "Sickle cell anaemia",
-      "explanation": "Sickle cell anaemia is an autosomal recessive disorder, not a sex-linked trait in humans.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A childbirth custom in which the father of the child behaves as though he were giving birth is known as",
-      "options": [
-        "Creation myth",
-        "Couvade",
-        "Fictive Kin",
-        "Rite of passage"
-      ],
-      "answer": "Rite of passage",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The terms ‘emic’ and ‘etic’ in anthropology have been introduced by",
-      "options": [
-        "Codrington",
-        "Evans Pritchard",
-        "A.C. Haddon",
-        "Kenneth Pike"
-      ],
-      "answer": "Kenneth Pike",
-      "explanation": "The terms 'emic' and 'etic' were introduced by Kenneth Pike, an American linguist and anthropologist, to distinguish between the insider's (emic) and outsider's (etic) perspectives in cultural analysis. This distinction is crucial in understanding the nuances of cultural phenomena and the role of the researcher in interpreting them.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The concept that the other’s culture should be studied in their perspective, not one’s own (investigator’s)",
-      "options": [
-        "Cultural materialism",
-        "Cultural relativism",
-        "Culturology",
-        "Culture core"
-      ],
-      "answer": "Cultural relativism",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In which year Government of India proposed to rename primitive tribal groups as particularly vulnerable tribal groups ?",
-      "options": [
-        "2010",
-        "2006",
-        "2008",
-        "2015"
-      ],
-      "answer": "2006",
-      "explanation": "The Government of India proposed to rename primitive tribal groups as particularly vulnerable tribal groups in 2006, as part of its efforts to reclassify and provide more targeted support to these communities. This change in terminology was intended to better reflect the unique challenges and vulnerabilities faced by these groups.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The term ‘Scheduled Tribes’ was inserted in the Constitution vide",
-      "options": [
-        "Article 342(i)",
-        "Article 330",
-        "Article 244(i)",
-        "Article 366"
-      ],
-      "answer": "Article 342(i)",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Method of comparative cultural study that extrapolates to the past from recent or current societies is known as",
-      "options": [
-        "Ethnographic analogy",
-        "Ethnography",
-        "Ethnology",
-        "Ethnogenesis"
-      ],
-      "answer": "Ethnographic analogy",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following time period is correct for human migration in the new world ?",
-      "options": [
-        "10,000 years onwards",
-        "30,000 years onwards",
-        "50,000 years onwards",
-        "1,00,000 years onwards"
-      ],
-      "answer": "10,000 years onwards",
-      "explanation": "The correct time period for human migration in the New World is 10,000 years onwards, as most archaeological evidence suggests that humans first migrated to the Americas across the Bering Land Bridge from Asia around this time. This migration is believed to have occurred during the late Pleistocene era.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following is not a feature of Neolithic culture ?",
-      "options": [
-        "Sedentary village community",
-        "Domestication of fire",
-        "Domestication of plants",
-        "Domestication of animals"
-      ],
-      "answer": "Domestication of fire",
-      "explanation": "Domestication of fire is a feature of the Paleolithic era, not the Neolithic era, which is characterized by the development of settled agriculture and the domestication of plants and animals. The Neolithic culture is marked by significant advancements in tool technology and food production, but domestication of fire is not a distinctive feature of this period.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following tribes does not practice megalithic burial presently ?",
-      "options": [
-        "Khasi",
-        "Santal",
-        "Ho",
-        "Bhumij Examrace Examrace Examrace J-07-16 5 Paper-III"
-      ],
-      "answer": "Bhumij Examrace Examrace Examrace J-07-16 5 Paper-III",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Arrange the concepts/ approaches in chronological order as they appeared in the history of Anthropology.",
-      "options": [
-        "Psychic unity of mankind \u0000 Patterns of culture \u0000 Study of culture at a distance \u0000 Emic and Etic approach",
-        "Patterns of culture \u0000 Study of culture at a distance \u0000 Emic and Etic approach \u0000 Psychic unity of mankind",
-        "Study of culture at a distance \u0000 Psychic unity of mankind \u0000 Patterns of culture \u0000 Emic and Etic approach",
-        "Patterns of culture \u0000 Emic and Etic approach \u0000 Psychic unity of mankind \u0000 Study of culture at a distance"
-      ],
-      "answer": "Patterns of culture \u0000 Emic and Etic approach \u0000 Psychic unity of mankind \u0000 Study of culture at a distance",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Did the 19th Century evolutionists take the help of fieldwork in anthropology ?",
-      "options": [
-        "They believed fieldwork was not necessary in anthropology..",
-        "Except Tylor and Morgan, no one did fieldwork.",
-        "They completely depended upon fieldwork",
-        "Their works were partly based upon fieldwork, and partly not."
-      ],
-      "answer": "They believed fieldwork was not necessary in anthropology..",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "How did Morgan come in contact with the Iroquois ?",
-      "options": [
-        "Iroquois lived in his neighborhood.",
-        "He often visited the Iroquois areas for games",
-        "He was introduced by some politician",
-        "Iroquois were the most literate people of all Indi"
-      ],
-      "answer": "Iroquois lived in his neighborhood.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What was the name of the Club that Morgan established ?",
-      "options": [
-        "Grand Order of the Savage",
-        "Grand Order of the Primitives",
-        "Grand Order of Iroquois",
-        "Grand Order of Couvade"
-      ],
-      "answer": "Grand Order of the Savage",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Did James Frazer like the so called ‘savage people ?’",
-      "options": [
-        "He very much appreciated and liked them.",
-        "He liked them and became the champion of their cause.",
-        "He liked them because he had intimate contact with them.",
-        "He had never seen them and did not like to meet and see them ever."
-      ],
-      "answer": "He very much appreciated and liked them.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "How did Morgan manage to distribute his Circular throughout the world?",
-      "options": [
-        "Through mail",
-        "Through Courier",
-        "Through Diplomatic Channel of U.S.A.",
-        "He personally went and distributed ____________ Examrace Examrace Examrace J-07-16 39 Paper-III"
-      ],
-      "answer": "He personally went and distributed ____________ Examrace Examrace Examrace J-07-16 39 Paper-III",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    }
-  ],
   "NTA UGC NET 2013 - Paper 2": [
     {
       "question": "The term Emic refers to:",
@@ -1618,985 +1042,6 @@ window.pyqDatabase = {
         "4 1 3 2 Answer: a Related Links NTA UGC NET Anthropology Paper 2 Solved December 2012 NTA UGC NET Anthropology Paper 3 June 2012 All rights reserved. Examrace is a subsidiary of Mindsprite Solutions. By visiting this website you agree to our terms & conditions. Read our copyright policy , customer and visitor privacy policy , and return, refund and cancellation policy . For concerns or suggestions please contact us. Contact: 📞 +91-999-800-8851 (also WhatsApp & Signal), 📧 contactus@examrace.com. © Mindsprite Solutions 2008-2025. Please note that this website is best viewed on Microsoft Edge, Chrome version 80 and above, Firefox version 80 and above, and Safari version 14 and above for both Mac and iOS. Read more about Examrace or contact us . Maintained by Mindsprite Solutions . Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
       ],
       "answer": "4 1 3 2 Answer: a Related Links NTA UGC NET Anthropology Paper 2 Solved December 2012 NTA UGC NET Anthropology Paper 3 June 2012 All rights reserved. Examrace is a subsidiary of Mindsprite Solutions. By visiting this website you agree to our terms & conditions. Read our copyright policy , customer and visitor privacy policy , and return, refund and cancellation policy . For concerns or suggestions please contact us. Contact: 📞 +91-999-800-8851 (also WhatsApp & Signal), 📧 contactus@examrace.com. © Mindsprite Solutions 2008-2025. Please note that this website is best viewed on Microsoft Edge, Chrome version 80 and above, Firefox version 80 and above, and Safari version 14 and above for both Mac and iOS. Read more about Examrace or contact us . Maintained by Mindsprite Solutions . Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    }
-  ],
-  "NTA UGC NET 2013 - Paper 3": [
-    {
-      "question": "Which one of the following articles is related to ‘Fundamental Rights to Equality’",
-      "options": [
-        "Article 23",
-        "Article 24",
-        "Article 38",
-        "Article 14"
-      ],
-      "answer": "Article 14",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following is NOT a traditional anthropological approach?",
-      "options": [
-        "Evolutionism",
-        "Functionalism",
-        "Impressionism",
-        "Diffusionism"
-      ],
-      "answer": "Evolutionism",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who is the author of the book ‘Man and His Work’",
-      "options": [
-        "Alfred Kroeber",
-        "Edmund Leach",
-        "M. J. Herskovits",
-        "Meyer Fortes"
-      ],
-      "answer": "M. J. Herskovits",
-      "explanation": "M. J. Herskovits is the author of the book 'Man and His Work', which is a classic in the field of anthropology. Herskovits was a prominent anthropologist who made significant contributions to the field of cultural anthropology.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A ‘model of ritual symbolism’ was developed by",
-      "options": [
-        "Victor Turner",
-        "E. Evans-Pritchard",
-        "Clifford Geertz 📣 Paper 3 has been removed from NET from 2018 (Notification)- now paper 2 and 3 syllabus is included in paper",
-        "Practice both paper 2 and 3 from past papers. 🎓 Study Material (1564 Notes): 2025- 2026 Syllabus Rs. 1100.00 3 Year Validity View & Get Complete Material 🎯 1439 MCQs (& PYQs) with Explanations (2025-2026 Exam) Rs. 500.00 3 Year Validity View & Get Complete Material Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Victor Turner",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A vision of society as constituting ‘Collective Consciousness’ is held by:",
-      "options": [
-        "Claude Levi-Strauss",
-        "Marcel Mauss",
-        "Bronislaw Malinowski",
-        "Emile Durkheim"
-      ],
-      "answer": "Claude Levi-Strauss",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What is the term for the nuclear family that is formed when a person marries and has children?",
-      "options": [
-        "Family of orientation",
-        "Family of procreation",
-        "Family of parents",
-        "None of the above"
-      ],
-      "answer": "Family of orientation",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the followng is not studied in the field of finger ball dermatoglyphics?",
-      "options": [
-        "Ridge counting",
-        "Ridge tracing",
-        "Main-line formula",
-        "Finger ball patterns"
-      ],
-      "answer": "Finger ball patterns",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The term “Handy man” was used for:",
-      "options": [
-        "Neanderthal man",
-        "Homo habilis",
-        "Australopithecus",
-        "Peking man"
-      ],
-      "answer": "Homo habilis",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Haemophilia is a:",
-      "options": [
-        "Autosomal recessive trait",
-        "Autosomal dominant trait",
-        "Sex-linked dominant trait",
-        "Sex-linked recessive trait"
-      ],
-      "answer": "Sex-linked recessive trait",
-      "explanation": "Haemophilia is a sex-linked recessive trait, meaning it is inherited through the X chromosome and primarily affects males. This is because males have only one X chromosome, so if they inherit the mutated gene, they will express the trait.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Adaptive radiation is an example of: Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "options": [
-        "Convergent evolution",
-        "Divergent evolution",
-        "Co-evolution",
-        "Parallel evolution"
-      ],
-      "answer": "Convergent evolution",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following is correctly matched?",
-      "options": [
-        "Match Item 1: Bipedalism and Erect posture Match Item 2: Apes",
-        "Match Item 1: Mitosis Match Item 2: Reduction division",
-        "Match Item 1: Sutton Match Item 2: Independent assortment",
-        "Match Item 1: Blood groups Match Item 2: Multiple alleles"
-      ],
-      "answer": "Match Item 1: Bipedalism and Erect posture Match Item 2: Apes",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A condition of reduced oxygen supply to tissues despite adequate blood supply is known as:",
-      "options": [
-        "Anemia",
-        "Hypoxia",
-        "Obesity",
-        "Anorexia"
-      ],
-      "answer": "Anorexia",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The Indian Chalcolithic culture is characterized by the occurrence of:",
-      "options": [
-        "Stone Tools",
-        "Bronze Tools",
-        "Copper Tools",
-        "Iron Tools"
-      ],
-      "answer": "Stone Tools",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In which one of the following sites the remains of Narmadapithecus are discovered?",
-      "options": [
-        "Nevasa",
-        "Hathnova",
-        "Hunsigi",
-        "Navadatoli Answer: b Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Navadatoli Answer: b Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The book entitled “The Prehistory and the Protohistory of India and Pakistan” was authored by:",
-      "options": [
-        "Virendranath Mishra",
-        "Bendapudi Subba Rao",
-        "Hasmukh Dhirajlal Sankalia",
-        "Robert Bruce Foote"
-      ],
-      "answer": "Hasmukh Dhirajlal Sankalia",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following is not correct?",
-      "options": [
-        "Mutations cause genetic variation.",
-        "Most of the populations are able to maintain a common gene pool.",
-        "Genetic drift is also known as sewell-wright effect.",
-        "Assortative mating means selection of similar phenotypes."
-      ],
-      "answer": "Most of the populations are able to maintain a common gene pool.",
-      "explanation": "This statement is not correct because most populations do not maintain a common gene pool due to various factors such as genetic drift, mutation, and gene flow. These factors can lead to changes in the gene pool over time.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "՚secular trend in growth means:",
-      "options": [
-        "Children are growing taller and age at menarche is decreasing.",
-        "Age at menarche is increasing and children are growing taller.",
-        "Children are getting shorter and age at menarche increasing.",
-        "Children are getting shorter and age at menarche decreasing."
-      ],
-      "answer": "Children are growing taller and age at menarche is decreasing.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following is an incorrect match? Genotype of parents Possible blood group of children",
-      "options": [
-        "IAIA × IoIo – A",
-        "IAIB × IAIB – A, B or AB",
-        "IoIo × IoIo – O",
-        "IAIo × IAIB – A, B or O"
-      ],
-      "answer": "IAIo × IAIB – A, B or O",
-      "explanation": "The genotype IAIo × IAIB is not a correct match for the possible blood group of children, as the correct match would be A or B, but not O. This is because the Io allele is recessive and would not contribute to the O blood type in this combination.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The term ‘anthropoid’ refers to a unit of classification that includes:",
-      "options": [
-        "Monkeys & apes but not human",
-        "Apes & humans but not monkeys",
-        "Monkeys, apes and humans",
-        "Lemurs, Lorises, monkeys, apes & humans"
-      ],
-      "answer": "Monkeys & apes but not human",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following pairs is not correctly matched?",
-      "options": [
-        "Match Item 1: Brachiation Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. Match Item 2: Gibbon",
-        "Match Item 1: Balanced Polymorphism Match Item 2: Sickle cell anemia",
-        "Match Item 1: Colourblindness Match Item 2: Holandric inheriance",
-        "Match Item 1: Non Match Item 2: Disjunction Match Item 3: Abnormal number of chromosomes"
-      ],
-      "answer": "Match Item 1: Brachiation Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. Match Item 2: Gibbon",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Australopithecines include:",
-      "options": [
-        "Gracile forms of Australopithecus",
-        "Robust forms of Australopithecus",
-        "Both gracile and robust forms of Australopithecus",
-        "None of the above"
-      ],
-      "answer": "Robust forms of Australopithecus",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The cultural route of early colonization of Australia during Hoabinhian culture was:",
-      "options": [
-        "Thailand – Malaysia – Indonesia – Papua New Guinea",
-        "Thailand – Indonesia – Malaysia – Papua New Guinea",
-        "Malaysia – Indonesia – Thailand – Tasmania",
-        "Malaysia – Thailand – Indonesia – Tunisia"
-      ],
-      "answer": "Thailand – Malaysia – Indonesia – Papua New Guinea",
-      "explanation": "The cultural route of early colonization of Australia during the Hoabinhian culture is believed to have been from Thailand to Malaysia to Indonesia to Papua New Guinea, and then to Australia. This route is supported by archaeological and anthropological evidence.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In notifying a tribe as՚scheduled Tribe which of the following, is one of the considerations?",
-      "options": [
-        "Shyness with the public at large",
-        "Sex-ratio in the community",
-        "Population size of the community",
-        "Religion practiced by the community"
-      ],
-      "answer": "Sex-ratio in the community",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What is the sequence of information transfer in protein coding?",
-      "options": [
-        "mRNA ⇾ DNA ⇾ tRNA ⇾ Aminoacid ⇾ Protein",
-        "DNA ⇾ tRNA ⇾ mRNA ⇾ Aminoacid ⇾ Protein",
-        "DNA ⇾ tRNA ⇾ Aminoacid ⇾ mRNA ⇾ Protein",
-        "DNA ⇾ mRNA ⇾ tRNA ⇾ Aminoacid ⇾ Protein"
-      ],
-      "answer": "DNA ⇾ mRNA ⇾ tRNA ⇾ Aminoacid ⇾ Protein",
-      "explanation": "The correct sequence of information transfer in protein coding is from DNA to mRNA to tRNA to amino acid to protein. This sequence reflects the central dogma of molecular biology, which describes the flow of genetic information from DNA to proteins.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Arrange the sites in the culture – chronological order:",
-      "options": [
-        "Attirampakam – Nevasa – Patne – Bagov – Utnur",
-        "Attirampakam – Utnur – Nevasa – Patne – Bagov",
-        "Nevasa – Utnur – Patne – Bagov – Attirampakam",
-        "Patne – Bagov – Nevasa – Attirampakam – Utnur"
-      ],
-      "answer": "Attirampakam – Nevasa – Patne – Bagov – Utnur",
-      "explanation": "The correct sequence of sites in the culture – chronological order is Attirampakam, Nevasa, Patne, Bagov, and Utnur, which reflects their historical and cultural timeline.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The Great Indian Civilization of the Harappan culture is known through:",
-      "options": [
-        "Town planning – Navigation – Trade – Inscriptions",
-        "Ship building – Pyramidal structures – Sun God",
-        "Granaries – Dock Yard – Inscriptions – Pottery",
-        "Town planning – Trade – Seals – Terracottas"
-      ],
-      "answer": "Ship building – Pyramidal structures – Sun God",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Microliths Table Supporting: NTA UGC NET Anthropology Paper 3 Solved September 2013 A B Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. C D",
-      "options": [
-        "1 4 3 2",
-        "3 2 4 1",
-        "2 3 1 4",
-        "4 1 2 3 Read the passage given below and answer the questions that follow, based on your understanding of the passage: (Q. Nos. 71 − 75) The field of development anthropology has been around long enough to know, in general terms, what works and what does not when designing programs of planned change. It would be overstating the case to suggest that an anthropologically informed project that takes into consideration local cultural realities is bound to succeed. But it would not be unreasonable to hold that any project ignoring local cultures is very likely to shoot itself in the foot. It is, therefore, stunning to read about a development project initiated in the 1990s that so thoroughly avoided addressing the major issues of development anthropology. Applied anthropologist William Loker (2000) describes a $ 25 million project in Central Honduras designed (allegedly) to create sustainable development while at the same time protect the environment. The El Cajon Watershed Renewable Natural Resource Program was designed to help very poor people who had been displaced a decade earlier by the construction of a large dam controlled and operated by the national electrical authority. Although the planning documents said all of the right things, the implementation was quite another story. First, because there was no anthropological input, the project administrators knew little about the local culture, attitudes, or local organizations. Project plans called for active participation by local people Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. and close coordination with local non-governmental organizations (NGOs). Yet, owing to lack of interest, a lack of good information, or both, neither of these proposed goals was successfully carried out: But perhaps even more damaging to this expensive, but potentially beneficial, project was the apparent lack of consideration for some basic issues of development. The dual objectives of the project – sustainable economic development for local people and protecting the environment – are often at odds with each other. The literature is filled with examples of how conflicts exist between economic development and protecting the environment yet program planners never addressed this issue or its implications for project activities.Instead of considering how environmental and development goals could be made compatible, administrators embarked on a tree-planting project without much of an idea as to how it might impact either the social or natural environment. After interviewing the forestry engineer responsible for carrying out the tree-planting project, it became clear to Loker that the most basic questions had not been answered. For example, what trees should be planted, by whom, and for what purpose? How should trees be integrated into the already existing agricultural system? On whose land should the trees be planted, and who owns them? That none of these questions had been answered prior to the start of the project indicated to Loker a shameful lack of thought about the project on the part of the administrators."
-      ],
-      "answer": "4 1 2 3 Read the passage given below and answer the questions that follow, based on your understanding of the passage: (Q. Nos. 71 − 75) The field of development anthropology has been around long enough to know, in general terms, what works and what does not when designing programs of planned change. It would be overstating the case to suggest that an anthropologically informed project that takes into consideration local cultural realities is bound to succeed. But it would not be unreasonable to hold that any project ignoring local cultures is very likely to shoot itself in the foot. It is, therefore, stunning to read about a development project initiated in the 1990s that so thoroughly avoided addressing the major issues of development anthropology. Applied anthropologist William Loker (2000) describes a $ 25 million project in Central Honduras designed (allegedly) to create sustainable development while at the same time protect the environment. The El Cajon Watershed Renewable Natural Resource Program was designed to help very poor people who had been displaced a decade earlier by the construction of a large dam controlled and operated by the national electrical authority. Although the planning documents said all of the right things, the implementation was quite another story. First, because there was no anthropological input, the project administrators knew little about the local culture, attitudes, or local organizations. Project plans called for active participation by local people Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. and close coordination with local non-governmental organizations (NGOs). Yet, owing to lack of interest, a lack of good information, or both, neither of these proposed goals was successfully carried out: But perhaps even more damaging to this expensive, but potentially beneficial, project was the apparent lack of consideration for some basic issues of development. The dual objectives of the project – sustainable economic development for local people and protecting the environment – are often at odds with each other. The literature is filled with examples of how conflicts exist between economic development and protecting the environment yet program planners never addressed this issue or its implications for project activities.Instead of considering how environmental and development goals could be made compatible, administrators embarked on a tree-planting project without much of an idea as to how it might impact either the social or natural environment. After interviewing the forestry engineer responsible for carrying out the tree-planting project, it became clear to Loker that the most basic questions had not been answered. For example, what trees should be planted, by whom, and for what purpose? How should trees be integrated into the already existing agricultural system? On whose land should the trees be planted, and who owns them? That none of these questions had been answered prior to the start of the project indicated to Loker a shameful lack of thought about the project on the part of the administrators.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What should be the main concern of development anthropology?",
-      "options": [
-        "To know what works when designing planned change.",
-        "To know what does not work when designing planned change.",
-        "To know what works and what does not work when designing planned change.",
-        "To design planned change."
-      ],
-      "answer": "To know what does not work when designing planned change.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "An anthropologically informed project means:",
-      "options": [
-        "That anthropologists are also the executors of the project.",
-        "That it seeks the views of anthropologists on the modalities of the project.",
-        "That it takes into consideration local cultural realities.",
-        "That it ignores local cultures in favour of anthropologists ′ personal opinion."
-      ],
-      "answer": "That anthropologists are also the executors of the project.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Why did the Watershed Renewable Natural Resource Program fail?",
-      "options": [
-        "The local nongovernmental organzations were left out:",
-        "Active participation of local people in the project was not sought.",
-        "There was a general lack of interest on the part of all the stakeholders.",
-        "The dual reasons of a lack of interest and a lack of good information about local cultural realities contributed to the failure of the program."
-      ],
-      "answer": "Active participation of local people in the project was not sought.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    }
-  ],
-  "NTA UGC NET 2012 - Paper 3": [
-    {
-      "question": "“Venus of Willendorf” belongs to which of the following traditions?",
-      "options": [
-        "Perigordian",
-        "Aurignacian",
-        "Gravettian",
-        "Magdalenian"
-      ],
-      "answer": "Aurignacian",
-      "explanation": "The Venus of Willendorf is a famous statue of a woman that belongs to the Aurignacian tradition, which is a period of Upper Paleolithic art and culture.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In which of the following cultural traditions does one find the tool type Lunate?",
-      "options": [
-        "Mousterian",
-        "Magdalenian",
-        "Choukoutien",
-        "Tardenoisean"
-      ],
-      "answer": "Tardenoisean",
-      "explanation": "The Lunate is a type of tool that is characteristic of the Tardenoisean tradition, which is a period of Upper Paleolithic culture.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Mature Harappan site in Haryana is best represented at which of the following sites?",
-      "options": [
-        "Ahichchatra",
-        "Kalibangan",
-        "Amri",
-        "Mitathal"
-      ],
-      "answer": "Kalibangan",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Metal technology, Art and Writing is known from which one of the following cultures?",
-      "options": [
-        "Jorwe",
-        "Banasian",
-        "Harappa 📣 Paper 3 has been removed from NET from 2018 (Notification)- now paper 2 and 3 syllabus is included in paper",
-        "Practice both paper 2 and 3 from past papers. 🎓 Study Material (1564 Notes): 2025- 2026 Syllabus Rs. 1100.00 3 Year Validity View & Get Complete Material 🎯 1439 MCQs (& PYQs) with Explanations (2025-2026 Exam) Rs. 500.00 3 Year Validity View & Get Complete Material Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Practice both paper 2 and 3 from past papers. 🎓 Study Material (1564 Notes): 2025- 2026 Syllabus Rs. 1100.00 3 Year Validity View & Get Complete Material 🎯 1439 MCQs (& PYQs) with Explanations (2025-2026 Exam) Rs. 500.00 3 Year Validity View & Get Complete Material Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Harpoons with a hole in the body are found in which one of the following traditions?",
-      "options": [
-        "Tardenoisean",
-        "Kitchen Midden",
-        "Azilian",
-        "Campignian"
-      ],
-      "answer": "Azilian",
-      "explanation": "Harpoons with a hole in the body are found in the Azilian tradition, which is a period of Upper Paleolithic culture.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In line with Friedrich Ratzel՚s theory which one of the following is the correct statement?",
-      "options": [
-        "Single items of culture tended to diffuse, whereas whole “culture complex” were spread by migration.",
-        "Single items of culture spread by migration, whereas “culture complex” diffuse.",
-        "Both single items of culture as well as “culture complex” diffuse.",
-        "Both single items of culture as well as “culture complex” spread through migration."
-      ],
-      "answer": "Single items of culture tended to diffuse, whereas whole “culture complex” were spread by migration.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who among the following challenged the universal nature of Oedipus complex and instead proposed a culturally specific, parallel nuclear complex?",
-      "options": [
-        "Franz Boas",
-        "Margared Mead",
-        "Brownslaw Malinowski",
-        "Ralph Linton"
-      ],
-      "answer": "Franz Boas",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The roots of New Ethnography in Social-cultural Anthropology lie on",
-      "options": [
-        "Holistic approach",
-        "Eromic approach",
-        "Etic approach",
-        "Linguistic approach"
-      ],
-      "answer": "Etic approach",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Malinowski propounded Functonal Theory based on his ethnographic field work among …",
-      "options": [
-        "Andamanese",
-        "Trobriand Islanders",
-        "Nicobarese Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-        "Nuer"
-      ],
-      "answer": "Trobriand Islanders",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "The concept of ‘Technonomy’ was first used in Anthropology by",
-      "options": [
-        "E.",
-        "Tylor",
-        "L. H. Morgan",
-        "R. H. Lowie"
-      ],
-      "answer": "Tylor",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following statements about descent affiliation is correct?",
-      "options": [
-        "Unilineal descent refers to the fact that a person is affiliated with a group of kin through descent links of one sex only.",
-        "Ambilineal descent affiliates individuals with kin related to them through either men or women.",
-        "Bilateral descent refers to the fact that one՚s relatives on both the mother՚s and father՚s sides of family are of equal importance or, more usually, unimportant.",
-        "All of the above"
-      ],
-      "answer": "Unilineal descent refers to the fact that a person is affiliated with a group of kin through descent links of one sex only.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following commission (s) was/were set up by President of India in fulfillment of constitutional requirement?",
-      "options": [
-        "Backward Classes Commission headed by Kaka Kalelkar (1953)",
-        "Backward Class Commission headed by",
-        "P. Mandal (1979)",
-        "Scheduled Area and Scheduled Tribes Commission headed by U. N. Dheber (1961)"
-      ],
-      "answer": "Scheduled Area and Scheduled Tribes Commission headed by U. N. Dheber (1961)",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who among the following was not an advocate of British Evolutionary School?",
-      "options": [
-        "E.",
-        "Tylor",
-        "H. J. S. Maine",
-        "S. J. G. Frazer"
-      ],
-      "answer": "E.",
-      "explanation": "Without more information, it is not possible to determine which of the listed individuals was not an advocate of the British Evolutionary School.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A man with type ‘A’ blood marries a woman with type “AB” blood. What are the different blood types their children could have?",
-      "options": [
-        "A only",
-        "AB only Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-        "A and AB",
-        "A, B and AB"
-      ],
-      "answer": "A, B and AB",
-      "explanation": "The possible blood types of the children of a man with type A blood and a woman with type AB blood are A, B, and AB, as these are the possible combinations of the parents' blood types.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Levalloise technique appears for the first time in which one of the following cultural traditions?",
-      "options": [
-        "Azillo-Tardenoisean",
-        "Acheulian",
-        "Aurignacian",
-        "None of the above"
-      ],
-      "answer": "Acheulian",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following Articles of Indian Constitution states that there shall be a Minister In-Charge of Tribal Welfare in the State of Bihar, M. P. And Orissa?",
-      "options": [
-        "Article – 244",
-        "Article – 330",
-        "Article – 275",
-        "Article – 164"
-      ],
-      "answer": "Article – 244",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which of the following correctly represents cultural relativism?",
-      "options": [
-        "Cultural patterns or traits that exist in some but not all societies.",
-        "Culture in the general sense as a possession shared by hominids.",
-        "Tendency to view one՚s own culture as best.",
-        "The position that the values and standards of cultures differ and deserve respect."
-      ],
-      "answer": "Tendency to view one՚s own culture as best.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who among the following is the author of the book “Caste among the Non-Hindus in India”",
-      "options": [
-        "G. S. Ghureye",
-        "S.",
-        "Dubey",
-        "T. K. Oomen"
-      ],
-      "answer": "G. S. Ghureye",
-      "explanation": "G. S. Ghureye is the author of the book 'Caste among the Non-Hindus in India', which is a study of the caste system among non-Hindu communities in India.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who among the following added the concepts of ‘Cultural Intensity’ and ‘Cultural Climax’ to that of ‘Culture area’",
-      "options": [
-        "E.",
-        "Tylor",
-        "A. L. Krober",
-        "Franz Boas Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Tylor",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What are alleles?",
-      "options": [
-        "These are genes controlling the same trait.",
-        "These are genes on same locus of the chromosome",
-        "These are genes controlling one trait that are able to recombine.",
-        "These are genes unable to control the same trait."
-      ],
-      "answer": "These are genes on same locus of the chromosome",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who discovered the principle of segregation?",
-      "options": [
-        "G. Mendel",
-        "R. Lewis",
-        "A. Stewart",
-        "L."
-      ],
-      "answer": "G. Mendel",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Who said that species are capable of producng offspring at a faster rate than food supplies?",
-      "options": [
-        "A. R. Wallace",
-        "G. Mendel",
-        "C. Darwin",
-        "E. Dubois"
-      ],
-      "answer": "C. Darwin",
-      "explanation": "Charles Darwin is the one who said that species are capable of producing offspring at a faster rate than food supplies, which is a key concept in his theory of evolution.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Change in growth pattern with respect to time can be measured by",
-      "options": [
-        "Distance curve",
-        "Velocity curve",
-        "Acceleration curve",
-        "Mean curve"
-      ],
-      "answer": "Mean curve",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Vitamin required for calcium Absorption is",
-      "options": [
-        "Vitamin B",
-        "Vitamin D",
-        "Vitamin C",
-        "Vitamin K Answer: b Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Vitamin D",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Individuals were studied for a continuous period of 10 years in a research project. The statement is an example of",
-      "options": [
-        "Cross – sectional study",
-        "Semi – longitudinal study",
-        "Mixed longitudinal study",
-        "Longitudinal study"
-      ],
-      "answer": "Cross – sectional study",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following patterns is more common on fingers?",
-      "options": [
-        "Tented arch",
-        "Ulnar loops",
-        "Accidentals",
-        "None of the above"
-      ],
-      "answer": "Tented arch",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "27. Which one of the following is pattern intensity index?",
-      "options": [
-        "Whorls/Loops × 100",
-        "(2 [Whorls] + Loops) /N",
-        "Arches/Whorls × 100",
-        "None of the above"
-      ],
-      "answer": "(2 [Whorls] + Loops) /N",
-      "explanation": "The pattern intensity index is a measure of the intensity of fingerprint patterns, and it is calculated as (2 [Whorls] + Loops) /N, where N is the total number of patterns.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "In a population which one of the following cannot maintain genetic equilibrium?",
-      "options": [
-        "The number of lethal mutations increases.",
-        "The population evolves",
-        "The gene frequencies change",
-        "All of the above"
-      ],
-      "answer": "The population evolves",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Ethnocide is a process in which the members of an ethnic group",
-      "options": [
-        "survive but loose or severely modify their ancestral culture",
-        "are brutally killed",
-        "maintain its cultural patterns by enforcing a normative pattern",
-        "commit suicide due to compulsive situation."
-      ],
-      "answer": "maintain its cultural patterns by enforcing a normative pattern",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Pantheon is",
-      "options": [
-        "collection of supernatural beings in a particular religion",
-        "worship of an external, omniscient, omnipotent and omnipresent supreme being. Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-        "belief in several deities who control aspects of nature",
-        "sacred impersonal force in Melanesian and Polynesian culture."
-      ],
-      "answer": "belief in several deities who control aspects of nature",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "A population that is relatively heterozygous for a particular trait would show",
-      "options": [
-        "low heritability",
-        "no heritability",
-        "high heritability",
-        "None of the above"
-      ],
-      "answer": "None of the above",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Monozygotic twins having the same genotype for a given trait can show variation in phenotype corresponding to that same genotype. This is due to",
-      "options": [
-        "The environment",
-        "The penetrance and expressivity of that gene",
-        "The concordance of the individuals",
-        "None of the above"
-      ],
-      "answer": "The penetrance and expressivity of that gene",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Carefully observe the above diagram. In case the property is transferred from person bearng number 2 to person bearing number 5 to person bearing number 14, identify the type of descent.",
-      "options": [
-        "Patrilineal",
-        "Matrilineal",
-        "Bilateral",
-        "Cognitive"
-      ],
-      "answer": "Matrilineal",
-      "explanation": "The type of descent in which property is transferred from person bearing number 2 to person bearing number 5 to person bearing number 14 is matrilineal, as the property is passing from mother to daughter.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Identify the correct stage of prophase of Meiosis I:",
-      "options": [
-        "Leptotene – Zygotene – Pachytene – Diplotene – Diakinesis",
-        "Leptotene – Pachytene – Diplotene – Zygotene – Diakinesis",
-        "Diakinesis – Leptotene – Zygotene – Pachytene – Diplotene",
-        "Diplotene – Diakinesis – Leptotene – Zygotene – Pachytene"
-      ],
-      "answer": "Leptotene – Zygotene – Pachytene – Diplotene – Diakinesis",
-      "explanation": "The correct stage of prophase of Meiosis I is leptotene, zygotene, pachytene, diplotene, and diakinesis, which are the stages of chromosome condensation and pairing during meiosis.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Match an item in List-I with an item in List-II. Use code given below: List-I List-II",
-      "options": [
-        "Iodine",
-        "Odema",
-        "Disease",
-        "Carbohydrate"
-      ],
-      "answer": "Iodine",
-      "explanation": "Iodine is related to goiter, which is a type of odema, and is a key factor in preventing the disease. Iodine deficiency can lead to various health issues, including goiter and cretinism.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Match an item in List-I with an item in List-II. Use code given below: List-I List-II",
-      "options": [
-        "Suppressed gene",
-        "Deletion",
-        "Reciprocal translocation",
-        "Monosomy"
-      ],
-      "answer": "Suppressed gene",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Match an item in List-I with an item in List-II. Use code given below: List-I List-II",
-      "options": [
-        "Basal metabolic rate",
-        "Communication",
-        "Grooming",
-        "Erect posture"
-      ],
-      "answer": "Basal metabolic rate",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Match the ‘Basic Need’ with corresponding ‘Cultural Response’ List-I (Basic Need) List-II (Cultural Response)",
-      "options": [
-        "Growth",
-        "Commissariat Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-        "Metabolism",
-        "Bodily Comfort"
-      ],
-      "answer": "Commissariat Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Match an item in List-I with an item in List-II. Use the code given below: List-I List-II",
-      "options": [
-        "Dolmen",
-        "Black-and-Red Ware",
-        "Painted Grey Ware",
-        "Lusterous Ware"
-      ],
-      "answer": "Painted Grey Ware",
-      "explanation": "Painted Grey Ware is a type of pottery that is commonly associated with the Iron Age in the Indian subcontinent, specifically with the Vedic period. It is characterized by its grey color and painted designs, making it a distinct and significant archaeological find.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Diabetes Table Supporting: NTA UGC NET Anthropology Paper 3 Solved June 2012 A B C D",
-      "options": [
-        "4 3 2 1",
-        "4 3 1 2",
-        "2 3 1 4",
-        "1 3 2 4 Answer: a Read the following text and choose/pick the correct answer in each of the following questions (Q. 71 − 75) Anthropologists are generally thought of as individuals who travel to little-known corners of the world to study exotic peoples or who dig deep into the earth to uncover the fossil remains or the tools and pots of people who lived long ago. These views, though clearly stereotyped, do indicate how anthropology differs from other disciplines concerned with humans. Anthropology is broader in scope, both geographically and historically. Anthropology is Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. concerned explicitly and directly with all varieties of people throughout the world, not just those close at hand or within a limited area. It is also interested in people of all periods. Beginning with the immediate ancestors of humans, who lived a few million years ago, anthropology traces the development of humans until the present. Every part of the world that has ever contained a human population is of interest to anthropologists. Anthropologists have not always been as global and comprehensive in their concerns as they are today. Traditionally, they concentrated on non-Western cultures and left the study of Western civilization and similarly complex societies, with their recorded histories, to other disciplines. In recent years, however, this division of labour among the disciplines has begun to disappear. Now anthropologists work in their own and other complex societies. What induces anthropologists to choose so broad a subject for study? In part, they are motivated by the belief that any suggested generalization about human beings, any possible explanation of some characteristic of human culture or biology, should be shown to apply to many times and places of human existence. If a generalization of explanation does not prove to apply widely, we are entitled or even obliged to be skeptical about it. The skeptical attitude, in the absence of persuasive evidence, is our best protection against accepting invalid ideas about hum"
-      ],
-      "answer": "1 3 2 4 Answer: a Read the following text and choose/pick the correct answer in each of the following questions (Q. 71 − 75) Anthropologists are generally thought of as individuals who travel to little-known corners of the world to study exotic peoples or who dig deep into the earth to uncover the fossil remains or the tools and pots of people who lived long ago. These views, though clearly stereotyped, do indicate how anthropology differs from other disciplines concerned with humans. Anthropology is broader in scope, both geographically and historically. Anthropology is Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material. concerned explicitly and directly with all varieties of people throughout the world, not just those close at hand or within a limited area. It is also interested in people of all periods. Beginning with the immediate ancestors of humans, who lived a few million years ago, anthropology traces the development of humans until the present. Every part of the world that has ever contained a human population is of interest to anthropologists. Anthropologists have not always been as global and comprehensive in their concerns as they are today. Traditionally, they concentrated on non-Western cultures and left the study of Western civilization and similarly complex societies, with their recorded histories, to other disciplines. In recent years, however, this division of labour among the disciplines has begun to disappear. Now anthropologists work in their own and other complex societies. What induces anthropologists to choose so broad a subject for study? In part, they are motivated by the belief that any suggested generalization about human beings, any possible explanation of some characteristic of human culture or biology, should be shown to apply to many times and places of human existence. If a generalization of explanation does not prove to apply widely, we are entitled or even obliged to be skeptical about it. The skeptical attitude, in the absence of persuasive evidence, is our best protection against accepting invalid ideas about hum",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "What was traditionally the subject matter of study of anthropologists?",
-      "options": [
-        "Primitive cultures",
-        "Other cultures",
-        "Little known culture",
-        "Non-western culture"
-      ],
-      "answer": "Little known culture",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Anthropology is now concerned with",
-      "options": [
-        "All varieties of people",
-        "People of all periods",
-        "Every part of the world that has ever contained a human population",
-        "All of the above matters"
-      ],
-      "answer": "Every part of the world that has ever contained a human population",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "By what kind of belief anthropologists feel motivated?",
-      "options": [
-        "Exotic people are worth watching.",
-        "Material and non-material culture of indigenous people are interesting objects of study.",
-        "Examination of cultural standards and patterns of one՚s own culture with that of an alien culture.",
-        "Application of the generalization about and explanation of human beings their cultures to many times and places of human existence. Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Application of the generalization about and explanation of human beings their cultures to many times and places of human existence. Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material.",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Which one of the following statements is not correct?",
-      "options": [
-        "Anthropology studies the immediate ancestors of human who lived a few million years ago.",
-        "Anthropology studies the development of humans",
-        "Anthropology studies only the exotic people",
-        "All of the above"
-      ],
-      "answer": "Anthropology studies the development of humans",
-      "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
-      "difficulty": "PYQ Actual",
-      "source": "UGC NET Paper"
-    },
-    {
-      "question": "Find out the correct statement as per the text.",
-      "options": [
-        "Now anthropologists work in a specialized branch of anthropology",
-        "Now anthropologists work in their own society and other complex societies.",
-        "Now anthropologists work in both tribal and non-tribal societies",
-        "Now anthropologists work more in their own societies. Answer: b Related Links NTA UGC NET Anthropology Paper 3 Solved December 2012 NTA NET Anthropology December 2011 Part : Part 1 to 6 All rights reserved. Examrace is a subsidiary of Mindsprite Solutions. By visiting this website you agree to our terms & conditions. Read our copyright policy , customer and visitor privacy policy , and return, refund and cancellation policy . For concerns or suggestions please contact us. Contact: 📞 +91-999-800-8851 (also WhatsApp & Signal), 📧 contactus@examrace.com. © Mindsprite Solutions 2008-2025. Please note that this website is best viewed on Microsoft Edge, Chrome version 80 and above, Firefox version 80 and above, and Safari version 14 and above for both Mac and iOS. Read more about Examrace or contact us . Maintained by Mindsprite Solutions . Visit exampyq.com (Govt. job exams) for best PYQs, lectures, and study material. Visit doorsteptutor.com (entrance exams) for best PYQs, lectures, and study material."
-      ],
-      "answer": "Now anthropologists work in their own society and other complex societies.",
       "explanation": "Answer selected based on frequency and context analysis of study notes. This option had the strongest presence near related concepts in the notes material.",
       "difficulty": "PYQ Actual",
       "source": "UGC NET Paper"
@@ -20006,6 +18451,1308 @@ window.pyqDatabase = {
       "explanation": "Academic Forensic Verification for Q200: Facial reconstruction combines skeletal biology and forensic art. By applying clay to skeletal landmarks using tissue thickness indexes, researchers can recreate a likeness to help identify individuals. Compiled from NTA UGC NET syllabus and notes folder.",
       "unit": "Unit 9: Applied and Development Anthropology",
       "source": "UGC NET Anthropology Notes"
+    }
+  ],
+  "UGC NET Anthropology - 100 High-Yield Syllabus Mastery Mock": [
+    {
+      "question": "Which of the following is considered the earliest hominid fossil showing definite evidence of orthograde bipedalism?",
+      "options": [
+        "Australopithecus afarensis (Lucy)",
+        "Ramapithecus punjabicus",
+        "Sahelanthropus tchadensis",
+        "Ardipithecus ramidus"
+      ],
+      "answer": "Australopithecus afarensis (Lucy)",
+      "explanation": "Australopithecus afarensis (dated 3.9–2.9 Ma) exhibits clear skeletal adaptations for bipedal locomotion, including a broad bowl-shaped pelvis, carrying angle of the femur (valgus knee), and convergent big toe, as confirmed by Donald Johanson's discovery of Lucy and the Laetoli footprints.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Fossil Syllabus Notes"
+    },
+    {
+      "question": "The famous fossil skull 'Taung Child' discovered by Raymond Dart in 1924 belongs to which hominin species?",
+      "options": [
+        "Australopithecus africanus",
+        "Australopithecus robustus",
+        "Homo habilis",
+        "Paranthropus boisei"
+      ],
+      "answer": "Australopithecus africanus",
+      "explanation": "Raymond Dart's 1924 discovery of the Taung Child in South Africa provided the first empirical proof of bipedal hominins in Africa, featuring an anteriorly placed foramen magnum despite a small ape-sized brain.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Fossil Syllabus Notes"
+    },
+    {
+      "question": "Which of the following hominin fossil groups is most closely associated with the manufacture of Mousterian stone tool technology?",
+      "options": [
+        "Homo neanderthalensis",
+        "Homo erectus",
+        "Homo habilis",
+        "Cro-Magnon (Homo sapiens)"
+      ],
+      "answer": "Homo neanderthalensis",
+      "explanation": "Neanderthals are classically linked to the Mousterian flake-tool tradition (Middle Paleolithic), utilizing the Levallois prepared-core technique to produce specialized scrapers, points, and denticulate tools.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Fossil Syllabus Notes"
+    },
+    {
+      "question": "What anatomical feature distinguishes robust australopithecines (Paranthropus) from gracile australopithecines?",
+      "options": [
+        "A prominent sagittal crest and massive megadont cheek teeth",
+        "An obligate quadrupedal posture and long forelimbs",
+        "A significantly larger cranial capacity exceeding 900cc",
+        "The complete absence of a post-orbital constriction"
+      ],
+      "answer": "A prominent sagittal crest and massive megadont cheek teeth",
+      "explanation": "Robust australopithecines possessed extreme masticatory adaptations (megadontia, flared zygomatics, and a sagittal crest for locking temporal muscle attachments) to process tough, fibrous vegetation.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Fossil Syllabus Notes"
+    },
+    {
+      "question": "The 'Narmada Man' fossil discovered by Arun Sonakia in 1982 at Hathnora, Madhya Pradesh represents which hominin phase in India?",
+      "options": [
+        "Late Archaic Homo sapiens / Homo erectus",
+        "Australopithecus africanus",
+        "Early Neanderthal",
+        "Anatomically Modern Homo sapiens"
+      ],
+      "answer": "Late Archaic Homo sapiens / Homo erectus",
+      "explanation": "The Narmada fossil (a partial cranium discovered at Hathnora in the middle Narmada valley) is the only early human skeletal fossil found in India, classified as archaic Homo sapiens or advanced Homo erectus.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Fossil Syllabus Notes"
+    },
+    {
+      "question": "Who authored the pioneering monographic ethnography 'The Andaman Islanders' (1922) which established structural-functionalism?",
+      "options": [
+        "A.R. Radcliffe-Brown",
+        "Bronislaw Malinowski",
+        "Franz Boas",
+        "W.H.R. Rivers"
+      ],
+      "answer": "A.R. Radcliffe-Brown",
+      "explanation": "Radcliffe-Brown's 'The Andaman Islanders' alongside Malinowski's 'Argonauts' published in 1922 revolutionized British social anthropology, shifting it from evolutionary reconstructions to empirical synchronic studies of social structures.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Theory Syllabus Notes"
+    },
+    {
+      "question": "Which anthropological theory claims that cultures evolve through thermodynamic efficiency, formulated as E x T = C?",
+      "options": [
+        "Leslie White's Neo-Evolutionism",
+        "Julian Steward's Multilinear Evolution",
+        "Gordon Childe's Social Evolution",
+        "Edward Tylor's Classical Evolution"
+      ],
+      "answer": "Leslie White's Neo-Evolutionism",
+      "explanation": "Leslie White argued that cultural evolution is driven by the energy harnessed per capita per year (E) multiplied by the efficiency of the technological tools (T) used to transform that energy into cultural products (C).",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Theory Syllabus Notes"
+    },
+    {
+      "question": "The concept of 'Cultural Core' is central to which theoretical framework?",
+      "options": [
+        "Julian Steward's Cultural Ecology",
+        "Marvin Harris's Cultural Materialism",
+        "Franz Boas's Historical Particularism",
+        "Clark Wissler's Culture Area"
+      ],
+      "answer": "Julian Steward's Cultural Ecology",
+      "explanation": "Steward's cultural ecology centers on the 'cultural core'—the constellation of technological, economic, and social features most closely related to the exploitation of the environment.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Theory Syllabus Notes"
+    },
+    {
+      "question": "Ruth Benedict's monographic work 'Patterns of Culture' (1934) characterized the Zuni Pueblo culture as:",
+      "options": [
+        "Apollonian (restrained, harmonious, and cooperative)",
+        "Dionysian (exuberant, individualistic, and passionate)",
+        "Paranoid (suspicious, hostile, and aggressive)",
+        "Megalomaniac (obsessed with prestige and competitive displays)"
+      ],
+      "answer": "Apollonian (restrained, harmonious, and cooperative)",
+      "explanation": "Benedict integrated psychological typing into anthropology. She contrasted the Apollonian Zuni (who valued moderation and group harmony) with the Dionysian Plains Indians (who sought ecstatic personal experiences).",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Theory Syllabus Notes"
+    },
+    {
+      "question": "The concept of 'Thick Description' as a methodology for interpreting cultural symbols was pioneered by which anthropologist?",
+      "options": [
+        "Clifford Geertz",
+        "Victor Turner",
+        "Mary Douglas",
+        "Claude Levi-Strauss"
+      ],
+      "answer": "Clifford Geertz",
+      "explanation": "In 'The Interpretation of Cultures' (1973), Clifford Geertz championed 'thick description'—an interpretive approach that decodes the complex layers of meaning behind human actions (e.g. distinguishing a twitch from a conspiratorial wink).",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Theory Syllabus Notes"
+    },
+    {
+      "question": "Which Article of the Indian Constitution defines the criteria for Scheduled Tribes?",
+      "options": [
+        "Article 366 (25)",
+        "Article 342",
+        "Article 244 (1)",
+        "Article 338A"
+      ],
+      "answer": "Article 366 (25)",
+      "explanation": "Article 366 (25) defines Scheduled Tribes as such tribes or tribal communities as are deemed under Article 342 to be Scheduled Tribes for the purposes of the Constitution.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Tribal Syllabus Notes"
+    },
+    {
+      "question": "The famous tribal development policy 'Tribal Panchsheel' was formulated by which Prime Minister in consultation with Verrier Elwin?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Indira Gandhi",
+        "Lal Bahadur Shastri",
+        "Rajiv Gandhi"
+      ],
+      "answer": "Jawaharlal Nehru",
+      "explanation": "Nehru's Tribal Panchsheel (Five Principles) outlined a compassionate integration policy: tribal peoples should develop along the lines of their own genius, tribal rights in land and forest must be respected, and administrative over-administration must be avoided.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Tribal Syllabus Notes"
+    },
+    {
+      "question": "Which high-level committee proposed the designation of 'Particularly Vulnerable Tribal Groups' (PVTGs) in India?",
+      "options": [
+        "Dhebar Commission (1960-61)",
+        "Lokur Committee (1965)",
+        "Xaxa Committee (2014)",
+        "Bhuria Committee (1995)"
+      ],
+      "answer": "Dhebar Commission (1960-61)",
+      "explanation": "The Dhebar Commission created a separate category of 'Primitive Tribal Groups' (PTGs) within Scheduled Tribes to isolate the most underdeveloped, isolated communities, later renamed PVTGs.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Tribal Syllabus Notes"
+    },
+    {
+      "question": "The provisions of the PESA Act 1996 specifically extend self-governance rights to Scheduled Tribes in which areas?",
+      "options": [
+        "Fifth Schedule Areas",
+        "Sixth Schedule Areas",
+        "All Tribal Territories in the Northeast",
+        "Only Union Territories"
+      ],
+      "answer": "Fifth Schedule Areas",
+      "explanation": "PESA (Panchayats Extension to Scheduled Areas) Act 1996 extends standard panchayat self-governance to Fifth Schedule areas, investing absolute statutory authority in Gram Sabhas to manage community resources and prevent land alienation.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Tribal Syllabus Notes"
+    },
+    {
+      "question": "Under the Fifth Schedule, who is empowered to declare an area as a 'Scheduled Area'?",
+      "options": [
+        "The President of India",
+        "The Governor of the State",
+        "The Prime Minister of India",
+        "The Tribal Advisory Council"
+      ],
+      "answer": "The President of India",
+      "explanation": "The President of India, by order, is constitutionally empowered under the Fifth Schedule to declare any geographical region with a predominant tribal population as a Scheduled Area.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Tribal Syllabus Notes"
+    },
+    {
+      "question": "[16] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q16: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[17] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q17: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[18] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q18: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[19] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q19: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[20] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q20: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[21] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q21: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[22] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q22: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[23] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q23: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[24] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q24: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[25] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q25: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[26] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q26: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[27] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q27: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[28] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q28: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[29] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q29: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[30] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q30: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[31] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q31: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[32] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q32: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[33] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q33: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[34] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q34: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[35] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q35: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[36] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q36: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[37] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q37: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[38] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q38: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[39] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q39: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[40] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q40: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[41] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q41: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[42] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q42: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[43] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q43: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[44] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q44: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[45] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q45: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[46] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q46: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[47] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q47: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[48] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q48: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[49] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q49: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[50] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q50: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[51] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q51: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[52] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q52: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[53] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q53: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[54] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q54: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[55] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q55: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[56] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q56: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[57] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q57: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[58] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q58: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[59] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q59: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[60] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q60: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[61] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q61: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[62] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q62: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[63] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q63: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[64] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q64: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[65] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q65: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[66] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q66: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[67] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q67: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[68] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q68: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[69] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q69: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[70] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q70: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[71] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q71: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[72] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q72: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[73] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q73: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[74] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q74: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[75] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q75: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[76] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q76: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[77] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q77: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[78] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q78: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[79] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q79: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[80] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q80: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[81] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q81: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[82] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q82: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[83] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q83: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[84] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q84: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[85] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q85: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[86] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q86: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[87] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q87: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[88] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q88: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[89] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q89: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[90] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q90: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[91] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q91: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[92] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q92: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[93] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q93: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[94] Which dating method is strictly based on measuring the accumulation of trapped electrons in crystalline minerals over time?",
+      "options": [
+        "Thermoluminescence (TL)",
+        "Radiocarbon (C-14)",
+        "Potassium-Argon (K-Ar)",
+        "Dendrochronology"
+      ],
+      "answer": "Thermoluminescence (TL)",
+      "explanation": "Scholarly resolution for Q94: Thermoluminescence (TL) is an absolute dating method that measures energy trapped in crystalline lattices from ionizing radiation, released as light when heated. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[95] The famous 'Kalyanom' form of marriage in tribal India is characterized as:",
+      "options": [
+        "Marriage by capture",
+        "Marriage by purchase",
+        "Marriage by service",
+        "Marriage by mutual consent"
+      ],
+      "answer": "Marriage by capture",
+      "explanation": "Scholarly resolution for Q95: Marriage by capture (known locally as Kalyanom or Apaharana) is a customary marriage practice found historically among several central Indian tribes. High-yield NTA syllabus check.",
+      "unit": "Unit 10: Tribal Studies & Indian Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[96] In statistics, a Type I error is defined as:",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Accepting a false null hypothesis",
+        "Failing to select a random sample",
+        "Standard deviation skewness"
+      ],
+      "answer": "Rejecting a true null hypothesis",
+      "explanation": "Scholarly resolution for Q96: A Type I error (alpha error) occurs when the researcher falsely rejects a true null hypothesis, concluding that an effect exists when it does not. High-yield NTA syllabus check.",
+      "unit": "Unit 8: Research Methodology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[97] The 'Out of Africa' model of human origins claims that modern Homo sapiens:",
+      "options": [
+        "Evolved in Africa and migrated, completely replacing archaic populations",
+        "Evolved in multiple global regions simultaneously with active gene flow",
+        "Descended directly from Asian Homo erectus populations",
+        "Did not interbreed with Neanderthals or Denisovans"
+      ],
+      "answer": "Evolved in Africa and migrated, completely replacing archaic populations",
+      "explanation": "Scholarly resolution for Q97: The Out of Africa (Replacement) model asserts that anatomically modern humans arose exclusively in Africa ~200ka and subsequently replaced all archaic populations elsewhere. High-yield NTA syllabus check.",
+      "unit": "Unit 2: Evolutionary Biology & Primates",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[98] Which of the following blood group systems is considered the classic example of codominance in humans?",
+      "options": [
+        "MN Blood Group",
+        "ABO Blood Group (specifically A and B alleles)",
+        "Rh System",
+        "Duffy System"
+      ],
+      "answer": "MN Blood Group",
+      "explanation": "Scholarly resolution for Q98: The MN blood group is a classic example of codominance because heterozygous individuals (MN) express both M and N antigens on their red blood cells fully. High-yield NTA syllabus check.",
+      "unit": "Unit 3: Human Genetics",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[99] Which fossil site is famous for the discovery of the earliest hominid tool makers, Homo habilis?",
+      "options": [
+        "Olduvai Gorge, Tanzania",
+        "Hadar, Ethiopia",
+        "Sterkfontein, South Africa",
+        "Zhoukoudian, China"
+      ],
+      "answer": "Olduvai Gorge, Tanzania",
+      "explanation": "Scholarly resolution for Q99: Homo habilis ('handy man') was discovered by Louis and Mary Leakey at Olduvai Gorge, associated with primitive Oldowan pebble chopper tools. High-yield NTA syllabus check.",
+      "unit": "Unit 7: Archaeological Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
+    },
+    {
+      "question": "[100] Who is considered the pioneer of the 'Culture Area' concept in American anthropology?",
+      "options": [
+        "Clark Wissler",
+        "Franz Boas",
+        "Alfred Kroeber",
+        "Otis Mason"
+      ],
+      "answer": "Clark Wissler",
+      "explanation": "Scholarly resolution for Q100: Clark Wissler popularized the Culture Area concept, grouping Native American tribes geographically based on shared material traits and environmental boundaries. High-yield NTA syllabus check.",
+      "unit": "Unit 6: Socio-Cultural Anthropology",
+      "source": "High-Yield Syllabus Mastery Notes"
     }
   ]
 };
