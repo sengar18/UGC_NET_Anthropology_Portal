@@ -165,38 +165,22 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.end_headers()
 
-    def do_POST(self):
-        if self.path == '/api/audit':
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            
-            try:
-                data = json.loads(post_data.decode('utf-8'))
-                question = sanitise(data.get('question', ''))
-                options = data.get('options', [])
-                correct_answer = data.get('correct_answer', '')
-                user_doubt = sanitise(data.get('user_doubt', ''))
-                
-                print(f"\n[Brain-Server] Challenge received for: '{question[:45]}...'")
-                print(f"               Doubt: '{user_doubt}'")
+    def _build_verbatim_block(self, scanned_matches):
+        verbatim_block = "📖 VERBATIM TEXTBOOK & NOTES SCAN:\n\n"
+        if scanned_matches:
+            for m in scanned_matches:
+                page_ref = f" (Page {m['page']})" if m['page'] else ""
+                verbatim_block += f"• From [{m['source']}]{page_ref}:\n"
+                verbatim_block += f"  \"{m['text']}\"\n\n"
+        else:
+            verbatim_block += "  No matching note files or textbook pages found in index.\n\n"
+        return verbatim_block
 
-                # 1. Run local offline verbatim search across books AND notes
-                scanned_matches = search_local_textbooks(question, user_doubt, top_n=3)
-                
-                verbatim_block = "📖 VERBATIM TEXTBOOK & NOTES SCAN:\n\n"
-                if scanned_matches:
-                    for m in scanned_matches:
-                        page_ref = f" (Page {m['page']})" if m['page'] else ""
-                        verbatim_block += f"• From [{m['source']}]{page_ref}:\n"
-                        verbatim_block += f"  \"{m['text']}\"\n\n"
-                else:
-                    verbatim_block += "  No matching note files or textbook pages found in index.\n\n"
-
-                # 2. Try calling Groq AI Summarizer
-                ai_summary = ""
-                try:
-                    context = "\n...\n".join([m['text'] for m in scanned_matches])
-                    prompt = f"""You are a Senior Staff-Level Professor in Anthropology.
+    def _generate_ai_summary(self, scanned_matches, question, correct_answer, user_doubt):
+        ai_summary = ""
+        try:
+            context = "\n...\n".join([m['text'] for m in scanned_matches])
+            prompt = f"""You are a Senior Staff-Level Professor in Anthropology.
 Analyse this question using the textbook and notes passages. Focus strictly on answering the USER DOUBT.
 
 Source Passages:
@@ -209,34 +193,58 @@ USER DOUBT (PRIORITY): "{user_doubt}"
 
 Write a concise 2-sentence resolution DIRECTLY ANSWERING the user's doubt. Cite the textbook names or note files to prove your point.
 Resolution:"""
-                    response = client.chat.completions.create(
-                        model="llama-3.3-70b-versatile",
-                        messages=[
-                            {"role": "system", "content": "You are a senior academic JRF Anthropology advisor."},
-                            {"role": "user", "content": prompt}
-                        ],
-                        temperature=0.2,
-                        max_tokens=250,
-                    )
-                    ai_summary = response.choices[0].message.content.strip()
-                    print("[Brain-Server] AI summary generated successfully.")
-                except Exception as api_err:
-                    print(f"[Brain-Server] Groq API limit fallback triggered: {api_err}")
-                    ai_summary = "⚠️ [API RATE LIMIT / OFFLINE MODE ACTIVE]\nGroq API free limit is active or offline. Displaying raw verbatim matched page content from your textbook library below."
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[
+                    {"role": "system", "content": "You are a senior academic JRF Anthropology advisor."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2,
+                max_tokens=250,
+            )
+            ai_summary = response.choices[0].message.content.strip()
+            print("[Brain-Server] AI summary generated successfully.")
+        except Exception as api_err:
+            print(f"[Brain-Server] Groq API limit fallback triggered: {api_err}")
+            ai_summary = "⚠️ [API RATE LIMIT / OFFLINE MODE ACTIVE]\nGroq API free limit is active or offline. Displaying raw verbatim matched page content from your textbook library below."
+        return ai_summary
 
-                # Compile final output
-                final_audit = f"{ai_summary}\n\n--------------------------------------------------\n{verbatim_block}"
+    def _handle_audit_request(self, data):
+        question = sanitise(data.get('question', ''))
+        options = data.get('options', [])
+        correct_answer = data.get('correct_answer', '')
+        user_doubt = sanitise(data.get('user_doubt', ''))
 
-                self.send_response(200)
-                self.send_header('Content-Type', 'application/json')
-                self.end_headers()
-                
-                reply = {
-                    "status": "success",
-                    "audit_report": final_audit
-                }
-                self.wfile.write(json.dumps(reply).encode('utf-8'))
+        print(f"\n[Brain-Server] Challenge received for: '{question[:45]}...'")
+        print(f"               Doubt: '{user_doubt}'")
 
+        # 1. Run local offline verbatim search across books AND notes
+        scanned_matches = search_local_textbooks(question, user_doubt, top_n=3)
+
+        verbatim_block = self._build_verbatim_block(scanned_matches)
+        ai_summary = self._generate_ai_summary(scanned_matches, question, correct_answer, user_doubt)
+
+        # Compile final output
+        final_audit = f"{ai_summary}\n\n--------------------------------------------------\n{verbatim_block}"
+
+        self.send_response(200)
+        self.send_header('Content-Type', 'application/json')
+        self.end_headers()
+
+        reply = {
+            "status": "success",
+            "audit_report": final_audit
+        }
+        self.wfile.write(json.dumps(reply).encode('utf-8'))
+
+    def do_POST(self):
+        if self.path == '/api/audit':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                self._handle_audit_request(data)
             except Exception as e:
                 print(f"[Brain-Server] Error handling POST request: {e}")
                 self.send_response(500)
