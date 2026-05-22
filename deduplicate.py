@@ -3,11 +3,13 @@ import glob
 import string
 import re
 
+PUNCTUATION_TABLE = str.maketrans('', '', string.punctuation)
+
 def normalize_text(text):
     # Remove HTML tags for comparison
     text = re.sub(r'<[^>]+>', '', text)
     # Remove punctuation and lowercase
-    text = text.translate(str.maketrans('', '', string.punctuation)).lower()
+    text = text.translate(PUNCTUATION_TABLE).lower()
     # Remove extra spaces
     text = re.sub(r'\s+', ' ', text).strip()
     return text
