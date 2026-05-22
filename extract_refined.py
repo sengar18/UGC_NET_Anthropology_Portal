@@ -51,7 +51,7 @@ for unit_num, pdf_files in pdf_mappings.items():
                     if not text:
                         continue
                         
-                    # Fix encoding issues in text from fitz like \uFFFD
+                    # Address encoding issues in text from fitz like \uFFFD
                     text = text.replace('\ufffd', "'")
                         
                     text_lower = text.lower()
