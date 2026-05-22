@@ -241,7 +241,7 @@ Resolution:"""
                 print(f"[Brain-Server] Error handling POST request: {e}")
                 self.send_response(500)
                 self.end_headers()
-                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({"status": "error", "message": "Internal Server Error"}).encode('utf-8'))
         else:
             self.send_response(404)
             self.end_headers()
