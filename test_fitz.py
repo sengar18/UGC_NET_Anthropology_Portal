@@ -47,8 +47,9 @@ for page in doc:
             if len(text) < 150: # Usually these are short list items
                 continue
                 
-        # Fix line breaks within paragraphs
-        para = text.replace('\n', ' ')
+        # Fix line breaks within paragraphs, handling hyphenated words
+        para = text.replace('-\n', '')
+        para = para.replace('\n', ' ')
         para = re.sub(r'\s+', ' ', para).strip()
         
         # Add as a markdown paragraph
