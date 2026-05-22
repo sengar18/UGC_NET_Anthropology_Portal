@@ -653,7 +653,7 @@ html_template = """<!DOCTYPE html>
                     styles = styles.replace(/body\s*{([^}]*)}/g, '.conquest-container { $1 }');
                     styles = styles.replace(/:root\s*{([^}]*)}/g, '.conquest-container { $1 }');
                     
-                    // Fix horizontal scrolling and stickiness
+                    // Address horizontal scrolling and stickiness
                     styles += `
                     .conquest-container {
                         overflow-x: hidden;
