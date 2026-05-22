@@ -94,7 +94,7 @@ html_template = """<!DOCTYPE html>
         body {
             font-family: var(--font-body);
             background-color: var(--bg-base);
-            background-image: 
+            background-image:
                 radial-gradient(ellipse at 20% 10%, rgba(139,58,30,0.08) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 90%, rgba(45,74,45,0.08) 0%, transparent 50%),
                 url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c8922a' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -140,8 +140,8 @@ html_template = """<!DOCTYPE html>
         ul, ol { padding-left: 20px; }
         li { margin-bottom: 8px; }
 
-        .smart-feature { 
-            background-color: var(--bg-elevated); padding: 20px; border-radius: 12px; border-left: 5px solid var(--secondary); margin: 25px 0; 
+        .smart-feature {
+            background-color: var(--bg-elevated); padding: 20px; border-radius: 12px; border-left: 5px solid var(--secondary); margin: 25px 0;
             box-shadow: 0 4px 6px rgba(0,0,0,0.02); transition: transform 0.3s, box-shadow 0.3s;
         }
         .smart-feature:hover { transform: translateX(5px); box-shadow: 0 8px 15px rgba(0,0,0,0.05); }
@@ -259,7 +259,7 @@ html_template = """<!DOCTYPE html>
         }
         .btn-mark-studied:hover { border-color: var(--studied); color: var(--studied); }
         .btn-mark-studied.studied { background-color: rgba(76, 175, 80, 0.1); border-color: var(--studied); color: var(--studied); }
-        
+
         #toggle-revision {
             position: sticky; top: 10px; z-index: 100; float: right;
             background: linear-gradient(135deg, var(--primary), var(--primary-variant)); border: none;
@@ -281,13 +281,13 @@ html_template = """<!DOCTYPE html>
         .progress-box { background: var(--bg-surface); padding: 15px; border-radius: 8px; margin-bottom: 20px; position: sticky; top: 60px; z-index: 90; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid var(--border);}
         .progress-bar { width: 100%; height: 10px; background: var(--bg-elevated); border-radius: 5px; overflow: hidden; margin-top: 10px; }
         .progress-fill { height: 100%; background: var(--secondary); width: 0%; transition: width 0.3s; }
-        
+
         .mcq-card { background: var(--bg-surface); padding: 20px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 20px; }
         .mcq-q { font-weight: bold; margin-bottom: 15px; font-size: 1.1rem; color: var(--text-main); }
         .mcq-opt { display: block; padding: 10px 15px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: all 0.2s; }
         .mcq-opt:hover { border-color: var(--primary); }
         .mcq-opt.selected { background: rgba(187, 134, 252, 0.2); border-color: var(--primary); }
-        
+
         .mcq-ans-box { display: none; margin-top: 15px; padding: 15px; background: rgba(3, 218, 198, 0.1); border-left: 4px solid var(--secondary); border-radius: 4px; font-size: 0.95rem; }
         .mcq-ans-box.show { display: block; animation: fadeIn 0.3s; }
         .btn-reveal { background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-main); padding: 8px 15px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
@@ -301,7 +301,7 @@ html_template = """<!DOCTYPE html>
         .home-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
         .home-card { background-color: var(--bg-surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; cursor: pointer; transition: transform 0.2s; }
         .home-card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        
+
         @media (max-width: 768px) {
             body { flex-direction: column; }
             #sidebar { position: fixed; top: 0; left: -300px; height: 100vh; box-shadow: 2px 0 10px rgba(0,0,0,0.5); }
@@ -310,6 +310,7 @@ html_template = """<!DOCTYPE html>
             #content-area { padding: 20px; }
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
 </head>
 <body>
     <div id="sidebar">
@@ -351,7 +352,7 @@ html_template = """<!DOCTYPE html>
         </div>
         <div id="content-area"></div>
     </div>
-    
+
     <div id="pomodoro-widget" class="dragging-disabled">
         <div>
             <div style="font-size: 0.75rem; color: var(--text-muted); text-transform:uppercase; letter-spacing:1px; font-weight:bold;">Focus Timer</div>
@@ -376,16 +377,16 @@ html_template = """<!DOCTYPE html>
         function parseMarkdown(md) {
             if(!md) return "<i>No content available.</i>";
             let html = md;
-            
+
             // Smart features tags to divs
             html = html.replace(/<div class="smart-feature(.*?)">/g, '<div class="smart-feature$1">');
-            
+
             // Auto-Highlight Definitions (Sentences containing "is defined as", "refers to", etc)
             html = html.replace(/([^.]*?\\b(is defined as|refers to|known as|means|can be defined as|called)\\b[^.]*\\.)/gi, function(match) {
                 if(match.includes('<') || match.includes('>')) return match; // skip if it contains HTML (like headers)
                 return '<span class="highlight-definition">' + match + '</span>';
             });
-            
+
             // Auto-Highlight Formulas
             html = html.replace(/(Formula:|Equation:)([^\\n]+)/gi, function(match) {
                 return '<span class="highlight-formula">' + match + '</span>';
@@ -396,8 +397,8 @@ html_template = """<!DOCTYPE html>
             html = html.replace(/\\*(.*?)\\*/g, '<em>$1</em>');
             html = html.replace(/^\\* (.*$)/gim, '<ul><li>$1</li></ul>');
             html = html.replace(/^\\- (.*$)/gim, '<ul><li>$1</li></ul>');
-            html = html.replace(/<\\/ul>\\s*<ul>/g, ''); 
-            
+            html = html.replace(/<\\/ul>\\s*<ul>/g, '');
+
             // Tables
             html = html.replace(/\\|(.*?)\\|/g, function(match, inner) {
                 if(inner.includes('---')) return '';
@@ -414,7 +415,7 @@ html_template = """<!DOCTYPE html>
                 if(p.trim().startsWith('<h') || p.trim().startsWith('<ul') || p.trim().startsWith('<div') || p.trim().startsWith('<table') || p.trim().startsWith('<span')) return p;
                 return '<p>' + p.replace(/\\n/g, '<br>') + '</p>';
             }).join('\\n');
-            
+
             // Headers with Mark Studied
             html = html.replace(/^(##+)\\s+(.*)$/gim, function(match, hashes, title) {
                 let level = hashes.length;
@@ -424,63 +425,63 @@ html_template = """<!DOCTYPE html>
 
             // Target the PDF Supplementary Content specifically injected by extract_refined.py
             html = html.replace(/<div style='background: rgba\\(187, 134, 252, 0\\.05\\);[^>]*>/g, '<div class="pdf-supplementary-content">');
-            
+
             // Aggressive Trimming & Auto-Highlighting Logic
             let tempDiv = document.createElement('div');
             tempDiv.innerHTML = html;
-            
+
             // Define core high-yield Anthropology terminology
             const keywords = ['theory', 'evolution', 'kinship', 'society', 'culture', 'fossil', 'hominin', 'primate', 'archaeology', 'palaeolithic', 'lineage', 'genetics', 'methodology', 'ethnography', 'functionalism', 'structuralism', 'caste', 'tribe', 'marriage', 'family', 'descent', 'mutation', 'adaptation'];
             const keywordRegex = new RegExp(`\\\\b(${keywords.join('|')})\\\\b`, 'gi');
-            
+
             let pdfSections = tempDiv.querySelectorAll('.pdf-supplementary-content');
             pdfSections.forEach(section => {
                 let pTags = Array.from(section.querySelectorAll('p'));
                 pTags.forEach(p => {
                     let text = p.innerHTML;
-                    
+
                     // Trimming Logic: If it's a long paragraph but lacks BOTH keywords and scholarly names, delete it!
                     let capsRegex = /\\b([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)+)\\b/g;
                     let hasCaps = capsRegex.test(text);
                     let hasKeyword = keywordRegex.test(text);
-                    
+
                     if (!hasCaps && !hasKeyword && text.split(' ').length > 15) {
                         p.remove();
                         return; // skip further processing
                     }
-                    
+
                     // Contextual Sentence Highlighting Logic
                     // Split paragraph into sentences (basic regex: period followed by space or end of string)
                     let sentences = text.match(/[^.!?]+[.!?]+(?:\\s+|$)|[^.!?]+$/g) || [text];
                     let processedSentences = [];
-                    
+
                     sentences.forEach(sentence => {
                         let isHighlighted = false;
                         let processedSentence = sentence;
-                        
+
                         // If sentence contains a keyword, mark it for contextual highlighting
                         if (keywordRegex.test(sentence)) {
                             isHighlighted = true;
                             // Still bold the specific keywords within the highlighted sentence
                             processedSentence = processedSentence.replace(keywordRegex, function(match) {
-                                if(match.includes('span') || match.includes('class')) return match; 
+                                if(match.includes('span') || match.includes('class')) return match;
                                 return '<strong class="pdf-keyword">' + match + '</strong>';
                             });
                         }
-                        
+
                         // Always highlight capitalized phrases (Scholars/Theories) regardless
                         if (capsRegex.test(processedSentence)) {
                             processedSentence = processedSentence.replace(capsRegex, '<span class="pdf-highlight">$1</span>');
                         }
-                        
+
                         // Wrap the entire sentence if it contained a keyword
                         if (isHighlighted) {
                             processedSentence = `<span class="pdf-context-highlight">${processedSentence.trim()}</span> `;
                         }
-                        
+
                         processedSentences.push(processedSentence);
                     });
-                    
+
                     p.innerHTML = processedSentences.join(' ');
                 });
             });
@@ -494,7 +495,7 @@ html_template = """<!DOCTYPE html>
 
         function renderMCQs(mcqText) {
             if(!mcqText) return '';
-            
+
             let blocks = mcqText.split(/Q\\d+\\./);
             let html = `<div class="mcq-container">
                 <h2>Interactive MCQ Quiz</h2>
@@ -507,7 +508,7 @@ html_template = """<!DOCTYPE html>
                 </div>
                 <div id="mcq-list">
             `;
-            
+
             blocks.shift(); // remove empty first split
             totalMCQs = blocks.length;
             attemptedMCQs.clear();
@@ -517,7 +518,7 @@ html_template = """<!DOCTYPE html>
                 let qText = lines[0];
                 let opts = [];
                 let ans = '', exp = '', diff = '', src = '';
-                
+
                 for(let i=1; i<lines.length; i++){
                     let line = lines[i];
                     if(line.startsWith('A)') || line.startsWith('B)') || line.startsWith('C)') || line.startsWith('D)')) opts.push(line);
@@ -529,7 +530,7 @@ html_template = """<!DOCTYPE html>
 
                 html += `<div class="mcq-card" id="q-${index}">
                     <div class="mcq-q">Q${index+1}. ${qText}</div>`;
-                
+
                 opts.forEach((opt, optIdx) => {
                     let optLetter = opt.substring(0, 1);
                     html += `<div class="mcq-opt" onclick="selectOpt(${index}, '${optLetter}', '${ans}')">${opt}</div>`;
@@ -641,9 +642,9 @@ html_template = """<!DOCTYPE html>
             } else if (target === 'conquest') {
                 let p = dbContent['Conquest_Plan.html'] || '<i>Plan not found. Please ensure Conquest_Plan.html is present.</i>';
                 let bodyMatch = p.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-                
+
                 html = '<div class="conquest-container">' + (bodyMatch ? bodyMatch[1] : p) + '</div>';
-                
+
                 // Add the specific styles scoped so they don't break the rest of the app
                 let styleMatch = p.match(/<style>([\s\S]*?)<\/style>/i);
                 if (styleMatch) {
@@ -652,7 +653,7 @@ html_template = """<!DOCTYPE html>
                     styles = styles.replace(/\*\s*{([^}]*)}/g, '.conquest-container * { $1 }');
                     styles = styles.replace(/body\s*{([^}]*)}/g, '.conquest-container { $1 }');
                     styles = styles.replace(/:root\s*{([^}]*)}/g, '.conquest-container { $1 }');
-                    
+
                     // Fix horizontal scrolling and stickiness
                     styles += `
                     .conquest-container {
@@ -675,7 +676,7 @@ html_template = """<!DOCTYPE html>
             } else if (target.startsWith('unit_')) {
                 const unitNum = target.split('_')[1];
                 html = '<button id="toggle-revision" onclick="document.body.classList.toggle(\\'quick-revision-mode\\')">⚡ Toggle Quick Revision</button>';
-                
+
                 // Content
                 const sumKey = `Unit_${unitNum}/Summary.md`;
                 if(dbContent[sumKey]) {
@@ -683,7 +684,7 @@ html_template = """<!DOCTYPE html>
                 } else {
                     html += `<h1>Unit ${unitNum}</h1><i>No Summary.md found.</i>`;
                 }
-                
+
                 // MCQs
                 const mcqKey = `Unit_${unitNum}/Unit${unitNum}_MCQs.txt`;
                 if(dbContent[mcqKey]) {
@@ -691,7 +692,15 @@ html_template = """<!DOCTYPE html>
                 }
             }
 
-            area.innerHTML = html;
+            DOMPurify.addHook('uponSanitizeAttribute', function (node, data) {
+                if (data.attrName === 'onclick') {
+                    const safeCalls = /^(?:markStudied\(this\)|loadContent\('[a-zA-Z0-9_]+'\)|document\.body\.classList\.toggle\('[a-zA-Z0-9_-]+'\)|selectOpt\([0-9]+,\s*'[^']+',\s*'[^']+'\)|revealAns\([0-9]+\))$/;
+                    if (!safeCalls.test(data.attrValue.trim())) {
+                        data.keepAttr = false;
+                    }
+                }
+            });
+            area.innerHTML = DOMPurify.sanitize(html, { ADD_ATTR: ['onclick'] });
             document.getElementById('main-content').scrollTop = 0;
             if(window.innerWidth <= 768) {
                 document.getElementById('sidebar').classList.remove('open');
@@ -739,7 +748,7 @@ html_template = """<!DOCTYPE html>
             pomoTimeEl.innerText = `${m}:${s}`;
             document.title = `${m}:${s} - FocusTimer`;
         }
-        
+
         document.getElementById('pomo-play').addEventListener('click', () => {
             if(pomoRunning) {
                 clearInterval(pomoInterval);
@@ -764,7 +773,7 @@ html_template = """<!DOCTYPE html>
                 }, 1000);
             }
         });
-        
+
         document.getElementById('pomo-reset').addEventListener('click', () => {
             clearInterval(pomoInterval);
             pomoRunning = false;
