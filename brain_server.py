@@ -168,6 +168,14 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         if self.path == '/api/audit':
             content_length = int(self.headers['Content-Length'])
+
+            if content_length > 1024 * 1024: # 1MB limit to prevent DoS
+                self.send_response(413)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": "Payload Too Large"}).encode('utf-8'))
+                return
+
             post_data = self.rfile.read(content_length)
             
             try:
