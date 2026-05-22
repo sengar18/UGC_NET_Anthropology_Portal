@@ -667,6 +667,7 @@ html_template = """<!DOCTYPE html>
                     }
                     .conquest-container .nav-inner {
                         padding-bottom: 5px; /* prevent scrollbar clipping */
+                        -webkit-mask-image: linear-gradient(to right, black 90%, transparent);
                         mask-image: linear-gradient(to right, black 90%, transparent);
                     }
                     `;
