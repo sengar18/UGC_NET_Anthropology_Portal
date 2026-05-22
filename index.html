@@ -633,7 +633,7 @@
                     styles = styles.replace(/body\s*{([^}]*)}/g, '.conquest-container { $1 }');
                     styles = styles.replace(/:root\s*{([^}]*)}/g, '.conquest-container { $1 }');
                     
-                    // Fix horizontal scrolling and stickiness
+                    // Apply horizontal scrolling and stickiness styles
                     styles += `
                     .conquest-container {
                         overflow-x: hidden;
