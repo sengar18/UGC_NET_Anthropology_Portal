@@ -167,10 +167,17 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         if self.path == '/api/audit':
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            
             try:
+                content_length = int(self.headers.get('Content-Length', 0))
+                # 1MB limit to prevent DoS via large payloads
+                MAX_PAYLOAD_SIZE = 1048576
+                if content_length < 0 or content_length > MAX_PAYLOAD_SIZE:
+                    self.send_response(413)
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"status": "error", "message": "Invalid Payload Size"}).encode('utf-8'))
+                    return
+
+                post_data = self.rfile.read(content_length)
                 data = json.loads(post_data.decode('utf-8'))
                 question = sanitise(data.get('question', ''))
                 options = data.get('options', [])
