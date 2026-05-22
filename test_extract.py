@@ -1,4 +1,3 @@
-import os
 from pypdf import PdfReader
 
 pdf_path = r'C:\Users\ashis\Downloads\Folder_1\MANI-002B3E.pdf'
