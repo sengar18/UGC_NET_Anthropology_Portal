@@ -53,11 +53,7 @@ from collections import defaultdict
 INVERTED_INDEX: dict = defaultdict(list)
 
 # --- 1. RECURSIVE MULTI-DIRECTORY SCANNER (PDF, MD, TXT) ---
-def index_all_knowledge_assets():
-    global CHUNKS_INDEX
-    print("\n[Brain-Server] Scanning and indexing all books, notes, and unit files...")
-    CHUNKS_INDEX = []
-
+def get_target_dirs():
     # Directories to scan recursively
     target_dirs = ["books", "notes"]
     # Also add Unit_1 to Unit_10 dynamically if they exist
@@ -65,6 +61,64 @@ def index_all_knowledge_assets():
         unit_dir = f"Unit_{i}"
         if os.path.exists(unit_dir):
             target_dirs.append(unit_dir)
+    return target_dirs
+
+def _process_pdf_file(filepath, base_dir, rel_path):
+    chunks = []
+    try:
+        filepath = safe_path(filepath, base_dir)
+        doc = fitz.open(filepath)
+        buffer, start_page = "", 1
+        for p in range(min(150, len(doc))):
+            for block in doc[p].get_text("blocks"):
+                if block[6] != 0: continue
+                para = block[4].strip()
+                if not para: continue
+                if len(buffer) + len(para) > 1200:
+                    if buffer:
+                        chunks.append({"source": rel_path, "page": start_page, "text": buffer})
+                    buffer = buffer[-150:] + " " + para
+                    start_page = p + 1
+                else:
+                    buffer += (" " if buffer else "") + para
+        if buffer:
+            chunks.append({"source": rel_path, "page": start_page, "text": buffer})
+        doc.close()
+    except Exception as e:
+        print(f"Error reading PDF {rel_path}: {e}")
+    return chunks
+
+def _process_text_file(filepath, base_dir, rel_path):
+    chunks = []
+    try:
+        filepath = safe_path(filepath, base_dir)
+        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read().strip()
+            if content:
+                # Split large note files into 1000-char chunks for clean retrieval
+                chunk_size = 1200
+                overlap = 200
+                start = 0
+                chunk_idx = 1
+                while start < len(content):
+                    end = min(start + chunk_size, len(content))
+                    chunks.append({
+                        "source": f"{rel_path} (Chunk {chunk_idx})",
+                        "page": None,
+                        "text": content[start:end]
+                    })
+                    start += chunk_size - overlap
+                    chunk_idx += 1
+    except Exception as e:
+        print(f"    Error reading notes {rel_path}: {e}")
+    return chunks
+
+def index_all_knowledge_assets():
+    global CHUNKS_INDEX
+    print("\n[Brain-Server] Scanning and indexing all books, notes, and unit files...")
+    CHUNKS_INDEX = []
+
+    target_dirs = get_target_dirs()
 
     for base_dir in target_dirs:
         if not os.path.exists(base_dir):
@@ -78,51 +132,11 @@ def index_all_knowledge_assets():
                 
                 # A. Handle PDF books/files
                 if file.endswith('.pdf'):
-                    try:
-                        filepath = safe_path(filepath, base_dir)
-                        doc = fitz.open(filepath)
-                        buffer, start_page = "", 1
-                        for p in range(min(150, len(doc))):
-                            for block in doc[p].get_text("blocks"):
-                                if block[6] != 0: continue
-                                para = block[4].strip()
-                                if not para: continue
-                                if len(buffer) + len(para) > 1200:
-                                    if buffer:
-                                        CHUNKS_INDEX.append({"source": rel_path, "page": start_page, "text": buffer})
-                                    buffer = buffer[-150:] + " " + para
-                                    start_page = p + 1
-                                else:
-                                    buffer += (" " if buffer else "") + para
-                        if buffer:
-                            CHUNKS_INDEX.append({"source": rel_path, "page": start_page, "text": buffer})
-                        doc.close()
-                    except Exception as e:
-                        print(f"Error reading PDF {rel_path}: {e}")
+                    CHUNKS_INDEX.extend(_process_pdf_file(filepath, base_dir, rel_path))
                 
                 # B. Handle Markdown or Text Notes
                 elif file.endswith(('.md', '.txt')):
-                    try:
-                        filepath = safe_path(filepath, base_dir)
-                        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-                            content = f.read().strip()
-                            if content:
-                                # Split large note files into 1000-char chunks for clean retrieval
-                                chunk_size = 1200
-                                overlap = 200
-                                start = 0
-                                chunk_idx = 1
-                                while start < len(content):
-                                    end = min(start + chunk_size, len(content))
-                                    CHUNKS_INDEX.append({
-                                        "source": f"{rel_path} (Chunk {chunk_idx})",
-                                        "page": None,
-                                        "text": content[start:end]
-                                    })
-                                    start += chunk_size - overlap
-                                    chunk_idx += 1
-                    except Exception as e:
-                        print(f"    Error reading notes {rel_path}: {e}")
+                    CHUNKS_INDEX.extend(_process_text_file(filepath, base_dir, rel_path))
 
     print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
     build_inverted_index()
