@@ -92,12 +92,13 @@ for unit_num, pdf_files in pdf_mappings.items():
             
         all_unit_text += f"\n\n<details open>\n<summary><b>\ud83d\udcd6 Source Documents: {pdf_name}</b></summary>\n\n"
         
-        pdf_text_raw = ""
+        pdf_text_parts = []
         # Process every page
         for page in reader.pages:
             t = page.extract_text()
             if t:
-                pdf_text_raw += t + "\n"
+                pdf_text_parts.append(t + "\n")
+        pdf_text_raw = "".join(pdf_text_parts)
                 
         # Heuristic 20-30% reduction by dropping fluff and formatting
         smart_reduced_text = clean_paragraph(pdf_text_raw)
