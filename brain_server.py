@@ -127,17 +127,19 @@ def index_all_knowledge_assets():
     print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
     build_inverted_index()
 
+WORD_REGEX = re.compile(r'\b[a-zA-Z]{4,}\b')
+
 def build_inverted_index():
     INVERTED_INDEX.clear()
     for idx, chunk in enumerate(CHUNKS_INDEX):
-        for word in re.findall(r'\b[a-zA-Z]{4,}\b', chunk["text"].lower()):
+        for word in WORD_REGEX.findall(chunk["text"].lower()):
             INVERTED_INDEX[word].append(idx)
 
 # --- 2. LOCAL VERBATIM KEYWORD MATCHER ---
 def search_local_textbooks(question, doubt, top_n=3):
     stopwords = {'what','which','does','have','the','and','for','are','that'}
-    q_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', question.lower())) - stopwords
-    d_words = set(re.findall(r'\b[a-zA-Z]{4,}\b', doubt.lower())) - stopwords
+    q_words = set(WORD_REGEX.findall(question.lower())) - stopwords
+    d_words = set(WORD_REGEX.findall(doubt.lower())) - stopwords
     scores = defaultdict(float)
     for w in q_words:
         for idx in INVERTED_INDEX.get(w, []):
