@@ -129,8 +129,9 @@ def index_all_knowledge_assets():
 
 def build_inverted_index():
     INVERTED_INDEX.clear()
+    pattern = re.compile(r'\b[a-zA-Z]{4,}\b')
     for idx, chunk in enumerate(CHUNKS_INDEX):
-        for word in re.findall(r'\b[a-zA-Z]{4,}\b', chunk["text"].lower()):
+        for word in pattern.findall(chunk["text"].lower()):
             INVERTED_INDEX[word].append(idx)
 
 # --- 2. LOCAL VERBATIM KEYWORD MATCHER ---
