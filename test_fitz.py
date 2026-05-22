@@ -47,7 +47,7 @@ for page in doc:
             if len(text) < 150: # Usually these are short list items
                 continue
                 
-        # Fix line breaks within paragraphs
+        # Address line breaks within paragraphs
         para = text.replace('\n', ' ')
         para = re.sub(r'\s+', ' ', para).strip()
         
