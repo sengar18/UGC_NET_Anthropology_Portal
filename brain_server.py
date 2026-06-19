@@ -37,13 +37,14 @@ def sanitise(text, max_len=400):
     text = re.sub(r"(?i)(ignore|disregard|forget).{0,30}(above|previous|instruction)", "[redacted]", text)
     return text.strip()
 
-# Read Groq API key securely from a local file to prevent GitHub Secret leaks
-GROQ_API_KEY = ""
-if os.path.exists("groq_key.txt"):
+# Priority 1: Environment Variable, Priority 2: local file (deprecated)
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+if not GROQ_API_KEY and os.path.exists("groq_key.txt"):
     with open("groq_key.txt", "r") as f:
         GROQ_API_KEY = f.read().strip()
-else:
-    print("\n[WARNING] groq_key.txt not found. AI Summarizer will be disabled, but Offline Textbook Scanner will still work!")
+
+if not GROQ_API_KEY:
+    print("\n[WARNING] GROQ_API_KEY not found. AI Summarizer will be disabled, but Offline Textbook Scanner will still work!")
 
 # Only initialize Groq client if key is present
 client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
@@ -138,8 +139,11 @@ def index_all_knowledge_assets():
                 elif file.endswith(('.md', '.txt')):
                     CHUNKS_INDEX.extend(_process_text_file(filepath, base_dir, rel_path))
 
-    print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
-    build_inverted_index()
+    if not CHUNKS_INDEX:
+        print("[WARNING] No knowledge assets found in books/, notes/, or Unit_X/ directories.")
+    else:
+        print(f"[Brain-Server] Successfully compiled {len(CHUNKS_INDEX)} page-level knowledge indexes!")
+        build_inverted_index()
 
 WORD_REGEX = re.compile(r'\b[a-zA-Z]{4,}\b')
 
@@ -151,6 +155,8 @@ def build_inverted_index():
 
 # --- 2. LOCAL VERBATIM KEYWORD MATCHER ---
 def search_local_textbooks(question, doubt, top_n=3):
+    if not CHUNKS_INDEX:
+        return []
     stopwords = {'what','which','does','have','the','and','for','are','that'}
     q_words = set(WORD_REGEX.findall(question.lower())) - stopwords
     d_words = set(WORD_REGEX.findall(doubt.lower())) - stopwords
@@ -172,7 +178,7 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
         if allowed_origins_env:
             ALLOWED_ORIGINS = {origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()}
         else:
-            ALLOWED_ORIGINS = {"http://localhost:3000"}
+            ALLOWED_ORIGINS = {"http://localhost:3000", "http://localhost:8000"}
 
         origin = self.headers.get("Origin", "")
         if origin in ALLOWED_ORIGINS:
@@ -223,9 +229,10 @@ class BrainRequestHandler(BaseHTTPRequestHandler):
 
                 # 2. Try calling Groq AI Summarizer
                 ai_summary = ""
-                try:
-                    context = "\n...\n".join([m['text'] for m in scanned_matches])
-                    prompt = f"""You are a Senior Staff-Level Professor in Anthropology.
+                if client:
+                    try:
+                        context = "\n...\n".join([m['text'] for m in scanned_matches])
+                        prompt = f"""You are a Senior Staff-Level Professor in Anthropology.
 Analyse this question using the textbook and notes passages. Focus strictly on answering the USER DOUBT.
 
 Source Passages:
@@ -238,20 +245,22 @@ USER DOUBT (PRIORITY): "{user_doubt}"
 
 Write a concise 2-sentence resolution DIRECTLY ANSWERING the user's doubt. Cite the textbook names or note files to prove your point.
 Resolution:"""
-                    response = client.chat.completions.create(
-                        model="llama-3.3-70b-versatile",
-                        messages=[
-                            {"role": "system", "content": "You are a senior academic JRF Anthropology advisor."},
-                            {"role": "user", "content": prompt}
-                        ],
-                        temperature=0.2,
-                        max_tokens=250,
-                    )
-                    ai_summary = response.choices[0].message.content.strip()
-                    print("[Brain-Server] AI summary generated successfully.")
-                except Exception as api_err:
-                    print(f"[Brain-Server] Groq API limit fallback triggered: {api_err}")
-                    ai_summary = "⚠️ [API RATE LIMIT / OFFLINE MODE ACTIVE]\nGroq API free limit is active or offline. Displaying raw verbatim matched page content from your textbook library below."
+                        response = client.chat.completions.create(
+                            model="llama-3.3-70b-versatile",
+                            messages=[
+                                {"role": "system", "content": "You are a senior academic JRF Anthropology advisor."},
+                                {"role": "user", "content": prompt}
+                            ],
+                            temperature=0.2,
+                            max_tokens=250,
+                        )
+                        ai_summary = response.choices[0].message.content.strip()
+                        print("[Brain-Server] AI summary generated successfully.")
+                    except Exception as api_err:
+                        print(f"[Brain-Server] Groq API limit fallback triggered: {api_err}")
+                        ai_summary = "⚠️ [API RATE LIMIT / OFFLINE MODE ACTIVE]\nGroq API free limit is active or offline. Displaying raw verbatim matched page content from your textbook library below."
+                else:
+                    ai_summary = "⚠️ [AI OFFLINE]\nGROQ_API_KEY is not configured. Displaying raw verbatim matched page content from your textbook library below."
 
                 # Compile final output
                 final_audit = f"{ai_summary}\n\n--------------------------------------------------\n{verbatim_block}"
