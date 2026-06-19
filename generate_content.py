@@ -131,7 +131,6 @@ topics = [
 ]
 
 # We will generate 100 MCQs by reusing the template structure with diverse facts related to Unit 1
-import math
 mcqs = []
 count = 1
 for i in range(100):
