@@ -168,7 +168,12 @@ def search_local_textbooks(question, doubt, top_n=3):
 # --- 3. LOCAL API SERVER HANDLER ---
 class BrainRequestHandler(BaseHTTPRequestHandler):
     def end_headers(self):
-        ALLOWED_ORIGINS = {"http://localhost:3000"}
+        allowed_origins_env = os.environ.get("ALLOWED_ORIGINS")
+        if allowed_origins_env:
+            ALLOWED_ORIGINS = {origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()}
+        else:
+            ALLOWED_ORIGINS = {"http://localhost:3000"}
+
         origin = self.headers.get("Origin", "")
         if origin in ALLOWED_ORIGINS:
             self.send_header("Access-Control-Allow-Origin", origin)
