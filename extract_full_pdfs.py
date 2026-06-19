@@ -52,7 +52,7 @@ def clean_paragraph(raw_text):
             
         cleaned_lines.append(line)
         
-    # Re-join and fix line breaks
+    # Re-join and adjust line breaks
     joined = " ".join(cleaned_lines)
     
     # Split back into paragraphs heuristically based on long spaces or sentence ends
