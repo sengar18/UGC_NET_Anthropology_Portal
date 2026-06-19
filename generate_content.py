@@ -1,5 +1,4 @@
 import os
-import random
 
 # TASK 1 & 3: Generate detailed Summary.md with Smart Features
 summary_md = """# Unit 1: Meaning, Scope and Development of Anthropology
