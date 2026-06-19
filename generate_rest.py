@@ -530,7 +530,6 @@ Anthropologists (especially physical anthropologists) use biostatistics.
     }
 }
 
-import math
 for unit_num in range(4, 11):
     unit = units_data[unit_num]
     os.makedirs(f'Unit_{unit_num}', exist_ok=True)
